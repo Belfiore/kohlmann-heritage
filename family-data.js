@@ -9,12 +9,95 @@
 //     with Thomas Kohlmann. Both surnames are preserved on her record.
 //   - Heide's and Annette's maiden surnames are recorded as a placeholder pending
 //     confirmation of whether they were born under Woltmann or Werner.
+//
+// Sources:
+//   - Family testimony from Thomas Kohlmann, Rita Kohlmann, Sebastian Belfiore.
+//   - Eifler/Becker maternal Ahnentafel, page 1, dated 18 January 2007 (compiler
+//     unidentified, likely a family member shortly after Christa Kohlmann's death
+//     on 21 May 2006). Page 2 forthcoming. Provides the entire Eifler / Becker /
+//     Just maternal line beyond Christa.
 
 const FAMILY_DATA = {
     rootPersonId: 'valeria',
 
     people: [
-        /* ===== GENERATION 1 — GRANDPARENTS ===== */
+        /* ===== GENERATION -1 — MATERNAL GREAT-GREAT-GRANDPARENTS (Becker / Just) ===== */
+        {
+            id: 'richard_becker',
+            firstName: 'Richard Hermann',
+            lastName: 'Becker',
+            aka: 'Richard',
+            birthYear: 1875,
+            birthDate: '9 January 1875',
+            birthPlace: 'Herzberg [PLACEHOLDER: most plausibly Herzberg/Elster, Brandenburg, but not yet confirmed]',
+            deathYear: 1938,
+            deathDate: '5 January 1938',
+            deathPlace: 'Dresden',
+            isLiving: false,
+            primaryLocation: 'Dresden',
+            confidence: 'high',
+            generation: -1,
+            notes: "Father of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandfather. Kaufmann (merchant). Died of Lungenentzündung (pneumonia) four days before his 63rd birthday. Had two sisters; one named Marie (married surname uncertain — possibly Wettlitz / Wettlich / Wettnitz) lived at Rothermundtstraße 5 in Dresden-Striesen per a handwritten note on the Ahnentafel. Rufname underlined on the chart was 'Richard'.",
+            source: '2007 Eifler/Becker Ahnentafel (page 1)'
+        },
+        {
+            id: 'elise_just',
+            firstName: 'Elise',
+            lastName: 'Becker',
+            aka: 'née Just',
+            birthYear: 1880,
+            birthDate: '1 December 1880',
+            birthPlace: '[PLACEHOLDER: birthplace not on page 1]',
+            deathYear: 1954,
+            deathDate: '27 December 1954',
+            deathPlace: 'Bautzen',
+            isLiving: false,
+            primaryLocation: 'Dresden / Bautzen',
+            confidence: 'high',
+            generation: -1,
+            notes: "Mother of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandmother. Born into the Just family, one of eight children: two sisters and five brothers. Died of Herzversagen (heart failure).",
+            source: '2007 Eifler/Becker Ahnentafel (page 1)'
+        },
+
+        /* ===== GENERATION 0 — MATERNAL GRANDPARENTS (Eifler) ===== */
+        {
+            id: 'ernst_alwin',
+            firstName: 'Ernst Alwin',
+            lastName: 'Eifler',
+            aka: 'Alwin (Rufname)',
+            birthYear: 1892,
+            birthDate: '7 October 1892',
+            birthPlace: 'Sohland [almost certainly Sohland an der Spree, Upper Lusatia]',
+            deathYear: 1968,
+            deathDate: '18 December 1968',
+            deathPlace: 'Bautzen',
+            isLiving: false,
+            primaryLocation: 'Bautzen',
+            confidence: 'high',
+            generation: 0,
+            notes: "Father of Christa Kohlmann and Sigrid Michaelis. Thomas Kohlmann's maternal grandfather. Fabrikant (factory owner) — almost certainly the 'Eifler' in the firm Weickert & Eifler, though documentary confirmation (Handelsregister entry, company materials, or family testimony) is still being sought. Married Gertrud Elise Becker on 2 October 1926 in Dresden (the chart types 'Dresdan' — a typo). Twelve years older than her at marriage. Died of a Schädelbasisbruch (basilar skull fracture) in a car accident, aged 76. Had three siblings: brothers Max and Alfred and sister Martha (no further details on page 1). Rufname underlined on the chart was 'Alwin'.",
+            source: '2007 Eifler/Becker Ahnentafel (page 1)'
+        },
+        {
+            id: 'gertrud_becker',
+            firstName: 'Gertrud Elise',
+            lastName: 'Eifler',
+            aka: 'née Becker; Gertrud (Rufname)',
+            birthYear: 1905,
+            birthDate: '22 January 1905',
+            birthPlace: 'Dresden',
+            deathYear: 1973,
+            deathDate: '11 December 1973',
+            deathPlace: 'Bautzen',
+            isLiving: false,
+            primaryLocation: 'Dresden / Bautzen',
+            confidence: 'high',
+            generation: 0,
+            notes: "Mother of Christa Kohlmann and Sigrid Michaelis. Thomas Kohlmann's maternal grandmother. Daughter of Richard Hermann Becker and Elise Becker (née Just). Twenty-one years old at her marriage to Ernst Alwin Eifler on 2 October 1926 in Dresden. Died of cancer (Krebs) at age 68. Rufname underlined on the chart was 'Gertrud'.",
+            source: '2007 Eifler/Becker Ahnentafel (page 1)'
+        },
+
+        /* ===== GENERATION 1 — GRANDPARENTS (Kohlmann) AND PARALLEL BRANCHES ===== */
         {
             id: 'alvin',
             firstName: 'Alvin',
@@ -25,22 +108,42 @@ const FAMILY_DATA = {
             primaryLocation: '[PLACEHOLDER: where Alvin lived]',
             confidence: 'low',
             generation: 1,
-            notes: "Thomas's father. Deceased. [PLACEHOLDER: birth date and place, death date and place, occupation, anything about his life.]",
+            notes: "Thomas's father. Married Christa Eifler on 24 July 1952 in Bautzen. Deceased. Not on the maternal Ahnentafel because that chart only documents Christa's bloodline. [PLACEHOLDER: birth date and place, death date and place, occupation, siblings, anything about his life.]",
             source: 'Family knowledge'
         },
         {
-            id: 'alvin_wife',
-            firstName: '[PLACEHOLDER: first name]',
+            id: 'christa',
+            firstName: 'Elise Christa',
             lastName: 'Kohlmann',
-            aka: '[PLACEHOLDER: maiden name]',
-            birthYear: null,
+            aka: 'née Eifler; called Christa',
+            birthYear: 1928,
+            birthDate: '25 November 1928',
+            birthPlace: 'Bautzen, Saxony',
+            deathYear: 2006,
+            deathDate: '21 May 2006',
+            deathPlace: 'Starnberg, Bavaria',
+            isLiving: false,
+            primaryLocation: 'Bautzen → Starnberg',
+            confidence: 'verified',
+            generation: 1,
+            notes: "Thomas Kohlmann's mother. Daughter of Ernst Alwin Eifler and Gertrud Elise Eifler (née Becker). Younger sister of Sigrid Michaelis (née Eifler). Married Alvin Kohlmann on 24 July 1952 in Bautzen. Died of cancer (Krebs) at age 77. Mother of Thomas, Matthias, and Sabine.",
+            source: '2007 Eifler/Becker Ahnentafel (page 1)'
+        },
+        {
+            id: 'sigrid',
+            firstName: 'Gertrud Sigrid',
+            lastName: 'Michaelis',
+            aka: 'née Eifler; called Sigrid',
+            birthYear: 1927,
+            birthDate: '20 July 1927',
+            birthPlace: 'Bautzen, Saxony',
             deathYear: null,
             isLiving: false,
-            primaryLocation: '[PLACEHOLDER: where she lived]',
-            confidence: 'low',
+            primaryLocation: '[PLACEHOLDER: location]',
+            confidence: 'high',
             generation: 1,
-            notes: "Thomas's mother. Married to Alvin Kohlmann. [PLACEHOLDER: name, maiden name, birth/death dates, locations, anything about her life.]",
-            source: 'Family knowledge — name to be confirmed'
+            notes: "Thomas's maternal aunt. Older sister of Christa. Daughter of Ernst Alwin Eifler and Gertrud Elise Eifler (née Becker). Married a Michaelis on 20 August 1953 in Bautzen — husband's first name not given on page 1 of the Ahnentafel. As of the chart's compilation date (18 January 2007) she was presumably still living; current status unknown without further research. Would be 98 in 2025.",
+            source: '2007 Eifler/Becker Ahnentafel (page 1)'
         },
         {
             id: 'rita_father',
@@ -81,7 +184,7 @@ const FAMILY_DATA = {
             primaryLocation: '[PLACEHOLDER: current city]',
             confidence: 'verified',
             generation: 2,
-            notes: "Valeria's father. Born 1956 in Radebeul, Saxony (East Germany). Son of Alvin Kohlmann. Brother of Matthias and Sabine. Escaped from East Germany to West Germany; later helped Rita escape. Married Rita in 1980 in Munich. [PLACEHOLDER: exact birth date, escape date and route, current city, occupation.]",
+            notes: "Valeria's father. Born 1956 in Radebeul, Saxony (East Germany). Son of Alvin Kohlmann and Elise Christa Kohlmann (née Eifler). Brother of Matthias and Sabine. Escaped from East Germany to West Germany; later helped Rita escape. Married Rita in 1980 in Munich. [PLACEHOLDER: exact birth date, escape date and route, current city, occupation.]",
             source: 'Family testimony'
         },
         {
@@ -94,7 +197,7 @@ const FAMILY_DATA = {
             primaryLocation: '[PLACEHOLDER: location]',
             confidence: 'high',
             generation: 2,
-            notes: "Thomas's brother. Son of Alvin Kohlmann. [PLACEHOLDER: birth year, location, occupation, marriage and any children.]",
+            notes: "Thomas's brother. Son of Alvin Kohlmann and Elise Christa Kohlmann (née Eifler). [PLACEHOLDER: birth year, location, occupation, marriage and any children.]",
             source: 'Family testimony'
         },
         {
@@ -107,7 +210,7 @@ const FAMILY_DATA = {
             primaryLocation: '[PLACEHOLDER: location]',
             confidence: 'high',
             generation: 2,
-            notes: "Thomas's sister. Daughter of Alvin Kohlmann. [PLACEHOLDER: birth year, location, married name if any, family.]",
+            notes: "Thomas's sister. Daughter of Alvin Kohlmann and Elise Christa Kohlmann (née Eifler). [PLACEHOLDER: birth year, location, married name if any, family.]",
             source: 'Family testimony'
         },
         {
@@ -217,19 +320,31 @@ const FAMILY_DATA = {
 
     relationships: [
         /* ===== Spouse relationships ===== */
-        { type: 'spouse', fromPersonId: 'alvin', toPersonId: 'alvin_wife' },
+        { type: 'spouse', fromPersonId: 'richard_becker', toPersonId: 'elise_just' },
+        { type: 'spouse', fromPersonId: 'ernst_alwin', toPersonId: 'gertrud_becker', startYear: 1926 },
+        { type: 'spouse', fromPersonId: 'alvin', toPersonId: 'christa', startYear: 1952 },
         { type: 'spouse', fromPersonId: 'rita_father', toPersonId: 'rita_mother' },
-        { type: 'spouse', fromPersonId: 'thomas', toPersonId: 'rita' },
-        { type: 'spouse', fromPersonId: 'valeria', toPersonId: 'sebastian' },
+        { type: 'spouse', fromPersonId: 'thomas', toPersonId: 'rita', startYear: 1980 },
+        { type: 'spouse', fromPersonId: 'valeria', toPersonId: 'sebastian', startYear: 2022 },
 
         /* ===== Parent-child relationships ===== */
-        // Alvin & wife -> Thomas, Matthias, Sabine
+        // Richard & Elise Just -> Gertrud
+        { type: 'parent_child', fromPersonId: 'richard_becker', toPersonId: 'gertrud_becker' },
+        { type: 'parent_child', fromPersonId: 'elise_just', toPersonId: 'gertrud_becker' },
+
+        // Ernst Alwin & Gertrud -> Christa, Sigrid
+        { type: 'parent_child', fromPersonId: 'ernst_alwin', toPersonId: 'christa' },
+        { type: 'parent_child', fromPersonId: 'gertrud_becker', toPersonId: 'christa' },
+        { type: 'parent_child', fromPersonId: 'ernst_alwin', toPersonId: 'sigrid' },
+        { type: 'parent_child', fromPersonId: 'gertrud_becker', toPersonId: 'sigrid' },
+
+        // Alvin & Christa -> Thomas, Matthias, Sabine
         { type: 'parent_child', fromPersonId: 'alvin', toPersonId: 'thomas' },
-        { type: 'parent_child', fromPersonId: 'alvin_wife', toPersonId: 'thomas' },
+        { type: 'parent_child', fromPersonId: 'christa', toPersonId: 'thomas' },
         { type: 'parent_child', fromPersonId: 'alvin', toPersonId: 'matthias' },
-        { type: 'parent_child', fromPersonId: 'alvin_wife', toPersonId: 'matthias' },
+        { type: 'parent_child', fromPersonId: 'christa', toPersonId: 'matthias' },
         { type: 'parent_child', fromPersonId: 'alvin', toPersonId: 'sabine' },
-        { type: 'parent_child', fromPersonId: 'alvin_wife', toPersonId: 'sabine' },
+        { type: 'parent_child', fromPersonId: 'christa', toPersonId: 'sabine' },
 
         // Rita's parents -> Rita, Heide, Annette
         { type: 'parent_child', fromPersonId: 'rita_father', toPersonId: 'rita' },

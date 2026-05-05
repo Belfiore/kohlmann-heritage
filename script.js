@@ -10,26 +10,117 @@ const personData = {
         name: "Alvin Kohlmann",
         subtitle: "Thomas's father — Generation 1",
         tags: ["Direct Line", "Generation 1", "Deceased"],
-        description: `Alvin Kohlmann was Thomas Kohlmann's father, and so Valeria Kohlmann's paternal grandfather. He is deceased. [PLACEHOLDER: where and when Alvin was born, where he lived, what he did for a living, the story of his marriage, when and where he died, and any wartime, professional, or family history worth preserving. Living siblings or relatives of Alvin's, if any are known, also belong here.]`,
+        description: `Alvin Kohlmann was Thomas Kohlmann's father, and so Valeria Kohlmann's paternal grandfather. He married <strong>Elise Christa Eifler</strong> on 24 July 1952 in Bautzen. He is not on the maternal Eifler/Becker Ahnentafel — that chart documents only Christa's bloodline — and so much of his own life remains a placeholder. [PLACEHOLDER: where and when Alvin was born, where he lived, what he did for a living, when and where he died, his siblings if any, and any wartime, professional, or family history worth preserving.]`,
         details: {
             "Born": "[PLACEHOLDER: birth date and place]",
-            "Died": "[PLACEHOLDER: death date and place]",
-            "Wife": "[PLACEHOLDER: name — Thomas's mother]",
+            "Died": "[PLACEHOLDER: date and place]",
+            "Wife": "Elise Christa Kohlmann, née Eifler (b. 25 Nov 1928, Bautzen; d. 21 May 2006, Starnberg)",
+            "Married": "24 July 1952, Bautzen",
             "Children": "Thomas Kohlmann (b. 1956, Radebeul), Matthias Kohlmann, Sabine Kohlmann",
             "Occupation": "[PLACEHOLDER]"
         }
     },
-    alvin_wife: {
-        name: "[PLACEHOLDER: Thomas's mother]",
-        subtitle: "Alvin Kohlmann's wife — Generation 1",
-        tags: ["Spouse", "Generation 1"],
-        description: `Thomas Kohlmann's mother and Alvin Kohlmann's wife. [PLACEHOLDER: her full name, maiden name, birth date and place, death date and place, family of origin, and anything known about her life — including whether she was from East or West Germany originally, and how she and Alvin met.]`,
+    christa: {
+        name: "Elise Christa Kohlmann (née Eifler)",
+        subtitle: "Thomas's mother — Generation 1",
+        tags: ["Direct Line", "Generation 1", "Eifler", "Bautzen"],
+        description: `<strong>Elise Christa Kohlmann</strong>, called Christa, was Thomas Kohlmann's mother. She was born <strong>25 November 1928 in Bautzen</strong>, Saxony — the younger daughter of <strong>Ernst Alwin Eifler</strong> (1892–1968), a <em>Fabrikant</em> in Bautzen, and <strong>Gertrud Elise Eifler</strong>, née Becker (1905–1973). Her older sister was <strong>Sigrid</strong> (b. 20 July 1927, Bautzen), who married a Michaelis on 20 August 1953 in Bautzen. Christa married <strong>Alvin Kohlmann</strong> on <strong>24 July 1952 in Bautzen</strong>. Together they had Thomas, Matthias, and Sabine. She died on <strong>21 May 2006 in Starnberg</strong>, Bavaria, of cancer (<em>Krebs</em>), aged 77. The 2007 Eifler/Becker <em>Ahnentafel</em> from which much of this is drawn was almost certainly compiled in the months following her death.`,
         details: {
-            "Name": "[PLACEHOLDER]",
-            "Maiden Name": "[PLACEHOLDER]",
-            "Born": "[PLACEHOLDER]",
-            "Died": "[PLACEHOLDER]",
+            "Full Name": "Elise Christa Kohlmann",
+            "Maiden Name": "Eifler",
+            "Called": "Christa",
+            "Born": "25 November 1928, Bautzen, Saxony",
+            "Died": "21 May 2006, Starnberg, Bavaria (cancer)",
+            "Father": "Ernst Alwin Eifler (1892–1968)",
+            "Mother": "Gertrud Elise Eifler, née Becker (1905–1973)",
+            "Sister": "Sigrid Michaelis, née Eifler (b. 1927)",
+            "Married": "Alvin Kohlmann — 24 July 1952, Bautzen",
             "Children": "Thomas (b. 1956, Radebeul), Matthias, Sabine"
+        }
+    },
+    sigrid: {
+        name: "Gertrud Sigrid Michaelis (née Eifler)",
+        subtitle: "Thomas's maternal aunt — Generation 1",
+        tags: ["Eifler", "Bautzen", "Living status TBC"],
+        description: `<strong>Sigrid</strong> (full name <strong>Gertrud Sigrid Michaelis</strong>, née Eifler) was Thomas Kohlmann's maternal aunt — the older sister of his mother Christa. She was born <strong>20 July 1927 in Bautzen</strong>, the elder daughter of Ernst Alwin Eifler and Gertrud Elise Eifler (née Becker). She married a <strong>Michaelis</strong> on <strong>20 August 1953 in Bautzen</strong> — his first name is not given on page 1 of the 2007 Ahnentafel. As of the chart's compilation date (18 January 2007) she was presumably still living. Her current status is unknown without further research; she would be 98 in 2025. [PLACEHOLDER: husband's first name, current status (living/deceased), any children, where she has lived since marriage.]`,
+        details: {
+            "Full Name": "Gertrud Sigrid Michaelis",
+            "Maiden Name": "Eifler",
+            "Called": "Sigrid",
+            "Born": "20 July 1927, Bautzen",
+            "Father": "Ernst Alwin Eifler (1892–1968)",
+            "Mother": "Gertrud Elise Eifler, née Becker (1905–1973)",
+            "Sister": "Christa Kohlmann, née Eifler (b. 1928)",
+            "Married": "[PLACEHOLDER: first name] Michaelis — 20 August 1953, Bautzen",
+            "Status": "[PLACEHOLDER: living or deceased]"
+        }
+    },
+    ernst_alwin: {
+        name: "Ernst Alwin Eifler",
+        subtitle: "Thomas's maternal grandfather — Generation 0",
+        tags: ["Eifler", "Fabrikant", "Bautzen", "Likely Weickert &amp; Eifler"],
+        description: `<strong>Ernst Alwin Eifler</strong> — known as <strong>Alwin</strong> (the Rufname underlined on the chart) — was Thomas Kohlmann's maternal grandfather. He was born on <strong>7 October 1892 in Sohland</strong> (almost certainly <strong>Sohland an der Spree</strong> in Upper Lusatia / Oberlausitz, about 25 km south of Bautzen). He worked as a <em>Fabrikant</em> — a factory owner — and is, with high probability, the "Eifler" in the firm <strong>Weickert &amp; Eifler</strong>, though documentary confirmation (a <em>Handelsregister</em> entry, company materials, or family testimony) is still being sought. He married <strong>Gertrud Elise Becker</strong> on <strong>2 October 1926 in Dresden</strong> — twelve years her senior at the marriage. Their two daughters were Sigrid (1927) and Christa (1928). He died on <strong>18 December 1968 in Bautzen</strong>, aged 76, from a <em>Schädelbasisbruch</em> — a basilar skull fracture sustained in a car accident. He had three siblings on the chart: brothers <strong>Max</strong> and <strong>Alfred</strong> and sister <strong>Martha</strong> (no further details on page 1 of the Ahnentafel).`,
+        details: {
+            "Full Name": "Ernst Alwin Eifler",
+            "Rufname": "Alwin",
+            "Born": "7 October 1892, Sohland (almost certainly Sohland an der Spree, Upper Lusatia)",
+            "Died": "18 December 1968, Bautzen (Schädelbasisbruch — car accident)",
+            "Occupation": "Fabrikant — factory owner; almost certainly the Eifler in Weickert &amp; Eifler",
+            "Married": "Gertrud Elise Becker — 2 October 1926, Dresden",
+            "Children": "Sigrid (b. 1927), Christa (b. 1928)",
+            "Siblings": "Max, Alfred, Martha (no further details on page 1)",
+            "Source": "2007 Eifler/Becker Ahnentafel, page 1"
+        }
+    },
+    gertrud_becker: {
+        name: "Gertrud Elise Eifler (née Becker)",
+        subtitle: "Thomas's maternal grandmother — Generation 0",
+        tags: ["Eifler", "Becker", "Dresden", "Bautzen"],
+        description: `<strong>Gertrud Elise Eifler</strong>, née Becker — known as <strong>Gertrud</strong> (the Rufname underlined on the chart) — was Thomas Kohlmann's maternal grandmother. She was born on <strong>22 January 1905 in Dresden</strong>, the daughter of <strong>Richard Hermann Becker</strong> (a <em>Kaufmann</em>, born 1875 in Herzberg) and <strong>Elise Becker</strong>, née Just (born 1880). She married <strong>Ernst Alwin Eifler</strong> on <strong>2 October 1926 in Dresden</strong>, aged 21 — twelve years younger than her husband. Their two daughters were Sigrid (1927) and Christa (1928). She died on <strong>11 December 1973 in Bautzen</strong>, aged 68, of cancer (<em>Krebs</em>) — the same illness that would kill her younger daughter Christa 33 years later.`,
+        details: {
+            "Full Name": "Gertrud Elise Eifler",
+            "Maiden Name": "Becker",
+            "Rufname": "Gertrud",
+            "Born": "22 January 1905, Dresden",
+            "Died": "11 December 1973, Bautzen (cancer)",
+            "Father": "Richard Hermann Becker (1875–1938)",
+            "Mother": "Elise Becker, née Just (1880–1954)",
+            "Married": "Ernst Alwin Eifler — 2 October 1926, Dresden",
+            "Children": "Sigrid (b. 1927), Christa (b. 1928)",
+            "Source": "2007 Eifler/Becker Ahnentafel, page 1"
+        }
+    },
+    richard_becker: {
+        name: "Richard Hermann Becker",
+        subtitle: "Thomas's maternal great-grandfather — Generation -1",
+        tags: ["Becker", "Kaufmann", "Dresden"],
+        description: `<strong>Richard Hermann Becker</strong> — known as <strong>Richard</strong> (the Rufname underlined on the chart) — was Thomas Kohlmann's maternal great-grandfather, the father of Gertrud Elise Eifler (née Becker). He was born on <strong>9 January 1875</strong> in <strong>Herzberg</strong> — most plausibly Herzberg/Elster in Brandenburg, given the family's Saxon-region context, though Herzberg am Harz and Bad Herzberg are not yet ruled out. He worked as a <em>Kaufmann</em> (merchant). He married <strong>Elise Just</strong>; their daughter Gertrud was born in 1905 in Dresden. He died on <strong>5 January 1938 in Dresden</strong>, four days short of his 63rd birthday, of <em>Lungenentzündung</em> (pneumonia). The chart records that he had <strong>two sisters</strong>; a handwritten annotation names one of them as <strong>Marie</strong>, with an uncertain married surname (Wettlitz, Wettlich, or Wettnitz) and an address at <strong>Rothermundtstraße 5 in Dresden-Striesen</strong>. That address is real and verifiable; the surname is a research lead, not yet confirmed. [PLACEHOLDER: confirmation of which Herzberg, Marie's married surname, the second sister's name.]`,
+        details: {
+            "Full Name": "Richard Hermann Becker",
+            "Rufname": "Richard",
+            "Born": "9 January 1875, Herzberg [PLACEHOLDER: most plausibly Herzberg/Elster, Brandenburg]",
+            "Died": "5 January 1938, Dresden (pneumonia / Lungenentzündung)",
+            "Occupation": "Kaufmann (merchant)",
+            "Married": "Elise Just",
+            "Children": "Gertrud Elise Becker (b. 22 Jan 1905, Dresden)",
+            "Sisters": "Two; one possibly Marie [Wettlitz?] of Rothermundtstraße 5, Dresden-Striesen (handwritten note, low confidence)",
+            "Source": "2007 Eifler/Becker Ahnentafel, page 1"
+        }
+    },
+    elise_just: {
+        name: "Elise Becker (née Just)",
+        subtitle: "Thomas's maternal great-grandmother — Generation -1",
+        tags: ["Becker", "Just", "Bautzen"],
+        description: `<strong>Elise Becker</strong>, née Just, was Thomas Kohlmann's maternal great-grandmother — the mother of Gertrud Elise Eifler (née Becker). She was born on <strong>1 December 1880</strong> (her birthplace is not given on page 1 of the Ahnentafel). She came from a large Just family of <strong>eight children</strong>: two sisters and five brothers. She married <strong>Richard Hermann Becker</strong>; their daughter Gertrud was born in 1905 in Dresden. She died on <strong>27 December 1954 in Bautzen</strong>, aged 74, of <em>Herzversagen</em> (heart failure). [PLACEHOLDER: birthplace, names of the seven Just siblings, the marriage date and place to Richard.]`,
+        details: {
+            "Full Name": "Elise Becker",
+            "Maiden Name": "Just",
+            "Born": "1 December 1880, [PLACEHOLDER: birthplace]",
+            "Died": "27 December 1954, Bautzen (heart failure / Herzversagen)",
+            "Married": "Richard Hermann Becker",
+            "Children": "Gertrud Elise Becker (b. 22 Jan 1905, Dresden)",
+            "Just Siblings": "8 children total: 2 sisters, 5 brothers (no names on page 1)",
+            "Source": "2007 Eifler/Becker Ahnentafel, page 1"
         }
     },
     rita_father: {
@@ -64,11 +155,12 @@ const personData = {
         name: "Thomas Kohlmann",
         subtitle: "Valeria's father — Generation 2",
         tags: ["Direct Line", "Living", "Born 1956, Radebeul", "Escaped East Germany"],
-        description: `Thomas Kohlmann is Valeria Kohlmann's father, born in 1956 in Radebeul, Saxony, in East Germany. He is the son of Alvin Kohlmann, and brother to Matthias and Sabine. Thomas escaped from East Germany to West Germany — his story is the first half of the family's two-part escape narrative. After he made it across, he helped his future wife Rita escape as well. They married in 1980 in Munich. Together they had two daughters, Valeria (1990) and Elisa (1994). [PLACEHOLDER: exact birth date, the route and date of his escape, what he did in West Germany after escaping, his career, and the city in Germany where he and Rita live now.]`,
+        description: `Thomas Kohlmann is Valeria Kohlmann's father, born in 1956 in Radebeul, Saxony, in East Germany. He is the son of <strong>Alvin Kohlmann</strong> and <strong>Elise Christa Kohlmann</strong> (née Eifler) — through his mother he descends from the Eifler family of Bautzen and the Becker family of Dresden. He has a brother, Matthias, and a sister, Sabine. Thomas escaped from East Germany to West Germany — his story is the first half of the family's two-part escape narrative. After he made it across, he helped his future wife Rita escape as well. They married in 1980 in Munich. Together they had two daughters, Valeria (1990) and Elisa (1994). [PLACEHOLDER: exact birth date, the route and date of his escape, what he did in West Germany after escaping, his career, and the city in Germany where he and Rita live now.]`,
         details: {
             "Born": "1956, Radebeul, Saxony, East Germany",
             "Father": "Alvin Kohlmann",
-            "Mother": "[PLACEHOLDER]",
+            "Mother": "Elise Christa Kohlmann, née Eifler (1928–2006)",
+            "Maternal Line": "Eifler (Bautzen) → Becker (Dresden) → Just",
             "Siblings": "Matthias Kohlmann, Sabine Kohlmann",
             "Escape": "[PLACEHOLDER: date and route of escape from East to West Germany — before 1980]",
             "Married": "Rita Werner — 1980, Munich",

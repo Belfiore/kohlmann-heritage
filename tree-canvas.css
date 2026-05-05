@@ -4,16 +4,18 @@
    ============================================ */
 
 :root {
-    --canvas-bg: #f5ede0;
-    --canvas-grid: rgba(112, 66, 20, 0.08);
-    --node-bg: #fffefb;
-    --node-border: #d4c5a9;
-    --node-shadow: 0 2px 12px rgba(26, 26, 46, 0.08), 0 1px 3px rgba(26, 26, 46, 0.06);
-    --node-shadow-hover: 0 8px 28px rgba(26, 26, 46, 0.18), 0 2px 6px rgba(26, 26, 46, 0.1);
-    --line-parent: #8b6f4e;
-    --line-spouse: #c8a97a;
-    --line-highlight: #1a5c2a;
-    --panel-bg: #fdfaf2;
+    --canvas-bg: #EDE4CC;
+    --canvas-grid: rgba(30, 58, 138, 0.07);
+    --node-bg: #F5F1E8;
+    --node-border: #c9b98e;
+    --node-shadow: 0 1px 3px rgba(60, 40, 10, 0.10), 0 0 0 1px rgba(201, 185, 142, 0.5);
+    --node-shadow-hover: 0 4px 14px rgba(60, 40, 10, 0.18), 0 0 0 1px #1E3A8A;
+    --line-parent: #1A1410;
+    --line-spouse: #B8860B;
+    --line-highlight: #7C1F1F;
+    --panel-bg: #F5F1E8;
+    --gold-dark: #B8860B;
+    --font-body: 'EB Garamond', Garamond, Georgia, serif;
 }
 
 /* ---------- Page layout ---------- */
@@ -23,7 +25,7 @@ body.canvas-body {
 }
 .canvas-page {
     position: fixed;
-    top: 58px;
+    top: 78px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -81,14 +83,16 @@ body.canvas-body {
     position: absolute;
     width: 180px;
     background: var(--node-bg);
-    border: 2px solid var(--node-border);
-    border-radius: 10px;
+    border: 1px solid var(--node-border);
+    border-left: 4px solid #1E3A8A;
+    border-radius: 2px;
     padding: 0.75rem 0.85rem 0.7rem;
     box-shadow: var(--node-shadow);
     cursor: pointer;
     user-select: none;
     transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
-    font-family: var(--font-body);
+    font-family: 'EB Garamond', Garamond, Georgia, serif;
+    color: #1A1410;
     will-change: transform;
 }
 .node:hover {
