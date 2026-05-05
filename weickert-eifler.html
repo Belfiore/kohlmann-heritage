@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weickert &amp; Eifler &mdash; The Kohlmann Family Heritage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="main-nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">Kohlmann</a>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="family-tree.html">Family Tree</a>
+            <a href="tree-canvas.html">Interactive Tree</a>
+            <a href="escape-from-east-germany.html">The Escape</a>
+            <a href="weickert-eifler.html" class="active">Weickert &amp; Eifler</a>
+            <a href="research.html">Research &amp; Records</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<div class="page-container">
+
+    <div class="hero-intro">
+        <div class="hero-title">Weickert &amp; Eifler</div>
+        <h1>The Mattress Company</h1>
+        <div class="intro-story">
+            <p class="intro-note">[PLACEHOLDER: tagline summarising the family's connection to Weickert &amp; Eifler in one short sentence.]</p>
+            <p>This page is a placeholder. Weickert &amp; Eifler is the confirmed name of the mattress company that runs through the family's history; the specifics of who in the family was involved, and how, will be filled in once family testimony has been gathered. Nothing about the company itself is being invented here.</p>
+        </div>
+    </div>
+
+    <h2 class="section-header">The Company</h2>
+    <div class="story-section">
+        <p>[PLACEHOLDER: When Weickert &amp; Eifler was founded. Where it was based &mdash; city, region, whether in East or West Germany (or pre-war Germany). What it produced beyond mattresses, if anything &mdash; bedding, furniture, related goods. Whether it survived through the war, the GDR years, reunification. Whether it still exists today, and if so in what form. Founders' names if known. Any public-record sources &mdash; Handelsregister entries, trade directories, old advertisements &mdash; that could anchor the dates.]</p>
+    </div>
+
+    <h2 class="section-header">The Family Connection</h2>
+    <div class="story-section">
+        <p>[PLACEHOLDER: Which member of the Kohlmann family was associated with Weickert &amp; Eifler. In what capacity &mdash; founder, partner, manager, employee, in-law of one of the principals. During which years. How the connection began, and how (and when) it ended. Whether the relationship was formal (ownership, employment) or informal (regular client, family friend of the proprietors). Whether the connection sits on the Kohlmann side, on Rita's side, or further back.]</p>
+    </div>
+
+    <h2 class="section-header">What's Left</h2>
+    <div class="story-section">
+        <p>[PLACEHOLDER: Any surviving artifacts, photographs, advertisements, letterheads, business cards, product catalogues, or documents related to Weickert &amp; Eifler that family members still hold or know the location of. Any public archive holdings &mdash; museum collections, regional archives, trade publication mentions &mdash; that could be drawn on. Any company-issued items still in use within the family, and the stories attached to them.]</p>
+    </div>
+
+    <h2 class="section-header">What Comes Next</h2>
+    <div class="story-section">
+        <p>This page is a placeholder. Real content will be added once family testimony has been gathered and any surviving materials have been collected and dated. Nothing about Weickert &amp; Eifler &mdash; its history, its products, or the family's involvement &mdash; is being invented here.</p>
+    </div>
+
+</div>
+
+<footer class="site-footer">
+    <div class="footer-crest">Kohlmann</div>
+    <p>Kohlmann &mdash; &ldquo;Coal Man&rdquo; &mdash; a German occupational surname</p>
+</footer>
+
+<script>
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    if (navToggle) {
+        navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+    }
+</script>
+
+</body>
+</html>

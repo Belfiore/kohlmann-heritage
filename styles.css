@@ -1,6 +1,6 @@
 /* ============================================
-   BELFIORE & CIRCELLI FAMILY HERITAGE
-   Italian Family History Stylesheet
+   THE KOHLMANN FAMILY HERITAGE
+   Stylesheet
    ============================================ */
 
 :root {
@@ -585,12 +585,6 @@ body {
 .research-card:hover {
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
 }
-.research-card.immigration { border-left-color: var(--border-immigrant); }
-.research-card.golf { border-left-color: var(--border-golfer); }
-.research-card.irish { border-left-color: #2a6a4a; }
-.research-card.italian { border-left-color: var(--rosso); }
-.research-card.cemetery { border-left-color: var(--sepia); }
-.research-card.census { border-left-color: var(--border-sibling); }
 
 .research-card h3 {
     font-family: var(--font-display);
