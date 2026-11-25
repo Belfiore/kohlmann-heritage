@@ -10,7 +10,7 @@
    "givenNames": "Richard Hermann",
    "surname": "Becker",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "M",
    "generation": 0,
    "isLiving": false,
    "isDirectLine": true,
@@ -78,7 +78,7 @@
    "givenNames": "Elise",
    "surname": "Becker",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "F",
    "generation": 0,
    "isLiving": false,
    "isDirectLine": true,
@@ -146,15 +146,15 @@
    "givenNames": "Ernst Alwin",
    "surname": "Eifler",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "M",
    "generation": 1,
    "isLiving": false,
    "isDirectLine": true,
    "confidence": "confirmed",
    "nameVariants": [
     {
-     "name": "Alwin (Rufname)",
-     "note": "also known as",
+     "name": "Alwin",
+     "note": "Rufname",
      "sourceIds": [
       "2007-eifler-becker-ahnentafel-page-1-weickert-eifler-letterh"
      ]
@@ -215,15 +215,22 @@
    "givenNames": "Gertrud Elise",
    "surname": "Eifler",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "F",
    "generation": 1,
    "isLiving": false,
    "isDirectLine": true,
    "confidence": "confirmed",
    "nameVariants": [
     {
-     "name": "Gertrud Elise Becker; Gertrud (Rufname)",
+     "name": "Gertrud Elise Becker",
      "note": "maiden name",
+     "sourceIds": [
+      "2007-eifler-becker-ahnentafel-page-1-weickert-eifler-invoice"
+     ]
+    },
+    {
+     "name": "Gertrud",
+     "note": "Rufname",
      "sourceIds": [
       "2007-eifler-becker-ahnentafel-page-1-weickert-eifler-invoice"
      ]
@@ -287,7 +294,7 @@
    "givenNames": "Alvin",
    "surname": "Kohlmann",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "M",
    "generation": 2,
    "isLiving": false,
    "isDirectLine": true,
@@ -331,15 +338,22 @@
    "givenNames": "Elise Christa",
    "surname": "Kohlmann",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "F",
    "generation": 2,
    "isLiving": false,
    "isDirectLine": true,
    "confidence": "confirmed",
    "nameVariants": [
     {
-     "name": "Elise Christa Eifler; called Christa",
+     "name": "Elise Christa Eifler",
      "note": "maiden name",
+     "sourceIds": [
+      "2007-eifler-becker-ahnentafel-page-1"
+     ]
+    },
+    {
+     "name": "Christa",
+     "note": "called",
      "sourceIds": [
       "2007-eifler-becker-ahnentafel-page-1"
      ]
@@ -404,15 +418,22 @@
    "givenNames": "Gertrud Sigrid",
    "surname": "Michaelis",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "F",
    "generation": 2,
    "isLiving": false,
    "isDirectLine": false,
    "confidence": "probable",
    "nameVariants": [
     {
-     "name": "Gertrud Sigrid Eifler; called Sigrid",
+     "name": "Gertrud Sigrid Eifler",
      "note": "maiden name",
+     "sourceIds": [
+      "2007-eifler-becker-ahnentafel-page-1"
+     ]
+    },
+    {
+     "name": "Sigrid",
+     "note": "called",
      "sourceIds": [
       "2007-eifler-becker-ahnentafel-page-1"
      ]
@@ -453,7 +474,7 @@
    "givenNames": "[PLACEHOLDER: first name]",
    "surname": "Werner",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "M",
    "generation": 2,
    "isLiving": false,
    "isDirectLine": true,
@@ -497,7 +518,7 @@
    "givenNames": "Brigitte",
    "surname": "Woltmann",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "F",
    "generation": 2,
    "isLiving": false,
    "isDirectLine": true,
@@ -541,7 +562,7 @@
    "givenNames": "Thomas",
    "surname": "Kohlmann",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "M",
    "generation": 3,
    "isLiving": true,
    "isDirectLine": true,
@@ -596,7 +617,7 @@
    "givenNames": "Matthias",
    "surname": "Kohlmann",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "M",
    "generation": 3,
    "isLiving": true,
    "isDirectLine": false,
@@ -628,7 +649,7 @@
    "givenNames": "Sabine",
    "surname": "Kohlmann",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "F",
    "generation": 3,
    "isLiving": true,
    "isDirectLine": false,
@@ -660,15 +681,22 @@
    "givenNames": "Rita",
    "surname": "Kohlmann",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "F",
    "generation": 3,
    "isLiving": true,
    "isDirectLine": true,
    "confidence": "confirmed",
    "nameVariants": [
     {
-     "name": "Rita Werner (born Woltmann)",
+     "name": "Rita Werner",
      "note": "maiden name",
+     "sourceIds": [
+      "family-testimony"
+     ]
+    },
+    {
+     "name": "Rita Woltmann",
+     "note": "born",
      "sourceIds": [
       "family-testimony"
      ]
@@ -723,7 +751,7 @@
    "givenNames": "Heide",
    "surname": "[PLACEHOLDER: married surname, if any]",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "F",
    "generation": 3,
    "isLiving": true,
    "isDirectLine": false,
@@ -731,7 +759,7 @@
    "nameVariants": [
     {
      "name": "[PLACEHOLDER: maiden surname — Woltmann or Werner depending on whether she was born before or after Rita's name change]",
-     "note": "also known as",
+     "note": "maiden name",
      "sourceIds": [
       "family-testimony"
      ]
@@ -763,7 +791,7 @@
    "givenNames": "Annette",
    "surname": "[PLACEHOLDER: married surname, if any]",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "F",
    "generation": 3,
    "isLiving": true,
    "isDirectLine": false,
@@ -771,7 +799,7 @@
    "nameVariants": [
     {
      "name": "[PLACEHOLDER: maiden surname — Woltmann or Werner depending on whether she was born before or after Rita's name change]",
-     "note": "also known as",
+     "note": "maiden name",
      "sourceIds": [
       "family-testimony"
      ]
@@ -803,7 +831,7 @@
    "givenNames": "Valeria",
    "surname": "Kohlmann",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "F",
    "generation": 4,
    "isLiving": true,
    "isDirectLine": true,
@@ -857,7 +885,7 @@
    "givenNames": "Elisa",
    "surname": "Kohlmann",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "F",
    "generation": 4,
    "isLiving": true,
    "isDirectLine": false,
@@ -898,7 +926,7 @@
    "givenNames": "Sebastian",
    "surname": "Belfiore",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "M",
    "generation": 4,
    "isLiving": true,
    "isDirectLine": false,
@@ -949,7 +977,7 @@
    "givenNames": "Enzo",
    "surname": "Belfiore",
    "disambiguator": null,
-   "sex": "U",
+   "sex": "M",
    "generation": 5,
    "isLiving": true,
    "isDirectLine": false,
