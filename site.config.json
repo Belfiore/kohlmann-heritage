@@ -73,7 +73,7 @@
   "--cream": "#F5F1E8",
   "--ink": "#1A1410",
   "--font-display": "'EB Garamond', Garamond, Georgia, serif",
-  "--font-body": "'EB Garamond', Garamond, Georgia, serif",
+  "--font-body": "'Cormorant Garamond', 'EB Garamond', Garamond, Georgia, serif",
   "--font-accent": "'EB Garamond', Garamond, Georgia, serif",
   "--pc-bg": "#EDE4CC",
   "--pc-paper": "#F5F1E8",
