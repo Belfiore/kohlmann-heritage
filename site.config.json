@@ -1,0 +1,229 @@
+{
+ "$schema": "https://raw.githubusercontent.com/Belfiore/family-site-engine/main/schema/site-config.schema.json",
+ "$comment": "Settings for the Kohlmann family site, built with the family site engine (Belfiore/family-site-engine). See that repository's docs/site-config.md.",
+ "schemaVersion": 1,
+ "engine": {
+  "channel": "stable"
+ },
+ "site": {
+  "name": "Kohlmann",
+  "familyName": "the Kohlmann family",
+  "lang": "en",
+  "description": "The Kohlmann Family: from Saxony to Tampa."
+ },
+ "pages": {
+  "home": "index.html",
+  "tree": {
+   "file": "tree-canvas.html",
+   "title": "Interactive Family Tree: The Kohlmann Family Heritage",
+   "description": "An interactive family tree of the Kohlmann family, from Saxony to Tampa.",
+   "heading": "Interactive Family Tree",
+   "stylesheets": [
+    "styles.css"
+   ]
+  },
+  "map": {
+   "file": "map.html",
+   "title": "Family Map | Kohlmann",
+   "description": "Where the Kohlmann family was born, lived, married and died, on a map. The places are still being collected.",
+   "stylesheets": [
+    "styles.css"
+   ]
+  },
+  "ask": null
+ },
+ "nav": [
+  {
+   "href": "index.html",
+   "label": "Home"
+  },
+  {
+   "href": "family-tree.html",
+   "label": "Family Tree"
+  },
+  {
+   "href": "tree-canvas.html",
+   "label": "Interactive Tree"
+  },
+  {
+   "href": "map.html",
+   "label": "Family Map"
+  },
+  {
+   "href": "escape-from-east-germany.html",
+   "label": "The Escape"
+  },
+  {
+   "href": "weickert-eifler.html",
+   "label": "Weickert & Eifler"
+  },
+  {
+   "href": "research.html",
+   "label": "Research & Records"
+  }
+ ],
+ "head": {
+  "fonts": "https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IM+Fell+English+SC&family=Pinyon+Script&family=Special+Elite&family=UnifrakturMaguntia&display=swap",
+  "stylesheets": [
+   "styles.css"
+  ]
+ },
+ "theme": {
+  "--gold": "#B8860B",
+  "--cream": "#F5F1E8",
+  "--ink": "#1A1410",
+  "--font-display": "'EB Garamond', Garamond, Georgia, serif",
+  "--font-body": "'Cormorant Garamond', 'EB Garamond', Garamond, Georgia, serif",
+  "--font-accent": "'EB Garamond', Garamond, Georgia, serif",
+  "--pc-bg": "#EDE4CC",
+  "--pc-paper": "#F5F1E8",
+  "--pc-rule": "#c9b98e",
+  "--pc-rule-soft": "rgba(200, 169, 122, 0.35)",
+  "--pc-ink": "#1A1410",
+  "--pc-ink-2": "#3a2f24",
+  "--pc-muted": "#6b5a44",
+  "--pc-gold": "#B8860B",
+  "--pc-gold-soft": "#c8a97a",
+  "--pc-accent": "#2D4A2B",
+  "--pc-accent-deep": "#1a2c19",
+  "--pc-accent-light": "#2D4A2B",
+  "--pc-accent-rgb": "45, 74, 43",
+  "--pc-accent-deep-rgb": "26, 44, 25",
+  "--pc-title": "#1a2c19",
+  "--pc-line": "#5e4a2e",
+  "--pc-line-direct": "#1E3A8A",
+  "--pc-focus": "#2D4A2B",
+  "--pc-shadow": "0 1px 3px rgba(60, 40, 10, 0.10), 0 0 0 1px rgba(201, 185, 142, 0.5)",
+  "--pc-shadow-lift": "0 4px 14px rgba(60, 40, 10, 0.18), 0 0 0 1px #1E3A8A",
+  "--pc-radius": "2px",
+  "--pc-living-1": "#2D4A2B",
+  "--pc-living-2": "#2D4A2B",
+  "--pc-living-3": "#1a2c19",
+  "--pc-dark": "#1A1410",
+  "--pc-rail-1": "#F5F1E8",
+  "--pc-rail-2": "#EDE4CC",
+  "--pc-tint": "rgba(45, 74, 43, 0.10)",
+  "--pc-tint-2": "rgba(45, 74, 43, 0.10)",
+  "--pc-tint-3": "rgba(45, 74, 43, 0.06)",
+  "--pc-tint-4": "rgba(200, 169, 122, 0.15)",
+  "--pc-cta-focus": "#D4A53C",
+  "--pc-conf-confirmed": "#1a5c2a",
+  "--pc-conf-confirmed-line": "rgba(26, 92, 42, 0.45)",
+  "--pc-conf-confirmed-bg": "rgba(26, 92, 42, 0.06)",
+  "--pc-conf-probable": "#6b5a44",
+  "--pc-conf-probable-line": "rgba(200, 169, 122, 0.8)",
+  "--pc-conf-probable-bg": "rgba(200, 169, 122, 0.12)",
+  "--pc-conf-tradition": "#4A3B6B",
+  "--pc-conf-tradition-line": "rgba(74, 59, 107, 0.4)",
+  "--pc-conf-tradition-bg": "rgba(74, 59, 107, 0.06)",
+  "--pc-conf-unverified": "#7C1F1F",
+  "--pc-conf-unverified-line": "rgba(124, 31, 31, 0.4)",
+  "--pc-conf-unverified-bg": "rgba(124, 31, 31, 0.05)",
+  "--pc-lb-bg": "rgba(26, 20, 16, 0.97)",
+  "--pc-lb-side": "#241c16",
+  "--pc-lb-strip": "#3a2f24",
+  "--fm-bg": "#EDE4CC",
+  "--fm-paper": "#F5F1E8",
+  "--fm-ink": "#1A1410",
+  "--fm-muted": "#6b5a44",
+  "--fm-accent": "#2D4A2B",
+  "--fm-accent-deep": "#1a2c19",
+  "--fm-gold": "#B8860B",
+  "--fm-rule": "#c9b98e"
+ },
+ "data": {
+  "dir": "data"
+ },
+ "tree": {
+  "rootPersonId": "valeria",
+  "familyLabel": "Kohlmann family",
+  "directLineLabel": "Direct Line",
+  "generations": [
+   {
+    "generation": 0,
+    "label": "-1",
+    "title": "",
+    "range": null
+   },
+   {
+    "generation": 1,
+    "label": "0",
+    "title": "",
+    "range": null
+   },
+   {
+    "generation": 2,
+    "label": "1",
+    "title": "Grandparents",
+    "range": null
+   },
+   {
+    "generation": 3,
+    "label": "2",
+    "title": "Parents, Aunts & Uncles",
+    "range": null
+   },
+   {
+    "generation": 4,
+    "label": "3",
+    "title": "Thomas & Rita's Daughters",
+    "range": null
+   },
+   {
+    "generation": 5,
+    "label": "4",
+    "title": "",
+    "range": null
+   }
+  ],
+  "initialView": {
+   "ids": [
+    "richard-becker",
+    "rita-mother",
+    "valeria"
+   ],
+   "fromGen": 0,
+   "toGen": 5
+  },
+  "cardPhotos": "set",
+  "coupleBlocks": "auto"
+ },
+ "map": {
+  "home": {
+   "name": "Germany",
+   "bounds": [
+    [
+     5.87,
+     47.27
+    ],
+    [
+     15.04,
+     55.06
+    ]
+   ]
+  },
+  "historicMaps": null,
+  "maptilerKey": null,
+  "googleEmbedKey": null,
+  "branches": [],
+  "families": [],
+  "kinAnchors": [
+   {
+    "id": "thomas",
+    "name": "Thomas"
+   },
+   {
+    "id": "rita",
+    "name": "Rita"
+   }
+  ]
+ },
+ "widget": {
+  "enabled": false
+ },
+ "publish": {
+  "exclude": [
+   "README.md"
+  ]
+ }
+}
