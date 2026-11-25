@@ -1,0 +1,81 @@
+{
+ "$schema": "https://raw.githubusercontent.com/Belfiore/family-site-engine/main/schema/site-config.schema.json",
+ "$comment": "Settings for the Kohlmann family site, built with the family site engine (Belfiore/family-site-engine). See that repository's docs/site-config.md.",
+ "schemaVersion": 1,
+ "engine": {
+  "channel": "stable"
+ },
+ "site": {
+  "name": "Kohlmann",
+  "familyName": "the Kohlmann family",
+  "lang": "en",
+  "description": "The Kohlmann Family: from Saxony to Tampa."
+ },
+ "pages": {
+  "home": "index.html",
+  "tree": {
+   "file": "tree-canvas.html",
+   "title": "Interactive Family Tree: The Kohlmann Family Heritage",
+   "description": "An interactive family tree of the Kohlmann family, from Saxony to Tampa.",
+   "heading": "Interactive Family Tree",
+   "stylesheets": ["styles.css"]
+  },
+  "map": {
+   "file": "map.html",
+   "title": "Family Map | Kohlmann",
+   "description": "Where the Kohlmann family was born, lived, married and died, on a map. The places are still being collected.",
+   "stylesheets": ["styles.css"]
+  },
+  "ask": null
+ },
+ "nav": [
+  {"href": "index.html", "label": "Home"},
+  {"href": "family-tree.html", "label": "Family Tree"},
+  {"href": "tree-canvas.html", "label": "Interactive Tree"},
+  {"href": "map.html", "label": "Family Map"},
+  {"href": "escape-from-east-germany.html", "label": "The Escape"},
+  {"href": "weickert-eifler.html", "label": "Weickert & Eifler"},
+  {"href": "research.html", "label": "Research & Records"}
+ ],
+ "head": {
+  "fonts": "https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IM+Fell+English+SC&family=Pinyon+Script&family=Special+Elite&family=UnifrakturMaguntia&display=swap",
+  "stylesheets": ["styles.css"]
+ },
+ "theme": {},
+ "data": {
+  "dir": "data"
+ },
+ "tree": {
+  "rootPersonId": "valeria",
+  "familyLabel": "Kohlmann family",
+  "directLineLabel": "Direct Line",
+  "generations": [
+   {"generation": 0, "label": "-1", "title": "", "range": null},
+   {"generation": 1, "label": "0", "title": "", "range": null},
+   {"generation": 2, "label": "1", "title": "Grandparents", "range": null},
+   {"generation": 3, "label": "2", "title": "Parents, Aunts & Uncles", "range": null},
+   {"generation": 4, "label": "3", "title": "Thomas & Rita's Daughters", "range": null},
+   {"generation": 5, "label": "4", "title": "", "range": null}
+  ],
+  "cardPhotos": "set",
+  "coupleBlocks": "auto"
+ },
+ "map": {
+  "home": {"name": "Germany", "bounds": [[5.87, 47.27], [15.04, 55.06]]},
+  "historicMaps": null,
+  "maptilerKey": null,
+  "googleEmbedKey": null,
+  "branches": [],
+  "families": [],
+  "kinAnchors": [
+   {"id": "thomas", "name": "Thomas"},
+   {"id": "rita", "name": "Rita"}
+  ]
+ },
+ "widget": {
+  "enabled": false
+ },
+ "publish": {
+  "exclude": ["README.md"]
+ }
+}

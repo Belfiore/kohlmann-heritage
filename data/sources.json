@@ -1,0 +1,34 @@
+{
+ "sources": [
+  {
+   "id": "2007-eifler-becker-ahnentafel-page-1",
+   "title": "2007 Eifler/Becker Ahnentafel (page 1)",
+   "type": "family tree"
+  },
+  {
+   "id": "2007-eifler-becker-ahnentafel-page-1-weickert-eifler-letterh",
+   "title": "2007 Eifler/Becker Ahnentafel (page 1); Weickert & Eifler letterhead (1933–45); Weickert & Eifler invoice 9 April 1943",
+   "type": "family tree"
+  },
+  {
+   "id": "2007-eifler-becker-ahnentafel-page-1-weickert-eifler-invoice",
+   "title": "2007 Eifler/Becker Ahnentafel (page 1); Weickert & Eifler invoice 9 April 1943 (signed receipt)",
+   "type": "family tree"
+  },
+  {
+   "id": "family-knowledge",
+   "title": "Family knowledge",
+   "type": "document"
+  },
+  {
+   "id": "family-testimony",
+   "title": "Family testimony",
+   "type": "family testimony"
+  },
+  {
+   "id": "self",
+   "title": "Self",
+   "type": "document"
+  }
+ ]
+}
