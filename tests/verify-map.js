@@ -106,6 +106,7 @@ function serve() {
     check(['thomas', 'rita', 'both'].every(f => st.fam.includes(f)), 'family filter offers Thomas\'s, Rita\'s and both families', st.fam.join(','));
     check(st.timeline, 'the timeline and its Play button are there');
     check(st.noLink.includes('bautzen-schaefferstrasse-6'), 'the Kohlmann butcher lead is drawn as no proven link');
+    check(st.noLink.includes('doebeln-grimmaische-20'), 'the Döbeln Woltmann lead is drawn as no proven link');
 
     // filter by type
     await page.click('#types [data-group="died"]'); await page.waitForTimeout(400);

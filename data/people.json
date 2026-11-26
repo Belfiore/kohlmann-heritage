@@ -1462,6 +1462,100 @@
           "title": "Research & Records"
         }
       ]
+    },
+    {
+      "id": "max-woltmann",
+      "displayName": "Max Woltmann (Döbeln)",
+      "givenNames": "Max",
+      "surname": "Woltmann",
+      "disambiguator": "tax official in Döbeln, a lead for Brigitte's family",
+      "sex": "M",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "unverified",
+      "region": "leads",
+      "cardPlace": "Döbeln",
+      "nameVariants": [],
+      "parents": [],
+      "children": [],
+      "spouses": [],
+      "birth": null,
+      "death": null,
+      "summary": "Max Woltmann, a tax official, was the only Woltmann in the Döbeln address books of 1925 and 1939, at the same house both times. Rita was born a Woltmann in Döbeln in 1956, so he may be Brigitte's father or another close relative. Not proven.",
+      "story": "The Döbeln address book for 1925 lists \"Woltmann Max, Steuerassist.\" (tax assistant) at Kleinbauchlitzer Straße 20. He is the only Woltmann in the book.[^slub-doebeln-1925] In 1939 the book lists \"Woltmann, Max, Steuersekretär\" (tax secretary) at Grimmaische Straße 20, again the only Woltmann.[^slub-doebeln-1939] The 1939 book heads Grimmaische Straße \"vorher Kleinbauchlitzer Straße\" (formerly Kleinbauchlitzer Straße), so this is the same house: he lived at No. 20 from at least 1925 to 1939 and was promoted from assistant to secretary.[^slub-doebeln-1939] There was no Woltmann in Döbeln in 1900-01, so he came to the town after 1900.[^slub-doebeln-1900] Rita was born in Döbeln in 1956 with her mother Brigitte's surname, Woltmann.[^family-testimony] With so rare a name, Max is probably Brigitte's father or grandfather, but no record seen so far links them. Brigitte's birth entry would settle it.",
+      "residences": [
+        {
+          "place": "Döbeln",
+          "placeId": "doebeln-grimmaische-20",
+          "address": "Kleinbauchlitzer Straße 20",
+          "years": "1925",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "slub-doebeln-1925"
+          ]
+        },
+        {
+          "place": "Döbeln",
+          "placeId": "doebeln-grimmaische-20",
+          "address": "Grimmaische Straße 20 (the same house, street renamed)",
+          "years": "1939",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "slub-doebeln-1939"
+          ]
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Steuerassistent (1925), Steuersekretär (1939): tax official",
+          "employer": null,
+          "place": "Döbeln",
+          "placeId": null,
+          "years": null,
+          "confidence": "confirmed",
+          "sourceIds": [
+            "slub-doebeln-1925",
+            "slub-doebeln-1939"
+          ]
+        }
+      ],
+      "timeline": [],
+      "facts": [],
+      "media": [
+        {
+          "type": "document",
+          "file": "images/records/1925-doebeln-woltmann-max-kleinbauchlitzer-20.jpg",
+          "caption": "Adressbuch Döbeln 1925, page 187: Woltmann Max, Steuerassistent, Kleinbauchlitzer Straße 20. SLUB Dresden, public domain.",
+          "alt": "Döbeln address book 1925 with the Max Woltmann entry highlighted.",
+          "sourceId": "slub-doebeln-1925"
+        },
+        {
+          "type": "document",
+          "file": "images/records/1939-doebeln-grimmaische-20-woltmann-max.jpg",
+          "caption": "Adressbuch Döbeln 1939, house list for Grimmaische Straße 20: Woltmann Max, Steuersekretär. SLUB Dresden, public domain.",
+          "alt": "Döbeln address book 1939, house list, Max Woltmann highlighted.",
+          "sourceId": "slub-doebeln-1939"
+        },
+        {
+          "type": "document",
+          "file": "images/records/1939-doebeln-grimmaische-formerly-kleinbauchlitzer.jpg",
+          "caption": "Adressbuch Döbeln 1939: \"Grimmaische Straße, vorher Kleinbauchlitzer Straße\". SLUB Dresden, public domain.",
+          "alt": "Street heading in the Döbeln address book of 1939.",
+          "sourceId": "slub-doebeln-1939"
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Is Max Woltmann Brigitte Woltmann's father or grandfather? Brigitte's birth entry (Standesamt Döbeln) names her parents."
+        }
+      ],
+      "relatedPages": [
+        {
+          "url": "research.html",
+          "title": "Research & Records"
+        }
+      ]
     }
   ]
 }

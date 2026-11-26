@@ -1241,6 +1241,93 @@
       "address": "Schäfferstraße 6, Bautzen",
       "coordinatePrecision": "street",
       "standsToday": "unknown"
+    },
+    {
+      "id": "doebeln-grimmaische-20",
+      "name": "Grimmaische Straße 20, Döbeln",
+      "historicName": "Kleinbauchlitzer Straße 20, Döbeln",
+      "variants": [
+        "Kleinbauchlitzer Straße 20"
+      ],
+      "kind": "home",
+      "address": "Grimmaische Straße 20, Döbeln",
+      "precision": "address",
+      "lat": 51.1263361,
+      "lng": 13.1013918,
+      "uncertaintyMetres": 100,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "coordinateMethod": "OpenStreetMap Nominatim, 26 November 2026, query \"Grimmaische Straße 20, Döbeln\" (matched a building). Drawn as a circle: the house number may have changed since 1939.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "coordinatePrecision": "street",
+      "status": "published",
+      "noProvenLink": true,
+      "blurb": "Lead only. Max Woltmann, tax official, lived here in 1925 and 1939. The street was called Kleinbauchlitzer Straße until the 1930s; the 1939 address book heads it \"Grimmaische Straße, vorher Kleinbauchlitzer Straße\". He may be Brigitte Woltmann's father or grandfather. Not proven, so it is shown as no proven link.",
+      "blurbSourceIds": [
+        "slub-doebeln-1925",
+        "slub-doebeln-1939"
+      ],
+      "standsToday": "unknown",
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "events": [
+        {
+          "id": "pe-doebeln-woltmann-1925",
+          "type": "lived",
+          "personIds": [
+            "max-woltmann"
+          ],
+          "date": "1925",
+          "dateStart": "1925-01-01",
+          "dateEnd": "1925-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "factRef": "max-woltmann.residences[0]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [
+            "1925-doebeln-woltmann-max-kleinbauchlitzer-20.jpg"
+          ],
+          "sourceIds": [
+            "slub-doebeln-1925"
+          ],
+          "confidence": "unverified",
+          "familyStatement": false,
+          "summary": "Max Woltmann, tax assistant, at Kleinbauchlitzer Straße 20 (address book 1925). A lead for Brigitte's family, not proven."
+        },
+        {
+          "id": "pe-doebeln-woltmann-1939",
+          "type": "lived",
+          "personIds": [
+            "max-woltmann"
+          ],
+          "date": "1939",
+          "dateStart": "1939-01-01",
+          "dateEnd": "1939-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "factRef": "max-woltmann.residences[1]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [
+            "1939-doebeln-grimmaische-20-woltmann-max.jpg",
+            "1939-doebeln-grimmaische-formerly-kleinbauchlitzer.jpg"
+          ],
+          "sourceIds": [
+            "slub-doebeln-1939"
+          ],
+          "confidence": "unverified",
+          "familyStatement": false,
+          "summary": "Max Woltmann, tax secretary, at Grimmaische Straße 20, the same house under its new street name (address book 1939). A lead, not proven."
+        }
+      ]
     }
   ]
 }

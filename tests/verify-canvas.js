@@ -48,6 +48,7 @@ const EXPECTED = {
     // Leads kept beside the person they may belong to (tree.suspectedRelatives), no proven link.
     'ernst-eifler-sr': { parents: [], spouses: [], children: [], side: 'left', lead: 'ernst-alwin' },
     'alwin-kohlmann-butcher': { parents: [], spouses: [], children: [], side: 'left', lead: 'alvin' },
+    'max-woltmann': { parents: [], spouses: [], children: [], side: 'right', lead: 'rita-mother' },
 };
 
 function serve() {
