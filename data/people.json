@@ -1693,6 +1693,155 @@
           "title": "Research & Records"
         }
       ]
+    },
+    {
+      "id": "bruno-weickert",
+      "displayName": "Bruno Weickert",
+      "givenNames": "Max Bruno",
+      "surname": "Weickert",
+      "disambiguator": "master saddler, the Weickert of Weickert & Eifler; not family",
+      "sex": "M",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "region": "associates",
+      "nameVariants": [
+        {
+          "name": "Weikert",
+          "note": "how the firm's name is printed in the 1928 to 1932 address books",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-bautzen-1929-firm"
+          ]
+        }
+      ],
+      "parents": [],
+      "children": [],
+      "spouses": [],
+      "birth": {
+        "date": "1892-12-02",
+        "display": "2 December 1892",
+        "place": "Großschönau, Kreis Zittau",
+        "placeId": "grossschoenau",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "findbuch-death-register-1956-225"
+        ]
+      },
+      "death": {
+        "date": "1956-03-26",
+        "display": "26 March 1956",
+        "place": "Bautzen, Fischergasse 31 (at home)",
+        "placeId": "bautzen-fischergasse-31",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "findbuch-death-register-1956-225"
+        ]
+      },
+      "residences": [
+        {
+          "place": "Bautzen",
+          "placeId": "bautzen-neusalzaer-34",
+          "address": "Neusalzaer Straße 34, second floor",
+          "years": "1921",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-bautzen-1921"
+          ]
+        },
+        {
+          "place": "Bautzen",
+          "placeId": "bautzen-neusalzaer-20",
+          "address": "Neusalzaer Straße 20, the Weickert family house",
+          "years": "1924 to 1928",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-bautzen-weickert-1924",
+            "anc-bautzen-weickert-1925",
+            "anc-bautzen-weickert-1928"
+          ]
+        },
+        {
+          "place": "Bautzen",
+          "placeId": "bautzen-fischergasse-31",
+          "address": "Fischergasse 31",
+          "years": "1956",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1956-225"
+          ]
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Sattlermeister (master saddler); saddlery and upholstery shop, firm name Weickert & Eifler",
+          "employer": "Weickert & Eifler",
+          "place": "Bautzen",
+          "placeId": "bautzen-loebauer-10",
+          "years": "1921",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-bautzen-1921"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "label": "Marriage",
+          "value": "Married Marie Martha Kuschel, a seamstress, in Bautzen on 7 September 1918 (Standesamt Bautzen Nr. 135/1918). The marriage index calls him a saddler and \"z. Zt. Kanonier d. Res., z. Zt. im Felde\": a reserve gunner, away at the front, so he married while on leave in the last months of the First World War.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-marriage-index-1918",
+            "findbuch-death-register-1956-225"
+          ]
+        },
+        {
+          "label": "Same age as his partner",
+          "value": "Born 2 December 1892, eight weeks after Alwin Eifler (7 October 1892). The two founders of the firm were the same age.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1956-225",
+            "anc-marriage-1926"
+          ]
+        },
+        {
+          "label": "Not family",
+          "value": "Bruno Weickert was Alwin Eifler's business partner, not a relative. He is on the map as a business associate and not on the tree.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-bautzen-1921"
+          ]
+        }
+      ],
+      "timeline": [],
+      "media": [
+        {
+          "type": "document",
+          "file": "images/records/1956-bautzen-death-register-225-max-bruno-weickert.jpg",
+          "caption": "Bautzen death register 1956, Nr. 225: Max Bruno Weickert, master saddler, Fischergasse 31, born 2 December 1892 in Großschönau, died 26 March 1956; married Marie Martha née Kuschel, Bautzen 7 Sept 1918 Nr. 135. Archivverbund Bautzen 61003 vol 86 p226, CC BY 4.0.",
+          "sourceId": "findbuch-death-register-1956-225",
+          "alt": "Typed civil death entry number 225 of 1956 from Bautzen, highlighted: Max Bruno Weickert, master saddler, Fischergasse 31."
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "His parents: the 1918 marriage entry (Bautzen Nr. 135/1918, not online) names them. Karl Gottlieb Weickert, shoemaker at Neusalzaer Straße 20, may be his father."
+        },
+        {
+          "question": "When and why he left the firm: the Handelsregister file at the Archivverbund Bautzen."
+        }
+      ],
+      "relatedPages": [
+        {
+          "url": "weickert-eifler.html",
+          "title": "Weickert & Eifler"
+        }
+      ],
+      "cardPlace": null,
+      "photo": null,
+      "summary": "Master saddler and co-founder of Weickert & Eifler with Alwin Eifler. Not family.",
+      "story": "Max Bruno Weickert, master saddler, was the Weickert of Weickert & Eifler. Born on 2 December 1892 in Großschönau near Zittau, he ran the saddlery and upholstery shop at Löbauer Straße 10 that carried the firm's name in 1921. By 1928 Alwin Eifler was the sole owner. Bruno died at home, Fischergasse 31 in Bautzen, on 26 March 1956.[^findbuch-death-register-1956-225][^anc-bautzen-1921]"
     }
   ]
 }

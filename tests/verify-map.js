@@ -107,6 +107,9 @@ function serve() {
     check(st.timeline, 'the timeline and its Play button are there');
     check(st.noLink.includes('bautzen-schaefferstrasse-6'), 'the Kohlmann butcher lead is drawn as no proven link');
     check(st.noLink.includes('doebeln-grimmaische-20'), 'the Döbeln Woltmann lead is drawn as no proven link');
+    const assoc = await page.evaluate(() => { const D = FM.DATA; return { ev: D.events.filter(e => e.associate).map(e => e.placeId), npl: D.events.filter(e => e.associate && e.noProvenLink).length, who: Object.keys(D.associate || {}) }; });
+    check(['grossschoenau', 'bautzen-neusalzaer-34', 'bautzen-neusalzaer-20', 'bautzen-fischergasse-31'].every(id => assoc.ev.includes(id)) && !assoc.npl && assoc.who.join() === 'bruno-weickert',
+          'Bruno Weickert, business associate, is on the map as an associate (not family, not "no proven link")', JSON.stringify(assoc));
 
     // filter by type
     await page.click('#types [data-group="died"]'); await page.waitForTimeout(400);
@@ -131,6 +134,9 @@ function serve() {
     check(panel.shown && /Wilthener/.test(panel.text), 'a place opens its panel from the URL', panel.text.slice(0, 120));
     check(panel.links.some(h => /tree-canvas\.html|person=|#/.test(h || '')), 'the panel links to profiles', panel.links.slice(0, 8).join(' '));
     check(/Source|source|Findbuch|Adressbuch|address book/i.test(panel.text), 'the panel shows sources');
+    await page.goto(base + 'map.html?place=bautzen-fischergasse-31'); await page.waitForFunction(() => window.FM && FM.ready); await page.waitForTimeout(1200);
+    const ap = await page.evaluate(() => { const p = document.getElementById('panel'); return { shown: !p.hidden, badge: [].map.call(p.querySelectorAll('.badge--assoc'), b => b.textContent).join(' | ') }; });
+    check(ap.shown && /Business associate\. Not family/.test(ap.badge), 'an associate\'s place panel says "Business associate. Not family"', ap.badge);
     if (SHOTS) await page.screenshot({ path: path.join(SHOTS, 'map-place-1440.png') });
     await page.keyboard.press('Escape'); await page.waitForTimeout(300);
     // tray and list

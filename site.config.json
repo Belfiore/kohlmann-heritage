@@ -195,7 +195,8 @@
     "legendNote": "Rita's parents are drawn as partners. The site does not record a marriage between them.",
     "noscript": "The <a href=\"family-tree.html\">list view of the family tree</a> works without it.",
     "hiddenRegions": [
-      "leads"
+      "leads",
+      "associates"
     ],
     "suspectedRelatives": {
       "ernst-eifler-sr": "ernst-alwin",
@@ -274,6 +275,14 @@
         "regions": [
           "leads"
         ]
+      },
+      {
+        "id": "associates",
+        "label": "Business associates of Weickert & Eifler (not family)",
+        "pages": [],
+        "regions": [
+          "associates"
+        ]
       }
     ],
     "kinAnchors": [
@@ -313,6 +322,13 @@
         ]
       }
     ],
-    "noscript": "The places are also described on the <a href=\"weickert-eifler.html\">Weickert &amp; Eifler page</a> and the <a href=\"research.html\">research page</a>."
+    "noscript": "The places are also described on the <a href=\"weickert-eifler.html\">Weickert &amp; Eifler page</a> and the <a href=\"research.html\">research page</a>.",
+    "associates": {
+      "label": "Business associate",
+      "note": "Not family",
+      "people": {
+        "bruno-weickert": "ernst-alwin"
+      }
+    }
   }
 }

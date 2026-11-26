@@ -171,6 +171,31 @@
           ],
           "recordCrops": [],
           "familyStatement": false
+        },
+        {
+          "id": "pe-bautzen-married-bruno",
+          "type": "married",
+          "personIds": [
+            "bruno-weickert"
+          ],
+          "date": "1918-09-07",
+          "dateStart": "1918-09-07",
+          "dateEnd": "1918-09-07",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Bruno Weickert, saddler and reserve gunner at the front, marries Marie Martha Kuschel, Bautzen, 7 September 1918",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1956-225"
+          ],
+          "note": "Standesamt Bautzen Nr. 135/1918.",
+          "pages": [
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [
+            "1956-bautzen-death-register-225-max-bruno-weickert.jpg"
+          ],
+          "familyStatement": false
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
@@ -1680,6 +1705,126 @@
       "historicName": "Tampa, Florida",
       "address": "Tampa, Florida",
       "coordinatePrecision": "town",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "grossschoenau",
+      "name": "Großschönau",
+      "kind": "village",
+      "precision": "village",
+      "lat": 50.8876381,
+      "lng": 14.6656904,
+      "uncertaintyMetres": 1500,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Bruno Weickert, the co-founder of Weickert & Eifler, was born here on 2 December 1892. Only the village is known.",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Großschönau",
+      "address": "Großschönau",
+      "coordinatePrecision": "village",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "bautzen-neusalzaer-34",
+      "name": "Neusalzaer Straße 34, Bautzen",
+      "kind": "home",
+      "precision": "street",
+      "lat": 51.1703656,
+      "lng": 14.4244997,
+      "uncertaintyMetres": 150,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Bruno Weickert's flat in 1921 (second floor).",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Neusalzaer Straße 34, Bautzen",
+      "address": "Neusalzaer Straße 34, Bautzen",
+      "coordinatePrecision": "street",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "bautzen-neusalzaer-20",
+      "name": "Neusalzaer Straße 20, Bautzen",
+      "kind": "home",
+      "precision": "street",
+      "lat": 51.1726457,
+      "lng": 14.4234381,
+      "uncertaintyMetres": 150,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "The Weickert family house: Karl Gottlieb Weickert, shoemaker, from at least 1905 to 1921; Johanne Weickert née Albert, widow, 1924 to 1935; Bruno Weickert, master saddler, 1924 to 1928. Karl and Johanne may be Bruno's parents (not proven).",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Neusalzaer Straße 20, Bautzen",
+      "address": "Neusalzaer Straße 20, Bautzen",
+      "coordinatePrecision": "street",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "bautzen-fischergasse-31",
+      "name": "Fischergasse 31, Bautzen",
+      "kind": "home",
+      "precision": "street",
+      "lat": 51.1783011,
+      "lng": 14.4220264,
+      "uncertaintyMetres": 120,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Bruno Weickert's last home. He died here on 26 March 1956.",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Fischergasse 31, Bautzen",
+      "address": "Fischergasse 31, Bautzen",
+      "coordinatePrecision": "street",
       "standsToday": "unknown"
     }
   ]
