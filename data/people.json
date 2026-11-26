@@ -1,1335 +1,1467 @@
 {
- "meta": {
-  "schemaVersion": 1,
-  "note": "Converted from family-data.js by the family site engine, then checked against the story pages. Confidence: the file's verified became confirmed, high became probable, and low became unverified. Sex follows the role the site already gives. Rita's parents are partners, not a recorded marriage. Sigrid is marked not living because family-data.js says so; the notes say her death is not recorded."
- },
- "people": [
-  {
-   "id": "richard-becker",
-   "displayName": "Richard Hermann Becker",
-   "givenNames": "Richard Hermann",
-   "surname": "Becker",
-   "disambiguator": "Kaufmann, Dresden",
-   "sex": "M",
-   "generation": 0,
-   "isLiving": false,
-   "isDirectLine": true,
-   "confidence": "confirmed",
-   "nameVariants": [
-    {
-     "name": "Richard",
-     "note": "also known as",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ]
-    }
-   ],
-   "parents": [],
-   "children": [
-    "gertrud-becker"
-   ],
-   "spouses": [
-    {
-     "id": "elise-just",
-     "order": 1,
-     "marriageDate": null,
-     "marriageDisplay": null,
-     "place": null,
-     "placeId": null,
-     "confidence": "probable",
-     "sourceIds": []
-    }
-   ],
-   "birth": {
-    "date": "1875-01-05",
-    "display": "5 January 1875",
-    "place": "Herzberg (Elster), Kreis Schweinitz",
-    "placeId": "herzberg",
-    "confidence": "confirmed",
-    "sourceIds": [
-     "anc-death-1938",
-     "ahnentafel-2007"
-    ]
-   },
-   "death": {
-    "date": "1938-01-09",
-    "display": "9 January 1938",
-    "place": "Rothermundtstraße 5, Dresden",
-    "placeId": "dresden-rothermundtstrasse-5",
-    "confidence": "confirmed",
-    "sourceIds": [
-     "anc-death-1938",
-     "anc-cremation-1938"
-    ]
-   },
-   "cardPlace": "Herzberg and Dresden",
-   "summary": "Father of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandfather.",
-   "story": "Father of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandfather. Kaufmann (merchant). Born 5 January 1875 in Herzberg, Kreis Schweinitz (Herzberg on the Black Elster), and died at home, Rothermundtstraße 5, Dresden, on 9 January 1938, aged 63, according to his civil death entry (Dresden V 1938 Nr. 52).[^anc-death-1938] The 2007 family chart has the two days the other way round (born 9 January, died 5 January); the record is preferred. The chart gives pneumonia as the cause.[^ahnentafel-2007] In 1905 he lived at Ziegelstraße 2 in Dresden, where Gertrud was born and where he reported her birth himself.[^anc-birth-1905] By 1926 the family lived at Rothermundtstraße 5 in Striesen, where he kept an ironmonger's shop on the ground floor (\"Becker, R., Eisenwhdlg.\").[^slub-dresden-1938] He was a witness at Gertrud's wedding to Alwin Eifler on 2 October 1926, aged 51.[^anc-marriage-1926] He was cremated at the Dresden crematorium in January 1938, certificate 60603.[^anc-cremation-1938] The chart records two sisters; a handwritten note names one as Marie (married surname perhaps Wettlitz) of Rothermundtstraße 5.",
-   "residences": [
-    {
-     "place": "Dresden",
-     "placeId": "dresden-ziegelstrasse-2",
-     "address": "Ziegelstraße 2, I",
-     "years": "1905",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-birth-1905"
-     ]
-    },
-    {
-     "place": "Dresden-Striesen",
-     "placeId": "dresden-rothermundtstrasse-5",
-     "address": "Rothermundtstraße 5",
-     "years": "1926 to 1938",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-marriage-1926",
-      "anc-death-1938",
-      "slub-dresden-1938"
-     ]
-    }
-   ],
-   "occupations": [
-    {
-     "title": "Kaufmann (merchant), ironmonger",
-     "place": "Dresden",
-     "placeId": "dresden-rothermundtstrasse-5",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-death-1938",
-      "slub-dresden-1938"
-     ]
-    }
-   ],
-   "timeline": [],
-   "facts": [],
-   "media": [],
-   "openQuestions": [
-    {
-     "question": "Where his urn was buried (the crematorium register may say Striesener Friedhof)."
-    },
-    {
-     "question": "Name of his second sister, and Marie's married surname."
-    }
-   ],
-   "relatedPages": [],
-   "photo": null
+  "meta": {
+    "schemaVersion": 1,
+    "note": "Converted from family-data.js by the family site engine, then checked against the story pages. Confidence: the file's verified became confirmed, high became probable, and low became unverified. Sex follows the role the site already gives. Rita's parents are partners, not a recorded marriage. Sigrid is marked not living because family-data.js says so; the notes say her death is not recorded."
   },
-  {
-   "id": "elise-just",
-   "displayName": "Clara Elise Becker",
-   "givenNames": "Clara Elise",
-   "surname": "Becker",
-   "disambiguator": "née Just",
-   "sex": "F",
-   "generation": 0,
-   "isLiving": false,
-   "isDirectLine": true,
-   "confidence": "confirmed",
-   "nameVariants": [
+  "people": [
     {
-     "name": "Clara Elise Just",
-     "note": "name at birth",
-     "sourceIds": [
-      "findbuch-death-1954"
-     ]
+      "id": "richard-becker",
+      "displayName": "Richard Hermann Becker",
+      "givenNames": "Richard Hermann",
+      "surname": "Becker",
+      "disambiguator": "Kaufmann, Dresden",
+      "sex": "M",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "nameVariants": [
+        {
+          "name": "Richard",
+          "note": "also known as",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ]
+        }
+      ],
+      "parents": [],
+      "children": [
+        "gertrud-becker"
+      ],
+      "spouses": [
+        {
+          "id": "elise-just",
+          "order": 1,
+          "marriageDate": null,
+          "marriageDisplay": null,
+          "place": null,
+          "placeId": null,
+          "confidence": "probable",
+          "sourceIds": []
+        }
+      ],
+      "birth": {
+        "date": "1875-01-05",
+        "display": "5 January 1875",
+        "place": "Herzberg (Elster), Kreis Schweinitz",
+        "placeId": "herzberg",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "anc-death-1938",
+          "ahnentafel-2007"
+        ]
+      },
+      "death": {
+        "date": "1938-01-09",
+        "display": "9 January 1938",
+        "place": "Rothermundtstraße 5, Dresden",
+        "placeId": "dresden-rothermundtstrasse-5",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "anc-death-1938",
+          "anc-cremation-1938"
+        ]
+      },
+      "cardPlace": "Herzberg and Dresden",
+      "summary": "Father of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandfather.",
+      "story": "Father of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandfather. Kaufmann (merchant). Born 5 January 1875 in Herzberg, Kreis Schweinitz (Herzberg on the Black Elster), and died at home, Rothermundtstraße 5, Dresden, on 9 January 1938, aged 63, according to his civil death entry (Dresden V 1938 Nr. 52).[^anc-death-1938] The 2007 family chart has the two days the other way round (born 9 January, died 5 January); the record is preferred. The chart gives pneumonia as the cause.[^ahnentafel-2007] In 1905 he lived at Ziegelstraße 2 in Dresden, where Gertrud was born and where he reported her birth himself.[^anc-birth-1905] By 1926 the family lived at Rothermundtstraße 5 in Striesen, where he kept an ironmonger's shop on the ground floor (\"Becker, R., Eisenwhdlg.\").[^slub-dresden-1938] He was a witness at Gertrud's wedding to Alwin Eifler on 2 October 1926, aged 51.[^anc-marriage-1926] He was cremated at the Dresden crematorium in January 1938, certificate 60603.[^anc-cremation-1938] The chart records two sisters; a handwritten note names one as Marie (married surname perhaps Wettlitz) of Rothermundtstraße 5.",
+      "residences": [
+        {
+          "place": "Dresden",
+          "placeId": "dresden-ziegelstrasse-2",
+          "address": "Ziegelstraße 2, I",
+          "years": "1905",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-birth-1905"
+          ]
+        },
+        {
+          "place": "Dresden-Striesen",
+          "placeId": "dresden-rothermundtstrasse-5",
+          "address": "Rothermundtstraße 5",
+          "years": "1926 to 1938",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-marriage-1926",
+            "anc-death-1938",
+            "slub-dresden-1938"
+          ]
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Kaufmann (merchant), ironmonger",
+          "place": "Dresden",
+          "placeId": "dresden-rothermundtstrasse-5",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-death-1938",
+            "slub-dresden-1938"
+          ]
+        }
+      ],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [
+        {
+          "question": "Where his urn was buried (the crematorium register may say Striesener Friedhof)."
+        },
+        {
+          "question": "Name of his second sister, and Marie's married surname."
+        }
+      ],
+      "relatedPages": [],
+      "photo": null
     },
     {
-     "name": "Elise Just",
-     "note": "as on the 2007 family chart",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ]
+      "id": "elise-just",
+      "displayName": "Clara Elise Becker",
+      "givenNames": "Clara Elise",
+      "surname": "Becker",
+      "disambiguator": "née Just",
+      "sex": "F",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "nameVariants": [
+        {
+          "name": "Clara Elise Just",
+          "note": "name at birth",
+          "sourceIds": [
+            "findbuch-death-1954"
+          ]
+        },
+        {
+          "name": "Elise Just",
+          "note": "as on the 2007 family chart",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ]
+        },
+        {
+          "name": "Klara Elise Becker",
+          "note": "spelling in her husband's 1938 death entry",
+          "sourceIds": [
+            "anc-death-1938"
+          ]
+        }
+      ],
+      "parents": [],
+      "children": [
+        "gertrud-becker"
+      ],
+      "spouses": [
+        {
+          "id": "richard-becker",
+          "order": 1,
+          "marriageDate": null,
+          "marriageDisplay": null,
+          "place": null,
+          "placeId": null,
+          "confidence": "probable",
+          "sourceIds": []
+        }
+      ],
+      "birth": {
+        "date": "1880-12-01",
+        "display": "1 December 1880",
+        "place": "Raun, Kreis Oelsnitz im Vogtland",
+        "placeId": "raun",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "findbuch-death-1954",
+          "ahnentafel-2007"
+        ]
+      },
+      "death": {
+        "date": "1954-12-27",
+        "display": "27 December 1954",
+        "place": "Wilthener Straße 19, Bautzen",
+        "placeId": "wilthener-19",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "findbuch-death-1954"
+        ]
+      },
+      "cardPlace": "Raun, Dresden and Bautzen",
+      "summary": "Mother of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandmother.",
+      "story": "Mother of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandmother. Her civil death entry calls her Clara Elise Becker née Just, Hausfrau, born 1 December 1880 in Raun, Kreis Oelsnitz im Vogtland (birth registered at Bad Elster, Nr. 132).[^findbuch-death-1954] She married the merchant Richard Hermann Becker and lived in Dresden. Widowed in 1938, she later lived with her daughter's family at Wilthener Straße 19 in Bautzen, where she died at 2:10 in the morning of 27 December 1954, aged 74. Gertrud reported the death.[^findbuch-death-1954] The family chart says she was one of eight Just children (two sisters and five brothers) and died of heart failure.[^ahnentafel-2007]",
+      "residences": [
+        {
+          "place": "Bautzen",
+          "placeId": "wilthener-19",
+          "address": "Wilthener Straße 19",
+          "years": "1954",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-1954"
+          ]
+        }
+      ],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [
+        {
+          "type": "document",
+          "file": "images/records/1954-bautzen-death-881-clara-elise-becker.jpg",
+          "caption": "Bautzen death register 1954, Nr. 881: Clara Elise Becker née Just. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
+          "alt": "Typed civil death entry number 881 of 1954 from Bautzen, highlighted.",
+          "sourceId": "findbuch-death-1954"
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Her parents' names (birth entry, Standesamt Bad Elster 1880 Nr. 132)."
+        },
+        {
+          "question": "Date and place of her marriage to Richard Becker."
+        }
+      ],
+      "relatedPages": [],
+      "photo": null
     },
     {
-     "name": "Klara Elise Becker",
-     "note": "spelling in her husband's 1938 death entry",
-     "sourceIds": [
-      "anc-death-1938"
-     ]
-    }
-   ],
-   "parents": [],
-   "children": [
-    "gertrud-becker"
-   ],
-   "spouses": [
-    {
-     "id": "richard-becker",
-     "order": 1,
-     "marriageDate": null,
-     "marriageDisplay": null,
-     "place": null,
-     "placeId": null,
-     "confidence": "probable",
-     "sourceIds": []
-    }
-   ],
-   "birth": {
-    "date": "1880-12-01",
-    "display": "1 December 1880",
-    "place": "Raun, Kreis Oelsnitz im Vogtland",
-    "placeId": "raun",
-    "confidence": "confirmed",
-    "sourceIds": [
-     "findbuch-death-1954",
-     "ahnentafel-2007"
-    ]
-   },
-   "death": {
-    "date": "1954-12-27",
-    "display": "27 December 1954",
-    "place": "Wilthener Straße 19, Bautzen",
-    "placeId": "wilthener-19",
-    "confidence": "confirmed",
-    "sourceIds": [
-     "findbuch-death-1954"
-    ]
-   },
-   "cardPlace": "Raun, Dresden and Bautzen",
-   "summary": "Mother of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandmother.",
-   "story": "Mother of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandmother. Her civil death entry calls her Clara Elise Becker née Just, Hausfrau, born 1 December 1880 in Raun, Kreis Oelsnitz im Vogtland (birth registered at Bad Elster, Nr. 132).[^findbuch-death-1954] She married the merchant Richard Hermann Becker and lived in Dresden. Widowed in 1938, she later lived with her daughter's family at Wilthener Straße 19 in Bautzen, where she died at 2:10 in the morning of 27 December 1954, aged 74. Gertrud reported the death.[^findbuch-death-1954] The family chart says she was one of eight Just children (two sisters and five brothers) and died of heart failure.[^ahnentafel-2007]",
-   "residences": [
-    {
-     "place": "Bautzen",
-     "placeId": "wilthener-19",
-     "address": "Wilthener Straße 19",
-     "years": "1954",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "findbuch-death-1954"
-     ]
-    }
-   ],
-   "occupations": [],
-   "timeline": [],
-   "facts": [],
-   "media": [
-    {
-     "type": "document",
-     "file": "images/records/1954-bautzen-death-881-clara-elise-becker.jpg",
-     "caption": "Bautzen death register 1954, Nr. 881: Clara Elise Becker née Just. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
-     "alt": "Typed civil death entry number 881 of 1954 from Bautzen, highlighted.",
-     "sourceId": "findbuch-death-1954"
-    }
-   ],
-   "openQuestions": [
-    {
-     "question": "Her parents' names (birth entry, Standesamt Bad Elster 1880 Nr. 132)."
+      "id": "ernst-alwin",
+      "displayName": "Ernst Alwin Eifler",
+      "givenNames": "Ernst Alwin",
+      "surname": "Eifler",
+      "disambiguator": "Alwin, of Weickert & Eifler",
+      "sex": "M",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "nameVariants": [
+        {
+          "name": "Alwin Eifler",
+          "note": "the name he used in business",
+          "sourceIds": [
+            "ahnentafel-2007",
+            "weickert-letterhead"
+          ]
+        }
+      ],
+      "parents": [],
+      "children": [
+        "sigrid",
+        "christa"
+      ],
+      "spouses": [
+        {
+          "id": "gertrud-becker",
+          "order": 1,
+          "marriageDate": "1926-10-02",
+          "marriageDisplay": "2 October 1926",
+          "place": "Standesamt Dresden V, Dresden",
+          "placeId": "dresden",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-marriage-1926",
+            "findbuch-death-1973"
+          ]
+        }
+      ],
+      "birth": {
+        "date": "1892-10-07",
+        "display": "7 October 1892",
+        "place": "Sohland an der Spree",
+        "placeId": "sohland",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "anc-marriage-1926",
+          "ahnentafel-2007"
+        ]
+      },
+      "death": {
+        "date": "1968-12-18",
+        "display": "18 December 1968",
+        "place": "near Bautzen (the family chart says Bautzen)",
+        "placeId": "bautzen",
+        "confidence": "family tradition",
+        "sourceIds": [
+          "ahnentafel-2007",
+          "findbuch-index-1968",
+          "findbuch-death-1973"
+        ]
+      },
+      "cardPlace": "Bautzen",
+      "summary": "Father of Christa Kohlmann and Sigrid Michaelis.",
+      "story": "Father of Christa Kohlmann and Sigrid Michaelis, and Thomas Kohlmann's maternal grandfather. Born 7 October 1892 in Sohland an der Spree; his marriage entry gives the place and cites his Sohland birth entry.[^anc-marriage-1926] A Weickert & Eifler saddlery and upholstery shop already existed in Bautzen in 1921, run by the master saddler Bruno Weickert at Löbauer Straße 10.[^anc-bautzen-1921] On 2 October 1926 Alwin, a \"Fabrikant\" living at Wendischer Graben 3 in Bautzen, married Gertrud Elise Becker at the Dresden V registry office (1926 Nr. 352). The witnesses were Ernst Eifler, a farmer of Sohland an der Spree Nr. 247, aged 61 (probably his father), and the bride's father.[^anc-marriage-1926] From 1928 he is listed as sole owner (Inhaber) of the Stahldrahtmatratzenfabrik Weickert & Eifler, with the factory at Gnaschwitz and his home and office at Neusalzaer Straße 38.[^slub-bautzen-1928] By 1935 the firm was at Martin-Mutschmann-Straße 19 (today Wilthener Straße 19), a house he owned by 1938.[^anc-bautzen-1935][^slub-bautzen-1938] The family chart says he died on 18 December 1968 of a basal skull fracture after a car accident, aged 76, and names his siblings as Max, Alfred and Martha.[^ahnentafel-2007] His death is not in the Bautzen city register for 1968, so it was probably registered where the accident happened; Gertrud is recorded as widowed in 1973.[^findbuch-index-1968][^findbuch-death-1973] See the Weickert & Eifler page for the full story of the firm.",
+      "residences": [
+        {
+          "place": "Bautzen",
+          "placeId": "bautzen-wendischer-graben-3",
+          "address": "Wendischer Graben 3",
+          "years": "1926",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-marriage-1926"
+          ]
+        },
+        {
+          "place": "Bautzen",
+          "placeId": "bautzen-neusalzaer-38",
+          "address": "Neusalzaer Straße 38, Hinterhaus",
+          "years": "1928 to 1932",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "slub-bautzen-1928",
+            "slub-bautzen-1929"
+          ]
+        },
+        {
+          "place": "Bautzen",
+          "placeId": "wilthener-19",
+          "address": "Martin-Mutschmann-Straße 19 (Wilthener Straße 19)",
+          "years": "1938",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "slub-bautzen-1938"
+          ]
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Fabrikant; sole owner (Inhaber)",
+          "employer": "Stahldrahtmatratzenfabrik Weickert & Eifler",
+          "place": "Bautzen and Gnaschwitz/Singwitz",
+          "placeId": "gnaschwitz",
+          "years": "1926 to at least 1943",
+          "note": "Partner name in the firm by 1921; sole owner from at least 1928. Handelsregister Nr. 885 (1928), A 173 (1938).",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-bautzen-1921",
+            "slub-bautzen-1928",
+            "slub-bautzen-1938",
+            "weickert-invoice-1943"
+          ]
+        }
+      ],
+      "timeline": [],
+      "facts": [],
+      "media": [
+        {
+          "type": "document",
+          "file": "images/weickert-eifler-letterhead.jpg",
+          "caption": "Advertising letterhead, Weickert & Eifler, Bautzen. Undated; the street name dates it to 1933-1945.",
+          "alt": "Pre-printed advertising letterhead, Weickert and Eifler, Bautzen, from the Nazi period (1933-1945).",
+          "sourceId": "weickert-letterhead"
+        },
+        {
+          "type": "document",
+          "file": "images/weickert-eifler-rechnung-1943.jpg",
+          "caption": "Business invoice, 9 April 1943, with Gertrud Eifler's signed receipt of 28 April 1943.",
+          "alt": "Weickert and Eifler business invoice, 9 April 1943, with payment receipt signed by Gertrud Eifler.",
+          "sourceId": "weickert-invoice-1943"
+        },
+        {
+          "type": "document",
+          "file": "images/alvin-yellow-pages.png",
+          "caption": "Bautzen Adressbuch 1938, page 14 (family copy). The highlighted line is \"Eifler, Alwin, Kaufmann, Martin-Mutschmann-Str. 19\".",
+          "alt": "Page 14 of the 1938 Bautzen address book with the Alwin Eifler entry highlighted.",
+          "sourceId": "adressbuch-eifler"
+        },
+        {
+          "type": "document",
+          "file": "images/records/1928-bautzen-handelsregister-885-weickert-eifler.jpg",
+          "caption": "Bautzen Adressbuch 1928, commercial register: Nr. 885 Stahldrahtmatratzenfabrik Weickert & Eifler, Inhaber Alwin Eifler. SLUB Dresden, public domain.",
+          "alt": "Highlighted commercial register line from the 1928 Bautzen address book.",
+          "sourceId": "slub-bautzen-1928"
+        },
+        {
+          "type": "document",
+          "file": "images/records/1938-bautzen-house-owner-mms19-eifler.jpg",
+          "caption": "Bautzen Adressbuch 1938, house owners: Martin-Mutschmann-Straße 19, owner Eifler, Alwin, Fabrikant. SLUB Dresden, public domain.",
+          "alt": "Highlighted house register line from the 1938 Bautzen address book.",
+          "sourceId": "slub-bautzen-1938"
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Where and on what date his death was registered (December 1968)."
+        },
+        {
+          "question": "His parents (Sohland birth entry 1892, about Nr. 158)."
+        },
+        {
+          "question": "When Bruno Weickert left the firm, and what happened to the firm after 1945."
+        }
+      ],
+      "relatedPages": [
+        {
+          "url": "weickert-eifler.html",
+          "title": "Weickert & Eifler"
+        },
+        {
+          "url": "research.html",
+          "title": "Research & Records"
+        }
+      ],
+      "photo": null
     },
     {
-     "question": "Date and place of her marriage to Richard Becker."
-    }
-   ],
-   "relatedPages": [],
-   "photo": null
-  },
-  {
-   "id": "ernst-alwin",
-   "displayName": "Ernst Alwin Eifler",
-   "givenNames": "Ernst Alwin",
-   "surname": "Eifler",
-   "disambiguator": "Alwin, of Weickert & Eifler",
-   "sex": "M",
-   "generation": 1,
-   "isLiving": false,
-   "isDirectLine": true,
-   "confidence": "confirmed",
-   "nameVariants": [
-    {
-     "name": "Alwin Eifler",
-     "note": "the name he used in business",
-     "sourceIds": [
-      "ahnentafel-2007",
-      "weickert-letterhead"
-     ]
-    }
-   ],
-   "parents": [],
-   "children": [
-    "sigrid",
-    "christa"
-   ],
-   "spouses": [
-    {
-     "id": "gertrud-becker",
-     "order": 1,
-     "marriageDate": "1926-10-02",
-     "marriageDisplay": "2 October 1926",
-     "place": "Standesamt Dresden V, Dresden",
-     "placeId": null,
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-marriage-1926",
-      "findbuch-death-1973"
-     ]
-    }
-   ],
-   "birth": {
-    "date": "1892-10-07",
-    "display": "7 October 1892",
-    "place": "Sohland an der Spree",
-    "placeId": "sohland",
-    "confidence": "confirmed",
-    "sourceIds": [
-     "anc-marriage-1926",
-     "ahnentafel-2007"
-    ]
-   },
-   "death": {
-    "date": "1968-12-18",
-    "display": "18 December 1968",
-    "place": "near Bautzen (the family chart says Bautzen)",
-    "placeId": null,
-    "confidence": "family tradition",
-    "sourceIds": [
-     "ahnentafel-2007",
-     "findbuch-index-1968",
-     "findbuch-death-1973"
-    ]
-   },
-   "cardPlace": "Bautzen",
-   "summary": "Father of Christa Kohlmann and Sigrid Michaelis.",
-   "story": "Father of Christa Kohlmann and Sigrid Michaelis, and Thomas Kohlmann's maternal grandfather. Born 7 October 1892 in Sohland an der Spree; his marriage entry gives the place and cites his Sohland birth entry.[^anc-marriage-1926] A Weickert & Eifler saddlery and upholstery shop already existed in Bautzen in 1921, run by the master saddler Bruno Weickert at Löbauer Straße 10.[^anc-bautzen-1921] On 2 October 1926 Alwin, a \"Fabrikant\" living at Wendischer Graben 3 in Bautzen, married Gertrud Elise Becker at the Dresden V registry office (1926 Nr. 352). The witnesses were Ernst Eifler, a farmer of Sohland an der Spree Nr. 247, aged 61 (probably his father), and the bride's father.[^anc-marriage-1926] From 1928 he is listed as sole owner (Inhaber) of the Stahldrahtmatratzenfabrik Weickert & Eifler, with the factory at Gnaschwitz and his home and office at Neusalzaer Straße 38.[^slub-bautzen-1928] By 1935 the firm was at Martin-Mutschmann-Straße 19 (today Wilthener Straße 19), a house he owned by 1938.[^anc-bautzen-1935][^slub-bautzen-1938] The family chart says he died on 18 December 1968 of a basal skull fracture after a car accident, aged 76, and names his siblings as Max, Alfred and Martha.[^ahnentafel-2007] His death is not in the Bautzen city register for 1968, so it was probably registered where the accident happened; Gertrud is recorded as widowed in 1973.[^findbuch-index-1968][^findbuch-death-1973] See the Weickert & Eifler page for the full story of the firm.",
-   "residences": [
-    {
-     "place": "Bautzen",
-     "placeId": "bautzen-wendischer-graben-3",
-     "address": "Wendischer Graben 3",
-     "years": "1926",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-marriage-1926"
-     ]
+      "id": "gertrud-becker",
+      "displayName": "Gertrud Elise Eifler",
+      "givenNames": "Gertrud Elise",
+      "surname": "Eifler",
+      "disambiguator": "née Becker",
+      "sex": "F",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "nameVariants": [
+        {
+          "name": "Gertrud Elise Becker",
+          "note": "name at birth",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ]
+        },
+        {
+          "name": "Gertrud",
+          "note": "called Gertrud",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ]
+        }
+      ],
+      "parents": [
+        "richard-becker",
+        "elise-just"
+      ],
+      "children": [
+        "sigrid",
+        "christa"
+      ],
+      "spouses": [
+        {
+          "id": "ernst-alwin",
+          "order": 1,
+          "marriageDate": "1926-10-02",
+          "marriageDisplay": "2 October 1926",
+          "place": "Standesamt Dresden V, Dresden",
+          "placeId": "dresden",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-marriage-1926",
+            "findbuch-death-1973"
+          ]
+        }
+      ],
+      "birth": {
+        "date": "1905-01-22",
+        "display": "22 January 1905",
+        "place": "Ziegelstraße 2, Dresden",
+        "placeId": "dresden-ziegelstrasse-2",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "anc-birth-1905"
+        ]
+      },
+      "death": {
+        "date": "1973-12-11",
+        "display": "11 December 1973",
+        "place": "Wilthener Straße 19, Bautzen",
+        "placeId": "wilthener-19",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "findbuch-death-1973"
+        ]
+      },
+      "cardPlace": "Dresden and Bautzen",
+      "summary": "Mother of Christa Kohlmann and Sigrid Michaelis.",
+      "story": "Mother of Christa Kohlmann and Sigrid Michaelis, and Thomas Kohlmann's maternal grandmother. Born 22 January 1905 at Ziegelstraße 2 in Dresden, daughter of the merchant Richard Hermann Becker, who reported the birth (Dresden I 1905 Nr. 165).[^anc-birth-1905] Living with her parents at Rothermundtstraße 5 in Dresden-Striesen, she married Alwin Eifler on 2 October 1926 at the Dresden V registry office, aged 21.[^anc-marriage-1926] A Weickert & Eifler invoice of 9 April 1943 carries her signed receipt: \"Betrag dankend erhalten. Gertrud Eifler. d. 28.4.1943.\" That shows she signed for the firm; whether she kept its books is not recorded.[^weickert-invoice-1943] In 1954 she reported her mother's death at the family house, Wilthener Straße 19, Bautzen.[^findbuch-death-1954] She died there, a widow, at 3:00 in the morning of 11 December 1973, aged 68 (Bautzen 1973 Nr. 1052).[^findbuch-death-1973] The family chart gives cancer as the cause.[^ahnentafel-2007]",
+      "residences": [
+        {
+          "place": "Dresden",
+          "placeId": "dresden-ziegelstrasse-2",
+          "address": "Ziegelstraße 2, I",
+          "years": "1905",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-birth-1905"
+          ]
+        },
+        {
+          "place": "Dresden-Striesen",
+          "placeId": "dresden-rothermundtstrasse-5",
+          "address": "Rothermundtstraße 5",
+          "years": "1926",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-marriage-1926"
+          ]
+        },
+        {
+          "place": "Bautzen",
+          "placeId": "wilthener-19",
+          "address": "Wilthener Straße 19",
+          "years": "1954 to 1973",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-1954",
+            "findbuch-death-1973"
+          ]
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Signed for the firm",
+          "employer": "Stahldrahtmatratzenfabrik Weickert & Eifler",
+          "place": "Bautzen",
+          "placeId": "wilthener-19",
+          "years": "1943",
+          "note": "Signed the payment receipt on the 9 April 1943 invoice.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "weickert-invoice-1943"
+          ]
+        }
+      ],
+      "timeline": [],
+      "facts": [],
+      "media": [
+        {
+          "type": "document",
+          "file": "images/weickert-eifler-rechnung-1943.jpg",
+          "caption": "Business invoice, 9 April 1943. Gertrud Eifler signed the receipt on 28 April 1943.",
+          "alt": "Weickert and Eifler business invoice, 9 April 1943, with payment receipt signed by Gertrud Eifler.",
+          "sourceId": "weickert-invoice-1943"
+        },
+        {
+          "type": "document",
+          "file": "images/records/1973-bautzen-death-1052-gertrud-elise-eifler.jpg",
+          "caption": "Bautzen death register 1973, Nr. 1052: Gertrud Elise Eifler née Becker. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
+          "alt": "Typed civil death entry number 1052 of 1973 from Bautzen, highlighted.",
+          "sourceId": "findbuch-death-1973"
+        }
+      ],
+      "openQuestions": [],
+      "relatedPages": [
+        {
+          "url": "weickert-eifler.html",
+          "title": "Weickert & Eifler"
+        }
+      ],
+      "photo": null
     },
     {
-     "place": "Bautzen",
-     "placeId": "bautzen-neusalzaer-38",
-     "address": "Neusalzaer Straße 38, Hinterhaus",
-     "years": "1928 to 1932",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "slub-bautzen-1928",
-      "slub-bautzen-1929"
-     ]
+      "id": "alvin",
+      "displayName": "Alvin Kohlmann",
+      "givenNames": "Alvin",
+      "surname": "Kohlmann",
+      "disambiguator": "Thomas's father",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "unverified",
+      "nameVariants": [],
+      "parents": [],
+      "children": [
+        "thomas",
+        "matthias",
+        "sabine"
+      ],
+      "spouses": [
+        {
+          "id": "christa",
+          "order": 1,
+          "marriageDate": "1952-07-24",
+          "marriageDisplay": "24 July 1952",
+          "place": "Bautzen",
+          "placeId": "bautzen",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ]
+        }
+      ],
+      "birth": null,
+      "death": null,
+      "cardPlace": null,
+      "summary": "Thomas's father.",
+      "story": "Thomas's father. Married Elise Christa Eifler on 24 July 1952 in Bautzen (her father Alwin Eifler was sole proprietor of the steel wire mattress factory Weickert & Eifler in Bautzen). Deceased. Not on the maternal Ahnentafel because that chart only documents Christa's bloodline. [PLACEHOLDER: birth date and place, death date and place, occupation, siblings, anything about his life. The Bautzen civil marriage record from 24 July 1952 is the cleanest single source to chase: it would name his parents, birthplace, and occupation.][^family-knowledge]",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [],
+      "relatedPages": [],
+      "photo": null
     },
     {
-     "place": "Bautzen",
-     "placeId": "wilthener-19",
-     "address": "Martin-Mutschmann-Straße 19 (Wilthener Straße 19)",
-     "years": "1938",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "slub-bautzen-1938"
-     ]
-    }
-   ],
-   "occupations": [
-    {
-     "title": "Fabrikant; sole owner (Inhaber)",
-     "employer": "Stahldrahtmatratzenfabrik Weickert & Eifler",
-     "place": "Bautzen and Gnaschwitz/Singwitz",
-     "placeId": "gnaschwitz",
-     "years": "1926 to at least 1943",
-     "note": "Partner name in the firm by 1921; sole owner from at least 1928. Handelsregister Nr. 885 (1928), A 173 (1938).",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-bautzen-1921",
-      "slub-bautzen-1928",
-      "slub-bautzen-1938",
-      "weickert-invoice-1943"
-     ]
-    }
-   ],
-   "timeline": [],
-   "facts": [],
-   "media": [
-    {
-     "type": "document",
-     "file": "images/weickert-eifler-letterhead.jpg",
-     "caption": "Advertising letterhead, Weickert & Eifler, Bautzen. Undated; the street name dates it to 1933-1945.",
-     "alt": "Pre-printed advertising letterhead, Weickert and Eifler, Bautzen, from the Nazi period (1933-1945).",
-     "sourceId": "weickert-letterhead"
+      "id": "christa",
+      "displayName": "Elise Christa Kohlmann",
+      "givenNames": "Elise Christa",
+      "surname": "Kohlmann",
+      "disambiguator": "née Eifler, called Christa",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "nameVariants": [
+        {
+          "name": "Elise Christa Eifler",
+          "note": "name at birth",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ]
+        },
+        {
+          "name": "Christa",
+          "note": "called Christa",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ]
+        }
+      ],
+      "parents": [
+        "ernst-alwin",
+        "gertrud-becker"
+      ],
+      "children": [
+        "thomas",
+        "matthias",
+        "sabine"
+      ],
+      "spouses": [
+        {
+          "id": "alvin",
+          "order": 1,
+          "marriageDate": "1952-07-24",
+          "marriageDisplay": "24 July 1952",
+          "place": "Bautzen",
+          "placeId": "bautzen",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ]
+        }
+      ],
+      "birth": {
+        "date": "1928-11-25",
+        "display": "25 November 1928",
+        "place": "Bautzen, Saxony",
+        "placeId": "bautzen",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "ahnentafel-2007"
+        ]
+      },
+      "death": {
+        "date": "2006-05-21",
+        "display": "21 May 2006",
+        "place": "Starnberg, Bavaria",
+        "placeId": "starnberg",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "ahnentafel-2007"
+        ]
+      },
+      "cardPlace": "Bautzen, then Starnberg",
+      "summary": "Thomas Kohlmann's mother.",
+      "story": "Thomas Kohlmann's mother. Daughter of Ernst Alwin Eifler (sole proprietor of the family firm Weickert & Eifler in Bautzen) and Gertrud Elise Eifler (née Becker). Younger sister of Sigrid Michaelis (née Eifler). Married Alvin Kohlmann on 24 July 1952 in Bautzen. Died of cancer (Krebs) at age 77. Mother of Thomas, Matthias, and Sabine.[^ahnentafel-2007]",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [],
+      "relatedPages": [],
+      "photo": null,
+      "order": 2
     },
     {
-     "type": "document",
-     "file": "images/weickert-eifler-rechnung-1943.jpg",
-     "caption": "Business invoice, 9 April 1943, with Gertrud Eifler's signed receipt of 28 April 1943.",
-     "alt": "Weickert and Eifler business invoice, 9 April 1943, with payment receipt signed by Gertrud Eifler.",
-     "sourceId": "weickert-invoice-1943"
+      "id": "sigrid",
+      "displayName": "Gertrud Sigrid Michaelis",
+      "givenNames": "Gertrud Sigrid",
+      "surname": "Michaelis",
+      "disambiguator": "née Eifler, called Sigrid",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "probable",
+      "nameVariants": [
+        {
+          "name": "Gertrud Sigrid Eifler",
+          "note": "name at birth",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ]
+        },
+        {
+          "name": "Sigrid",
+          "note": "called Sigrid",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ]
+        }
+      ],
+      "parents": [
+        "ernst-alwin",
+        "gertrud-becker"
+      ],
+      "children": [],
+      "spouses": [],
+      "birth": {
+        "date": "1927-07-20",
+        "display": "20 July 1927",
+        "place": "Bautzen, Saxony",
+        "placeId": null,
+        "confidence": "probable",
+        "sourceIds": [
+          "ahnentafel-2007"
+        ]
+      },
+      "death": null,
+      "cardPlace": null,
+      "summary": "Thomas's maternal aunt.",
+      "story": "Thomas's maternal aunt. Older sister of Christa. Daughter of Ernst Alwin Eifler and Gertrud Elise Eifler (née Becker). Married a Michaelis on 20 August 1953 in Bautzen; husband's first name not given on page 1 of the Ahnentafel. As of the chart's compilation date (18 January 2007) she was presumably still living; current status unknown without further research. Would be 98 in 2025.[^ahnentafel-2007]",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [
+        {
+          "label": "Marriage",
+          "value": "20 August 1953 in Bautzen, to a man surnamed Michaelis. His first name is not on the Ahnentafel, so he is not a separate person on this tree.",
+          "confidence": "probable",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ]
+        }
+      ],
+      "media": [],
+      "openQuestions": [],
+      "relatedPages": [],
+      "photo": null,
+      "order": 1
     },
     {
-     "type": "document",
-     "file": "images/alvin-yellow-pages.png",
-     "caption": "Bautzen Adressbuch 1938, page 14 (family copy). The highlighted line is \"Eifler, Alwin, Kaufmann, Martin-Mutschmann-Str. 19\".",
-     "alt": "Page 14 of the 1938 Bautzen address book with the Alwin Eifler entry highlighted.",
-     "sourceId": "adressbuch-eifler"
+      "id": "rita-father",
+      "displayName": "Werner",
+      "givenNames": "[PLACEHOLDER: first name]",
+      "surname": "Werner",
+      "disambiguator": "Rita's father, first name unknown",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "probable",
+      "nameVariants": [],
+      "parents": [],
+      "children": [
+        "rita",
+        "heide",
+        "annette"
+      ],
+      "spouses": [
+        {
+          "id": "rita-mother",
+          "order": 1,
+          "marriageDate": null,
+          "marriageDisplay": null,
+          "place": null,
+          "placeId": null,
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-testimony"
+          ],
+          "relation": "partner",
+          "note": "The site lists them as a couple and as the parents of Rita, Heide and Annette. It also says they were not married when Rita was born, and that it is not known whether they ever married."
+        }
+      ],
+      "birth": null,
+      "death": null,
+      "cardPlace": null,
+      "summary": "Rita's father.",
+      "story": "Rita's father. His surname Werner is the surname Rita's was changed to from Woltmann. Father of Rita, Heide, and Annette. [PLACEHOLDER: first name, dates, location, occupation, whether he and Brigitte ever married.][^family-testimony]",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [],
+      "relatedPages": [],
+      "photo": null,
+      "nameUncertain": true
     },
     {
-     "type": "document",
-     "file": "images/records/1928-bautzen-handelsregister-885-weickert-eifler.jpg",
-     "caption": "Bautzen Adressbuch 1928, commercial register: Nr. 885 Stahldrahtmatratzenfabrik Weickert & Eifler, Inhaber Alwin Eifler. SLUB Dresden, public domain.",
-     "alt": "Highlighted commercial register line from the 1928 Bautzen address book.",
-     "sourceId": "slub-bautzen-1928"
+      "id": "rita-mother",
+      "displayName": "Brigitte Woltmann",
+      "givenNames": "Brigitte",
+      "surname": "Woltmann",
+      "disambiguator": "Rita's mother",
+      "sex": "F",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "probable",
+      "nameVariants": [],
+      "parents": [],
+      "children": [
+        "rita",
+        "heide",
+        "annette"
+      ],
+      "spouses": [
+        {
+          "id": "rita-father",
+          "order": 1,
+          "marriageDate": null,
+          "marriageDisplay": null,
+          "place": null,
+          "placeId": null,
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-testimony"
+          ],
+          "relation": "partner",
+          "note": "The site lists them as a couple and as the parents of Rita, Heide and Annette. It also says they were not married when Rita was born, and that it is not known whether they ever married."
+        }
+      ],
+      "birth": null,
+      "death": null,
+      "cardPlace": null,
+      "summary": "Rita's mother.",
+      "story": "Rita's mother. Surname Woltmann is the name she carried at the time of Rita's birth (she and Rita's father were not married then). Whether her surname later changed; to Werner if she married Rita's father, or otherwise; is not yet known. Mother of Rita, Heide, and Annette. [PLACEHOLDER: maiden surname if Woltmann was already a married name, dates, location.][^family-testimony]",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [],
+      "relatedPages": [],
+      "photo": null
     },
     {
-     "type": "document",
-     "file": "images/records/1938-bautzen-house-owner-mms19-eifler.jpg",
-     "caption": "Bautzen Adressbuch 1938, house owners: Martin-Mutschmann-Straße 19, owner Eifler, Alwin, Fabrikant. SLUB Dresden, public domain.",
-     "alt": "Highlighted house register line from the 1938 Bautzen address book.",
-     "sourceId": "slub-bautzen-1938"
-    }
-   ],
-   "openQuestions": [
-    {
-     "question": "Where and on what date his death was registered (December 1968)."
+      "id": "thomas",
+      "displayName": "Thomas Kohlmann",
+      "givenNames": "Thomas",
+      "surname": "Kohlmann",
+      "disambiguator": "Valeria's father",
+      "sex": "M",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "nameVariants": [],
+      "parents": [
+        "alvin",
+        "christa"
+      ],
+      "children": [
+        "valeria",
+        "elisa"
+      ],
+      "spouses": [
+        {
+          "id": "rita",
+          "order": 1,
+          "marriageDate": "1980",
+          "marriageDisplay": "1980",
+          "place": "Munich",
+          "placeId": null,
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-testimony"
+          ],
+          "note": "Family testimony. No marriage record is cited on the site."
+        }
+      ],
+      "birth": {
+        "date": "1956",
+        "display": "1956",
+        "place": "Radebeul, Saxony, East Germany",
+        "placeId": null,
+        "confidence": "confirmed",
+        "sourceIds": [
+          "family-testimony"
+        ]
+      },
+      "death": null,
+      "cardPlace": null,
+      "summary": "Valeria's father.",
+      "story": "Valeria's father. Born 1956 in Radebeul, Saxony (East Germany). Son of Alvin Kohlmann and Elise Christa Kohlmann (née Eifler). Brother of Matthias and Sabine. Escaped from East Germany to West Germany; later helped Rita escape. Married Rita in 1980 in Munich. [PLACEHOLDER: exact birth date, escape date and route, current city, occupation.][^family-testimony]",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [],
+      "relatedPages": [
+        {
+          "url": "escape-from-east-germany.html",
+          "title": "The Escape from East Germany"
+        }
+      ],
+      "photo": null,
+      "order": 1
     },
     {
-     "question": "His parents (Sohland birth entry 1892, about Nr. 158)."
+      "id": "matthias",
+      "displayName": "Matthias Kohlmann",
+      "givenNames": "Matthias",
+      "surname": "Kohlmann",
+      "disambiguator": "Thomas's brother",
+      "sex": "M",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "probable",
+      "nameVariants": [],
+      "parents": [
+        "alvin",
+        "christa"
+      ],
+      "children": [],
+      "spouses": [],
+      "birth": null,
+      "death": null,
+      "cardPlace": null,
+      "summary": "Thomas's brother.",
+      "story": "Thomas's brother. Son of Alvin Kohlmann and Elise Christa Kohlmann (née Eifler). [PLACEHOLDER: birth year, location, occupation, marriage and any children.][^family-testimony]",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [],
+      "relatedPages": [],
+      "photo": null,
+      "order": 2
     },
     {
-     "question": "When Bruno Weickert left the firm, and what happened to the firm after 1945."
-    }
-   ],
-   "relatedPages": [
-    {
-     "url": "weickert-eifler.html",
-     "title": "Weickert & Eifler"
+      "id": "sabine",
+      "displayName": "Sabine Kohlmann",
+      "givenNames": "Sabine",
+      "surname": "Kohlmann",
+      "disambiguator": "Thomas's sister",
+      "sex": "F",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "probable",
+      "nameVariants": [],
+      "parents": [
+        "alvin",
+        "christa"
+      ],
+      "children": [],
+      "spouses": [],
+      "birth": null,
+      "death": null,
+      "cardPlace": null,
+      "summary": "Thomas's sister.",
+      "story": "Thomas's sister. Daughter of Alvin Kohlmann and Elise Christa Kohlmann (née Eifler). [PLACEHOLDER: birth year, location, married name if any, family.][^family-testimony]",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [],
+      "relatedPages": [],
+      "photo": null,
+      "order": 3
     },
     {
-     "url": "research.html",
-     "title": "Research & Records"
-    }
-   ],
-   "photo": null
-  },
-  {
-   "id": "gertrud-becker",
-   "displayName": "Gertrud Elise Eifler",
-   "givenNames": "Gertrud Elise",
-   "surname": "Eifler",
-   "disambiguator": "née Becker",
-   "sex": "F",
-   "generation": 1,
-   "isLiving": false,
-   "isDirectLine": true,
-   "confidence": "confirmed",
-   "nameVariants": [
-    {
-     "name": "Gertrud Elise Becker",
-     "note": "name at birth",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ]
+      "id": "rita",
+      "displayName": "Rita Kohlmann",
+      "givenNames": "Rita",
+      "surname": "Kohlmann",
+      "disambiguator": "née Werner, born Woltmann",
+      "sex": "F",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "nameVariants": [
+        {
+          "name": "Rita Woltmann",
+          "note": "birth surname, her mother's surname",
+          "sourceIds": [
+            "family-testimony"
+          ]
+        },
+        {
+          "name": "Rita Werner",
+          "note": "surname before marriage, her father's surname",
+          "sourceIds": [
+            "family-testimony"
+          ]
+        }
+      ],
+      "parents": [
+        "rita-father",
+        "rita-mother"
+      ],
+      "children": [
+        "valeria",
+        "elisa"
+      ],
+      "spouses": [
+        {
+          "id": "thomas",
+          "order": 1,
+          "marriageDate": "1980",
+          "marriageDisplay": "1980",
+          "place": "Munich",
+          "placeId": null,
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-testimony"
+          ],
+          "note": "Family testimony. No marriage record is cited on the site."
+        }
+      ],
+      "birth": {
+        "date": "1956",
+        "display": "1956",
+        "place": "Döbeln, Saxony, East Germany",
+        "placeId": null,
+        "confidence": "confirmed",
+        "sourceIds": [
+          "family-testimony"
+        ]
+      },
+      "death": null,
+      "cardPlace": null,
+      "summary": "Valeria's mother.",
+      "story": "Valeria's mother. Born 1956 in Döbeln, Saxony (East Germany). Sister of Heide and Annette. Birth surname was Woltmann (her mother Brigitte's surname; her parents were not married at the time of her birth). Surname later changed to Werner (her father's surname); Werner is the maiden name she carried into marriage. Escaped from East Germany to West Germany after Thomas, who helped her get out. Married Thomas in 1980 in Munich. [PLACEHOLDER: exact birth date, escape date and route, current city.][^family-testimony]",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [],
+      "relatedPages": [
+        {
+          "url": "escape-from-east-germany.html",
+          "title": "The Escape from East Germany"
+        }
+      ],
+      "photo": null,
+      "order": 1
     },
     {
-     "name": "Gertrud",
-     "note": "called Gertrud",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ]
-    }
-   ],
-   "parents": [
-    "richard-becker",
-    "elise-just"
-   ],
-   "children": [
-    "sigrid",
-    "christa"
-   ],
-   "spouses": [
-    {
-     "id": "ernst-alwin",
-     "order": 1,
-     "marriageDate": "1926-10-02",
-     "marriageDisplay": "2 October 1926",
-     "place": "Standesamt Dresden V, Dresden",
-     "placeId": null,
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-marriage-1926",
-      "findbuch-death-1973"
-     ]
-    }
-   ],
-   "birth": {
-    "date": "1905-01-22",
-    "display": "22 January 1905",
-    "place": "Ziegelstraße 2, Dresden",
-    "placeId": "dresden-ziegelstrasse-2",
-    "confidence": "confirmed",
-    "sourceIds": [
-     "anc-birth-1905"
-    ]
-   },
-   "death": {
-    "date": "1973-12-11",
-    "display": "11 December 1973",
-    "place": "Wilthener Straße 19, Bautzen",
-    "placeId": "wilthener-19",
-    "confidence": "confirmed",
-    "sourceIds": [
-     "findbuch-death-1973"
-    ]
-   },
-   "cardPlace": "Dresden and Bautzen",
-   "summary": "Mother of Christa Kohlmann and Sigrid Michaelis.",
-   "story": "Mother of Christa Kohlmann and Sigrid Michaelis, and Thomas Kohlmann's maternal grandmother. Born 22 January 1905 at Ziegelstraße 2 in Dresden, daughter of the merchant Richard Hermann Becker, who reported the birth (Dresden I 1905 Nr. 165).[^anc-birth-1905] Living with her parents at Rothermundtstraße 5 in Dresden-Striesen, she married Alwin Eifler on 2 October 1926 at the Dresden V registry office, aged 21.[^anc-marriage-1926] A Weickert & Eifler invoice of 9 April 1943 carries her signed receipt: \"Betrag dankend erhalten. Gertrud Eifler. d. 28.4.1943.\" That shows she signed for the firm; whether she kept its books is not recorded.[^weickert-invoice-1943] In 1954 she reported her mother's death at the family house, Wilthener Straße 19, Bautzen.[^findbuch-death-1954] She died there, a widow, at 3:00 in the morning of 11 December 1973, aged 68 (Bautzen 1973 Nr. 1052).[^findbuch-death-1973] The family chart gives cancer as the cause.[^ahnentafel-2007]",
-   "residences": [
-    {
-     "place": "Dresden",
-     "placeId": "dresden-ziegelstrasse-2",
-     "address": "Ziegelstraße 2, I",
-     "years": "1905",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-birth-1905"
-     ]
+      "id": "heide",
+      "displayName": "Heide",
+      "givenNames": "Heide",
+      "surname": null,
+      "disambiguator": "Rita's sister, surname unknown",
+      "sex": "F",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "unverified",
+      "nameVariants": [
+        {
+          "name": "[PLACEHOLDER: maiden surname, Woltmann or Werner]",
+          "note": "not yet known",
+          "sourceIds": [
+            "family-testimony"
+          ]
+        }
+      ],
+      "parents": [
+        "rita-father",
+        "rita-mother"
+      ],
+      "children": [],
+      "spouses": [],
+      "birth": null,
+      "death": null,
+      "cardPlace": null,
+      "summary": "Rita's sister.",
+      "story": "Rita's sister. Maiden surname was either Woltmann or Werner depending on her birth year relative to Rita's surname change; to be confirmed. [PLACEHOLDER: birth year, location, marriage and any children.][^family-testimony]",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [],
+      "relatedPages": [],
+      "photo": null,
+      "order": 2
     },
     {
-     "place": "Dresden-Striesen",
-     "placeId": "dresden-rothermundtstrasse-5",
-     "address": "Rothermundtstraße 5",
-     "years": "1926",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-marriage-1926"
-     ]
+      "id": "annette",
+      "displayName": "Annette",
+      "givenNames": "Annette",
+      "surname": null,
+      "disambiguator": "Rita's sister, surname unknown",
+      "sex": "F",
+      "generation": 3,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "unverified",
+      "nameVariants": [
+        {
+          "name": "[PLACEHOLDER: maiden surname, Woltmann or Werner]",
+          "note": "not yet known",
+          "sourceIds": [
+            "family-testimony"
+          ]
+        }
+      ],
+      "parents": [
+        "rita-father",
+        "rita-mother"
+      ],
+      "children": [],
+      "spouses": [],
+      "birth": null,
+      "death": null,
+      "cardPlace": null,
+      "summary": "Rita's sister.",
+      "story": "Rita's sister. Maiden surname was either Woltmann or Werner depending on her birth year relative to Rita's surname change; to be confirmed. [PLACEHOLDER: birth year, location, marriage and any children.][^family-testimony]",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [],
+      "relatedPages": [],
+      "photo": null,
+      "order": 3
     },
     {
-     "place": "Bautzen",
-     "placeId": "wilthener-19",
-     "address": "Wilthener Straße 19",
-     "years": "1954 to 1973",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "findbuch-death-1954",
-      "findbuch-death-1973"
-     ]
-    }
-   ],
-   "occupations": [
-    {
-     "title": "Signed for the firm",
-     "employer": "Stahldrahtmatratzenfabrik Weickert & Eifler",
-     "place": "Bautzen",
-     "placeId": "wilthener-19",
-     "years": "1943",
-     "note": "Signed the payment receipt on the 9 April 1943 invoice.",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "weickert-invoice-1943"
-     ]
-    }
-   ],
-   "timeline": [],
-   "facts": [],
-   "media": [
-    {
-     "type": "document",
-     "file": "images/weickert-eifler-rechnung-1943.jpg",
-     "caption": "Business invoice, 9 April 1943. Gertrud Eifler signed the receipt on 28 April 1943.",
-     "alt": "Weickert and Eifler business invoice, 9 April 1943, with payment receipt signed by Gertrud Eifler.",
-     "sourceId": "weickert-invoice-1943"
+      "id": "valeria",
+      "displayName": "Valeria Kohlmann",
+      "givenNames": "Valeria",
+      "surname": "Kohlmann",
+      "disambiguator": "Thomas and Rita's elder daughter",
+      "sex": "F",
+      "generation": 4,
+      "isLiving": true,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "nameVariants": [],
+      "parents": [
+        "thomas",
+        "rita"
+      ],
+      "children": [
+        "enzo"
+      ],
+      "spouses": [
+        {
+          "id": "sebastian",
+          "order": 1,
+          "marriageDate": "2022-09",
+          "marriageDisplay": "September 2022",
+          "place": "Munich",
+          "placeId": null,
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-knowledge",
+            "self"
+          ],
+          "note": "Family knowledge. No marriage record is cited on the site."
+        }
+      ],
+      "birth": {
+        "date": "1990-06-27",
+        "display": "27 June 1990",
+        "place": "Munich, West Germany",
+        "placeId": null,
+        "confidence": "confirmed",
+        "sourceIds": [
+          "family-knowledge"
+        ]
+      },
+      "death": null,
+      "cardPlace": "Tampa, Florida",
+      "summary": "Daughter of Thomas and Rita Kohlmann.",
+      "story": "Daughter of Thomas and Rita Kohlmann. Born 27 June 1990 in Munich. Sister of Elisa. Married Sebastian Belfiore in September 2022 in Munich. Mother of Enzo.[^family-knowledge]",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [],
+      "relatedPages": [],
+      "photo": null,
+      "order": 1
     },
     {
-     "type": "document",
-     "file": "images/records/1973-bautzen-death-1052-gertrud-elise-eifler.jpg",
-     "caption": "Bautzen death register 1973, Nr. 1052: Gertrud Elise Eifler née Becker. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
-     "alt": "Typed civil death entry number 1052 of 1973 from Bautzen, highlighted.",
-     "sourceId": "findbuch-death-1973"
-    }
-   ],
-   "openQuestions": [],
-   "relatedPages": [
-    {
-     "url": "weickert-eifler.html",
-     "title": "Weickert & Eifler"
-    }
-   ],
-   "photo": null
-  },
-  {
-   "id": "alvin",
-   "displayName": "Alvin Kohlmann",
-   "givenNames": "Alvin",
-   "surname": "Kohlmann",
-   "disambiguator": "Thomas's father",
-   "sex": "M",
-   "generation": 2,
-   "isLiving": false,
-   "isDirectLine": true,
-   "confidence": "unverified",
-   "nameVariants": [],
-   "parents": [],
-   "children": [
-    "thomas",
-    "matthias",
-    "sabine"
-   ],
-   "spouses": [
-    {
-     "id": "christa",
-     "order": 1,
-     "marriageDate": "1952-07-24",
-     "marriageDisplay": "24 July 1952",
-     "place": "Bautzen",
-     "placeId": null,
-     "confidence": "confirmed",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ]
-    }
-   ],
-   "birth": null,
-   "death": null,
-   "cardPlace": null,
-   "summary": "Thomas's father.",
-   "story": "Thomas's father. Married Elise Christa Eifler on 24 July 1952 in Bautzen (her father Alwin Eifler was sole proprietor of the steel wire mattress factory Weickert & Eifler in Bautzen). Deceased. Not on the maternal Ahnentafel because that chart only documents Christa's bloodline. [PLACEHOLDER: birth date and place, death date and place, occupation, siblings, anything about his life. The Bautzen civil marriage record from 24 July 1952 is the cleanest single source to chase: it would name his parents, birthplace, and occupation.][^family-knowledge]",
-   "residences": [],
-   "occupations": [],
-   "timeline": [],
-   "facts": [],
-   "media": [],
-   "openQuestions": [],
-   "relatedPages": [],
-   "photo": null
-  },
-  {
-   "id": "christa",
-   "displayName": "Elise Christa Kohlmann",
-   "givenNames": "Elise Christa",
-   "surname": "Kohlmann",
-   "disambiguator": "née Eifler, called Christa",
-   "sex": "F",
-   "generation": 2,
-   "isLiving": false,
-   "isDirectLine": true,
-   "confidence": "confirmed",
-   "nameVariants": [
-    {
-     "name": "Elise Christa Eifler",
-     "note": "name at birth",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ]
+      "id": "elisa",
+      "displayName": "Elisa Kohlmann",
+      "givenNames": "Elisa",
+      "surname": "Kohlmann",
+      "disambiguator": "Thomas and Rita's younger daughter",
+      "sex": "F",
+      "generation": 4,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "nameVariants": [],
+      "parents": [
+        "thomas",
+        "rita"
+      ],
+      "children": [],
+      "spouses": [],
+      "birth": {
+        "date": "1994-03-25",
+        "display": "25 March 1994",
+        "place": "Munich, West Germany",
+        "placeId": null,
+        "confidence": "confirmed",
+        "sourceIds": [
+          "family-knowledge"
+        ]
+      },
+      "death": null,
+      "cardPlace": null,
+      "summary": "Daughter of Thomas and Rita Kohlmann.",
+      "story": "Daughter of Thomas and Rita Kohlmann. Born 25 March 1994 in Munich. Valeria's sister. [PLACEHOLDER: current location, occupation, marriage and family if any.][^family-knowledge]",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [],
+      "relatedPages": [],
+      "photo": null,
+      "order": 2
     },
     {
-     "name": "Christa",
-     "note": "called Christa",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ]
-    }
-   ],
-   "parents": [
-    "ernst-alwin",
-    "gertrud-becker"
-   ],
-   "children": [
-    "thomas",
-    "matthias",
-    "sabine"
-   ],
-   "spouses": [
-    {
-     "id": "alvin",
-     "order": 1,
-     "marriageDate": "1952-07-24",
-     "marriageDisplay": "24 July 1952",
-     "place": "Bautzen",
-     "placeId": null,
-     "confidence": "confirmed",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ]
-    }
-   ],
-   "birth": {
-    "date": "1928-11-25",
-    "display": "25 November 1928",
-    "place": "Bautzen, Saxony",
-    "placeId": null,
-    "confidence": "confirmed",
-    "sourceIds": [
-     "ahnentafel-2007"
-    ]
-   },
-   "death": {
-    "date": "2006-05-21",
-    "display": "21 May 2006",
-    "place": "Starnberg, Bavaria",
-    "placeId": null,
-    "confidence": "confirmed",
-    "sourceIds": [
-     "ahnentafel-2007"
-    ]
-   },
-   "cardPlace": "Bautzen, then Starnberg",
-   "summary": "Thomas Kohlmann's mother.",
-   "story": "Thomas Kohlmann's mother. Daughter of Ernst Alwin Eifler (sole proprietor of the family firm Weickert & Eifler in Bautzen) and Gertrud Elise Eifler (née Becker). Younger sister of Sigrid Michaelis (née Eifler). Married Alvin Kohlmann on 24 July 1952 in Bautzen. Died of cancer (Krebs) at age 77. Mother of Thomas, Matthias, and Sabine.[^ahnentafel-2007]",
-   "residences": [],
-   "occupations": [],
-   "timeline": [],
-   "facts": [],
-   "media": [],
-   "openQuestions": [],
-   "relatedPages": [],
-   "photo": null,
-   "order": 2
-  },
-  {
-   "id": "sigrid",
-   "displayName": "Gertrud Sigrid Michaelis",
-   "givenNames": "Gertrud Sigrid",
-   "surname": "Michaelis",
-   "disambiguator": "née Eifler, called Sigrid",
-   "sex": "F",
-   "generation": 2,
-   "isLiving": false,
-   "isDirectLine": false,
-   "confidence": "probable",
-   "nameVariants": [
-    {
-     "name": "Gertrud Sigrid Eifler",
-     "note": "name at birth",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ]
+      "id": "sebastian",
+      "displayName": "Sebastian Belfiore",
+      "givenNames": "Sebastian",
+      "surname": "Belfiore",
+      "disambiguator": "Valeria's husband",
+      "sex": "M",
+      "generation": 4,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "nameVariants": [],
+      "parents": [],
+      "children": [
+        "enzo"
+      ],
+      "spouses": [
+        {
+          "id": "valeria",
+          "order": 1,
+          "marriageDate": "2022-09",
+          "marriageDisplay": "September 2022",
+          "place": "Munich",
+          "placeId": null,
+          "confidence": "family tradition",
+          "sourceIds": [
+            "family-knowledge",
+            "self"
+          ],
+          "note": "Family knowledge. No marriage record is cited on the site."
+        }
+      ],
+      "birth": {
+        "date": "1991",
+        "display": "1991",
+        "place": null,
+        "placeId": null,
+        "confidence": "confirmed",
+        "sourceIds": [
+          "self"
+        ]
+      },
+      "death": null,
+      "cardPlace": "Tampa, Florida",
+      "summary": "Valeria's husband.",
+      "story": "Valeria's husband. Married Valeria Kohlmann in September 2022 in Munich. Father of Enzo. Holds US and UK citizenship. The researcher behind this site.[^self]",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [],
+      "relatedPages": [],
+      "photo": null
     },
     {
-     "name": "Sigrid",
-     "note": "called Sigrid",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ]
-    }
-   ],
-   "parents": [
-    "ernst-alwin",
-    "gertrud-becker"
-   ],
-   "children": [],
-   "spouses": [],
-   "birth": {
-    "date": "1927-07-20",
-    "display": "20 July 1927",
-    "place": "Bautzen, Saxony",
-    "placeId": null,
-    "confidence": "probable",
-    "sourceIds": [
-     "ahnentafel-2007"
-    ]
-   },
-   "death": null,
-   "cardPlace": null,
-   "summary": "Thomas's maternal aunt.",
-   "story": "Thomas's maternal aunt. Older sister of Christa. Daughter of Ernst Alwin Eifler and Gertrud Elise Eifler (née Becker). Married a Michaelis on 20 August 1953 in Bautzen; husband's first name not given on page 1 of the Ahnentafel. As of the chart's compilation date (18 January 2007) she was presumably still living; current status unknown without further research. Would be 98 in 2025.[^ahnentafel-2007]",
-   "residences": [],
-   "occupations": [],
-   "timeline": [],
-   "facts": [
-    {
-     "label": "Marriage",
-     "value": "20 August 1953 in Bautzen, to a man surnamed Michaelis. His first name is not on the Ahnentafel, so he is not a separate person on this tree.",
-     "confidence": "probable",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ]
-    }
-   ],
-   "media": [],
-   "openQuestions": [],
-   "relatedPages": [],
-   "photo": null,
-   "order": 1
-  },
-  {
-   "id": "rita-father",
-   "displayName": "Werner",
-   "givenNames": "[PLACEHOLDER: first name]",
-   "surname": "Werner",
-   "disambiguator": "Rita's father, first name unknown",
-   "sex": "M",
-   "generation": 2,
-   "isLiving": false,
-   "isDirectLine": true,
-   "confidence": "probable",
-   "nameVariants": [],
-   "parents": [],
-   "children": [
-    "rita",
-    "heide",
-    "annette"
-   ],
-   "spouses": [
-    {
-     "id": "rita-mother",
-     "order": 1,
-     "marriageDate": null,
-     "marriageDisplay": null,
-     "place": null,
-     "placeId": null,
-     "confidence": "family tradition",
-     "sourceIds": [
-      "family-testimony"
-     ],
-     "relation": "partner",
-     "note": "The site lists them as a couple and as the parents of Rita, Heide and Annette. It also says they were not married when Rita was born, and that it is not known whether they ever married."
-    }
-   ],
-   "birth": null,
-   "death": null,
-   "cardPlace": null,
-   "summary": "Rita's father.",
-   "story": "Rita's father. His surname Werner is the surname Rita's was changed to from Woltmann. Father of Rita, Heide, and Annette. [PLACEHOLDER: first name, dates, location, occupation, whether he and Brigitte ever married.][^family-testimony]",
-   "residences": [],
-   "occupations": [],
-   "timeline": [],
-   "facts": [],
-   "media": [],
-   "openQuestions": [],
-   "relatedPages": [],
-   "photo": null,
-   "nameUncertain": true
-  },
-  {
-   "id": "rita-mother",
-   "displayName": "Brigitte Woltmann",
-   "givenNames": "Brigitte",
-   "surname": "Woltmann",
-   "disambiguator": "Rita's mother",
-   "sex": "F",
-   "generation": 2,
-   "isLiving": false,
-   "isDirectLine": true,
-   "confidence": "probable",
-   "nameVariants": [],
-   "parents": [],
-   "children": [
-    "rita",
-    "heide",
-    "annette"
-   ],
-   "spouses": [
-    {
-     "id": "rita-father",
-     "order": 1,
-     "marriageDate": null,
-     "marriageDisplay": null,
-     "place": null,
-     "placeId": null,
-     "confidence": "family tradition",
-     "sourceIds": [
-      "family-testimony"
-     ],
-     "relation": "partner",
-     "note": "The site lists them as a couple and as the parents of Rita, Heide and Annette. It also says they were not married when Rita was born, and that it is not known whether they ever married."
-    }
-   ],
-   "birth": null,
-   "death": null,
-   "cardPlace": null,
-   "summary": "Rita's mother.",
-   "story": "Rita's mother. Surname Woltmann is the name she carried at the time of Rita's birth (she and Rita's father were not married then). Whether her surname later changed; to Werner if she married Rita's father, or otherwise; is not yet known. Mother of Rita, Heide, and Annette. [PLACEHOLDER: maiden surname if Woltmann was already a married name, dates, location.][^family-testimony]",
-   "residences": [],
-   "occupations": [],
-   "timeline": [],
-   "facts": [],
-   "media": [],
-   "openQuestions": [],
-   "relatedPages": [],
-   "photo": null
-  },
-  {
-   "id": "thomas",
-   "displayName": "Thomas Kohlmann",
-   "givenNames": "Thomas",
-   "surname": "Kohlmann",
-   "disambiguator": "Valeria's father",
-   "sex": "M",
-   "generation": 3,
-   "isLiving": true,
-   "isDirectLine": true,
-   "confidence": "confirmed",
-   "nameVariants": [],
-   "parents": [
-    "alvin",
-    "christa"
-   ],
-   "children": [
-    "valeria",
-    "elisa"
-   ],
-   "spouses": [
-    {
-     "id": "rita",
-     "order": 1,
-     "marriageDate": "1980",
-     "marriageDisplay": "1980",
-     "place": "Munich",
-     "placeId": null,
-     "confidence": "family tradition",
-     "sourceIds": [
-      "family-testimony"
-     ],
-     "note": "Family testimony. No marriage record is cited on the site."
-    }
-   ],
-   "birth": {
-    "date": "1956",
-    "display": "1956",
-    "place": "Radebeul, Saxony, East Germany",
-    "placeId": null,
-    "confidence": "confirmed",
-    "sourceIds": [
-     "family-testimony"
-    ]
-   },
-   "death": null,
-   "cardPlace": null,
-   "summary": "Valeria's father.",
-   "story": "Valeria's father. Born 1956 in Radebeul, Saxony (East Germany). Son of Alvin Kohlmann and Elise Christa Kohlmann (née Eifler). Brother of Matthias and Sabine. Escaped from East Germany to West Germany; later helped Rita escape. Married Rita in 1980 in Munich. [PLACEHOLDER: exact birth date, escape date and route, current city, occupation.][^family-testimony]",
-   "residences": [],
-   "occupations": [],
-   "timeline": [],
-   "facts": [],
-   "media": [],
-   "openQuestions": [],
-   "relatedPages": [
-    {
-     "url": "escape-from-east-germany.html",
-     "title": "The Escape from East Germany"
-    }
-   ],
-   "photo": null,
-   "order": 1
-  },
-  {
-   "id": "matthias",
-   "displayName": "Matthias Kohlmann",
-   "givenNames": "Matthias",
-   "surname": "Kohlmann",
-   "disambiguator": "Thomas's brother",
-   "sex": "M",
-   "generation": 3,
-   "isLiving": true,
-   "isDirectLine": false,
-   "confidence": "probable",
-   "nameVariants": [],
-   "parents": [
-    "alvin",
-    "christa"
-   ],
-   "children": [],
-   "spouses": [],
-   "birth": null,
-   "death": null,
-   "cardPlace": null,
-   "summary": "Thomas's brother.",
-   "story": "Thomas's brother. Son of Alvin Kohlmann and Elise Christa Kohlmann (née Eifler). [PLACEHOLDER: birth year, location, occupation, marriage and any children.][^family-testimony]",
-   "residences": [],
-   "occupations": [],
-   "timeline": [],
-   "facts": [],
-   "media": [],
-   "openQuestions": [],
-   "relatedPages": [],
-   "photo": null,
-   "order": 2
-  },
-  {
-   "id": "sabine",
-   "displayName": "Sabine Kohlmann",
-   "givenNames": "Sabine",
-   "surname": "Kohlmann",
-   "disambiguator": "Thomas's sister",
-   "sex": "F",
-   "generation": 3,
-   "isLiving": true,
-   "isDirectLine": false,
-   "confidence": "probable",
-   "nameVariants": [],
-   "parents": [
-    "alvin",
-    "christa"
-   ],
-   "children": [],
-   "spouses": [],
-   "birth": null,
-   "death": null,
-   "cardPlace": null,
-   "summary": "Thomas's sister.",
-   "story": "Thomas's sister. Daughter of Alvin Kohlmann and Elise Christa Kohlmann (née Eifler). [PLACEHOLDER: birth year, location, married name if any, family.][^family-testimony]",
-   "residences": [],
-   "occupations": [],
-   "timeline": [],
-   "facts": [],
-   "media": [],
-   "openQuestions": [],
-   "relatedPages": [],
-   "photo": null,
-   "order": 3
-  },
-  {
-   "id": "rita",
-   "displayName": "Rita Kohlmann",
-   "givenNames": "Rita",
-   "surname": "Kohlmann",
-   "disambiguator": "née Werner, born Woltmann",
-   "sex": "F",
-   "generation": 3,
-   "isLiving": true,
-   "isDirectLine": true,
-   "confidence": "confirmed",
-   "nameVariants": [
-    {
-     "name": "Rita Woltmann",
-     "note": "birth surname, her mother's surname",
-     "sourceIds": [
-      "family-testimony"
-     ]
+      "id": "enzo",
+      "displayName": "Enzo Belfiore",
+      "givenNames": "Enzo",
+      "surname": "Belfiore",
+      "disambiguator": "son of Valeria and Sebastian",
+      "sex": "M",
+      "generation": 5,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "nameVariants": [],
+      "parents": [
+        "valeria",
+        "sebastian"
+      ],
+      "children": [],
+      "spouses": [],
+      "birth": {
+        "date": "2026",
+        "display": "2026",
+        "place": null,
+        "placeId": null,
+        "confidence": "confirmed",
+        "sourceIds": [
+          "family-knowledge"
+        ]
+      },
+      "death": null,
+      "cardPlace": "Tampa, Florida",
+      "summary": "Born January 2026 in Tampa, Florida.",
+      "story": "Born January 2026 in Tampa, Florida. Son of Valeria Kohlmann and Sebastian Belfiore. Holds triple citizenship: US, UK, and German.[^family-knowledge]",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [],
+      "relatedPages": [],
+      "photo": null,
+      "order": 1
     },
     {
-     "name": "Rita Werner",
-     "note": "surname before marriage, her father's surname",
-     "sourceIds": [
-      "family-testimony"
-     ]
-    }
-   ],
-   "parents": [
-    "rita-father",
-    "rita-mother"
-   ],
-   "children": [
-    "valeria",
-    "elisa"
-   ],
-   "spouses": [
+      "id": "ernst-eifler-sr",
+      "sex": "M",
+      "isLiving": false,
+      "isDirectLine": false,
+      "region": "leads",
+      "parents": [],
+      "children": [],
+      "spouses": [],
+      "nameVariants": [],
+      "residences": [
+        {
+          "place": "Sohland an der Spree",
+          "placeId": "sohland",
+          "address": "Sohland an der Spree Nr. 247",
+          "years": "1926",
+          "confidence": "probable",
+          "sourceIds": [
+            "anc-marriage-1926"
+          ]
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Landwirt (farmer)",
+          "employer": null,
+          "place": "Sohland an der Spree",
+          "placeId": null,
+          "years": null,
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-marriage-1926"
+          ]
+        }
+      ],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": {
+        "date": "1865",
+        "display": "about 1864 to 1865",
+        "place": null,
+        "placeId": null,
+        "confidence": "probable",
+        "sourceIds": [
+          "anc-marriage-1926"
+        ]
+      },
+      "death": null,
+      "displayName": "Ernst Eifler (senior)",
+      "givenNames": "Ernst",
+      "surname": "Eifler",
+      "disambiguator": "farmer of Sohland, probably Alwin's father",
+      "generation": 0,
+      "confidence": "unverified",
+      "cardPlace": "Sohland an der Spree",
+      "summary": "Farmer (Landwirt) at Sohland an der Spree Nr. 247, aged 61, witness at Alwin Eifler's wedding in 1926. Probably Alwin's father; not yet proven.",
+      "story": "On 2 October 1926 a farmer named Ernst Eifler, of Sohland an der Spree Nr. 247, aged 61, signed as a witness at the Dresden wedding of Alwin Eifler and Gertrud Becker.[^anc-marriage-1926] Alwin was born in Sohland in 1892, so Ernst is probably his father, but no record seen so far says so. Alwin's Sohland birth entry or baptism would settle it.",
+      "openQuestions": [
+        {
+          "question": "Is he Alwin Eifler's father? Alwin's 1892 Sohland birth entry or baptism names the parents."
+        }
+      ],
+      "relatedPages": [
+        {
+          "url": "weickert-eifler.html",
+          "title": "Weickert & Eifler"
+        }
+      ]
+    },
     {
-     "id": "thomas",
-     "order": 1,
-     "marriageDate": "1980",
-     "marriageDisplay": "1980",
-     "place": "Munich",
-     "placeId": null,
-     "confidence": "family tradition",
-     "sourceIds": [
-      "family-testimony"
-     ],
-     "note": "Family testimony. No marriage record is cited on the site."
+      "id": "alwin-kohlmann-butcher",
+      "sex": "M",
+      "isLiving": false,
+      "isDirectLine": false,
+      "region": "leads",
+      "parents": [],
+      "children": [],
+      "spouses": [],
+      "nameVariants": [],
+      "residences": [
+        {
+          "place": "Bautzen",
+          "placeId": "bautzen-schaefferstrasse-6",
+          "address": "Schäfferstraße 6",
+          "years": "1928 to 1938",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "slub-bautzen-1928",
+            "slub-bautzen-1938"
+          ]
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Fleischer (butcher)",
+          "employer": null,
+          "place": "Bautzen",
+          "placeId": null,
+          "years": null,
+          "confidence": "confirmed",
+          "sourceIds": [
+            "slub-bautzen-1928"
+          ]
+        }
+      ],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": null,
+      "death": null,
+      "displayName": "Alwin Kohlmann (butcher, Bautzen)",
+      "givenNames": "Alwin",
+      "surname": "Kohlmann",
+      "disambiguator": "a lead for Alvin's family",
+      "generation": 2,
+      "confidence": "unverified",
+      "cardPlace": "Bautzen",
+      "summary": "A butcher (Fleischer) named Alwin Kohlmann lived at Schäfferstraße 6, Bautzen, in the address books of 1928 to 1938. The same rare first name as Alvin, in the same town. He may be Alvin himself or his father. Not proven.",
+      "story": "The Bautzen address books list a butcher, Alwin Kohlmann, at Schäfferstraße 6 from 1928 to 1938.[^slub-bautzen-1928][^slub-bautzen-1938] Thomas Kohlmann's father is remembered as Alvin Kohlmann, who married Christa Eifler in Bautzen in 1952. The butcher could be Alvin himself, if Alvin was born before about 1910, or more likely his father. Nothing found so far links them.",
+      "openQuestions": [
+        {
+          "question": "Is this Alvin, or Alvin's father? The 1952 marriage entry (Standesamt Bautzen) names Alvin's parents."
+        }
+      ],
+      "relatedPages": [
+        {
+          "url": "research.html",
+          "title": "Research & Records"
+        }
+      ]
     }
-   ],
-   "birth": {
-    "date": "1956",
-    "display": "1956",
-    "place": "Döbeln, Saxony, East Germany",
-    "placeId": null,
-    "confidence": "confirmed",
-    "sourceIds": [
-     "family-testimony"
-    ]
-   },
-   "death": null,
-   "cardPlace": null,
-   "summary": "Valeria's mother.",
-   "story": "Valeria's mother. Born 1956 in Döbeln, Saxony (East Germany). Sister of Heide and Annette. Birth surname was Woltmann (her mother Brigitte's surname; her parents were not married at the time of her birth). Surname later changed to Werner (her father's surname); Werner is the maiden name she carried into marriage. Escaped from East Germany to West Germany after Thomas, who helped her get out. Married Thomas in 1980 in Munich. [PLACEHOLDER: exact birth date, escape date and route, current city.][^family-testimony]",
-   "residences": [],
-   "occupations": [],
-   "timeline": [],
-   "facts": [],
-   "media": [],
-   "openQuestions": [],
-   "relatedPages": [
-    {
-     "url": "escape-from-east-germany.html",
-     "title": "The Escape from East Germany"
-    }
-   ],
-   "photo": null,
-   "order": 1
-  },
-  {
-   "id": "heide",
-   "displayName": "Heide",
-   "givenNames": "Heide",
-   "surname": null,
-   "disambiguator": "Rita's sister, surname unknown",
-   "sex": "F",
-   "generation": 3,
-   "isLiving": true,
-   "isDirectLine": false,
-   "confidence": "unverified",
-   "nameVariants": [
-    {
-     "name": "[PLACEHOLDER: maiden surname, Woltmann or Werner]",
-     "note": "not yet known",
-     "sourceIds": [
-      "family-testimony"
-     ]
-    }
-   ],
-   "parents": [
-    "rita-father",
-    "rita-mother"
-   ],
-   "children": [],
-   "spouses": [],
-   "birth": null,
-   "death": null,
-   "cardPlace": null,
-   "summary": "Rita's sister.",
-   "story": "Rita's sister. Maiden surname was either Woltmann or Werner depending on her birth year relative to Rita's surname change; to be confirmed. [PLACEHOLDER: birth year, location, marriage and any children.][^family-testimony]",
-   "residences": [],
-   "occupations": [],
-   "timeline": [],
-   "facts": [],
-   "media": [],
-   "openQuestions": [],
-   "relatedPages": [],
-   "photo": null,
-   "order": 2
-  },
-  {
-   "id": "annette",
-   "displayName": "Annette",
-   "givenNames": "Annette",
-   "surname": null,
-   "disambiguator": "Rita's sister, surname unknown",
-   "sex": "F",
-   "generation": 3,
-   "isLiving": true,
-   "isDirectLine": false,
-   "confidence": "unverified",
-   "nameVariants": [
-    {
-     "name": "[PLACEHOLDER: maiden surname, Woltmann or Werner]",
-     "note": "not yet known",
-     "sourceIds": [
-      "family-testimony"
-     ]
-    }
-   ],
-   "parents": [
-    "rita-father",
-    "rita-mother"
-   ],
-   "children": [],
-   "spouses": [],
-   "birth": null,
-   "death": null,
-   "cardPlace": null,
-   "summary": "Rita's sister.",
-   "story": "Rita's sister. Maiden surname was either Woltmann or Werner depending on her birth year relative to Rita's surname change; to be confirmed. [PLACEHOLDER: birth year, location, marriage and any children.][^family-testimony]",
-   "residences": [],
-   "occupations": [],
-   "timeline": [],
-   "facts": [],
-   "media": [],
-   "openQuestions": [],
-   "relatedPages": [],
-   "photo": null,
-   "order": 3
-  },
-  {
-   "id": "valeria",
-   "displayName": "Valeria Kohlmann",
-   "givenNames": "Valeria",
-   "surname": "Kohlmann",
-   "disambiguator": "Thomas and Rita's elder daughter",
-   "sex": "F",
-   "generation": 4,
-   "isLiving": true,
-   "isDirectLine": true,
-   "confidence": "confirmed",
-   "nameVariants": [],
-   "parents": [
-    "thomas",
-    "rita"
-   ],
-   "children": [
-    "enzo"
-   ],
-   "spouses": [
-    {
-     "id": "sebastian",
-     "order": 1,
-     "marriageDate": "2022-09",
-     "marriageDisplay": "September 2022",
-     "place": "Munich",
-     "placeId": null,
-     "confidence": "family tradition",
-     "sourceIds": [
-      "family-knowledge",
-      "self"
-     ],
-     "note": "Family knowledge. No marriage record is cited on the site."
-    }
-   ],
-   "birth": {
-    "date": "1990-06-27",
-    "display": "27 June 1990",
-    "place": "Munich, West Germany",
-    "placeId": null,
-    "confidence": "confirmed",
-    "sourceIds": [
-     "family-knowledge"
-    ]
-   },
-   "death": null,
-   "cardPlace": "Tampa, Florida",
-   "summary": "Daughter of Thomas and Rita Kohlmann.",
-   "story": "Daughter of Thomas and Rita Kohlmann. Born 27 June 1990 in Munich. Sister of Elisa. Married Sebastian Belfiore in September 2022 in Munich. Mother of Enzo.[^family-knowledge]",
-   "residences": [],
-   "occupations": [],
-   "timeline": [],
-   "facts": [],
-   "media": [],
-   "openQuestions": [],
-   "relatedPages": [],
-   "photo": null,
-   "order": 1
-  },
-  {
-   "id": "elisa",
-   "displayName": "Elisa Kohlmann",
-   "givenNames": "Elisa",
-   "surname": "Kohlmann",
-   "disambiguator": "Thomas and Rita's younger daughter",
-   "sex": "F",
-   "generation": 4,
-   "isLiving": true,
-   "isDirectLine": false,
-   "confidence": "confirmed",
-   "nameVariants": [],
-   "parents": [
-    "thomas",
-    "rita"
-   ],
-   "children": [],
-   "spouses": [],
-   "birth": {
-    "date": "1994-03-25",
-    "display": "25 March 1994",
-    "place": "Munich, West Germany",
-    "placeId": null,
-    "confidence": "confirmed",
-    "sourceIds": [
-     "family-knowledge"
-    ]
-   },
-   "death": null,
-   "cardPlace": null,
-   "summary": "Daughter of Thomas and Rita Kohlmann.",
-   "story": "Daughter of Thomas and Rita Kohlmann. Born 25 March 1994 in Munich. Valeria's sister. [PLACEHOLDER: current location, occupation, marriage and family if any.][^family-knowledge]",
-   "residences": [],
-   "occupations": [],
-   "timeline": [],
-   "facts": [],
-   "media": [],
-   "openQuestions": [],
-   "relatedPages": [],
-   "photo": null,
-   "order": 2
-  },
-  {
-   "id": "sebastian",
-   "displayName": "Sebastian Belfiore",
-   "givenNames": "Sebastian",
-   "surname": "Belfiore",
-   "disambiguator": "Valeria's husband",
-   "sex": "M",
-   "generation": 4,
-   "isLiving": true,
-   "isDirectLine": false,
-   "confidence": "confirmed",
-   "nameVariants": [],
-   "parents": [],
-   "children": [
-    "enzo"
-   ],
-   "spouses": [
-    {
-     "id": "valeria",
-     "order": 1,
-     "marriageDate": "2022-09",
-     "marriageDisplay": "September 2022",
-     "place": "Munich",
-     "placeId": null,
-     "confidence": "family tradition",
-     "sourceIds": [
-      "family-knowledge",
-      "self"
-     ],
-     "note": "Family knowledge. No marriage record is cited on the site."
-    }
-   ],
-   "birth": {
-    "date": "1991",
-    "display": "1991",
-    "place": null,
-    "placeId": null,
-    "confidence": "confirmed",
-    "sourceIds": [
-     "self"
-    ]
-   },
-   "death": null,
-   "cardPlace": "Tampa, Florida",
-   "summary": "Valeria's husband.",
-   "story": "Valeria's husband. Married Valeria Kohlmann in September 2022 in Munich. Father of Enzo. Holds US and UK citizenship. The researcher behind this site.[^self]",
-   "residences": [],
-   "occupations": [],
-   "timeline": [],
-   "facts": [],
-   "media": [],
-   "openQuestions": [],
-   "relatedPages": [],
-   "photo": null
-  },
-  {
-   "id": "enzo",
-   "displayName": "Enzo Belfiore",
-   "givenNames": "Enzo",
-   "surname": "Belfiore",
-   "disambiguator": "son of Valeria and Sebastian",
-   "sex": "M",
-   "generation": 5,
-   "isLiving": true,
-   "isDirectLine": false,
-   "confidence": "confirmed",
-   "nameVariants": [],
-   "parents": [
-    "valeria",
-    "sebastian"
-   ],
-   "children": [],
-   "spouses": [],
-   "birth": {
-    "date": "2026",
-    "display": "2026",
-    "place": null,
-    "placeId": null,
-    "confidence": "confirmed",
-    "sourceIds": [
-     "family-knowledge"
-    ]
-   },
-   "death": null,
-   "cardPlace": "Tampa, Florida",
-   "summary": "Born January 2026 in Tampa, Florida.",
-   "story": "Born January 2026 in Tampa, Florida. Son of Valeria Kohlmann and Sebastian Belfiore. Holds triple citizenship: US, UK, and German.[^family-knowledge]",
-   "residences": [],
-   "occupations": [],
-   "timeline": [],
-   "facts": [],
-   "media": [],
-   "openQuestions": [],
-   "relatedPages": [],
-   "photo": null,
-   "order": 1
-  }
- ]
+  ]
 }

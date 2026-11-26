@@ -45,6 +45,9 @@ const EXPECTED = {
     'elisa': { parents: ['thomas', 'rita'], spouses: [], children: [], side: 'right' },
     'sebastian': { parents: [], spouses: ['valeria'], children: ['enzo'], side: 'right' },
     'enzo': { parents: ['valeria', 'sebastian'], spouses: [], children: [], side: 'right' },
+    // Leads kept beside the person they may belong to (tree.suspectedRelatives), no proven link.
+    'ernst-eifler-sr': { parents: [], spouses: [], children: [], side: 'left', lead: 'ernst-alwin' },
+    'alwin-kohlmann-butcher': { parents: [], spouses: [], children: [], side: 'left', lead: 'alvin' },
 };
 
 function serve() {
@@ -125,7 +128,10 @@ const same = (a, b) => a.length === b.length && a.every(x => b.includes(x));
                 if (!p || !q) { geom.push(id + ' has no card position'); return; }
                 // A spouse with no parents of his own is drawn in his wife's block. The engine
                 // does not give him a side tag; the card still has to sit beside her.
-                if (id === 'sebastian' && !(side[id])) {
+                if (e.lead) {
+                    const hq = pos[e.lead];
+                    if (!hq || Math.abs(q.y - hq.y) > 8) geom.push(id + ' is not on the same row as ' + e.lead);
+                } else if (id === 'sebastian' && !(side[id])) {
                     const v = pos.valeria;
                     if (!v || Math.abs(q.y - v.y) > 8 || Math.abs((q.x + 100) - (v.x + 100)) > 320)
                         geom.push('sebastian is not beside Valeria');
