@@ -5,6 +5,9 @@
   "engine": {
     "channel": "stable"
   },
+  "timeline": {
+    "enabled": true
+  },
   "site": {
     "name": "Kohlmann",
     "familyName": "the Kohlmann family",
