@@ -1,0 +1,50 @@
+{
+ "sources": [
+  {
+   "id": "ahnentafel-2007",
+   "title": "2007 Eifler/Becker Ahnentafel, page 1",
+   "type": "family tree",
+   "date": "2007-01-18",
+   "note": "Compiler unidentified, likely a family member shortly after Christa Kohlmann's death. Page 2 is not yet in hand."
+  },
+  {
+   "id": "weickert-letterhead",
+   "title": "Weickert & Eifler advertising letterhead",
+   "type": "document",
+   "date": "1933/1945",
+   "file": "images/weickert-eifler-letterhead.jpg",
+   "note": "Undated. The street name Martin-Mutschmann-Straße dates it to 1933-1945. Family collection."
+  },
+  {
+   "id": "weickert-invoice-1943",
+   "title": "Weickert & Eifler invoice, 9 April 1943",
+   "type": "document",
+   "date": "1943-04-09",
+   "file": "images/weickert-eifler-rechnung-1943.jpg",
+   "note": "Payment receipt signed by Gertrud Eifler on 28 April 1943. Family collection."
+  },
+  {
+   "id": "adressbuch-eifler",
+   "title": "German Adressbuch page with an Eifler entry",
+   "type": "document",
+   "file": "images/alvin-yellow-pages.png",
+   "note": "Directory volume, year and the exact line of the highlighted entry are not yet confirmed. Family collection."
+  },
+  {
+   "id": "family-testimony",
+   "title": "Family testimony from Thomas Kohlmann, Rita Kohlmann and Sebastian Belfiore",
+   "type": "family testimony"
+  },
+  {
+   "id": "family-knowledge",
+   "title": "Family knowledge",
+   "type": "family testimony"
+  },
+  {
+   "id": "self",
+   "title": "Sebastian Belfiore",
+   "type": "family testimony",
+   "note": "Valeria's husband, and the researcher behind this site."
+  }
+ ]
+}

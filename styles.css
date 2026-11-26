@@ -1241,21 +1241,6 @@ p code {
 }
 @media (max-width: 720px) {
     body { font-size: 17px; }
-    .nav-toggle { display: flex; }
-    .nav-links {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        flex-direction: column;
-        background: var(--paper);
-        border-bottom: var(--double-rule);
-        padding: 1rem 1.6rem;
-        gap: 1rem;
-        display: none;
-    }
-    .nav-links.open { display: flex; }
-    .nav-logo { font-size: 2rem; }
     .hero-title { font-size: 2.4rem; }
     .section-header {
         font-size: 1.7rem;
@@ -1280,4 +1265,82 @@ p code {
     a { color: black; text-decoration: none; }
     .section-header, .hero-title { color: black; }
     .page-container::before { display: none; }
+}
+
+/* ============================================
+   LETTERHEAD BAR
+   The engine's nav.css loads later. These rules use a higher
+   specificity so the cream letterhead, Pinyon wordmark and
+   small-caps links stay. The menu still folds on a narrow bar.
+   ============================================ */
+body .main-nav,
+body .main-nav.scrolled {
+    padding: 0;
+    background: linear-gradient(to bottom, rgba(245, 241, 232, 0.97) 0%, rgba(237, 228, 204, 0.94) 100%);
+    border-bottom: 3px double var(--cobalt);
+    box-shadow: none;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    container-type: inline-size;
+    container-name: site-nav;
+}
+body .nav-inner {
+    height: auto;
+    max-width: 1200px;
+    padding: 0.55rem 1.4rem;
+}
+body .nav-logo {
+    font-family: 'Pinyon Script', 'Allura', cursive;
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: var(--cobalt-dark);
+    line-height: 1;
+}
+body .nav-logo:hover { color: var(--burgundy); }
+body .nav-links {
+    gap: 1.15rem;
+    background: none;
+}
+body .nav-links a {
+    font-family: 'IM Fell English SC', 'Cinzel', serif;
+    font-size: 0.78rem;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding: 0.35rem 0.1rem;
+    border-bottom: 1px solid transparent;
+}
+body .nav-links a::after { display: none; }
+body .nav-links a:hover { color: var(--cobalt-dark); border-bottom-color: var(--gold); }
+body .nav-links a.active,
+body .nav-links a[aria-current="page"] {
+    color: var(--burgundy);
+    border-bottom-color: var(--burgundy);
+}
+body .nav-toggle span { background: var(--ink); height: 1.5px; }
+body .nav-logo:focus-visible,
+body .nav-links a:focus-visible,
+body .nav-toggle:focus-visible {
+    outline: 2px solid var(--cobalt);
+    outline-offset: 3px;
+}
+@container site-nav (max-width: 1180px) {
+    body .nav-toggle { display: flex; }
+    body .nav-links { display: none; }
+    body .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        gap: 0.85rem;
+        padding: 0.9rem 1.4rem 1.1rem;
+        background: var(--paper-light);
+        border-bottom: 3px double var(--cobalt);
+    }
+    body .nav-logo { font-size: 2rem; }
 }
