@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Kohlmann Family Heritage</title>
+    <meta name="description" content="The Kohlmann and Werner families: Thomas's paternal line from Herzberg, Dresden and Bautzen, and Rita's maternal line from Döbeln, with the tree, the map and the records.">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IM+Fell+English+SC&family=Pinyon+Script&family=Special+Elite&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -16,6 +17,7 @@
             <a href="index.html" class="active">Home</a>
             <a href="family-tree.html">Family Tree</a>
             <a href="tree-canvas.html">Interactive Tree</a>
+            <a href="map.html">Map</a>
             <a href="escape-from-east-germany.html">The Escape</a>
             <a href="weickert-eifler.html">Weickert &amp; Eifler</a>
             <a href="research.html">Research &amp; Records</a>
@@ -28,99 +30,106 @@
 
 <div class="page-container">
 
-    <!-- ===== HERO / INTRO ===== -->
-    <div class="hero-intro">
-        <div class="stamp-row" style="margin-bottom: 1.4rem;">
+    <header class="home-hero">
+        <div class="stamp-row" style="margin-bottom: 1.2rem;">
             <span class="stamp">Bautzen &middot; Saxony</span>
-            <span class="stamp stamp--rotate-r">Anno MCMLVI</span>
+            <span class="stamp stamp--rotate-r">Zwei Linien</span>
             <span class="stamp stamp--round stamp--rotate-flat">N&deg; I</span>
         </div>
+        <div class="home-pair">
+            <p class="home-side home-side--l"><span class="home-surname">Kohlmann</span><span class="home-who">Thomas's family, the paternal line</span></p>
+            <p class="home-mark" aria-hidden="true"><span class="seal">Kohle &middot; Mann</span></p>
+            <p class="home-side home-side--r"><span class="home-surname">Werner</span><span class="home-who">Rita's family, the maternal line</span></p>
+        </div>
         <div class="hero-title">The Kohlmann Family</div>
-        <h1>From Saxony to Tampa</h1>
-
-        <div class="intro-story">
-            <p>This site documents the German maternal family of Valeria Kohlmann, her parents <strong>Thomas Kohlmann</strong> and <strong>Rita Kohlmann</strong>, her paternal grandfather <strong>Alvin Kohlmann</strong>, her sister <strong>Elisa Kohlmann</strong>, her aunts and uncles on both her father's and mother's sides, and through Valeria's marriage to <strong>Sebastian Belfiore</strong>, their son <strong>Enzo Belfiore</strong>, born January 2026 in Tampa, Florida and holding US, UK, and German citizenship.</p>
-
-            <p class="intro-note">This site is under active research. Most pages currently contain placeholders rather than confirmed facts. Where a name, date, or place hasn't been verified, you'll see a <code>[PLACEHOLDER: &hellip;]</code> token instead of a guess. These will be filled in as research progresses and family testimony is gathered.</p>
+        <h1 id="two-families">Two families, one from each parent</h1>
+        <p class="home-dek">This site follows the paternal line and the maternal line back from the people living now to the records behind them: where they lived, what they did, and how the two sides meet.</p>
+        <div class="home-actions">
+            <a class="home-btn home-btn--solid" href="tree-canvas.html">Open the interactive tree</a>
+            <a class="home-btn home-btn--line" href="map.html">Open the family map</a>
         </div>
-    </div>
+    </header>
 
-    <div class="seal-row">
-        <span class="seal">Kohle &middot; Mann</span>
-    </div>
+    <section class="story-section" aria-labelledby="h-start">
+        <h2 class="section-header" id="h-start">How this is put together</h2>
+        <p>It started with family testimony and a one-page chart of the Eifler and Becker line, compiled on 18 January 2007. The chart named people and dates. The records came after: a 1926 marriage entry in Dresden, birth and death entries, Bautzen directories, a Handelsregister notice, and the firm's own letterhead and 1943 invoice.</p>
+        <p>Where a record and the chart disagree, the record is what the site uses. Richard Becker's chart has his birth and death days the other way round from his 1938 death entry, so the entry wins. Where no record has been found, the page says so. Alvin Kohlmann's birth and death are still unknown. Rita's father's first name is still unknown. Sigrid's death is not recorded.</p>
+        <p>The map draws a place only for someone who has died. Towns are wide circles. A street from a directory or a register is a small circle around today's house number, because numbers can change. Living people stay off the map.</p>
+    </section>
 
-    <!-- ===== ETYMOLOGY ===== -->
-    <h2 class="section-header">The Name</h2>
-    <div class="story-section">
-        <p>&ldquo;Kohlmann&rdquo; is an occupational German surname meaning <em>coal man</em> or <em>charcoal burner</em>, from <strong>Kohle</strong> (coal) and <strong>Mann</strong> (man). It originally identified someone who produced charcoal in the forests, a skilled and physically demanding trade that supplied fuel to blacksmiths, foundries, and households across pre-industrial Europe. The surname was historically common across German-speaking regions. This particular Kohlmann line is currently traceable to <strong>Saxony</strong>, where Thomas Kohlmann was born in Radebeul in 1956. [PLACEHOLDER: where the line was before Saxony, Alvin Kohlmann's birthplace and any deeper ancestral origin.]</p>
-        <p>On the maternal side, Thomas's mother <strong>Christa</strong> (n&eacute;e Eifler) ties the family into a Saxon Upper-Lusatian line documented back to the 1870s. The <strong>Eifler</strong> branch is rooted in the <strong>Bautzen</strong> / <strong>Sohland an der Spree</strong> area, where Christa's father <strong>Alwin Eifler</strong> ran the family firm <a href="weickert-eifler.html">Weickert &amp; Eifler</a>, a specialty steel wire mattress factory, through the 1930s and 1940s. The <strong>Becker</strong> branch (Christa's mother's family) is rooted in <strong>Dresden</strong>, with deeper origins reaching back to <strong>Herzberg</strong> (likely Herzberg/Elster in Brandenburg, but not yet confirmed) by 1875.</p>
-    </div>
-
-    <!-- ===== KEY STORIES ===== -->
-    <h2 class="section-header">Key Stories</h2>
-
-    <div class="page-list">
-        <a href="escape-from-east-germany.html" class="page-link">
-            <span class="page-link-title">The Escape from East Germany</span>
-            <span class="page-link-desc">Thomas escaped first. Then he helped Rita get out. [PLACEHOLDER: one-sentence teaser once the dates and route are confirmed.]</span>
-            <span class="page-link-arrow">&rarr;</span>
-        </a>
-        <a href="weickert-eifler.html" class="page-link">
-            <span class="page-link-title">Weickert &amp; Eifler</span>
-            <span class="page-link-desc">The steel wire mattress factory in Bautzen, Saxony, run by Thomas Kohlmann's maternal grandfather Alwin Eifler through the 1930s and 1940s. Two surviving documents, an advertising letterhead and a wartime invoice, establish the family's ownership and Gertrud Eifler's role in the office.</span>
-            <span class="page-link-arrow">&rarr;</span>
-        </a>
-        <a href="family-tree.html" class="page-link">
-            <span class="page-link-title">The Family Tree</span>
-            <span class="page-link-desc">Four generations from Alvin Kohlmann to Enzo Belfiore. [PLACEHOLDER: one-sentence teaser once spellings and dates are verified.]</span>
-            <span class="page-link-arrow">&rarr;</span>
-        </a>
-    </div>
-
-    <!-- ===== DIRECT LINE ===== -->
-    <h2 class="section-header">The Direct Line</h2>
-    <div class="section-body">
-        <p>Four generations of the Kohlmann line, from Alvin to Enzo.</p>
-    </div>
-
-    <div class="timeline">
-        <div class="timeline-item">
-            <div class="timeline-year">Generation 1</div>
-            <h3>Alvin Kohlmann &amp; Elise Christa Kohlmann (n&eacute;e Eifler)</h3>
-            <p><strong>Alvin Kohlmann</strong> was Thomas's father. [PLACEHOLDER: birth date and place, death date and place, occupation, siblings, anything known about his life.]</p>
-            <p><strong>Elise Christa Kohlmann</strong>, n&eacute;e Eifler, called <strong>Christa</strong>, was Thomas's mother. She was born <strong>25 November 1928 in Bautzen</strong> in Upper Lusatia, Saxony. She married Alvin on <strong>24 July 1952 in Bautzen</strong>. She died <strong>21 May 2006 in Starnberg</strong>, Bavaria, of cancer. She had at least one sibling, an older sister <strong>Sigrid Michaelis</strong> (n&eacute;e Eifler), born 20 July 1927 in Bautzen, married 20 August 1953 in Bautzen. Christa's father, <strong>Alwin Eifler</strong>, was sole proprietor of the steel wire mattress factory <a href="weickert-eifler.html">Weickert &amp; Eifler</a> in Bautzen.</p>
+    <section aria-labelledby="h-families">
+        <h2 class="section-header" id="h-families">The two families</h2>
+        <p class="home-lede">On the tree, Thomas's family is on the left and Rita's family is on the right.</p>
+        <div class="families">
+            <article class="family family--l" aria-labelledby="h-paternal">
+                <h3 id="h-paternal">The paternal line</h3>
+                <p class="family-names">Kohlmann, Eifler, Becker and Just</p>
+                <p>The oldest Becker on the chart is <strong>Richard Hermann Becker</strong>, a merchant, born 5 January 1875 in Herzberg (Elster) and died at his shop and home, Rothermundtstra&szlig;e 5 in Dresden, on 9 January 1938. He was cremated at the crematorium in Tolkewitz. His wife <strong>Clara Elise</strong>, n&eacute;e Just, was born 1 December 1880 in Raun, in the Vogtland, and died 27 December 1954 at Wilthener Stra&szlig;e 19 in Bautzen.</p>
+                <p>Their daughter <strong>Gertrud Elise</strong> was born 22 January 1905 at Ziegelstra&szlig;e 2 in Dresden. On 2 October 1926 she married <strong>Ernst Alwin Eifler</strong>, born 7 October 1892 in Sohland an der Spree. By 1928 he was sole owner of <a href="weickert-eifler.html">Weickert &amp; Eifler</a> in Bautzen, a saddlery in 1921 that was a steel-wire mattress factory at Gnaschwitz by 1928. He died on 18 December 1968. The chart says Bautzen. A death entry for that day has not been found, so the place stays family tradition. Gertrud died at the same Bautzen house on 11 December 1973.</p>
+                <p>Their younger daughter <strong>Christa</strong>, born 25 November 1928 in Bautzen, married <strong>Alvin Kohlmann</strong> there on 24 July 1952 and died in Starnberg on 21 May 2006. Her older sister <strong>Sigrid</strong> was born in Bautzen on 20 July 1927 and married a Michaelis there on 20 August 1953. No death is recorded for Sigrid, and Alvin's own birth, death and occupation are not yet known. Their son <strong>Thomas</strong> was born in Radebeul in 1956. He has a brother, Matthias, and a sister, Sabine.</p>
+            </article>
+            <article class="family family--r" aria-labelledby="h-maternal">
+                <h3 id="h-maternal">The maternal line</h3>
+                <p class="family-names">Werner and Woltmann</p>
+                <p><strong>Rita</strong> was born in D&ouml;beln in 1956. Her birth surname was Woltmann, her mother <strong>Brigitte Woltmann</strong>'s name, because Brigitte and Rita's father were not married then. The surname was later changed to Werner, her father's surname. His first name is not known, and it is not known whether he and Brigitte ever married.</p>
+                <p>Rita has two sisters, <strong>Heide</strong> and <strong>Annette</strong>. Their maiden surnames are not confirmed, and no town is recorded for Brigitte, for Rita's father, or for the sisters. What is known about this line is still mostly family testimony.</p>
+            </article>
         </div>
-        <div class="timeline-item">
-            <div class="timeline-year">Generation 2, b. 1956 (both)</div>
-            <h3>Thomas Kohlmann &amp; Rita Kohlmann (n&eacute;e Werner)</h3>
-            <p>Thomas was born in 1956 in <strong>Radebeul</strong>, Saxony, in East Germany. He is Alvin's son and has a brother Matthias and a sister Sabine. Rita was born in 1956 in <strong>D&ouml;beln</strong>, also in Saxony. Her birth surname was Woltmann (her mother Brigitte's surname; her parents were not married at the time of her birth) and was later changed to Werner, her father's surname. Rita has two sisters, Heide and Annette. Thomas escaped from East Germany to West Germany; he later helped Rita get out. They married in <strong>1980 in Munich</strong>. [PLACEHOLDER: exact escape dates and routes, current city in Germany.]</p>
+        <div class="families-meet">
+            <span class="meet-pill">m. 1980</span>
+            <p>Thomas left East Germany first and later helped Rita leave. They married in Munich in 1980. The route and the year of each crossing are not yet recorded. Their daughters are <strong>Valeria</strong>, born 27 June 1990 in Munich, and <strong>Elisa</strong>, born 25 March 1994 in Munich. Valeria married <strong>Sebastian Belfiore</strong> in Munich in September 2022. Their son <strong>Enzo</strong> was born in Tampa, Florida, in January 2026, and holds US, UK and German citizenship.</p>
         </div>
-        <div class="timeline-item">
-            <div class="timeline-year">Generation 3</div>
-            <h3>Valeria Kohlmann (m. Sebastian Belfiore) &amp; Elisa Kohlmann</h3>
-            <p>Daughters of Thomas and Rita, both born in Munich. <strong>Valeria</strong> was born <strong>27 June 1990</strong>; she married <strong>Sebastian Belfiore</strong> in <strong>September 2022</strong> in Munich. <strong>Elisa</strong> was born <strong>25 March 1994</strong>. [PLACEHOLDER: current locations for both sisters; Elisa's marriage and family if any.]</p>
+    </section>
+
+    <section aria-labelledby="h-tour">
+        <h2 class="section-header" id="h-tour">Find your way around</h2>
+        <div class="page-list">
+            <a href="tree-canvas.html" class="page-link">
+                <span class="page-link-title">The interactive tree</span>
+                <span class="page-link-desc">Thomas's family on the left, Rita's family on the right, from Richard Becker and Clara Elise Just to Enzo. Select a person to read what is known, and what is still open.</span>
+                <span class="page-link-arrow">&rarr;</span>
+            </a>
+            <a href="map.html" class="page-link">
+                <span class="page-link-title">The family map</span>
+                <span class="page-link-desc">Herzberg, Raun, Dresden, Bautzen, Sohland, Gnaschwitz and Starnberg, for people who have died. Towns are wide circles. Street addresses are small circles, not door pins.</span>
+                <span class="page-link-arrow">&rarr;</span>
+            </a>
+            <a href="weickert-eifler.html" class="page-link">
+                <span class="page-link-title">Weickert &amp; Eifler</span>
+                <span class="page-link-desc">The Bautzen firm: Bruno Weickert's saddlery in 1921, the mattress factory at Gnaschwitz, and every address taken from a directory, a register or the family's own papers.</span>
+                <span class="page-link-arrow">&rarr;</span>
+            </a>
+            <a href="escape-from-east-germany.html" class="page-link">
+                <span class="page-link-title">The escape</span>
+                <span class="page-link-desc">Thomas crossed first. He later helped Rita get out. The dates and the route are still to be recorded.</span>
+                <span class="page-link-arrow">&rarr;</span>
+            </a>
+            <a href="family-tree.html" class="page-link">
+                <span class="page-link-title">The family tree, as a list</span>
+                <span class="page-link-desc">The same people in reading order, from the older generations down to Enzo, for a browser without the canvas.</span>
+                <span class="page-link-arrow">&rarr;</span>
+            </a>
+            <a href="research.html" class="page-link">
+                <span class="page-link-title">Research and records</span>
+                <span class="page-link-desc">What is confirmed, what is only family testimony, and the records still to chase, including Alvin's 1952 marriage entry.</span>
+                <span class="page-link-arrow">&rarr;</span>
+            </a>
         </div>
-        <div class="timeline-item">
-            <div class="timeline-year">Generation 4</div>
-            <h3>Enzo Belfiore</h3>
-            <p>Born January 2026, Tampa, Florida. Son of Valeria and Sebastian. Holds triple citizenship: US, UK, and German.</p>
-        </div>
-    </div>
+    </section>
 
 </div>
 
 <footer class="site-footer">
     <div class="footer-crest">Kohlmann</div>
-    <p>Kohlmann, &ldquo;Coal Man&rdquo;, a German occupational surname</p>
-    <p style="margin-top: 0.5rem; font-size: 0.8rem;">Research in progress. This site will be expanded as family testimony, documents, and German archival records are gathered.</p>
+    <p>Kohlmann, &ldquo;Coal Man,&rdquo; a German occupational surname</p>
+    <p style="margin-top: 0.5rem; font-size: 0.8rem;">Research in progress. A date or a place that is not yet in a record is marked as such.</p>
     <div class="stamp-row" style="margin-top: 1.4rem;">
-        <span class="stamp stamp--rotate-flat">M&uuml;nchen &middot; Tampa</span>
+        <span class="stamp stamp--rotate-flat">Herzberg &middot; Bautzen</span>
         <span class="stamp stamp--round stamp--rotate-r"><span class="crossed-swords"></span> Verified</span>
     </div>
 </footer>
 
 <script>
-// Mobile nav toggle
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
 if (navToggle) {
@@ -132,7 +141,6 @@ if (navToggle) {
     });
 }
 
-// Scroll animations
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry, index) => {
         if (entry.isIntersecting) {
@@ -145,7 +153,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
 
-document.querySelectorAll('.timeline-item, .page-link').forEach(el => {
+document.querySelectorAll('.family, .page-link, .families-meet').forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(20px)';
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';

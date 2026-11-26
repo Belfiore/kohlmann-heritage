@@ -14,7 +14,7 @@
    "generation": 0,
    "isLiving": false,
    "isDirectLine": true,
-   "confidence": "probable",
+   "confidence": "confirmed",
    "nameVariants": [
     {
      "name": "Richard",
@@ -41,64 +41,111 @@
     }
    ],
    "birth": {
-    "date": "1875-01-09",
-    "display": "9 January 1875",
-    "place": "Herzberg [PLACEHOLDER: most plausibly Herzberg/Elster, Brandenburg, but not yet confirmed]",
-    "placeId": null,
-    "confidence": "probable",
+    "date": "1875-01-05",
+    "display": "5 January 1875",
+    "place": "Herzberg (Elster), Kreis Schweinitz",
+    "placeId": "herzberg",
+    "confidence": "confirmed",
     "sourceIds": [
+     "anc-death-1938",
      "ahnentafel-2007"
     ]
    },
    "death": {
-    "date": "1938-01-05",
-    "display": "5 January 1938",
-    "place": "Dresden",
-    "placeId": null,
-    "confidence": "probable",
+    "date": "1938-01-09",
+    "display": "9 January 1938",
+    "place": "Rothermundtstraße 5, Dresden",
+    "placeId": "dresden-rothermundtstrasse-5",
+    "confidence": "confirmed",
     "sourceIds": [
-     "ahnentafel-2007"
+     "anc-death-1938",
+     "anc-cremation-1938"
     ]
    },
-   "cardPlace": "Dresden",
+   "cardPlace": "Herzberg and Dresden",
    "summary": "Father of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandfather.",
-   "story": "Father of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandfather. Kaufmann (merchant). Died of Lungenentzündung (pneumonia) four days before his 63rd birthday. Had two sisters; one named Marie (married surname uncertain; possibly Wettlitz / Wettlich / Wettnitz) lived at Rothermundtstraße 5 in Dresden-Striesen per a handwritten note on the Ahnentafel. Rufname underlined on the chart was 'Richard'.[^ahnentafel-2007]",
-   "residences": [],
+   "story": "Father of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandfather. Kaufmann (merchant). Born 5 January 1875 in Herzberg, Kreis Schweinitz (Herzberg on the Black Elster), and died at home, Rothermundtstraße 5, Dresden, on 9 January 1938, aged 63, according to his civil death entry (Dresden V 1938 Nr. 52).[^anc-death-1938] The 2007 family chart has the two days the other way round (born 9 January, died 5 January); the record is preferred. The chart gives pneumonia as the cause.[^ahnentafel-2007] In 1905 he lived at Ziegelstraße 2 in Dresden, where Gertrud was born and where he reported her birth himself.[^anc-birth-1905] By 1926 the family lived at Rothermundtstraße 5 in Striesen, where he kept an ironmonger's shop on the ground floor (\"Becker, R., Eisenwhdlg.\").[^slub-dresden-1938] He was a witness at Gertrud's wedding to Alwin Eifler on 2 October 1926, aged 51.[^anc-marriage-1926] He was cremated at the Dresden crematorium in January 1938, certificate 60603.[^anc-cremation-1938] The chart records two sisters; a handwritten note names one as Marie (married surname perhaps Wettlitz) of Rothermundtstraße 5.",
+   "residences": [
+    {
+     "place": "Dresden",
+     "placeId": "dresden-ziegelstrasse-2",
+     "address": "Ziegelstraße 2, I",
+     "years": "1905",
+     "confidence": "confirmed",
+     "sourceIds": [
+      "anc-birth-1905"
+     ]
+    },
+    {
+     "place": "Dresden-Striesen",
+     "placeId": "dresden-rothermundtstrasse-5",
+     "address": "Rothermundtstraße 5",
+     "years": "1926 to 1938",
+     "confidence": "confirmed",
+     "sourceIds": [
+      "anc-marriage-1926",
+      "anc-death-1938",
+      "slub-dresden-1938"
+     ]
+    }
+   ],
    "occupations": [
     {
-     "title": "Kaufmann (merchant)",
+     "title": "Kaufmann (merchant), ironmonger",
      "place": "Dresden",
-     "placeId": null,
-     "confidence": "probable",
+     "placeId": "dresden-rothermundtstrasse-5",
+     "confidence": "confirmed",
      "sourceIds": [
-      "ahnentafel-2007"
+      "anc-death-1938",
+      "slub-dresden-1938"
      ]
     }
    ],
    "timeline": [],
    "facts": [],
    "media": [],
-   "openQuestions": [],
+   "openQuestions": [
+    {
+     "question": "Where his urn was buried (the crematorium register may say Striesener Friedhof)."
+    },
+    {
+     "question": "Name of his second sister, and Marie's married surname."
+    }
+   ],
    "relatedPages": [],
    "photo": null
   },
   {
    "id": "elise-just",
-   "displayName": "Elise Becker",
-   "givenNames": "Elise",
+   "displayName": "Clara Elise Becker",
+   "givenNames": "Clara Elise",
    "surname": "Becker",
    "disambiguator": "née Just",
    "sex": "F",
    "generation": 0,
    "isLiving": false,
    "isDirectLine": true,
-   "confidence": "probable",
+   "confidence": "confirmed",
    "nameVariants": [
     {
-     "name": "Elise Just",
+     "name": "Clara Elise Just",
      "note": "name at birth",
      "sourceIds": [
+      "findbuch-death-1954"
+     ]
+    },
+    {
+     "name": "Elise Just",
+     "note": "as on the 2007 family chart",
+     "sourceIds": [
       "ahnentafel-2007"
+     ]
+    },
+    {
+     "name": "Klara Elise Becker",
+     "note": "spelling in her husband's 1938 death entry",
+     "sourceIds": [
+      "anc-death-1938"
      ]
     }
    ],
@@ -121,32 +168,59 @@
    "birth": {
     "date": "1880-12-01",
     "display": "1 December 1880",
-    "place": "[PLACEHOLDER: birthplace not on page 1]",
-    "placeId": null,
-    "confidence": "probable",
+    "place": "Raun, Kreis Oelsnitz im Vogtland",
+    "placeId": "raun",
+    "confidence": "confirmed",
     "sourceIds": [
+     "findbuch-death-1954",
      "ahnentafel-2007"
     ]
    },
    "death": {
     "date": "1954-12-27",
     "display": "27 December 1954",
-    "place": "Bautzen",
-    "placeId": null,
-    "confidence": "probable",
+    "place": "Wilthener Straße 19, Bautzen",
+    "placeId": "wilthener-19",
+    "confidence": "confirmed",
     "sourceIds": [
-     "ahnentafel-2007"
+     "findbuch-death-1954"
     ]
    },
-   "cardPlace": "Dresden and Bautzen",
+   "cardPlace": "Raun, Dresden and Bautzen",
    "summary": "Mother of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandmother.",
-   "story": "Mother of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandmother. Born into the Just family, one of eight children: two sisters and five brothers. Died of Herzversagen (heart failure).[^ahnentafel-2007]",
-   "residences": [],
+   "story": "Mother of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandmother. Her civil death entry calls her Clara Elise Becker née Just, Hausfrau, born 1 December 1880 in Raun, Kreis Oelsnitz im Vogtland (birth registered at Bad Elster, Nr. 132).[^findbuch-death-1954] She married the merchant Richard Hermann Becker and lived in Dresden. Widowed in 1938, she later lived with her daughter's family at Wilthener Straße 19 in Bautzen, where she died at 2:10 in the morning of 27 December 1954, aged 74. Gertrud reported the death.[^findbuch-death-1954] The family chart says she was one of eight Just children (two sisters and five brothers) and died of heart failure.[^ahnentafel-2007]",
+   "residences": [
+    {
+     "place": "Bautzen",
+     "placeId": "wilthener-19",
+     "address": "Wilthener Straße 19",
+     "years": "1954",
+     "confidence": "confirmed",
+     "sourceIds": [
+      "findbuch-death-1954"
+     ]
+    }
+   ],
    "occupations": [],
    "timeline": [],
    "facts": [],
-   "media": [],
-   "openQuestions": [],
+   "media": [
+    {
+     "type": "document",
+     "file": "images/records/1954-bautzen-death-881-clara-elise-becker.jpg",
+     "caption": "Bautzen death register 1954, Nr. 881: Clara Elise Becker née Just. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
+     "alt": "Typed civil death entry number 881 of 1954 from Bautzen, highlighted.",
+     "sourceId": "findbuch-death-1954"
+    }
+   ],
+   "openQuestions": [
+    {
+     "question": "Her parents' names (birth entry, Standesamt Bad Elster 1880 Nr. 132)."
+    },
+    {
+     "question": "Date and place of her marriage to Richard Becker."
+    }
+   ],
    "relatedPages": [],
    "photo": null
   },
@@ -182,55 +256,88 @@
      "order": 1,
      "marriageDate": "1926-10-02",
      "marriageDisplay": "2 October 1926",
-     "place": "Dresden",
+     "place": "Standesamt Dresden V, Dresden",
      "placeId": null,
      "confidence": "confirmed",
      "sourceIds": [
-      "ahnentafel-2007"
+      "anc-marriage-1926",
+      "findbuch-death-1973"
      ]
     }
    ],
    "birth": {
     "date": "1892-10-07",
     "display": "7 October 1892",
-    "place": "Sohland an der Spree, Upper Lusatia (almost certainly; the chart types only \"Sohland\")",
-    "placeId": null,
+    "place": "Sohland an der Spree",
+    "placeId": "sohland",
     "confidence": "confirmed",
     "sourceIds": [
-     "ahnentafel-2007",
-     "weickert-letterhead",
-     "weickert-invoice-1943"
+     "anc-marriage-1926",
+     "ahnentafel-2007"
     ]
    },
    "death": {
     "date": "1968-12-18",
     "display": "18 December 1968",
-    "place": "Bautzen",
+    "place": "near Bautzen (the family chart says Bautzen)",
     "placeId": null,
-    "confidence": "confirmed",
+    "confidence": "family tradition",
     "sourceIds": [
      "ahnentafel-2007",
-     "weickert-letterhead",
-     "weickert-invoice-1943"
+     "findbuch-index-1968",
+     "findbuch-death-1973"
     ]
    },
    "cardPlace": "Bautzen",
    "summary": "Father of Christa Kohlmann and Sigrid Michaelis.",
-   "story": "Father of Christa Kohlmann and Sigrid Michaelis. Thomas Kohlmann's maternal grandfather. Fabrikant: sole proprietor (Inhaber) of Stahldrahtmatratzen-Fabrik Weickert & Eifler, the steel wire mattress factory based in Bautzen, with offices at Martin-Mutschmann-Straße 19 (a Nazi-period street name) and a factory on the Industriegelände Singwitz served by a private rail siding at Gnaschwitz. The firm name preserves a founding partner Weickert who was no longer active by the 1930s; circumstances of Weickert's exit unknown. Documented as proprietor in two surviving company papers: an undated advertising letterhead (1933–1945) and a business invoice dated 9 April 1943. Married Gertrud Elise Becker on 2 October 1926 in Dresden (the chart types 'Dresdan', a typo). Twelve years older than her at marriage. Died of a Schädelbasisbruch (basilar skull fracture) in a car accident, aged 76. Had three siblings on the chart: brothers Max and Alfred and sister Martha (no further details on page 1). Rufname underlined on the chart was 'Alwin', and Documents B and C confirm he went by Alwin in business.[^ahnentafel-2007][^weickert-letterhead][^weickert-invoice-1943]",
-   "residences": [],
-   "occupations": [
+   "story": "Father of Christa Kohlmann and Sigrid Michaelis, and Thomas Kohlmann's maternal grandfather. Born 7 October 1892 in Sohland an der Spree; his marriage entry gives the place and cites his Sohland birth entry.[^anc-marriage-1926] A Weickert & Eifler saddlery and upholstery shop already existed in Bautzen in 1921, run by the master saddler Bruno Weickert at Löbauer Straße 10.[^anc-bautzen-1921] On 2 October 1926 Alwin, a \"Fabrikant\" living at Wendischer Graben 3 in Bautzen, married Gertrud Elise Becker at the Dresden V registry office (1926 Nr. 352). The witnesses were Ernst Eifler, a farmer of Sohland an der Spree Nr. 247, aged 61 (probably his father), and the bride's father.[^anc-marriage-1926] From 1928 he is listed as sole owner (Inhaber) of the Stahldrahtmatratzenfabrik Weickert & Eifler, with the factory at Gnaschwitz and his home and office at Neusalzaer Straße 38.[^slub-bautzen-1928] By 1935 the firm was at Martin-Mutschmann-Straße 19 (today Wilthener Straße 19), a house he owned by 1938.[^anc-bautzen-1935][^slub-bautzen-1938] The family chart says he died on 18 December 1968 of a basal skull fracture after a car accident, aged 76, and names his siblings as Max, Alfred and Martha.[^ahnentafel-2007] His death is not in the Bautzen city register for 1968, so it was probably registered where the accident happened; Gertrud is recorded as widowed in 1973.[^findbuch-index-1968][^findbuch-death-1973] See the Weickert & Eifler page for the full story of the firm.",
+   "residences": [
     {
-     "title": "Inhaber (sole proprietor)",
-     "employer": "Stahldrahtmatratzen-Fabrik Weickert & Eifler",
      "place": "Bautzen",
-     "placeId": null,
-     "years": "1930s to 1940s",
-     "note": "Office at Martin-Mutschmann-Straße 19. Factory on the Industriegelände Singwitz, with a rail siding at Gnaschwitz.",
+     "placeId": "bautzen-wendischer-graben-3",
+     "address": "Wendischer Graben 3",
+     "years": "1926",
      "confidence": "confirmed",
      "sourceIds": [
-      "weickert-letterhead",
-      "weickert-invoice-1943",
-      "adressbuch-eifler"
+      "anc-marriage-1926"
+     ]
+    },
+    {
+     "place": "Bautzen",
+     "placeId": "bautzen-neusalzaer-38",
+     "address": "Neusalzaer Straße 38, Hinterhaus",
+     "years": "1928 to 1932",
+     "confidence": "confirmed",
+     "sourceIds": [
+      "slub-bautzen-1928",
+      "slub-bautzen-1929"
+     ]
+    },
+    {
+     "place": "Bautzen",
+     "placeId": "wilthener-19",
+     "address": "Martin-Mutschmann-Straße 19 (Wilthener Straße 19)",
+     "years": "1938",
+     "confidence": "confirmed",
+     "sourceIds": [
+      "slub-bautzen-1938"
+     ]
+    }
+   ],
+   "occupations": [
+    {
+     "title": "Fabrikant; sole owner (Inhaber)",
+     "employer": "Stahldrahtmatratzenfabrik Weickert & Eifler",
+     "place": "Bautzen and Gnaschwitz/Singwitz",
+     "placeId": "gnaschwitz",
+     "years": "1926 to at least 1943",
+     "note": "Partner name in the firm by 1921; sole owner from at least 1928. Handelsregister Nr. 885 (1928), A 173 (1938).",
+     "confidence": "confirmed",
+     "sourceIds": [
+      "anc-bautzen-1921",
+      "slub-bautzen-1928",
+      "slub-bautzen-1938",
+      "weickert-invoice-1943"
      ]
     }
    ],
@@ -254,12 +361,36 @@
     {
      "type": "document",
      "file": "images/alvin-yellow-pages.png",
-     "caption": "Page from a German Adressbuch. The highlighted Eifler entry shows the firm's Bautzen office. Directory and year not yet confirmed.",
-     "alt": "Page from a German Adressbuch with a highlighted entry under the surname Eifler.",
+     "caption": "Bautzen Adressbuch 1938, page 14 (family copy). The highlighted line is \"Eifler, Alwin, Kaufmann, Martin-Mutschmann-Str. 19\".",
+     "alt": "Page 14 of the 1938 Bautzen address book with the Alwin Eifler entry highlighted.",
      "sourceId": "adressbuch-eifler"
+    },
+    {
+     "type": "document",
+     "file": "images/records/1928-bautzen-handelsregister-885-weickert-eifler.jpg",
+     "caption": "Bautzen Adressbuch 1928, commercial register: Nr. 885 Stahldrahtmatratzenfabrik Weickert & Eifler, Inhaber Alwin Eifler. SLUB Dresden, public domain.",
+     "alt": "Highlighted commercial register line from the 1928 Bautzen address book.",
+     "sourceId": "slub-bautzen-1928"
+    },
+    {
+     "type": "document",
+     "file": "images/records/1938-bautzen-house-owner-mms19-eifler.jpg",
+     "caption": "Bautzen Adressbuch 1938, house owners: Martin-Mutschmann-Straße 19, owner Eifler, Alwin, Fabrikant. SLUB Dresden, public domain.",
+     "alt": "Highlighted house register line from the 1938 Bautzen address book.",
+     "sourceId": "slub-bautzen-1938"
     }
    ],
-   "openQuestions": [],
+   "openQuestions": [
+    {
+     "question": "Where and on what date his death was registered (December 1968)."
+    },
+    {
+     "question": "His parents (Sohland birth entry 1892, about Nr. 158)."
+    },
+    {
+     "question": "When Bruno Weickert left the firm, and what happened to the firm after 1945."
+    }
+   ],
    "relatedPages": [
     {
      "url": "weickert-eifler.html",
@@ -313,48 +444,79 @@
      "order": 1,
      "marriageDate": "1926-10-02",
      "marriageDisplay": "2 October 1926",
-     "place": "Dresden",
+     "place": "Standesamt Dresden V, Dresden",
      "placeId": null,
      "confidence": "confirmed",
      "sourceIds": [
-      "ahnentafel-2007"
+      "anc-marriage-1926",
+      "findbuch-death-1973"
      ]
     }
    ],
    "birth": {
     "date": "1905-01-22",
     "display": "22 January 1905",
-    "place": "Dresden",
-    "placeId": null,
+    "place": "Ziegelstraße 2, Dresden",
+    "placeId": "dresden-ziegelstrasse-2",
     "confidence": "confirmed",
     "sourceIds": [
-     "ahnentafel-2007",
-     "weickert-invoice-1943"
+     "anc-birth-1905"
     ]
    },
    "death": {
     "date": "1973-12-11",
     "display": "11 December 1973",
-    "place": "Bautzen",
-    "placeId": null,
+    "place": "Wilthener Straße 19, Bautzen",
+    "placeId": "wilthener-19",
     "confidence": "confirmed",
     "sourceIds": [
-     "ahnentafel-2007",
-     "weickert-invoice-1943"
+     "findbuch-death-1973"
     ]
    },
    "cardPlace": "Dresden and Bautzen",
    "summary": "Mother of Christa Kohlmann and Sigrid Michaelis.",
-   "story": "Mother of Christa Kohlmann and Sigrid Michaelis. Thomas Kohlmann's maternal grandmother. Daughter of Richard Hermann Becker and Elise Becker (née Just). Twenty-one years old at her marriage to Ernst Alwin Eifler on 2 October 1926 in Dresden. Documented as actively involved in the bookkeeping side of her husband's firm Weickert & Eifler: a surviving company invoice from 9 April 1943 carries her ink signature acknowledging payment received three weeks later, 'Betrag dankend erhalten. Gertrud Eifler. d. 28.4.1943.' She would have been 38 at the time. Died of cancer (Krebs) at age 68. Rufname underlined on the chart was 'Gertrud'.[^ahnentafel-2007][^weickert-invoice-1943]",
-   "residences": [],
+   "story": "Mother of Christa Kohlmann and Sigrid Michaelis, and Thomas Kohlmann's maternal grandmother. Born 22 January 1905 at Ziegelstraße 2 in Dresden, daughter of the merchant Richard Hermann Becker, who reported the birth (Dresden I 1905 Nr. 165).[^anc-birth-1905] Living with her parents at Rothermundtstraße 5 in Dresden-Striesen, she married Alwin Eifler on 2 October 1926 at the Dresden V registry office, aged 21.[^anc-marriage-1926] A Weickert & Eifler invoice of 9 April 1943 carries her signed receipt: \"Betrag dankend erhalten. Gertrud Eifler. d. 28.4.1943.\" That shows she signed for the firm; whether she kept its books is not recorded.[^weickert-invoice-1943] In 1954 she reported her mother's death at the family house, Wilthener Straße 19, Bautzen.[^findbuch-death-1954] She died there, a widow, at 3:00 in the morning of 11 December 1973, aged 68 (Bautzen 1973 Nr. 1052).[^findbuch-death-1973] The family chart gives cancer as the cause.[^ahnentafel-2007]",
+   "residences": [
+    {
+     "place": "Dresden",
+     "placeId": "dresden-ziegelstrasse-2",
+     "address": "Ziegelstraße 2, I",
+     "years": "1905",
+     "confidence": "confirmed",
+     "sourceIds": [
+      "anc-birth-1905"
+     ]
+    },
+    {
+     "place": "Dresden-Striesen",
+     "placeId": "dresden-rothermundtstrasse-5",
+     "address": "Rothermundtstraße 5",
+     "years": "1926",
+     "confidence": "confirmed",
+     "sourceIds": [
+      "anc-marriage-1926"
+     ]
+    },
+    {
+     "place": "Bautzen",
+     "placeId": "wilthener-19",
+     "address": "Wilthener Straße 19",
+     "years": "1954 to 1973",
+     "confidence": "confirmed",
+     "sourceIds": [
+      "findbuch-death-1954",
+      "findbuch-death-1973"
+     ]
+    }
+   ],
    "occupations": [
     {
-     "title": "Office bookkeeper",
-     "employer": "Stahldrahtmatratzen-Fabrik Weickert & Eifler",
+     "title": "Signed for the firm",
+     "employer": "Stahldrahtmatratzenfabrik Weickert & Eifler",
      "place": "Bautzen",
-     "placeId": null,
+     "placeId": "wilthener-19",
      "years": "1943",
-     "note": "Signed the payment receipt on the 9 April 1943 invoice: Betrag dankend erhalten. Gertrud Eifler. d. 28.4.1943.",
+     "note": "Signed the payment receipt on the 9 April 1943 invoice.",
      "confidence": "confirmed",
      "sourceIds": [
       "weickert-invoice-1943"
@@ -370,6 +532,13 @@
      "caption": "Business invoice, 9 April 1943. Gertrud Eifler signed the receipt on 28 April 1943.",
      "alt": "Weickert and Eifler business invoice, 9 April 1943, with payment receipt signed by Gertrud Eifler.",
      "sourceId": "weickert-invoice-1943"
+    },
+    {
+     "type": "document",
+     "file": "images/records/1973-bautzen-death-1052-gertrud-elise-eifler.jpg",
+     "caption": "Bautzen death register 1973, Nr. 1052: Gertrud Elise Eifler née Becker. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
+     "alt": "Typed civil death entry number 1052 of 1973 from Bautzen, highlighted.",
+     "sourceId": "findbuch-death-1973"
     }
    ],
    "openQuestions": [],
