@@ -7,10 +7,10 @@
 
 const personData = {
     alvin: {
-        name: "Alvin Kohlmann",
+        name: "Herbert Kohlmann",
         subtitle: "Thomas's father, Generation 1",
         tags: ["Direct Line", "Generation 1", "Deceased"],
-        description: `Alvin Kohlmann was Thomas Kohlmann's father, and so Valeria Kohlmann's paternal grandfather. He married <strong>Elise Christa Eifler</strong> on 24 July 1952 in Bautzen (her father, Alwin Eifler, was sole proprietor of the steel wire mattress factory Weickert &amp; Eifler, also in Bautzen). He is not on the maternal Eifler/Becker Ahnentafel because that chart documents only Christa's bloodline, and so much of his own life remains a placeholder. [PLACEHOLDER: where and when Alvin was born, where he lived, what he did for a living, when and where he died, his siblings if any, and any wartime, professional, or family history worth preserving. The Bautzen civil marriage record from 24 July 1952 is the cleanest single source to chase: it would name his parents, birthplace, and occupation.]`,
+        description: `Herbert Kohlmann, known in the family in English as Herbert Coleman, was Thomas Kohlmann's father, and so Valeria Kohlmann's paternal grandfather. He married <strong>Elise Christa Eifler</strong> on <strong>24 July 1952 in Bautzen</strong>; the date is on the 2007 family chart. Christa was the daughter of Alwin and Gertrud Eifler of the mattress firm Weickert &amp; Eifler. Earlier versions of this site gave his first name wrongly, a mix-up with Christa's father Alwin Eifler that the family corrected on 26 November 2026. [PLACEHOLDER: where and when Herbert was born, his parents, where he lived, what he did for a living, when and where he died.]`,
         details: {
             "Born": "[PLACEHOLDER: birth date and place]",
             "Died": "[PLACEHOLDER: date and place]",
@@ -25,7 +25,7 @@ const personData = {
         name: "Elise Christa Kohlmann (née Eifler)",
         subtitle: "Thomas's mother, Generation 1",
         tags: ["Direct Line", "Generation 1", "Eifler", "Bautzen"],
-        description: `<strong>Elise Christa Kohlmann</strong>, called Christa, was Thomas Kohlmann's mother. She was born <strong>25 November 1928 in Bautzen</strong>, Saxony, the younger daughter of <strong>Ernst Alwin Eifler</strong> (1892 to 1968), sole proprietor of the steel wire mattress factory <strong>Weickert &amp; Eifler</strong> in Bautzen, and <strong>Gertrud Elise Eifler</strong>, née Becker (1905 to 1973), who worked alongside Alwin in the firm's office. Her older sister was <strong>Sigrid</strong> (b. 20 July 1927, Bautzen), who married a Michaelis on 20 August 1953 in Bautzen. Christa married <strong>Alvin Kohlmann</strong> on <strong>24 July 1952 in Bautzen</strong>. Together they had Thomas, Matthias, and Sabine. She died on <strong>21 May 2006 in Starnberg</strong>, Bavaria, of cancer (<em>Krebs</em>), aged 77. The 2007 Eifler/Becker <em>Ahnentafel</em> from which much of this is drawn was almost certainly compiled in the months following her death.`,
+        description: `<strong>Elise Christa Kohlmann</strong>, called Christa, was Thomas Kohlmann's mother. She was born <strong>25 November 1928 in Bautzen</strong>, Saxony, the younger daughter of <strong>Ernst Alwin Eifler</strong> (1892 to 1968), sole proprietor of the steel wire mattress factory <strong>Weickert &amp; Eifler</strong> in Bautzen, and <strong>Gertrud Elise Eifler</strong>, née Becker (1905 to 1973), who worked alongside Alwin in the firm's office. Her older sister was <strong>Sigrid</strong> (b. 20 July 1927, Bautzen), who married a Michaelis on 20 August 1953 in Bautzen. Christa married <strong>Herbert Kohlmann</strong> on <strong>24 July 1952 in Bautzen</strong>. Together they had Thomas, Matthias, and Sabine. She died on <strong>21 May 2006 in Starnberg</strong>, Bavaria, of cancer (<em>Krebs</em>), aged 77. The 2007 Eifler/Becker <em>Ahnentafel</em> from which much of this is drawn was almost certainly compiled in the months following her death.`,
         details: {
             "Full Name": "Elise Christa Kohlmann",
             "Maiden Name": "Eifler",
@@ -35,7 +35,7 @@ const personData = {
             "Father": "Ernst Alwin Eifler (1892 to 1968), proprietor, Weickert &amp; Eifler, Bautzen",
             "Mother": "Gertrud Elise Eifler, née Becker (1905 to 1973)",
             "Sister": "Sigrid Michaelis, née Eifler (b. 1927)",
-            "Married": "Alvin Kohlmann, 24 July 1952, Bautzen",
+            "Married": "Herbert Kohlmann, 24 July 1952, Bautzen",
             "Children": "Thomas (b. 1956, Radebeul), Matthias, Sabine"
         }
     },
@@ -158,10 +158,10 @@ const personData = {
         name: "Thomas Kohlmann",
         subtitle: "Valeria's father, Generation 2",
         tags: ["Direct Line", "Living", "Born 1956, Radebeul", "Escaped East Germany"],
-        description: `Thomas Kohlmann is Valeria Kohlmann's father, born in 1956 in Radebeul, Saxony, in East Germany. He is the son of <strong>Alvin Kohlmann</strong> and <strong>Elise Christa Kohlmann</strong> (née Eifler). Through his mother he descends from the Eifler family of Bautzen, where his maternal grandfather <strong>Alwin Eifler</strong> ran the steel wire mattress factory <strong>Weickert &amp; Eifler</strong> through the 1930s and 1940s, and from the Becker family of Dresden. He has a brother, Matthias, and a sister, Sabine. Thomas escaped from East Germany to West Germany; his story is the first half of the family's two-part escape narrative. After he made it across, he helped his future wife Rita escape as well. They married in 1980 in Munich. Together they had two daughters, Valeria (1990) and Elisa (1994). [PLACEHOLDER: exact birth date, the route and date of his escape, what he did in West Germany after escaping, his career, and the city in Germany where he and Rita live now.]`,
+        description: `Thomas Kohlmann is Valeria Kohlmann's father, born in 1956 in Radebeul, Saxony, in East Germany. He is the son of <strong>Herbert Kohlmann</strong> and <strong>Elise Christa Kohlmann</strong> (née Eifler). Through his mother he descends from the Eifler family of Bautzen, where his maternal grandfather <strong>Alwin Eifler</strong> ran the steel wire mattress factory <strong>Weickert &amp; Eifler</strong> through the 1930s and 1940s, and from the Becker family of Dresden. He has a brother, Matthias, and a sister, Sabine. Thomas escaped from East Germany to West Germany; his story is the first half of the family's two-part escape narrative. After he made it across, he helped his future wife Rita escape as well. They married in 1980 in Munich. Together they had two daughters, Valeria (1990) and Elisa (1994). [PLACEHOLDER: exact birth date, the route and date of his escape, what he did in West Germany after escaping, his career, and the city in Germany where he and Rita live now.]`,
         details: {
             "Born": "1956, Radebeul, Saxony, East Germany",
-            "Father": "Alvin Kohlmann",
+            "Father": "Herbert Kohlmann",
             "Mother": "Elise Christa Kohlmann, née Eifler (1928 to 2006)",
             "Maternal Line": "Eifler (Bautzen, Weickert &amp; Eifler) &rarr; Becker (Dresden) &rarr; Just",
             "Siblings": "Matthias Kohlmann, Sabine Kohlmann",
@@ -175,10 +175,10 @@ const personData = {
         name: "Matthias Kohlmann",
         subtitle: "Thomas's brother; Generation 2",
         tags: ["Sibling", "Living"],
-        description: `Thomas Kohlmann's brother. Son of Alvin Kohlmann. [PLACEHOLDER: birth year and place, where he lives, occupation, marriage, any children, and any role in the family's East-to-West Germany story.]`,
+        description: `Thomas Kohlmann's brother. Son of Herbert Kohlmann. [PLACEHOLDER: birth year and place, where he lives, occupation, marriage, any children, and any role in the family's East-to-West Germany story.]`,
         details: {
             "Born": "[PLACEHOLDER]",
-            "Father": "Alvin Kohlmann",
+            "Father": "Herbert Kohlmann",
             "Mother": "[PLACEHOLDER]",
             "Siblings": "Thomas Kohlmann (b. 1956), Sabine Kohlmann",
             "Lives": "[PLACEHOLDER]"
@@ -188,10 +188,10 @@ const personData = {
         name: "Sabine Kohlmann",
         subtitle: "Thomas's sister; Generation 2",
         tags: ["Sibling", "Living"],
-        description: `Thomas Kohlmann's sister. Daughter of Alvin Kohlmann. [PLACEHOLDER: birth year and place, married name if any, where she lives, occupation, family, and any role in the family's East-to-West Germany story.]`,
+        description: `Thomas Kohlmann's sister. Daughter of Herbert Kohlmann. [PLACEHOLDER: birth year and place, married name if any, where she lives, occupation, family, and any role in the family's East-to-West Germany story.]`,
         details: {
             "Born": "[PLACEHOLDER]",
-            "Father": "Alvin Kohlmann",
+            "Father": "Herbert Kohlmann",
             "Mother": "[PLACEHOLDER]",
             "Siblings": "Thomas Kohlmann (b. 1956), Matthias Kohlmann",
             "Lives": "[PLACEHOLDER]"
@@ -290,7 +290,7 @@ const personData = {
             "Born": "January 2026, Tampa, Florida",
             "Parents": "Valeria Kohlmann &amp; Sebastian Belfiore",
             "Citizenship": "US, UK, German",
-            "Generation": "4 (from Alvin Kohlmann)"
+            "Generation": "4 (from Herbert Kohlmann)"
         }
     }
 };

@@ -28,7 +28,7 @@
       "title": "Bautzen Adressbuch 1938, page 14 (family copy)",
       "type": "document",
       "file": "images/alvin-yellow-pages.png",
-      "note": "Identified 25 November 2026: page 14 of the 1938 Bautzen Adressbuch. The highlighted line is \"Eifler, Alwin, Kaufmann, Martin-Mutschmann-Str. 19\", Christa's father, not Alvin Kohlmann. Matches SLUB digital copy image 56 exactly. Family collection.",
+      "note": "Identified 25 November 2026: page 14 of the 1938 Bautzen Adressbuch. The highlighted line is \"Eifler, Alwin, Kaufmann, Martin-Mutschmann-Str. 19\", Christa's father, not Thomas's father. Matches SLUB digital copy image 56 exactly. Family collection.",
       "date": "1938",
       "url": "https://digital.slub-dresden.de/id351743545-19380000/56"
     },
@@ -445,6 +445,13 @@
       "date": "2026-11-26",
       "url": "https://de.wikipedia.org/wiki/Briesing",
       "note": "Cites Arnošt Muka's count of 1884/85: 183 inhabitants, 176 of them Sorbs."
+    },
+    {
+      "id": "family-correction-2026-11-26",
+      "title": "Family correction, 26 November 2026, given by the family",
+      "type": "family testimony",
+      "date": "2026-11-26",
+      "note": "Thomas Kohlmann's father is Herbert Kohlmann, called Herbert Coleman in English; his mother is Christa (Krista) née Eifler, daughter of Alwin and Gertrud Eifler. Earlier versions of the site gave Thomas's father the wrong first name, a mix-up with Christa's father Alwin Eifler."
     }
   ]
 }

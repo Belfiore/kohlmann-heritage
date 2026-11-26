@@ -9,7 +9,7 @@
 //     with Thomas Kohlmann. Both surnames are preserved on her record.
 //   - Heide's and Annette's maiden surnames are recorded as a placeholder pending
 //     confirmation of whether they were born under Woltmann or Werner.
-//   - "Alvin Kohlmann" (with V) is Thomas's father, the paternal grandfather.
+//   - "Herbert Kohlmann" (with V) is Thomas's father, the paternal grandfather.
 //     "Alwin Eifler" (with W) is Thomas's maternal grandfather, sole proprietor
 //     of Weickert & Eifler. Two distinct people, similar names; do not conflate.
 //
@@ -109,12 +109,12 @@ const FAMILY_DATA = {
         /* ===== GENERATION 1; GRANDPARENTS (Kohlmann) AND PARALLEL BRANCHES ===== */
         {
             id: 'alvin',
-            firstName: 'Alvin',
+            firstName: 'Herbert',
             lastName: 'Kohlmann',
             birthYear: null,
             deathYear: null,
             isLiving: false,
-            primaryLocation: '[PLACEHOLDER: where Alvin lived]',
+            primaryLocation: '[PLACEHOLDER: where Herbert lived]',
             confidence: 'low',
             generation: 1,
             notes: "Thomas's father. Married Elise Christa Eifler on 24 July 1952 in Bautzen (her father Alwin Eifler was sole proprietor of the steel wire mattress factory Weickert & Eifler in Bautzen). Deceased. Not on the maternal Ahnentafel because that chart only documents Christa's bloodline. [PLACEHOLDER: birth date and place, death date and place, occupation, siblings, anything about his life. The Bautzen civil marriage record from 24 July 1952 is the cleanest single source to chase: it would name his parents, birthplace, and occupation.]",
@@ -135,7 +135,7 @@ const FAMILY_DATA = {
             primaryLocation: 'Bautzen → Starnberg',
             confidence: 'verified',
             generation: 1,
-            notes: "Thomas Kohlmann's mother. Daughter of Ernst Alwin Eifler (sole proprietor of the family firm Weickert & Eifler in Bautzen) and Gertrud Elise Eifler (née Becker). Younger sister of Sigrid Michaelis (née Eifler). Married Alvin Kohlmann on 24 July 1952 in Bautzen. Died of cancer (Krebs) at age 77. Mother of Thomas, Matthias, and Sabine.",
+            notes: "Thomas Kohlmann's mother. Daughter of Ernst Alwin Eifler (sole proprietor of the family firm Weickert & Eifler in Bautzen) and Gertrud Elise Eifler (née Becker). Younger sister of Sigrid Michaelis (née Eifler). Married Herbert Kohlmann on 24 July 1952 in Bautzen. Died of cancer (Krebs) at age 77. Mother of Thomas, Matthias, and Sabine.",
             source: '2007 Eifler/Becker Ahnentafel (page 1)'
         },
         {
@@ -193,7 +193,7 @@ const FAMILY_DATA = {
             primaryLocation: '[PLACEHOLDER: current city]',
             confidence: 'verified',
             generation: 2,
-            notes: "Valeria's father. Born 1956 in Radebeul, Saxony (East Germany). Son of Alvin Kohlmann and Elise Christa Kohlmann (née Eifler). Brother of Matthias and Sabine. Escaped from East Germany to West Germany; later helped Rita escape. Married Rita in 1980 in Munich. [PLACEHOLDER: exact birth date, escape date and route, current city, occupation.]",
+            notes: "Valeria's father. Born 1956 in Radebeul, Saxony (East Germany). Son of Herbert Kohlmann and Elise Christa Kohlmann (née Eifler). Brother of Matthias and Sabine. Escaped from East Germany to West Germany; later helped Rita escape. Married Rita in 1980 in Munich. [PLACEHOLDER: exact birth date, escape date and route, current city, occupation.]",
             source: 'Family testimony'
         },
         {
@@ -206,7 +206,7 @@ const FAMILY_DATA = {
             primaryLocation: '[PLACEHOLDER: location]',
             confidence: 'high',
             generation: 2,
-            notes: "Thomas's brother. Son of Alvin Kohlmann and Elise Christa Kohlmann (née Eifler). [PLACEHOLDER: birth year, location, occupation, marriage and any children.]",
+            notes: "Thomas's brother. Son of Herbert Kohlmann and Elise Christa Kohlmann (née Eifler). [PLACEHOLDER: birth year, location, occupation, marriage and any children.]",
             source: 'Family testimony'
         },
         {
@@ -219,7 +219,7 @@ const FAMILY_DATA = {
             primaryLocation: '[PLACEHOLDER: location]',
             confidence: 'high',
             generation: 2,
-            notes: "Thomas's sister. Daughter of Alvin Kohlmann and Elise Christa Kohlmann (née Eifler). [PLACEHOLDER: birth year, location, married name if any, family.]",
+            notes: "Thomas's sister. Daughter of Herbert Kohlmann and Elise Christa Kohlmann (née Eifler). [PLACEHOLDER: birth year, location, married name if any, family.]",
             source: 'Family testimony'
         },
         {
@@ -347,7 +347,7 @@ const FAMILY_DATA = {
         { type: 'parent_child', fromPersonId: 'ernst_alwin', toPersonId: 'sigrid' },
         { type: 'parent_child', fromPersonId: 'gertrud_becker', toPersonId: 'sigrid' },
 
-        // Alvin & Christa -> Thomas, Matthias, Sabine
+        // Herbert & Christa -> Thomas, Matthias, Sabine
         { type: 'parent_child', fromPersonId: 'alvin', toPersonId: 'thomas' },
         { type: 'parent_child', fromPersonId: 'christa', toPersonId: 'thomas' },
         { type: 'parent_child', fromPersonId: 'alvin', toPersonId: 'matthias' },
