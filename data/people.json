@@ -1415,25 +1415,51 @@
         {
           "place": "Bautzen",
           "placeId": "bautzen-schaefferstrasse-6",
-          "address": "Schäfferstraße 6",
-          "years": "1928 to 1938",
+          "address": "Schäfferstraße 6 (first floor in 1932, 1935 and 1938)",
+          "years": "1925 to 1938",
           "confidence": "confirmed",
           "sourceIds": [
+            "anc-bautzen-1925-kohlmann",
             "slub-bautzen-1928",
+            "anc-bautzen-1935-kohlmann",
             "slub-bautzen-1938"
+          ]
+        },
+        {
+          "place": "Bautzen",
+          "placeId": "bautzen-holzmarkt-27",
+          "address": "Holzmarkt 27 (1921: rear building, first floor; 1924: ground floor)",
+          "years": "1921 to 1924",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-bautzen-1921-kohlmann",
+            "anc-bautzen-1924-kohlmann"
           ]
         }
       ],
       "occupations": [
         {
+          "title": "Fleischergeselle (journeyman butcher)",
+          "employer": null,
+          "place": "Bautzen",
+          "placeId": null,
+          "years": "1921",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-bautzen-1921-kohlmann"
+          ]
+        },
+        {
           "title": "Fleischer (butcher)",
           "employer": null,
           "place": "Bautzen",
           "placeId": null,
-          "years": null,
+          "years": "1924 to 1938",
           "confidence": "confirmed",
           "sourceIds": [
-            "slub-bautzen-1928"
+            "anc-bautzen-1924-kohlmann",
+            "slub-bautzen-1928",
+            "slub-bautzen-1938"
           ]
         }
       ],
@@ -1449,11 +1475,14 @@
       "generation": 2,
       "confidence": "unverified",
       "cardPlace": "Bautzen",
-      "summary": "A butcher (Fleischer) named Alwin Kohlmann lived at Schäfferstraße 6, Bautzen, in the address books of 1928 to 1938. The same rare first name as Alvin, in the same town. He may be Alvin himself or his father. Not proven.",
-      "story": "The Bautzen address books list a butcher, Alwin Kohlmann, at Schäfferstraße 6 from 1928 to 1938.[^slub-bautzen-1928][^slub-bautzen-1938] Thomas Kohlmann's father is remembered as Alvin Kohlmann, who married Christa Eifler in Bautzen in 1952. The butcher could be Alvin himself, if Alvin was born before about 1910, or more likely his father. Nothing found so far links them.",
+      "summary": "A butcher named Alwin Kohlmann lived in Bautzen from at least 1921 to 1938: at Holzmarkt 27 as a journeyman butcher in 1921 and 1924, then at Schäfferstraße 6 from 1925. The same rare first name as Alvin, in the same town. As a journeyman in 1921 he was probably born by about 1904, so he is more likely Alvin's father than Alvin himself. Not proven.",
+      "story": "In 1921 the Bautzen address book lists \"Kohlmann, Alwin, Fleischergeselle\" (journeyman butcher) at Holzmarkt 27, in the rear building, first floor.[^anc-bautzen-1921-kohlmann] In 1924 he is a butcher (Fleischer) at Holzmarkt 27, ground floor.[^anc-bautzen-1924-kohlmann] From 1925 he lives at Schäfferstraße 6, and he is there in every book seen up to 1938.[^anc-bautzen-1925-kohlmann][^slub-bautzen-1928][^anc-bautzen-1935-kohlmann][^slub-bautzen-1938] He is the only Alwin Kohlmann in each book, and there is no second, younger Kohlmann butcher. Thomas Kohlmann's father is remembered as Alvin Kohlmann, who married Christa Eifler in Bautzen in 1952. A journeyman in 1921 had usually finished an apprenticeship, so this Alwin was probably born about 1904 or earlier. That makes him more likely Alvin's father (or uncle) than Alvin himself. Nothing found so far links them.",
       "openQuestions": [
         {
-          "question": "Is this Alvin, or Alvin's father? The 1952 marriage entry (Standesamt Bautzen) names Alvin's parents."
+          "question": "Is this Alvin's father? The 1952 marriage entry (Standesamt Bautzen) names Alvin's parents."
+        },
+        {
+          "question": "Where was he after 1938? No entry was found for 1941 or 1943, and it is not yet known whether those Bautzen books survive online."
         }
       ],
       "relatedPages": [
@@ -1483,7 +1512,7 @@
       "birth": null,
       "death": null,
       "summary": "Max Woltmann, a tax official, was the only Woltmann in the Döbeln address books of 1925 and 1939, at the same house both times. Rita was born a Woltmann in Döbeln in 1956, so he may be Brigitte's father or another close relative. Not proven.",
-      "story": "The Döbeln address book for 1925 lists \"Woltmann Max, Steuerassist.\" (tax assistant) at Kleinbauchlitzer Straße 20. He is the only Woltmann in the book.[^slub-doebeln-1925] In 1939 the book lists \"Woltmann, Max, Steuersekretär\" (tax secretary) at Grimmaische Straße 20, again the only Woltmann.[^slub-doebeln-1939] The 1939 book heads Grimmaische Straße \"vorher Kleinbauchlitzer Straße\" (formerly Kleinbauchlitzer Straße), so this is the same house: he lived at No. 20 from at least 1925 to 1939 and was promoted from assistant to secretary.[^slub-doebeln-1939] There was no Woltmann in Döbeln in 1900-01, so he came to the town after 1900.[^slub-doebeln-1900] Rita was born in Döbeln in 1956 with her mother Brigitte's surname, Woltmann.[^family-testimony] With so rare a name, Max is probably Brigitte's father or grandfather, but no record seen so far links them. Brigitte's birth entry would settle it.",
+      "story": "The Döbeln address book for 1925 lists \"Woltmann Max, Steuerassist.\" (tax assistant) at Kleinbauchlitzer Straße 20. He is the only Woltmann in the book.[^slub-doebeln-1925] In 1939 the book lists \"Woltmann, Max, Steuersekretär\" (tax secretary) at Grimmaische Straße 20, again the only Woltmann.[^slub-doebeln-1939] The 1939 book heads Grimmaische Straße \"vorher Kleinbauchlitzer Straße\" (formerly Kleinbauchlitzer Straße), so this is the same house: he lived at No. 20 from at least 1925 to 1939 and was promoted from assistant to secretary.[^slub-doebeln-1939] There was no Woltmann in Döbeln in 1900-01, so he came to the town after 1900.[^slub-doebeln-1900] Rita was born in Döbeln in 1956 with her mother Brigitte's surname, Woltmann.[^family-testimony] With so rare a name, Max is probably Brigitte's father or grandfather, but no record seen so far links them. Brigitte's birth entry would settle it. Ancestry's copies of the same two books show the same entries; Ancestry has no birth, marriage or death record for him, and none for Brigitte.[^anc-doebeln-1925][^anc-doebeln-1939]",
       "residences": [
         {
           "place": "Döbeln",
@@ -1492,7 +1521,8 @@
           "years": "1925",
           "confidence": "confirmed",
           "sourceIds": [
-            "slub-doebeln-1925"
+            "slub-doebeln-1925",
+            "anc-doebeln-1925"
           ]
         },
         {
@@ -1502,7 +1532,8 @@
           "years": "1939",
           "confidence": "confirmed",
           "sourceIds": [
-            "slub-doebeln-1939"
+            "slub-doebeln-1939",
+            "anc-doebeln-1939"
           ]
         }
       ],

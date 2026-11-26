@@ -1199,7 +1199,7 @@
       "inHomeRegion": true,
       "country": "Germany",
       "status": "published",
-      "blurb": "Lead only. Alwin Kohlmann, butcher (Fleischer), lived here 1928 to 1938. He may be Alvin Kohlmann or his father. Not proven, so it is shown as no proven link. The circle is around today's number 6.",
+      "blurb": "Lead only. Alwin Kohlmann, butcher (Fleischer), lived here 1925 to 1938. He may be Alvin Kohlmann's father. Not proven, so it is shown as no proven link. The circle is around today's number 6.",
       "events": [
         {
           "id": "pe-schaeffer6-alwin-kohlmann",
@@ -1207,8 +1207,8 @@
           "personIds": [
             "alwin-kohlmann-butcher"
           ],
-          "date": "1928 to 1938",
-          "dateStart": "1928-01-01",
+          "date": "1925 to 1938",
+          "dateStart": "1925-01-01",
           "dateEnd": "1938-12-31",
           "datePrecision": "year",
           "approximate": false,
@@ -1218,12 +1218,14 @@
           ],
           "recordCrops": [],
           "sourceIds": [
+            "anc-bautzen-1925-kohlmann",
             "slub-bautzen-1928",
+            "anc-bautzen-1935-kohlmann",
             "slub-bautzen-1938"
           ],
           "confidence": "unverified",
           "familyStatement": false,
-          "summary": "Alwin Kohlmann, butcher, at Schäfferstraße 6 (address books 1928 to 1938). A lead for Alvin's family, not proven."
+          "summary": "Alwin Kohlmann, butcher, at Schäfferstraße 6 (address books 1925 to 1938). A lead for Alvin's family, not proven."
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
@@ -1236,7 +1238,10 @@
       "historicMap": null,
       "streetView": null,
       "streetViewReason": "Not checked yet.",
-      "blurbSourceIds": [],
+      "blurbSourceIds": [
+        "anc-bautzen-1925-kohlmann",
+        "slub-bautzen-1938"
+      ],
       "historicName": "Schäfferstraße 6, Bautzen",
       "address": "Schäfferstraße 6, Bautzen",
       "coordinatePrecision": "street",
@@ -1326,6 +1331,64 @@
           "confidence": "unverified",
           "familyStatement": false,
           "summary": "Max Woltmann, tax secretary, at Grimmaische Straße 20, the same house under its new street name (address book 1939). A lead, not proven."
+        }
+      ]
+    },
+    {
+      "id": "bautzen-holzmarkt-27",
+      "name": "Holzmarkt 27, Bautzen",
+      "historicName": "Holzmarkt 27, Bautzen",
+      "variants": [],
+      "kind": "home",
+      "address": "Holzmarkt 27, Bautzen",
+      "precision": "address",
+      "lat": 51.1815376,
+      "lng": 14.4344008,
+      "uncertaintyMetres": 100,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "coordinateMethod": "OpenStreetMap Nominatim, 26 November 2026, query \"Holzmarkt 27, Bautzen\" (matched a building). Drawn as a circle: house numbers may have changed since 1924.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "coordinatePrecision": "street",
+      "status": "published",
+      "noProvenLink": true,
+      "blurb": "Lead only. Alwin Kohlmann lived here as a journeyman butcher in 1921 (rear building, first floor) and as a butcher in 1924 (ground floor), before moving to Schäfferstraße 6. He may be Alvin Kohlmann's father. Not proven, so it is shown as no proven link.",
+      "blurbSourceIds": [
+        "anc-bautzen-1921-kohlmann",
+        "anc-bautzen-1924-kohlmann"
+      ],
+      "standsToday": "unknown",
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "events": [
+        {
+          "id": "pe-holzmarkt27-alwin-kohlmann",
+          "type": "lived",
+          "personIds": [
+            "alwin-kohlmann-butcher"
+          ],
+          "date": "1921 to 1924",
+          "dateStart": "1921-01-01",
+          "dateEnd": "1924-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "factRef": "alwin-kohlmann-butcher.residences[1]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "sourceIds": [
+            "anc-bautzen-1921-kohlmann",
+            "anc-bautzen-1924-kohlmann"
+          ],
+          "confidence": "unverified",
+          "familyStatement": false,
+          "summary": "Alwin Kohlmann, journeyman butcher (1921) and butcher (1924), at Holzmarkt 27 (address books). A lead for Alvin's family, not proven."
         }
       ]
     }

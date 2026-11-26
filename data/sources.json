@@ -229,6 +229,54 @@
       "date": "1900",
       "url": "https://digital.slub-dresden.de/id32255666Z/81",
       "note": "SLUB Dresden, public domain. Image 81 (page 57): the residents list runs Wolf, Wollburg, Wollner, Wolke, Wolter, Worm. No Woltmann."
+    },
+    {
+      "id": "anc-bautzen-1921-kohlmann",
+      "title": "Einwohnerbuch für Bautzen 1921, page 60 (Kohlmann)",
+      "type": "directory",
+      "date": "1921",
+      "url": "https://www.ancestry.com/search/collections/60778/records/18241430",
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. \"Kohlmann, Alwin, Fleischergeselle, Holzmarkt 27, Hths. I.\""
+    },
+    {
+      "id": "anc-bautzen-1924-kohlmann",
+      "title": "Adressbuch Bautzen 1924 (Kohlmann)",
+      "type": "directory",
+      "date": "1924",
+      "url": "https://www.ancestry.com/search/collections/60778/records/7669002",
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. \"Kohlmann, Alwin, Fleischer, Holzmarkt 27, Eg.\" (the index fields are scrambled; read from the image)."
+    },
+    {
+      "id": "anc-bautzen-1925-kohlmann",
+      "title": "Adressbuch Bautzen 1925 (Kohlmann)",
+      "type": "directory",
+      "date": "1925",
+      "url": "https://www.ancestry.com/search/collections/60778/records/30269020",
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. \"Kohlmann, Alwin, Fleischer, Schäfferstraße 6.\""
+    },
+    {
+      "id": "anc-bautzen-1935-kohlmann",
+      "title": "Adressbuch Bautzen 1935 (Kohlmann)",
+      "type": "directory",
+      "date": "1935",
+      "url": "https://www.ancestry.com/search/collections/60778/records/6043742",
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. Alwin, Fleischer, Schäfferstraße 6, I.; Friedrich, Kaufmann, Jägerstraße 43, II.; Heinz, Prokurist, Kaiserstraße 12, III. (the index reads \"Heilig\"); Walter, Diplom-Ingenieur, Reg.-Gewerberat, Taucherstraße 13, I.; Willy, Kaufmann, Kantstraße 21, I."
+    },
+    {
+      "id": "anc-doebeln-1925",
+      "title": "Adreßbuch für die Kreisstadt Döbeln und Umgebung 1925, page 187 (Woltmann)",
+      "type": "directory",
+      "date": "1925",
+      "url": "https://www.ancestry.com/search/collections/60778/records/23932961",
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. Second copy of the SLUB entry: \"Woltmann Max, Steuerassist., Kleinbauchlitzer Straße 20\"."
+    },
+    {
+      "id": "anc-doebeln-1939",
+      "title": "Adressbuch Döbeln 1939, page 183 (Woltmann)",
+      "type": "directory",
+      "date": "1939",
+      "url": "https://www.ancestry.com/search/collections/60778/records/41585419",
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. Second copy of the SLUB entry: \"Woltmann Max, Steuersekretär, Grimmaische Str. 20\"."
     }
   ]
 }
