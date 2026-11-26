@@ -1487,10 +1487,11 @@
       "country": "Germany",
       "status": "published",
       "noProvenLink": true,
-      "blurb": "Lead only. Ernst Alwin Kohlmann, the Bautzen butcher, was born here on 21 September 1883. Kötzschau is a hamlet of Kleindehsa in the parish of Lawalde, near Löbau; his birth was registered at Lawalde. He may be Alvin Kohlmann's father. Not proven. Ernestine Hedwig Kohlmann, probably his sister, was born in Kleindehsa, the same village, in 1897.",
+      "blurb": "Lead only. Ernst Alwin Kohlmann, the Bautzen butcher, was born here on 21 September 1883. Kötzschau is a hamlet of Kleindehsa in the parish of Lawalde, near Löbau; his birth was registered at Lawalde. He may be Alvin Kohlmann's father. Not proven. Ernestine Hedwig Kohlmann, probably his sister, was born in Kleindehsa, the same village, in 1897. In 1787 the village judge here was a Johann Kohlmann, whose son Gottfried bought the inn at Kleindehsa; no record yet links him to the Bautzen Kohlmanns.",
       "blurbSourceIds": [
         "findbuch-death-register-1972-185",
-        "findbuch-death-register-1980-40"
+        "findbuch-death-register-1980-40",
+        "lawalde-chronik-kleindehsa"
       ],
       "events": [
         {
@@ -1825,6 +1826,278 @@
       "historicName": "Fischergasse 31, Bautzen",
       "address": "Fischergasse 31, Bautzen",
       "coordinatePrecision": "street",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "kleindehsa",
+      "name": "Kleindehsa",
+      "kind": "village",
+      "precision": "village",
+      "lat": 51.1049165,
+      "lng": 14.5924402,
+      "uncertaintyMetres": 1000,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "noProvenLink": true,
+      "blurb": "Lead only. A village near Löbau, now part of Lawalde. Its village inn, the Kretscham, belonged to a Kohlmann family from 1787 until 1959, according to the village chronicle. Ernestine Hedwig Kohlmann, probably the sister of Alwin Kohlmann the Bautzen butcher, was born here in 1897. No record yet links these innkeepers to the family. The Kretscham burned down on 29 January 1997 and was pulled down.",
+      "blurbSourceIds": [
+        "lawalde-chronik-kleindehsa",
+        "findbuch-death-register-1980-40"
+      ],
+      "events": [
+        {
+          "id": "pe-kleindehsa-born-ernestine",
+          "type": "born",
+          "personIds": [
+            "ernestine-kissal"
+          ],
+          "date": "1897-09-15",
+          "dateStart": "1897-09-15",
+          "dateEnd": "1897-09-15",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Ernestine Hedwig Kohlmann: birth, 1897 (probably Alwin Kohlmann's sister, not proven)",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1980-40"
+          ],
+          "factRef": "ernestine-kissal.birth",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim, village node \"Kleindehsa, Lawalde\", 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "coordinatePrecision": "village",
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "briesing",
+      "name": "Briesing",
+      "kind": "village",
+      "precision": "village",
+      "lat": 51.2361303,
+      "lng": 14.4862578,
+      "uncertaintyMetres": 1000,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "noProvenLink": true,
+      "blurb": "Lead only. A small Sorbian village north of Bautzen, part of Niedergurig since 1936. Marie Ida Jurack, wife of Alwin Kohlmann the butcher, was born here on 5 February 1887. When Arnošt Muka counted the villages in 1884 and 1885, 176 of Briesing's 183 people were Sorbs.",
+      "blurbSourceIds": [
+        "findbuch-death-register-1973-55",
+        "wikipedia-briesing"
+      ],
+      "events": [
+        {
+          "id": "pe-briesing-born-marie-ida",
+          "type": "born",
+          "personIds": [
+            "marie-ida-jurack"
+          ],
+          "date": "1887-02-05",
+          "dateStart": "1887-02-05",
+          "dateEnd": "1887-02-05",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Marie Ida Jurack: birth, 1887 (wife of Alwin Kohlmann the butcher, a lead)",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1973-55"
+          ],
+          "factRef": "marie-ida-jurack.birth",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim, boundary \"Briesing, Niedergurig, Malschwitz\", 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "coordinatePrecision": "village",
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "malschwitz",
+      "name": "Malschwitz",
+      "kind": "village",
+      "precision": "village",
+      "lat": 51.2379209,
+      "lng": 14.5197535,
+      "uncertaintyMetres": 1000,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "noProvenLink": true,
+      "blurb": "Lead only. Alwin Kohlmann the butcher married Marie Ida Jurack here in 1914 (Standesamt Malschwitz Nr. 9/1914). Her birth in 1887 was also registered here.",
+      "blurbSourceIds": [
+        "findbuch-death-register-1972-185",
+        "findbuch-death-register-1973-55"
+      ],
+      "events": [
+        {
+          "id": "pe-malschwitz-married-kohlmann-jurack",
+          "type": "married",
+          "personIds": [
+            "alwin-kohlmann-butcher",
+            "marie-ida-jurack"
+          ],
+          "date": "1914",
+          "dateStart": "1914-01-01",
+          "dateEnd": "1914-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Alwin Kohlmann and Marie Ida Jurack: marriage, 1914 (a lead for Alvin's family)",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1972-185",
+            "findbuch-death-register-1973-55"
+          ],
+          "factRef": "alwin-kohlmann-butcher.spouses[0]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false,
+          "note": "Registered at Malschwitz, Nr. 9/1914. The exact day is not yet known."
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim, boundary \"Malschwitz, Malschwitz - Malešecy\", 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "coordinatePrecision": "village",
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "bautzen-am-stadtwall-1",
+      "name": "Am Stadtwall 1, Bautzen",
+      "kind": "home",
+      "precision": "address",
+      "lat": 51.1853991,
+      "lng": 14.4271678,
+      "uncertaintyMetres": 30,
+      "drawAs": "pin",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "noProvenLink": true,
+      "blurb": "Lead only. Marie Ida Kohlmann née Jurack, widow of Alwin Kohlmann the butcher, was living here when she died on 20 January 1973. Today the address is the Malteserstift St. Hedwig, a care home.",
+      "blurbSourceIds": [
+        "findbuch-death-register-1973-55",
+        "nominatim-2026-11-26"
+      ],
+      "events": [
+        {
+          "id": "pe-stadtwall-died-marie-ida",
+          "type": "died",
+          "personIds": [
+            "marie-ida-jurack"
+          ],
+          "date": "1973-01-20",
+          "dateStart": "1973-01-20",
+          "dateEnd": "1973-01-20",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Marie Ida Kohlmann née Jurack: death, 1973 (a lead)",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1973-55"
+          ],
+          "factRef": "marie-ida-jurack.death",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim, \"Am Stadtwall 1, Bautzen\", 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "coordinatePrecision": "address",
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "bautzen-maettigstrasse-17",
+      "name": "Mättigstraße 17, Bautzen",
+      "kind": "home",
+      "precision": "address",
+      "lat": 51.1788294,
+      "lng": 14.4388249,
+      "uncertaintyMetres": 30,
+      "drawAs": "pin",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "noProvenLink": true,
+      "blurb": "Lead only. Ernestine Hedwig Kissal née Kohlmann lived and died here; she died in Bautzen on 14 January 1980.",
+      "blurbSourceIds": [
+        "findbuch-death-register-1980-40"
+      ],
+      "events": [
+        {
+          "id": "pe-maettig-died-ernestine",
+          "type": "died",
+          "personIds": [
+            "ernestine-kissal"
+          ],
+          "date": "1980-01-14",
+          "dateStart": "1980-01-14",
+          "dateEnd": "1980-01-14",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Ernestine Hedwig Kissal née Kohlmann: death, 1980 (a lead)",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1980-40"
+          ],
+          "factRef": "ernestine-kissal.death",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim, \"Mättigstraße 17, Bautzen\", 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "coordinatePrecision": "address",
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
       "standsToday": "unknown"
     }
   ]

@@ -11,7 +11,7 @@
       "surname": "Becker",
       "disambiguator": "Kaufmann, Dresden",
       "sex": "M",
-      "generation": 0,
+      "generation": 3,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -122,7 +122,7 @@
       "surname": "Becker",
       "disambiguator": "née Just",
       "sex": "F",
-      "generation": 0,
+      "generation": 3,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -232,7 +232,7 @@
       "surname": "Eifler",
       "disambiguator": "Alwin, of Weickert & Eifler",
       "sex": "M",
-      "generation": 1,
+      "generation": 4,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -246,7 +246,9 @@
           ]
         }
       ],
-      "parents": [],
+      "parents": [
+        "ernst-eifler-sr"
+      ],
       "children": [
         "sigrid",
         "christa"
@@ -405,7 +407,8 @@
           "title": "Research & Records"
         }
       ],
-      "photo": null
+      "photo": null,
+      "parentLinkConfidence": "probable"
     },
     {
       "id": "gertrud-becker",
@@ -414,7 +417,7 @@
       "surname": "Eifler",
       "disambiguator": "née Becker",
       "sex": "F",
-      "generation": 1,
+      "generation": 4,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -561,7 +564,7 @@
       "surname": "Kohlmann",
       "disambiguator": "Thomas's father",
       "sex": "M",
-      "generation": 2,
+      "generation": 5,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "unverified",
@@ -608,7 +611,7 @@
       "surname": "Kohlmann",
       "disambiguator": "née Eifler, called Christa",
       "sex": "F",
-      "generation": 2,
+      "generation": 5,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -692,7 +695,7 @@
       "surname": "Michaelis",
       "disambiguator": "née Eifler, called Sigrid",
       "sex": "F",
-      "generation": 2,
+      "generation": 5,
       "isLiving": false,
       "isDirectLine": false,
       "confidence": "probable",
@@ -758,7 +761,7 @@
       "surname": "Werner",
       "disambiguator": "Rita's father, first name unknown",
       "sex": "M",
-      "generation": 2,
+      "generation": 5,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "probable",
@@ -807,7 +810,7 @@
       "surname": "Woltmann",
       "disambiguator": "Rita's mother",
       "sex": "F",
-      "generation": 2,
+      "generation": 5,
       "isLiving": false,
       "isDirectLine": true,
       "confidence": "probable",
@@ -855,7 +858,7 @@
       "surname": "Kohlmann",
       "disambiguator": "Valeria's father",
       "sex": "M",
-      "generation": 3,
+      "generation": 6,
       "isLiving": true,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -919,7 +922,7 @@
       "surname": "Kohlmann",
       "disambiguator": "Thomas's brother",
       "sex": "M",
-      "generation": 3,
+      "generation": 6,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "probable",
@@ -952,7 +955,7 @@
       "surname": "Kohlmann",
       "disambiguator": "Thomas's sister",
       "sex": "F",
-      "generation": 3,
+      "generation": 6,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "probable",
@@ -985,7 +988,7 @@
       "surname": "Kohlmann",
       "disambiguator": "née Werner, born Woltmann",
       "sex": "F",
-      "generation": 3,
+      "generation": 6,
       "isLiving": true,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -1064,7 +1067,7 @@
       "surname": null,
       "disambiguator": "Rita's sister, surname unknown",
       "sex": "F",
-      "generation": 3,
+      "generation": 6,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "unverified",
@@ -1105,7 +1108,7 @@
       "surname": null,
       "disambiguator": "Rita's sister, surname unknown",
       "sex": "F",
-      "generation": 3,
+      "generation": 6,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "unverified",
@@ -1146,7 +1149,7 @@
       "surname": "Kohlmann",
       "disambiguator": "Thomas and Rita's elder daughter",
       "sex": "F",
-      "generation": 4,
+      "generation": 7,
       "isLiving": true,
       "isDirectLine": true,
       "confidence": "confirmed",
@@ -1216,7 +1219,7 @@
       "surname": "Kohlmann",
       "disambiguator": "Thomas and Rita's younger daughter",
       "sex": "F",
-      "generation": 4,
+      "generation": 7,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -1258,7 +1261,7 @@
       "surname": "Belfiore",
       "disambiguator": "Valeria's husband",
       "sex": "M",
-      "generation": 4,
+      "generation": 7,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -1324,7 +1327,7 @@
       "surname": "Belfiore",
       "disambiguator": "son of Valeria and Sebastian",
       "sex": "M",
-      "generation": 5,
+      "generation": 8,
       "isLiving": true,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -1364,9 +1367,14 @@
       "sex": "M",
       "isLiving": false,
       "isDirectLine": false,
-      "region": "leads",
+      "region": null,
       "parents": [],
-      "children": [],
+      "children": [
+        "ernst-alwin",
+        "max-eifler",
+        "alfred-eifler",
+        "martha-eifler"
+      ],
       "spouses": [],
       "nameVariants": [],
       "residences": [
@@ -1412,14 +1420,17 @@
       "givenNames": "Ernst",
       "surname": "Eifler",
       "disambiguator": "farmer of Sohland, probably Alwin's father",
-      "generation": 0,
+      "generation": 3,
       "confidence": "unverified",
       "cardPlace": "Sohland an der Spree",
-      "summary": "Farmer (Landwirt) at Sohland an der Spree Nr. 247, aged 61, witness at Alwin Eifler's wedding in 1926. Probably Alwin's father; not yet proven.",
-      "story": "On 2 October 1926 a farmer named Ernst Eifler, of Sohland an der Spree Nr. 247, aged 61, signed as a witness at the Dresden wedding of Alwin Eifler and Gertrud Becker.[^anc-marriage-1926] Alwin was born in Sohland in 1892, so Ernst is probably his father, but no record seen so far says so. Alwin's Sohland birth entry or baptism would settle it.",
+      "summary": "Farmer (Landwirt) at Sohland an der Spree Nr. 247, aged 61, witness at Alwin Eifler's wedding in 1926. Probably Alwin's father; not yet proven. The family chart names Alwin's brothers Max and Alfred and his sister Martha, so they are drawn here as Ernst's children as well, with the same dashed line.",
+      "story": "On 2 October 1926 a farmer named Ernst Eifler, of Sohland an der Spree Nr. 247, aged 61, signed as a witness at the Dresden wedding of Alwin Eifler and Gertrud Becker.[^anc-marriage-1926] Alwin was born in Sohland in 1892, so Ernst is probably his father, but no record seen so far says so. Alwin's Sohland birth entry or baptism would settle it. The 2007 family chart names Alwin's brothers Max and Alfred and his sister Martha.[^ahnentafel-2007] If Ernst was Alwin's father he was theirs too, and they are drawn that way here; the dashed lines show that this is not yet proven.",
       "openQuestions": [
         {
           "question": "Is he Alwin Eifler's father? Alwin's 1892 Sohland birth entry or baptism names the parents."
+        },
+        {
+          "question": "Were Max, Alfred and Martha Eifler born at Sohland too? The Sohland birth registers from 1876 and the church books would list Ernst's children."
         }
       ],
       "relatedPages": [
@@ -1437,7 +1448,23 @@
       "region": "leads",
       "parents": [],
       "children": [],
-      "spouses": [],
+      "spouses": [
+        {
+          "id": "marie-ida-jurack",
+          "relation": "spouse",
+          "order": 1,
+          "marriageDate": "1914",
+          "marriageDisplay": "1914",
+          "place": "Malschwitz, Kreis Bautzen",
+          "placeId": "malschwitz",
+          "confidence": "confirmed",
+          "note": "Standesamt Malschwitz Nr. 9/1914",
+          "sourceIds": [
+            "findbuch-death-register-1972-185",
+            "findbuch-death-register-1973-55"
+          ]
+        }
+      ],
       "nameVariants": [
         {
           "name": "Alwin Kohlmann",
@@ -1579,7 +1606,7 @@
       "knownAs": "Alwin",
       "surname": "Kohlmann",
       "disambiguator": "a lead for Alvin's family",
-      "generation": 2,
+      "generation": 5,
       "confidence": "unverified",
       "cardPlace": "Bautzen",
       "summary": "Ernst Alwin Kohlmann, a butcher, was born on 21 September 1883 at Kötzschau near Lawalde (Kreis Löbau) and died in Bautzen on 27 February 1972, still living at Schäfferstraße 6, his address since 1925. He married Marie Ida Jurack in 1914. Same rare first name as Alvin and the same town, and of the right age to be Alvin's father, but no link is proven yet.",
@@ -1609,7 +1636,7 @@
       "surname": "Woltmann",
       "disambiguator": "tax official in Döbeln, a lead for Brigitte's family",
       "sex": "M",
-      "generation": 1,
+      "generation": 4,
       "isLiving": false,
       "isDirectLine": false,
       "confidence": "unverified",
@@ -1706,7 +1733,7 @@
       "surname": "Weickert",
       "disambiguator": "master saddler, the Weickert of Weickert & Eifler; not family",
       "sex": "M",
-      "generation": 1,
+      "generation": 4,
       "isLiving": false,
       "isDirectLine": false,
       "confidence": "confirmed",
@@ -1847,6 +1874,739 @@
       "photo": null,
       "summary": "Master saddler and co-founder of Weickert & Eifler with Alwin Eifler. Not family.",
       "story": "Max Bruno Weickert, master saddler, was the Weickert of Weickert & Eifler. Born on 2 December 1892 in Großschönau near Zittau, he ran the saddlery and upholstery shop at Löbauer Straße 10 that carried the firm's name in 1921. By 1928 Alwin Eifler was the sole owner. Bruno died at home, Fischergasse 31 in Bautzen, on 26 March 1956.[^findbuch-death-register-1956-225][^anc-bautzen-1921]"
+    },
+    {
+      "id": "max-eifler",
+      "displayName": "Max Eifler",
+      "givenNames": "Max",
+      "surname": "Eifler",
+      "sex": "M",
+      "generation": 4,
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [
+        "ernst-eifler-sr"
+      ],
+      "children": [],
+      "spouses": [],
+      "nameVariants": [],
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": null,
+      "death": null,
+      "parentLinkConfidence": "probable",
+      "confidence": "family tradition",
+      "disambiguator": "Alwin's brother, from the family chart",
+      "cardPlace": null,
+      "summary": "Brother of Alwin Eifler, named on the 2007 family chart. Dates and places are not yet known.",
+      "story": "The 2007 family chart names Max as a brother of Alwin Eifler (1892 to 1968).[^ahnentafel-2007] Nothing more is known yet: not the dates, not where he lived. On this tree he is drawn as a child of Ernst Eifler, the Sohland farmer who was probably Alwin's father; that link is not proven, so the line is dashed. A Max Eifler lived in Bautzen at Paulistraße 32 and is listed right under Alwin in the 1928 address book, but his 1978 death entry shows he was Max Oswald Eifler, born on 2 March 1892 at Oberrennersdorf, seven months before Alwin and in another village, so he cannot be Alwin's full brother.[^findbuch-death-register-1978-704]",
+      "openQuestions": [
+        {
+          "question": "When and where was Max born? Alwin's Sohland birth entry (1892) and the Sohland church books would give the parents and the other children."
+        },
+        {
+          "question": "Max Oswald Eifler of Paulistraße 32 (1892 to 1978) is not this Max. Was he a cousin?"
+        }
+      ],
+      "relatedPages": [
+        {
+          "url": "weickert-eifler.html",
+          "title": "Weickert & Eifler"
+        }
+      ]
+    },
+    {
+      "id": "alfred-eifler",
+      "displayName": "Alfred Eifler",
+      "givenNames": "Alfred",
+      "surname": "Eifler",
+      "sex": "M",
+      "generation": 4,
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [
+        "ernst-eifler-sr"
+      ],
+      "children": [],
+      "spouses": [],
+      "nameVariants": [],
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": null,
+      "death": null,
+      "parentLinkConfidence": "probable",
+      "confidence": "family tradition",
+      "disambiguator": "Alwin's brother, from the family chart",
+      "cardPlace": null,
+      "summary": "Brother of Alwin Eifler, named on the 2007 family chart. Dates and places are not yet known.",
+      "story": "The 2007 family chart names Alfred as a brother of Alwin Eifler (1892 to 1968).[^ahnentafel-2007] Nothing more is known yet: not the dates, not where he lived. On this tree he is drawn as a child of Ernst Eifler, the Sohland farmer who was probably Alwin's father; that link is not proven, so the line is dashed.",
+      "openQuestions": [
+        {
+          "question": "When and where was Alfred born? Alwin's Sohland birth entry (1892) and the Sohland church books would give the parents and the other children."
+        }
+      ],
+      "relatedPages": [
+        {
+          "url": "weickert-eifler.html",
+          "title": "Weickert & Eifler"
+        }
+      ]
+    },
+    {
+      "id": "martha-eifler",
+      "displayName": "Martha Eifler",
+      "givenNames": "Martha",
+      "surname": "Eifler",
+      "sex": "F",
+      "generation": 4,
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [
+        "ernst-eifler-sr"
+      ],
+      "children": [],
+      "spouses": [],
+      "nameVariants": [],
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": null,
+      "death": null,
+      "parentLinkConfidence": "probable",
+      "confidence": "family tradition",
+      "disambiguator": "Alwin's sister, from the family chart",
+      "cardPlace": null,
+      "summary": "Sister of Alwin Eifler, named on the 2007 family chart. Dates and places are not yet known.",
+      "story": "The 2007 family chart names Martha as a sister of Alwin Eifler (1892 to 1968).[^ahnentafel-2007] Nothing more is known yet: not the dates, not where she lived. On this tree she is drawn as a child of Ernst Eifler, the Sohland farmer who was probably Alwin's father; that link is not proven, so the line is dashed.",
+      "openQuestions": [
+        {
+          "question": "When and where was Martha born? Alwin's Sohland birth entry (1892) and the Sohland church books would give the parents and the other children."
+        }
+      ],
+      "relatedPages": [
+        {
+          "url": "weickert-eifler.html",
+          "title": "Weickert & Eifler"
+        }
+      ]
+    },
+    {
+      "id": "marie-becker",
+      "displayName": "Marie Becker",
+      "givenNames": "Marie",
+      "surname": "Becker",
+      "sex": "F",
+      "generation": 3,
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [],
+      "children": [],
+      "spouses": [],
+      "nameVariants": [
+        {
+          "name": "Marie Wettlitz",
+          "note": "married surname as the family chart's handwritten note seems to give it; it may also read Wettlich or Wettnitz",
+          "confidence": "family tradition",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ]
+        }
+      ],
+      "residences": [
+        {
+          "place": "Dresden",
+          "placeId": "dresden-rothermundtstrasse-5",
+          "address": "Rothermundtstraße 5, Striesen",
+          "years": null,
+          "confidence": "family tradition",
+          "note": "The chart's note gives this address, which was her brother Richard's home from 1926 to 1938; no date is given.",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ]
+        }
+      ],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": null,
+      "death": null,
+      "uncertainBeside": "richard-becker",
+      "confidence": "family tradition",
+      "disambiguator": "Richard's sister, from the family chart",
+      "cardPlace": "Dresden",
+      "summary": "Richard Becker's sister, named in a handwritten note on the 2007 family chart, with the address Rothermundtstraße 5 in Dresden. Her married surname is perhaps Wettlitz.",
+      "story": "The 2007 family chart records two sisters of Richard Becker, and a handwritten note names one of them as Marie, with a married surname that seems to read Wettlitz (or Wettlich, or Wettnitz), at Rothermundtstraße 5 in Dresden, Richard's own address.[^ahnentafel-2007] She was probably born in Herzberg on the Black Elster, like Richard, between about 1870 and 1885, but no record of her has been found yet. The Dresden house registers for Rothermundtstraße 5 in 1938 and 1943 list nobody under a W name, so she may have lived there earlier or later.[^slub-dresden-1938] She is drawn beside Richard with a dashed line because no record yet proves the link.",
+      "openQuestions": [
+        {
+          "question": "What was her married name? The Dresden address books from 1925 to 1943 and the Herzberg church books are the next places to look."
+        }
+      ],
+      "relatedPages": [
+        {
+          "url": "weickert-eifler.html",
+          "title": "Weickert & Eifler"
+        }
+      ]
+    },
+    {
+      "id": "becker-sister-2",
+      "displayName": "Richard's second sister",
+      "givenNames": "",
+      "surname": "Becker",
+      "sex": "F",
+      "generation": 3,
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [],
+      "children": [],
+      "spouses": [],
+      "nameVariants": [],
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": null,
+      "death": null,
+      "uncertainBeside": "richard-becker",
+      "placeholder": true,
+      "nameUncertain": true,
+      "confidence": "family tradition",
+      "disambiguator": "name not yet known",
+      "cardPlace": null,
+      "summary": "The 2007 family chart records that Richard Becker had two sisters. This is the second one; her name is not on the page the family holds.",
+      "story": "The 2007 family chart records two sisters of Richard Becker. One is Marie; the other is not named on page 1, the only page the family has.[^ahnentafel-2007] Page 2 of the chart may name her.",
+      "openQuestions": [
+        {
+          "question": "What was her name? Page 2 of the 2007 chart, or the Herzberg church books, would tell."
+        }
+      ]
+    },
+    {
+      "id": "marie-ida-jurack",
+      "displayName": "Marie Ida Kohlmann (née Jurack)",
+      "givenNames": "Marie Ida",
+      "surname": "Kohlmann",
+      "sex": "F",
+      "generation": 5,
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [],
+      "children": [],
+      "spouses": [
+        {
+          "id": "alwin-kohlmann-butcher",
+          "relation": "spouse",
+          "order": 1,
+          "marriageDate": "1914",
+          "marriageDisplay": "1914",
+          "place": "Malschwitz, Kreis Bautzen",
+          "placeId": "malschwitz",
+          "confidence": "confirmed",
+          "note": "Standesamt Malschwitz Nr. 9/1914",
+          "sourceIds": [
+            "findbuch-death-register-1972-185",
+            "findbuch-death-register-1973-55"
+          ]
+        }
+      ],
+      "nameVariants": [
+        {
+          "name": "Marie Ida Jurack",
+          "note": "maiden name",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1973-55"
+          ]
+        }
+      ],
+      "residences": [
+        {
+          "place": "Bautzen",
+          "placeId": "bautzen-am-stadtwall-1",
+          "address": "Am Stadtwall 1",
+          "years": "1973",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1973-55"
+          ]
+        }
+      ],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": {
+        "date": "1887-02-05",
+        "display": "5 February 1887",
+        "place": "Briesing near Malschwitz, Kreis Bautzen",
+        "placeId": "briesing",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "findbuch-death-register-1973-55"
+        ]
+      },
+      "death": {
+        "date": "1973-01-20",
+        "display": "20 January 1973",
+        "place": "Bautzen, Am Stadtwall 1",
+        "placeId": "bautzen-am-stadtwall-1",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "findbuch-death-register-1973-55"
+        ]
+      },
+      "region": "leads",
+      "confidence": "unverified",
+      "disambiguator": "wife of Alwin Kohlmann the butcher",
+      "cardPlace": "Briesing and Bautzen",
+      "summary": "Wife of Ernst Alwin Kohlmann, the Bautzen butcher who may be Alvin's father. Born at Briesing in 1887, married at Malschwitz in 1914, died in Bautzen in 1973. No proven link to the family yet.",
+      "story": "Marie Ida Jurack was born on 5 February 1887 at Briesing near Malschwitz, north of Bautzen, and married Ernst Alwin Kohlmann, a butcher, at Malschwitz in 1914 (register Nr. 9/1914). She was his widow when he died in February 1972 and died herself on 20 January 1973 in Bautzen, living at Am Stadtwall 1.[^findbuch-death-register-1973-55][^findbuch-death-register-1972-185] Briesing was a Sorbian village: when Arnošt Muka counted the villages in 1884 and 1885, 176 of its 183 people were Sorbs, and Jurack is a Sorbian surname (from Jurij, George).[^wikipedia-briesing] Whether her own family spoke Sorbian at home is not yet known. Her husband is a lead for Alvin Kohlmann's family; if he is Alvin's father, she may be Alvin's mother, but nothing proves that yet.",
+      "openQuestions": [
+        {
+          "question": "Did she and Alwin have children? The Malschwitz marriage entry (1914) gives both sets of parents, and Bautzen births from 1914 would show any children."
+        }
+      ],
+      "relatedPages": [
+        {
+          "url": "research.html",
+          "title": "Research"
+        }
+      ]
+    },
+    {
+      "id": "ernestine-kissal",
+      "displayName": "Ernestine Hedwig Kissal (née Kohlmann)",
+      "givenNames": "Ernestine Hedwig",
+      "surname": "Kissal",
+      "sex": "F",
+      "generation": 5,
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [],
+      "children": [],
+      "spouses": [],
+      "nameVariants": [
+        {
+          "name": "Ernestine Hedwig Kohlmann",
+          "note": "maiden name",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1980-40"
+          ]
+        }
+      ],
+      "residences": [
+        {
+          "place": "Bautzen",
+          "placeId": "bautzen-maettigstrasse-17",
+          "address": "Mättigstraße 17",
+          "years": "1980",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1980-40"
+          ]
+        }
+      ],
+      "occupations": [],
+      "timeline": [],
+      "facts": [
+        {
+          "label": "Marriage",
+          "value": "Married Ernst Hermann Kissal, registered at Lawalde, Kreis Löbau, Nr. 4/1926. He was still living when she died in 1980.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1980-40"
+          ]
+        }
+      ],
+      "media": [],
+      "birth": {
+        "date": "1897-09-15",
+        "display": "15 September 1897",
+        "place": "Kleindehsa, Kreis Löbau",
+        "placeId": "kleindehsa",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "findbuch-death-register-1980-40"
+        ]
+      },
+      "death": {
+        "date": "1980-01-14",
+        "display": "14 January 1980",
+        "place": "Bautzen, Mättigstraße 17",
+        "placeId": "bautzen-maettigstrasse-17",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "findbuch-death-register-1980-40"
+        ]
+      },
+      "region": "leads",
+      "confidence": "unverified",
+      "disambiguator": "probably Alwin Kohlmann's sister",
+      "cardPlace": "Kleindehsa and Bautzen",
+      "summary": "Born at Kleindehsa in 1897, the village Kötzschau belongs to, where Alwin Kohlmann the butcher was born in 1883. Probably his sister; not proven.",
+      "story": "Ernestine Hedwig Kohlmann was born on 15 September 1897 at Kleindehsa, Kreis Löbau. She married Ernst Hermann Kissal at Lawalde in 1926 (Nr. 4/1926) and died in Bautzen on 14 January 1980, living at Mättigstraße 17; her husband was still alive.[^findbuch-death-register-1980-40] Alwin Kohlmann the butcher was born in 1883 at Kötzschau, a hamlet of Kleindehsa, and registered at the same office, Lawalde.[^findbuch-death-register-1972-185] Same surname, same village, fourteen years apart: she was probably his sister, but no record seen yet names their parents.",
+      "openQuestions": [
+        {
+          "question": "Who were her parents? The Lawalde marriage entry of 1926 (Nr. 4) would name them, and so would answer whether she was Alwin's sister."
+        }
+      ],
+      "relatedPages": [
+        {
+          "url": "research.html",
+          "title": "Research"
+        }
+      ]
+    },
+    {
+      "id": "kd-johann-kohlmann",
+      "displayName": "Johann Kohlmann",
+      "givenNames": "Johann",
+      "surname": "Kohlmann",
+      "sex": "M",
+      "generation": 0,
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [],
+      "children": [
+        "kd-gottfried-kohlmann"
+      ],
+      "spouses": [],
+      "nameVariants": [],
+      "residences": [],
+      "occupations": [
+        {
+          "title": "Richter (village judge)",
+          "employer": null,
+          "place": "Kötzschau",
+          "placeId": "koetzschau-lawalde",
+          "years": "1787",
+          "confidence": "probable",
+          "sourceIds": [
+            "lawalde-chronik-kleindehsa"
+          ]
+        }
+      ],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": null,
+      "death": null,
+      "region": "kleindehsa",
+      "confidence": "probable",
+      "disambiguator": "village judge of Kötzschau",
+      "cardPlace": "Kleindehsa",
+      "summary": "Richter (village judge) of Kötzschau, father of Gottfried Kohlmann, who bought the Kleindehsa inn in 1787.",
+      "story": "In 1787 Gottfried Kohlmann, \"son of the judge Johann Kohlmann of Kötschau\", bought the Kretscham at Kleindehsa.[^lawalde-chronik-kleindehsa] The village judge (Richter) presided over the village court and spoke for the village to the manor. The village chronicle gives only the year each owner took over; it does not say how they were related to one another, and no record yet links them to the Bautzen Kohlmanns.",
+      "relatedPages": [
+        {
+          "url": "research.html",
+          "title": "Research"
+        }
+      ]
+    },
+    {
+      "id": "kd-gottfried-kohlmann",
+      "displayName": "Gottfried Kohlmann",
+      "givenNames": "Gottfried",
+      "surname": "Kohlmann",
+      "sex": "M",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [
+        "kd-johann-kohlmann"
+      ],
+      "children": [],
+      "spouses": [],
+      "nameVariants": [],
+      "residences": [
+        {
+          "place": "Kleindehsa",
+          "placeId": "kleindehsa",
+          "address": "the Kretscham (village inn and its farm)",
+          "years": "from 1787",
+          "confidence": "probable",
+          "sourceIds": [
+            "lawalde-chronik-kleindehsa"
+          ]
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Kretschamwirt (innkeeper)",
+          "employer": null,
+          "place": "Kleindehsa",
+          "placeId": null,
+          "years": "from 1787",
+          "confidence": "probable",
+          "sourceIds": [
+            "lawalde-chronik-kleindehsa"
+          ]
+        }
+      ],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": null,
+      "death": null,
+      "region": "kleindehsa",
+      "confidence": "probable",
+      "disambiguator": "bought the Kleindehsa inn in 1787",
+      "cardPlace": "Kleindehsa",
+      "summary": "Son of the village judge Johann Kohlmann of Kötzschau. In 1787 he bought the Kretscham, the village inn of Kleindehsa, for 600 Taler; the family kept it for about 150 years.",
+      "story": "In 1787 Gottfried Kohlmann, son of the judge Johann Kohlmann of Kötzschau, bought the Kretschamgut, the village inn with its farm, from the widow of an appeal court councillor, von Heldreich, for 600 Taler. From then on the inn stayed in the Kohlmann family for 150 years.[^lawalde-chronik-kleindehsa] Forty years earlier, in 1748 and 1749, the manor had built the inn new and sold it to an innkeeper who had to hand over the tongue of every ox he slaughtered and pour only Löbau beer. The village chronicle gives only the year each owner took over; it does not say how they were related to one another, and no record yet links them to the Bautzen Kohlmanns.",
+      "relatedPages": [
+        {
+          "url": "research.html",
+          "title": "Research"
+        }
+      ],
+      "parentLinkConfidence": "probable"
+    },
+    {
+      "id": "kd-johann-traugott-kohlmann",
+      "displayName": "Johann Traugott Kohlmann",
+      "givenNames": "Johann Traugott",
+      "surname": "Kohlmann",
+      "sex": "M",
+      "generation": 1,
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [],
+      "children": [],
+      "spouses": [],
+      "nameVariants": [],
+      "residences": [
+        {
+          "place": "Kleindehsa",
+          "placeId": "kleindehsa",
+          "address": "the Kretscham (village inn and its farm)",
+          "years": "from 1809",
+          "confidence": "probable",
+          "sourceIds": [
+            "lawalde-chronik-kleindehsa"
+          ]
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Kretschamwirt (innkeeper)",
+          "employer": null,
+          "place": "Kleindehsa",
+          "placeId": null,
+          "years": "from 1809",
+          "confidence": "probable",
+          "sourceIds": [
+            "lawalde-chronik-kleindehsa"
+          ]
+        }
+      ],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": null,
+      "death": null,
+      "region": "kleindehsa",
+      "confidence": "probable",
+      "disambiguator": "owner of the Kleindehsa inn from 1809",
+      "cardPlace": "Kleindehsa",
+      "summary": "Owner of the Kretscham at Kleindehsa from 1809, according to the village chronicle.",
+      "story": "The village chronicle lists Johann Traugott Kohlmann as the owner of the Kretscham from 1809.[^lawalde-chronik-kleindehsa] The village chronicle gives only the year each owner took over; it does not say how they were related to one another, and no record yet links them to the Bautzen Kohlmanns.",
+      "relatedPages": [
+        {
+          "url": "research.html",
+          "title": "Research"
+        }
+      ]
+    },
+    {
+      "id": "kd-ernst-kohlmann",
+      "displayName": "Ernst Kohlmann",
+      "givenNames": "Ernst",
+      "surname": "Kohlmann",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [],
+      "children": [],
+      "spouses": [],
+      "nameVariants": [],
+      "residences": [
+        {
+          "place": "Kleindehsa",
+          "placeId": "kleindehsa",
+          "address": "the Kretscham (village inn and its farm)",
+          "years": "from 1860",
+          "confidence": "probable",
+          "sourceIds": [
+            "lawalde-chronik-kleindehsa"
+          ]
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Kretschamwirt (innkeeper)",
+          "employer": null,
+          "place": "Kleindehsa",
+          "placeId": null,
+          "years": "from 1860",
+          "confidence": "probable",
+          "sourceIds": [
+            "lawalde-chronik-kleindehsa"
+          ]
+        }
+      ],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": null,
+      "death": null,
+      "region": "kleindehsa",
+      "confidence": "probable",
+      "disambiguator": "owner of the Kleindehsa inn from 1860",
+      "cardPlace": "Kleindehsa",
+      "summary": "Owner of the Kretscham at Kleindehsa from 1860; his widow held it in 1888.",
+      "story": "The village chronicle lists Ernst Kohlmann as the owner of the Kretscham from 1860, and his widow in 1888.[^lawalde-chronik-kleindehsa] The village chronicle gives only the year each owner took over; it does not say how they were related to one another, and no record yet links them to the Bautzen Kohlmanns.",
+      "relatedPages": [
+        {
+          "url": "research.html",
+          "title": "Research"
+        }
+      ]
+    },
+    {
+      "id": "kd-reinhold-kohlmann",
+      "displayName": "Karl August Reinhold Kohlmann",
+      "givenNames": "Karl August Reinhold",
+      "surname": "Kohlmann",
+      "sex": "M",
+      "generation": 2,
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [],
+      "children": [],
+      "spouses": [],
+      "nameVariants": [],
+      "residences": [
+        {
+          "place": "Kleindehsa",
+          "placeId": "kleindehsa",
+          "address": "the Kretscham (village inn and its farm)",
+          "years": "from 1885",
+          "confidence": "probable",
+          "sourceIds": [
+            "lawalde-chronik-kleindehsa"
+          ]
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Kretschamwirt (innkeeper)",
+          "employer": null,
+          "place": "Kleindehsa",
+          "placeId": null,
+          "years": "from 1885",
+          "confidence": "probable",
+          "sourceIds": [
+            "lawalde-chronik-kleindehsa"
+          ]
+        }
+      ],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": null,
+      "death": null,
+      "region": "kleindehsa",
+      "confidence": "probable",
+      "disambiguator": "took over the Kleindehsa inn in 1885",
+      "cardPlace": "Kleindehsa",
+      "summary": "Took over the inn at Kleindehsa in 1885, according to the village chronicle.",
+      "story": "The village chronicle says Karl August Reinhold Kohlmann took over the inn in 1885.[^lawalde-chronik-kleindehsa] Alwin Kohlmann the butcher was born two years earlier, in 1883, at Kötzschau, a hamlet of the same village.[^findbuch-death-register-1972-185] The village chronicle gives only the year each owner took over; it does not say how they were related to one another, and no record yet links them to the Bautzen Kohlmanns.",
+      "relatedPages": [
+        {
+          "url": "research.html",
+          "title": "Research"
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Was he the father of Alwin Kohlmann (born 1883 at Kötzschau) and of Ernestine Hedwig (born 1897 at Kleindehsa)? Alwin's Lawalde birth entry, 1883 Nr. 71, names his parents."
+        }
+      ]
+    },
+    {
+      "id": "kd-gustav-kohlmann",
+      "displayName": "Gustav Kohlmann",
+      "givenNames": "Gustav",
+      "surname": "Kohlmann",
+      "sex": "M",
+      "generation": 3,
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [],
+      "children": [],
+      "spouses": [],
+      "nameVariants": [],
+      "residences": [
+        {
+          "place": "Kleindehsa",
+          "placeId": "kleindehsa",
+          "address": "the Kretscham (village inn and its farm)",
+          "years": "from some years after 1927",
+          "confidence": "probable",
+          "sourceIds": [
+            "lawalde-chronik-kleindehsa"
+          ]
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Kretschamwirt (innkeeper)",
+          "employer": null,
+          "place": "Kleindehsa",
+          "placeId": null,
+          "years": "from some years after 1927",
+          "confidence": "probable",
+          "sourceIds": [
+            "lawalde-chronik-kleindehsa"
+          ]
+        }
+      ],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": null,
+      "death": null,
+      "region": "kleindehsa",
+      "confidence": "probable",
+      "disambiguator": "owner of the Kleindehsa inn after 1927",
+      "cardPlace": "Kleindehsa",
+      "summary": "Became owner of the Kretscham some years after 1927; after his death his brother Ernst and a daughter kept it until 1959.",
+      "story": "In 1927 a hall was opened on the south side of the Kretscham. Some years later Gustav Kohlmann became the owner, and after his death his brother Ernst and his daughter held it until 1959.[^lawalde-chronik-kleindehsa] From 1958 the Senftenberg brown coal combine ran a holiday camp in a side wing, and after 1959 the whole inn passed to the combine. The Kretscham burned down on the evening of 29 January 1997 and was pulled down. The village chronicle gives only the year each owner took over; it does not say how they were related to one another, and no record yet links them to the Bautzen Kohlmanns.",
+      "relatedPages": [
+        {
+          "url": "research.html",
+          "title": "Research"
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Gustav's brother Ernst: could he be Ernst Alwin Kohlmann, the Bautzen butcher? Nothing links them yet."
+        }
+      ]
     }
   ]
 }

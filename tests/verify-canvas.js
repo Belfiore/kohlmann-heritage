@@ -28,7 +28,7 @@ const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/cs
 const EXPECTED = {
     'richard-becker': { parents: [], spouses: ['elise-just'], children: ['gertrud-becker'], side: 'left' },
     'elise-just': { parents: [], spouses: ['richard-becker'], children: ['gertrud-becker'], side: 'left' },
-    'ernst-alwin': { parents: [], spouses: ['gertrud-becker'], children: ['sigrid', 'christa'], side: 'left' },
+    'ernst-alwin': { parents: ['ernst-eifler-sr'], spouses: ['gertrud-becker'], children: ['sigrid', 'christa'], side: 'left' },
     'gertrud-becker': { parents: ['richard-becker', 'elise-just'], spouses: ['ernst-alwin'], children: ['sigrid', 'christa'], side: 'left' },
     'alvin': { parents: [], spouses: ['christa'], children: ['thomas', 'matthias', 'sabine'], side: 'left' },
     'christa': { parents: ['ernst-alwin', 'gertrud-becker'], spouses: ['alvin'], children: ['thomas', 'matthias', 'sabine'], side: 'left' },
@@ -45,10 +45,27 @@ const EXPECTED = {
     'elisa': { parents: ['thomas', 'rita'], spouses: [], children: [], side: 'right' },
     'sebastian': { parents: [], spouses: ['valeria'], children: ['enzo'], side: 'right' },
     'enzo': { parents: ['valeria', 'sebastian'], spouses: [], children: [], side: 'right' },
+    // Patch 0014. Ernst Eifler, the Sohland farmer, probably Alwin's father (dashed lines), with the brothers
+    // and sister the 2007 family chart names for Alwin.
+    'ernst-eifler-sr': { parents: [], spouses: [], children: ['ernst-alwin', 'max-eifler', 'alfred-eifler', 'martha-eifler'], side: 'left' },
+    'max-eifler': { parents: ['ernst-eifler-sr'], spouses: [], children: [], side: 'left' },
+    'alfred-eifler': { parents: ['ernst-eifler-sr'], spouses: [], children: [], side: 'left' },
+    'martha-eifler': { parents: ['ernst-eifler-sr'], spouses: [], children: [], side: 'left' },
+    // Richard Becker's two sisters from the chart, drawn beside him (uncertainBeside).
+    'marie-becker': { parents: [], spouses: [], children: [], side: 'left', lead: 'richard-becker' },
+    'becker-sister-2': { parents: [], spouses: [], children: [], side: 'left', lead: 'richard-becker' },
     // Leads kept beside the person they may belong to (tree.suspectedRelatives), no proven link.
-    'ernst-eifler-sr': { parents: [], spouses: [], children: [], side: 'left', lead: 'ernst-alwin' },
-    'alwin-kohlmann-butcher': { parents: [], spouses: [], children: [], side: 'left', lead: 'alvin' },
+    'alwin-kohlmann-butcher': { parents: [], spouses: ['marie-ida-jurack'], children: [], side: 'left', lead: 'alvin' },
+    'marie-ida-jurack': { parents: [], spouses: ['alwin-kohlmann-butcher'], children: [], side: 'left', lead: 'alwin-kohlmann-butcher' },
+    'ernestine-kissal': { parents: [], spouses: [], children: [], side: 'left', lead: 'alwin-kohlmann-butcher' },
     'max-woltmann': { parents: [], spouses: [], children: [], side: 'right', lead: 'rita-mother' },
+    // The Kohlmann innkeepers of Kleindehsa (village chronicle): a framed group (tree.regions), no proven link.
+    'kd-johann-kohlmann': { parents: [], spouses: [], children: ['kd-gottfried-kohlmann'], region: 'kleindehsa' },
+    'kd-gottfried-kohlmann': { parents: ['kd-johann-kohlmann'], spouses: [], children: [], region: 'kleindehsa' },
+    'kd-johann-traugott-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
+    'kd-ernst-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
+    'kd-reinhold-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
+    'kd-gustav-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
 };
 
 function serve() {
@@ -131,7 +148,11 @@ const same = (a, b) => a.length === b.length && a.every(x => b.includes(x));
                 if (!p || !q) { geom.push(id + ' has no card position'); return; }
                 // A spouse with no parents of his own is drawn in his wife's block. The engine
                 // does not give him a side tag; the card still has to sit beside her.
-                if (e.lead) {
+                if (e.region) {
+                    const r = (t.L.regions || []).filter(x => x.id === e.region)[0];
+                    if (!r) geom.push(id + ': the ' + e.region + ' frame is not drawn');
+                    else if (!(q.x >= r.x && q.y >= r.y && q.x + t.CW <= r.x + r.w && q.y + t.CH <= r.y + r.h)) geom.push(id + ' is outside the ' + e.region + ' frame');
+                } else if (e.lead) {
                     const hq = pos[e.lead];
                     if (!hq || Math.abs(q.y - hq.y) > 8) geom.push(id + ' is not on the same row as ' + e.lead);
                 } else if (id === 'sebastian' && !(side[id])) {
@@ -158,6 +179,15 @@ const same = (a, b) => a.length === b.length && a.every(x => b.includes(x));
                     if (ox > 2 && oy > 2) geom.push(ids[i] + ' overlaps ' + ids[j]);
                 }
             }
+            (t.L.regions || []).forEach(r => {
+                Object.keys(pos).forEach(id => {
+                    if (by[id].region === r.id) return;
+                    const a = pos[id];
+                    const ox = Math.min(a.x + t.CW, r.x + r.w) - Math.max(a.x, r.x);
+                    const oy = Math.min(a.y + t.CH, r.y + r.h) - Math.max(a.y, r.y);
+                    if (ox > 2 && oy > 2) geom.push(id + ' sits inside the ' + r.id + ' frame');
+                });
+            });
             const rows = {};
             Object.entries(pos).forEach(([id, q]) => {
                 rows[id] = { name: by[id].displayName, x: Math.round(q.x), y: Math.round(q.y), gen: by[id].generation, side: side[id] || '' };
@@ -175,7 +205,7 @@ const same = (a, b) => a.length === b.length && a.every(x => b.includes(x));
         else ok(w + 'px: no card text overflows');
         if (w === 1280) {
             if (report.geom.length) report.geom.forEach(g => fail('layout: ' + g));
-            else ok('every child is below their parents, couples share a row, and the two families sit on their own sides');
+            else ok('every child is below their parents, couples share a row, the two families sit on their own sides, and the Kleindehsa frame holds only the innkeepers');
             fs.writeFileSync('/tmp/canvas-positions.json', JSON.stringify(report.rows, null, 1));
         }
         if (SHOTS) {

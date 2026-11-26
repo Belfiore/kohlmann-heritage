@@ -1,0 +1,101 @@
+{
+  "discoveries": [
+    {
+      "id": "kleindehsa-innkeepers",
+      "personIds": [
+        "kd-gottfried-kohlmann"
+      ],
+      "covers": [
+        "person:kd-gottfried-kohlmann"
+      ],
+      "found": "2026-11-26",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "confidence": "probable",
+      "headline": "A Kohlmann family owned the village inn at Kleindehsa near Löbau from 1787 to 1959, beside the hamlet of Kötzschau. No link to this family is proven yet.",
+      "source": {
+        "text": "Gemeinde Lawalde, Chronik Kleindehsa",
+        "url": "http://www.lawalde.de/seite/416255/chronik-kleindehsa.html"
+      }
+    },
+    {
+      "id": "rb-number-1943",
+      "personIds": [
+        "ernst-alwin"
+      ],
+      "found": "2026-11-26",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "confidence": "probable",
+      "headline": "The firm Weickert & Eifler had the wartime company number 0/0156/5156, stamped on its 1943 invoice. What it supplied is not yet known.",
+      "source": "Weickert & Eifler invoice, 9 April 1943, and a collectors' register of Reichs-Betriebs-Nummern"
+    },
+    {
+      "id": "eifler-siblings",
+      "personIds": [
+        "max-eifler",
+        "alfred-eifler",
+        "martha-eifler"
+      ],
+      "covers": [
+        "person:max-eifler",
+        "person:alfred-eifler",
+        "person:martha-eifler"
+      ],
+      "found": "2026-11-25",
+      "findType": "person",
+      "foundBy": "Stuart",
+      "confidence": "family tradition",
+      "headline": "The family chart names Alwin Eifler's brothers Max and Alfred and his sister Martha.",
+      "source": {
+        "text": "2007 Eifler/Becker family chart (Ahnentafel), page 1"
+      }
+    },
+    {
+      "id": "ernst-eifler-father",
+      "personIds": [
+        "ernst-eifler-sr"
+      ],
+      "found": "2026-11-26",
+      "findType": "connection",
+      "foundBy": "Stuart",
+      "confidence": "probable",
+      "headline": "Ernst Eifler, a farmer at Sohland, was probably the father of Alwin, Max, Alfred and Martha Eifler. A birth entry would prove it.",
+      "source": "Marriage register, Standesamt Dresden V, 1926 Nr. 352, and the 2007 family chart"
+    },
+    {
+      "id": "marie-becker",
+      "personIds": [
+        "marie-becker"
+      ],
+      "covers": [
+        "person:marie-becker"
+      ],
+      "found": "2026-11-25",
+      "findType": "person",
+      "foundBy": "Stuart",
+      "confidence": "family tradition",
+      "headline": "The family chart names Richard Becker's sister Marie, married name perhaps Wettlitz, at Rothermundtstraße 5 in Dresden.",
+      "source": {
+        "text": "2007 Eifler/Becker family chart (Ahnentafel), page 1"
+      }
+    },
+    {
+      "id": "becker-second-sister",
+      "personIds": [
+        "becker-sister-2"
+      ],
+      "covers": [
+        "person:becker-sister-2"
+      ],
+      "found": "2026-11-26",
+      "findType": "person",
+      "foundBy": "Stuart",
+      "confidence": "family tradition",
+      "headline": "Richard Becker had a second sister. Her name is not on the page of the family chart the family holds.",
+      "source": {
+        "text": "2007 Eifler/Becker family chart (Ahnentafel), page 1"
+      }
+    }
+  ]
+}
