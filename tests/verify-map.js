@@ -5,8 +5,8 @@
  *   DIST=path/to/build SHOTS=1 node tests/verify-map.js
  *
  * The map is the shared engine map (site.config.json "map" block), not a one-off.
- * Checks: every drawn place has coordinates and a source; no living person, and nobody
- * who may still be living, has a place on the map; the filters (event type, family,
+ * Checks: every drawn place has coordinates and a source; living people are on the map like anyone
+ * else (the family's choice, 26 November 2026); business associates are marked as not family; the filters (event type, family,
  * person), the timeline, the list view and the "Not yet on the map" tray are there and
  * work; a place panel shows sources and links to profiles; no page errors.
  */
@@ -27,7 +27,7 @@ const sources = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/sources.json'))
 const cfg = JSON.parse(fs.readFileSync(path.join(ROOT, 'site.config.json')));
 const PL = Object.fromEntries(places.map(p => [p.id, p]));
 const SRC = new Set(sources.map(s => s.id));
-// living, or born under 100 years ago with no death found: never on the map
+// living, or born under 100 years ago with no death found: on the map like anyone else since 26 Nov 2026
 const year = new Date().getFullYear();
 const NO_PINS = new Set(people.filter(p => p.isLiving || (!p.death && p.birth && p.birth.date && +p.birth.date.slice(0, 4) > year - 100)).map(p => p.id));
 
@@ -60,7 +60,7 @@ function serve() {
     const livingEv = [];
     places.forEach(p => (p.events || []).forEach(e => (e.personIds || []).forEach(id => { if (NO_PINS.has(id)) livingEv.push(p.id + ':' + id); })));
     people.forEach(p => { if (!NO_PINS.has(p.id)) return; const s = JSON.stringify(p); const m = s.match(/"placeId":"[^"]+"/g); if (m) livingEv.push(p.id + ' ' + m.join(',')); });
-    check(!livingEv.length, `nobody living, or possibly living, has a place on the map (${NO_PINS.size} people checked)`, livingEv.join('; '));
+    check(livingEv.length >= 8, `living people have places on the map, as the family asked (${livingEv.length} places for ${NO_PINS.size} people)`, livingEv.join('; '));
     const blob = JSON.stringify(places);
     check(!/[\u2013\u2014]/.test(blob), 'no em or en dashes in places.json');
     const refs = []; const walk = (o, w) => { if (Array.isArray(o)) o.forEach(x => walk(x, w)); else if (o && typeof o === 'object') for (const k of Object.keys(o)) { if (k === 'placeId' && o[k]) refs.push([o[k], w]); walk(o[k], w); } };
@@ -100,7 +100,7 @@ function serve() {
     const notDrawn = drawable.filter(id => !st.placed.includes(id));
     check(!notDrawn.length, `every place with events is on the map (${st.placed.length} places, ${st.events} events)`, notDrawn.join(', '));
     const livingOnMap = st.people.filter(id => NO_PINS.has(id));
-    check(!livingOnMap.length, 'no living or possibly living person has a pin', livingOnMap.join(', '));
+    check(['thomas', 'rita', 'valeria', 'elisa', 'sebastian', 'enzo', 'sigrid'].every(id => livingOnMap.includes(id)), 'living people have pins (Thomas, Rita, Valeria, Elisa, Sebastian, Enzo, Sigrid)', livingOnMap.join(', '));
     check(st.markers > 0, `markers are drawn (${st.markers} on screen)`);
     check(['born', 'married', 'lived', 'worked', 'died', 'buried'].every(g => st.groups.includes(g)), 'event-type filters are there', st.groups.join(','));
     check(['thomas', 'rita', 'both'].every(f => st.fam.includes(f)), 'family filter offers Thomas\'s, Rita\'s and both families', st.fam.join(','));

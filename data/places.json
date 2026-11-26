@@ -1,6 +1,6 @@
 {
   "meta": {
-    "note": "One places dataset for every map on the Kohlmann site; the engine Family Map reads it. Every place here is drawn. Living people, and Sigrid (born 1927, death not found), have no places in this file and are never drawn. Leads are drawn as \"no proven link\". Places that could not be placed or are not family are listed on the map page tray and in the project notes, not here. Coordinates: OpenStreetMap Nominatim, 26 November 2026."
+    "note": "One places dataset for every map on the Kohlmann site; the engine Family Map reads it. Every place here is drawn. Living people are on the map like anyone else, at the family's wish (Sebastian Belfiore, 26 November 2026). Leads are drawn as \"no proven link\". Business associates of the family firm are drawn as \"Business associate. Not family\". Places that could not be placed are listed on the map page tray and in the project notes, not here. Coordinates: OpenStreetMap Nominatim, 26 November 2026."
   },
   "places": [
     {
@@ -143,6 +143,29 @@
           ],
           "note": "From the 2007 family chart. The civil record has not been seen yet.",
           "factRef": "alvin.spouses[0]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        },
+        {
+          "id": "pe-bautzen-married-sigrid",
+          "type": "married",
+          "personIds": [
+            "sigrid"
+          ],
+          "date": "1953-08-20",
+          "dateStart": "1953-08-20",
+          "dateEnd": "1953-08-20",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Gertrud Sigrid Eifler marries Mr Michaelis (first name not known), Bautzen, 20 August 1953",
+          "confidence": "probable",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ],
+          "note": "From the 2007 family chart. The marriage entry has not been seen.",
           "pages": [
             "research.html"
           ],
@@ -1537,6 +1560,126 @@
       "historicMap": null,
       "streetView": null,
       "streetViewReason": "Not checked yet.",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "radebeul",
+      "name": "Radebeul",
+      "kind": "town",
+      "precision": "town",
+      "lat": 51.0999765,
+      "lng": 13.6767995,
+      "uncertaintyMetres": 2500,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Thomas Kohlmann was born here in 1956, in the GDR. Only the town is known, so the circle marks Radebeul rather than a street.",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Radebeul",
+      "address": "Radebeul",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "doebeln",
+      "name": "Döbeln",
+      "kind": "town",
+      "precision": "town",
+      "lat": 51.1269973,
+      "lng": 13.1365727,
+      "uncertaintyMetres": 2000,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Rita Kohlmann was born here in 1956, in the GDR. Only the town is known, so the circle marks Döbeln rather than a street.",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Döbeln",
+      "address": "Döbeln",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "munich",
+      "name": "Munich",
+      "kind": "town",
+      "precision": "town",
+      "lat": 48.1371079,
+      "lng": 11.5753822,
+      "uncertaintyMetres": 6000,
+      "drawAs": "area",
+      "inHomeRegion": false,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Thomas and Rita married here in 1980, after both had left the GDR. Valeria and Elisa were born here, and Valeria married Sebastian here in 2022. Only the city is known.",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Munich",
+      "address": "Munich",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "tampa",
+      "name": "Tampa, Florida",
+      "kind": "town",
+      "precision": "town",
+      "lat": 27.9449854,
+      "lng": -82.4583107,
+      "uncertaintyMetres": 8000,
+      "drawAs": "area",
+      "inHomeRegion": false,
+      "country": "United States",
+      "status": "published",
+      "blurb": "Valeria and Sebastian's home. Their son Enzo was born here in January 2026. Only the city is known.",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Tampa, Florida",
+      "address": "Tampa, Florida",
+      "coordinatePrecision": "town",
       "standsToday": "unknown"
     }
   ]

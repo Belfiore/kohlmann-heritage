@@ -719,7 +719,7 @@
         "date": "1927-07-20",
         "display": "20 July 1927",
         "place": "Bautzen, Saxony",
-        "placeId": null,
+        "placeId": "bautzen",
         "confidence": "probable",
         "sourceIds": [
           "ahnentafel-2007"
@@ -872,7 +872,7 @@
           "marriageDate": "1980",
           "marriageDisplay": "1980",
           "place": "Munich",
-          "placeId": null,
+          "placeId": "munich",
           "confidence": "family tradition",
           "sourceIds": [
             "family-testimony"
@@ -884,7 +884,7 @@
         "date": "1956",
         "display": "1956",
         "place": "Radebeul, Saxony, East Germany",
-        "placeId": null,
+        "placeId": "radebeul",
         "confidence": "confirmed",
         "sourceIds": [
           "family-testimony"
@@ -1017,7 +1017,7 @@
           "marriageDate": "1980",
           "marriageDisplay": "1980",
           "place": "Munich",
-          "placeId": null,
+          "placeId": "munich",
           "confidence": "family tradition",
           "sourceIds": [
             "family-testimony"
@@ -1029,7 +1029,7 @@
         "date": "1956",
         "display": "1956",
         "place": "Döbeln, Saxony, East Germany",
-        "placeId": null,
+        "placeId": "doebeln",
         "confidence": "confirmed",
         "sourceIds": [
           "family-testimony"
@@ -1162,7 +1162,7 @@
           "marriageDate": "2022-09",
           "marriageDisplay": "September 2022",
           "place": "Munich",
-          "placeId": null,
+          "placeId": "munich",
           "confidence": "family tradition",
           "sourceIds": [
             "family-knowledge",
@@ -1175,7 +1175,7 @@
         "date": "1990-06-27",
         "display": "27 June 1990",
         "place": "Munich, West Germany",
-        "placeId": null,
+        "placeId": "munich",
         "confidence": "confirmed",
         "sourceIds": [
           "family-knowledge"
@@ -1185,7 +1185,18 @@
       "cardPlace": "Tampa, Florida",
       "summary": "Daughter of Thomas and Rita Kohlmann.",
       "story": "Daughter of Thomas and Rita Kohlmann. Born 27 June 1990 in Munich. Sister of Elisa. Married Sebastian Belfiore in September 2022 in Munich. Mother of Enzo.[^family-knowledge]",
-      "residences": [],
+      "residences": [
+        {
+          "place": "Tampa, Florida",
+          "placeId": "tampa",
+          "address": "Tampa, Florida",
+          "years": "2026",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "family-knowledge"
+          ]
+        }
+      ],
       "occupations": [],
       "timeline": [],
       "facts": [],
@@ -1217,7 +1228,7 @@
         "date": "1994-03-25",
         "display": "25 March 1994",
         "place": "Munich, West Germany",
-        "placeId": null,
+        "placeId": "munich",
         "confidence": "confirmed",
         "sourceIds": [
           "family-knowledge"
@@ -1260,7 +1271,7 @@
           "marriageDate": "2022-09",
           "marriageDisplay": "September 2022",
           "place": "Munich",
-          "placeId": null,
+          "placeId": "munich",
           "confidence": "family tradition",
           "sourceIds": [
             "family-knowledge",
@@ -1283,7 +1294,18 @@
       "cardPlace": "Tampa, Florida",
       "summary": "Valeria's husband.",
       "story": "Valeria's husband. Married Valeria Kohlmann in September 2022 in Munich. Father of Enzo. Holds US and UK citizenship. The researcher behind this site.[^self]",
-      "residences": [],
+      "residences": [
+        {
+          "place": "Tampa, Florida",
+          "placeId": "tampa",
+          "address": "Tampa, Florida",
+          "years": "2026",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "self"
+          ]
+        }
+      ],
       "occupations": [],
       "timeline": [],
       "facts": [],
@@ -1311,10 +1333,10 @@
       "children": [],
       "spouses": [],
       "birth": {
-        "date": "2026",
-        "display": "2026",
-        "place": null,
-        "placeId": null,
+        "date": "2026-01",
+        "display": "January 2026",
+        "place": "Tampa, Florida",
+        "placeId": "tampa",
         "confidence": "confirmed",
         "sourceIds": [
           "family-knowledge"
