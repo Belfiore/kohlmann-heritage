@@ -30,7 +30,7 @@ const FAMILY_DATA = {
     rootPersonId: 'valeria',
 
     people: [
-        /* ===== GENERATION -1 — MATERNAL GREAT-GREAT-GRANDPARENTS (Becker / Just) ===== */
+        /* ===== GENERATION -1; MATERNAL GREAT-GREAT-GRANDPARENTS (Becker / Just) ===== */
         {
             id: 'richard_becker',
             firstName: 'Richard Hermann',
@@ -46,7 +46,7 @@ const FAMILY_DATA = {
             primaryLocation: 'Dresden',
             confidence: 'high',
             generation: -1,
-            notes: "Father of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandfather. Kaufmann (merchant). Died of Lungenentzündung (pneumonia) four days before his 63rd birthday. Had two sisters; one named Marie (married surname uncertain — possibly Wettlitz / Wettlich / Wettnitz) lived at Rothermundtstraße 5 in Dresden-Striesen per a handwritten note on the Ahnentafel. Rufname underlined on the chart was 'Richard'.",
+            notes: "Father of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandfather. Kaufmann (merchant). Died of Lungenentzündung (pneumonia) four days before his 63rd birthday. Had two sisters; one named Marie (married surname uncertain; possibly Wettlitz / Wettlich / Wettnitz) lived at Rothermundtstraße 5 in Dresden-Striesen per a handwritten note on the Ahnentafel. Rufname underlined on the chart was 'Richard'.",
             source: '2007 Eifler/Becker Ahnentafel (page 1)'
         },
         {
@@ -68,7 +68,7 @@ const FAMILY_DATA = {
             source: '2007 Eifler/Becker Ahnentafel (page 1)'
         },
 
-        /* ===== GENERATION 0 — MATERNAL GRANDPARENTS (Eifler) ===== */
+        /* ===== GENERATION 0; MATERNAL GRANDPARENTS (Eifler) ===== */
         {
             id: 'ernst_alwin',
             firstName: 'Ernst Alwin',
@@ -106,7 +106,7 @@ const FAMILY_DATA = {
             source: '2007 Eifler/Becker Ahnentafel (page 1); Weickert & Eifler invoice 9 April 1943 (signed receipt)'
         },
 
-        /* ===== GENERATION 1 — GRANDPARENTS (Kohlmann) AND PARALLEL BRANCHES ===== */
+        /* ===== GENERATION 1; GRANDPARENTS (Kohlmann) AND PARALLEL BRANCHES ===== */
         {
             id: 'alvin',
             firstName: 'Alvin',
@@ -151,7 +151,7 @@ const FAMILY_DATA = {
             primaryLocation: '[PLACEHOLDER: location]',
             confidence: 'high',
             generation: 1,
-            notes: "Thomas's maternal aunt. Older sister of Christa. Daughter of Ernst Alwin Eifler and Gertrud Elise Eifler (née Becker). Married a Michaelis on 20 August 1953 in Bautzen — husband's first name not given on page 1 of the Ahnentafel. As of the chart's compilation date (18 January 2007) she was presumably still living; current status unknown without further research. Would be 98 in 2025.",
+            notes: "Thomas's maternal aunt. Older sister of Christa. Daughter of Ernst Alwin Eifler and Gertrud Elise Eifler (née Becker). Married a Michaelis on 20 August 1953 in Bautzen; husband's first name not given on page 1 of the Ahnentafel. As of the chart's compilation date (18 January 2007) she was presumably still living; current status unknown without further research. Would be 98 in 2025.",
             source: '2007 Eifler/Becker Ahnentafel (page 1)'
         },
         {
@@ -177,11 +177,11 @@ const FAMILY_DATA = {
             primaryLocation: '[PLACEHOLDER: where she lived]',
             confidence: 'high',
             generation: 1,
-            notes: "Rita's mother. Surname Woltmann is the name she carried at the time of Rita's birth (she and Rita's father were not married then). Whether her surname later changed — to Werner if she married Rita's father, or otherwise — is not yet known. Mother of Rita, Heide, and Annette. [PLACEHOLDER: maiden surname if Woltmann was already a married name, dates, location.]",
+            notes: "Rita's mother. Surname Woltmann is the name she carried at the time of Rita's birth (she and Rita's father were not married then). Whether her surname later changed; to Werner if she married Rita's father, or otherwise; is not yet known. Mother of Rita, Heide, and Annette. [PLACEHOLDER: maiden surname if Woltmann was already a married name, dates, location.]",
             source: 'Family testimony'
         },
 
-        /* ===== GENERATION 2 — PARENTS, AUNTS, UNCLES ===== */
+        /* ===== GENERATION 2; PARENTS, AUNTS, UNCLES ===== */
         {
             id: 'thomas',
             firstName: 'Thomas',
@@ -234,39 +234,39 @@ const FAMILY_DATA = {
             primaryLocation: '[PLACEHOLDER: current city]',
             confidence: 'verified',
             generation: 2,
-            notes: "Valeria's mother. Born 1956 in Döbeln, Saxony (East Germany). Sister of Heide and Annette. Birth surname was Woltmann (her mother Brigitte's surname; her parents were not married at the time of her birth). Surname later changed to Werner (her father's surname) — Werner is the maiden name she carried into marriage. Escaped from East Germany to West Germany after Thomas, who helped her get out. Married Thomas in 1980 in Munich. [PLACEHOLDER: exact birth date, escape date and route, current city.]",
+            notes: "Valeria's mother. Born 1956 in Döbeln, Saxony (East Germany). Sister of Heide and Annette. Birth surname was Woltmann (her mother Brigitte's surname; her parents were not married at the time of her birth). Surname later changed to Werner (her father's surname); Werner is the maiden name she carried into marriage. Escaped from East Germany to West Germany after Thomas, who helped her get out. Married Thomas in 1980 in Munich. [PLACEHOLDER: exact birth date, escape date and route, current city.]",
             source: 'Family testimony'
         },
         {
             id: 'heide',
             firstName: 'Heide',
             lastName: '[PLACEHOLDER: married surname, if any]',
-            aka: '[PLACEHOLDER: maiden surname — Woltmann or Werner depending on whether she was born before or after Rita\'s name change]',
+            aka: '[PLACEHOLDER: maiden surname; Woltmann or Werner depending on whether she was born before or after Rita\'s name change]',
             birthYear: null,
             deathYear: null,
             isLiving: true,
             primaryLocation: '[PLACEHOLDER: location]',
             confidence: 'low',
             generation: 2,
-            notes: "Rita's sister. Maiden surname was either Woltmann or Werner depending on her birth year relative to Rita's surname change — to be confirmed. [PLACEHOLDER: birth year, location, marriage and any children.]",
+            notes: "Rita's sister. Maiden surname was either Woltmann or Werner depending on her birth year relative to Rita's surname change; to be confirmed. [PLACEHOLDER: birth year, location, marriage and any children.]",
             source: 'Family testimony'
         },
         {
             id: 'annette',
             firstName: 'Annette',
             lastName: '[PLACEHOLDER: married surname, if any]',
-            aka: '[PLACEHOLDER: maiden surname — Woltmann or Werner depending on whether she was born before or after Rita\'s name change]',
+            aka: '[PLACEHOLDER: maiden surname; Woltmann or Werner depending on whether she was born before or after Rita\'s name change]',
             birthYear: null,
             deathYear: null,
             isLiving: true,
             primaryLocation: '[PLACEHOLDER: location]',
             confidence: 'low',
             generation: 2,
-            notes: "Rita's sister. Maiden surname was either Woltmann or Werner depending on her birth year relative to Rita's surname change — to be confirmed. [PLACEHOLDER: birth year, location, marriage and any children.]",
+            notes: "Rita's sister. Maiden surname was either Woltmann or Werner depending on her birth year relative to Rita's surname change; to be confirmed. [PLACEHOLDER: birth year, location, marriage and any children.]",
             source: 'Family testimony'
         },
 
-        /* ===== GENERATION 3 — VALERIA, ELISA, SEBASTIAN ===== */
+        /* ===== GENERATION 3; VALERIA, ELISA, SEBASTIAN ===== */
         {
             id: 'valeria',
             firstName: 'Valeria',
@@ -311,7 +311,7 @@ const FAMILY_DATA = {
             source: 'Self'
         },
 
-        /* ===== GENERATION 4 — ENZO ===== */
+        /* ===== GENERATION 4; ENZO ===== */
         {
             id: 'enzo',
             firstName: 'Enzo',
