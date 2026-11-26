@@ -107,6 +107,9 @@ function serve() {
     check(st.timeline, 'the timeline and its Play button are there');
     check(st.noLink.includes('bautzen-schaefferstrasse-6'), 'the Kohlmann butcher lead is drawn as no proven link');
     check(st.noLink.includes('doebeln-grimmaische-20'), 'the Döbeln Woltmann lead is drawn as no proven link');
+    const names = await page.evaluate(() => { const U = FM.data, P = FM.DATA.people; return { bruno: U.whoOf(['bruno-weickert'], P), alwin: U.whoOf(['ernst-alwin'], P), butcher: U.whoOf(['alwin-kohlmann-butcher'], P), father: U.whoOf(['ernst-eifler-sr'], P), labels: [].map.call(document.querySelectorAll('.mk-wrap'), w => w.getAttribute('aria-label') || w.textContent || '').join(' | ') }; });
+    check(names.bruno === 'Bruno Weickert' && names.alwin === 'Alwin Eifler' && names.butcher === 'Alwin Kohlmann' && names.father === 'Ernst Eifler', 'pins use the names people went by (knownAs): Bruno Weickert, Alwin Eifler, Alwin Kohlmann; Ernst Eifler is only the father', JSON.stringify(names).slice(0, 300));
+    check(!/Max Weickert/.test(names.labels), 'no pin calls Bruno "Max Weickert"', names.labels.slice(0, 300));
     const assoc = await page.evaluate(() => { const D = FM.DATA; return { ev: D.events.filter(e => e.associate).map(e => e.placeId), npl: D.events.filter(e => e.associate && e.noProvenLink).length, who: Object.keys(D.associate || {}) }; });
     check(['grossschoenau', 'bautzen-neusalzaer-34', 'bautzen-neusalzaer-20', 'bautzen-fischergasse-31'].every(id => assoc.ev.includes(id)) && !assoc.npl && assoc.who.join() === 'bruno-weickert',
           'Bruno Weickert, business associate, is on the map as an associate (not family, not "no proven link")', JSON.stringify(assoc));
