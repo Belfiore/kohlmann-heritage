@@ -100,8 +100,9 @@
         window.__familyMap = { mapped: mapped, unlocated: unlocated, withheld: withheld, living: living };
 
         var map = L.map('familyMap', { scrollWheelZoom: true });
-        // A view has to exist before a circle can measure itself.
-        map.setView([50.6, 12.4], 6);
+        // A view has to exist before a circle can measure itself. The opening
+        // frame below replaces this as soon as the map has a size.
+        map.setView([51.15, 14.35], 9);
         var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -112,7 +113,6 @@
             if (!tileOk) document.getElementById('mapMiss').hidden = false;
         }, 8000);
 
-        var bounds = [];
         mapped.forEach(function (place) {
             if (place.drawAs === 'pin') return; // this site does not use exact pins
             var work = place.kind === 'workplace';
@@ -133,10 +133,46 @@
                 { maxWidth: 320 }
             );
             circle.bindTooltip(titles(place).join(' · '), { sticky: true });
-            bounds.push([place.lat, place.lng]);
         });
 
-        if (bounds.length) map.fitBounds(bounds, { padding: [36, 36], maxZoom: 11 });
+        // Frame the main group of places (Saxony and Lausitz, and places near
+        // them). One far place, such as a death in Bavaria, stays on the map
+        // and in the list, and does not pull the opening view across the country.
+        function kmBetween(a, b) {
+            var dLat = (b[0] - a[0]) * Math.PI / 180;
+            var dLng = (b[1] - a[1]) * Math.PI / 180;
+            var la1 = a[0] * Math.PI / 180, la2 = b[0] * Math.PI / 180;
+            var h = Math.sin(dLat / 2) * Math.sin(dLat / 2) + Math.cos(la1) * Math.cos(la2) * Math.sin(dLng / 2) * Math.sin(dLng / 2);
+            return 2 * 6371 * Math.asin(Math.min(1, Math.sqrt(h)));
+        }
+        function openingGroup(list) {
+            if (list.length < 3) return list;
+            var lats = list.map(function (p) { return p.lat; }).sort(function (a, b) { return a - b; });
+            var lngs = list.map(function (p) { return p.lng; }).sort(function (a, b) { return a - b; });
+            var mid = [lats[Math.floor(lats.length / 2)], lngs[Math.floor(lngs.length / 2)]];
+            var near = list.filter(function (p) { return kmBetween(mid, [p.lat, p.lng]) <= 220; });
+            return near.length >= 2 ? near : list;
+        }
+        function frame() {
+            var box = map.getContainer();
+            if (!box || box.clientHeight < 40) return;
+            var group = openingGroup(mapped);
+            if (!group.length) return;
+            var b = L.latLngBounds(group.map(function (p) { return [p.lat, p.lng]; }));
+            group.forEach(function (p) {
+                var metres = p.uncertaintyMetres || 0;
+                var dLat = metres / 111320;
+                var dLng = metres / (111320 * Math.max(0.2, Math.cos(p.lat * Math.PI / 180)));
+                b.extend([p.lat + dLat, p.lng + dLng]);
+                b.extend([p.lat - dLat, p.lng - dLng]);
+            });
+            map.invalidateSize();
+            map.fitBounds(b, { padding: [28, 28], maxZoom: 14 });
+            window.__familyMap.zoom = map.getZoom();
+            window.__familyMap.center = map.getCenter();
+        }
+        map.whenReady(frame);
+        window.setTimeout(frame, 60);
     }).catch(function (err) {
         var p = document.getElementById('mapMiss');
         p.hidden = false;
