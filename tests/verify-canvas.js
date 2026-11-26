@@ -45,6 +45,10 @@ const EXPECTED = {
     'elisa': { parents: ['thomas', 'rita'], spouses: [], children: [], side: 'right' },
     'sebastian': { parents: [], spouses: ['valeria'], children: ['enzo'], side: 'right' },
     'enzo': { parents: ['valeria', 'sebastian'], spouses: [], children: [], side: 'right' },
+    // Leads kept beside the person they may belong to (tree.suspectedRelatives), no proven link.
+    'ernst-eifler-sr': { parents: [], spouses: [], children: [], side: 'left', lead: 'ernst-alwin' },
+    'alwin-kohlmann-butcher': { parents: [], spouses: [], children: [], side: 'left', lead: 'alvin' },
+    'max-woltmann': { parents: [], spouses: [], children: [], side: 'right', lead: 'rita-mother' },
 };
 
 function serve() {
@@ -68,12 +72,14 @@ const same = (a, b) => a.length === b.length && a.every(x => b.includes(x));
 
 (async () => {
     const people = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/people.json'))).people;
-    const ids = people.map(p => p.id).sort();
+    // business associates (map.associates, region "associates") are on the map only, never on the tree
+    const ASSOC = new Set(people.filter(p => p.region === 'associates').map(p => p.id));
+    const ids = people.filter(p => !ASSOC.has(p.id)).map(p => p.id).sort();
     const want = Object.keys(EXPECTED).sort();
     if (ids.join() !== want.join()) fail('people.json ids differ from the expected family: ' + ids.join(', '));
     else ok(people.length + ' people in the data');
 
-    for (const p of people) {
+    for (const p of people.filter(q => !ASSOC.has(q.id))) {
         const e = EXPECTED[p.id];
         if (!e) continue;
         if (!same(p.parents, e.parents)) fail(p.id + ' parents ' + p.parents.join(', ') + ' expected ' + e.parents.join(', '));
@@ -125,7 +131,10 @@ const same = (a, b) => a.length === b.length && a.every(x => b.includes(x));
                 if (!p || !q) { geom.push(id + ' has no card position'); return; }
                 // A spouse with no parents of his own is drawn in his wife's block. The engine
                 // does not give him a side tag; the card still has to sit beside her.
-                if (id === 'sebastian' && !(side[id])) {
+                if (e.lead) {
+                    const hq = pos[e.lead];
+                    if (!hq || Math.abs(q.y - hq.y) > 8) geom.push(id + ' is not on the same row as ' + e.lead);
+                } else if (id === 'sebastian' && !(side[id])) {
                     const v = pos.valeria;
                     if (!v || Math.abs(q.y - v.y) > 8 || Math.abs((q.x + 100) - (v.x + 100)) > 320)
                         geom.push('sebastian is not beside Valeria');
@@ -159,6 +168,8 @@ const same = (a, b) => a.length === b.length && a.every(x => b.includes(x));
         if (report.n !== want.length) fail(w + 'px: ' + report.n + ' cards, expected ' + want.length);
         else ok(w + 'px: all ' + report.n + ' people are on the canvas');
         const missing = want.filter(id => !report.cards.includes(id));
+        const assocOnTree = report.cards.filter(id => ASSOC.has(id));
+        if (assocOnTree.length) fail(w + 'px: a business associate is drawn on the tree: ' + assocOnTree.join(', ')); else if (ASSOC.size) ok(w + 'px: business associates (' + [...ASSOC].join(', ') + ') stay off the tree');
         if (missing.length) fail(w + 'px: missing cards: ' + missing.join(', '));
         if (report.over.length) report.over.forEach(o => fail(w + 'px overflow: ' + o));
         else ok(w + 'px: no card text overflows');

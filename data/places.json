@@ -1,1521 +1,1831 @@
 {
- "meta": {
-  "note": "Places named on the Kohlmann site and in the records found so far. status mapped is drawn. status unlocated is listed under Not yet on the map, either because it could not be placed or because it is a lead that is not proven. status withheld is a living person, or someone who may still be living, and is never drawn. Coordinates are OpenStreetMap Nominatim, 26 November 2026. Towns are wide circles; street addresses are small circles around today's house number."
- },
- "places": [
-  {
-   "id": "dresden",
-   "name": "Dresden",
-   "kind": "town",
-   "precision": "town",
-   "lat": 51.0493286,
-   "lng": 13.7381437,
-   "uncertaintyMetres": 4000,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "Only the town is known, so the circle marks Dresden rather than a street.",
-   "events": [
-    {
-     "id": "pe-dresden-married-eifler",
-     "type": "married",
-     "personIds": [
-      "ernst-alwin",
-      "gertrud-becker"
-     ],
-     "date": "1926-10-02",
-     "dateStart": "1926-10-02",
-     "dateEnd": "1926-10-02",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Ernst Alwin Eifler and Gertrud Elise Eifler: marriage, 1926",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-marriage-1926",
-      "ahnentafel-2007"
-     ],
-     "note": "Standesamt Dresden V, 1926 Nr. 352."
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
+  "meta": {
+    "note": "One places dataset for every map on the Kohlmann site; the engine Family Map reads it. Every place here is drawn. Living people are on the map like anyone else, at the family's wish (Sebastian Belfiore, 26 November 2026). Leads are drawn as \"no proven link\". Business associates of the family firm are drawn as \"Business associate. Not family\". Places that could not be placed are listed on the map page tray and in the project notes, not here. Coordinates: OpenStreetMap Nominatim, 26 November 2026."
   },
-  {
-   "id": "bautzen",
-   "name": "Bautzen",
-   "kind": "town",
-   "precision": "town",
-   "lat": 51.1809132,
-   "lng": 14.4276003,
-   "uncertaintyMetres": 2200,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "Only the town is known for these events, so the circle marks Bautzen rather than a street. Street addresses in Bautzen have their own smaller circles.",
-   "events": [
+  "places": [
     {
-     "id": "pe-bautzen-died-alwin",
-     "type": "died",
-     "personIds": [
-      "ernst-alwin"
-     ],
-     "date": "1968-12-18",
-     "dateStart": "1968-12-18",
-     "dateEnd": "1968-12-18",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Ernst Alwin Eifler: death near Bautzen, 1968",
-     "confidence": "family tradition",
-     "sourceIds": [
-      "ahnentafel-2007",
-      "findbuch-index-1968",
-      "findbuch-death-1973"
-     ],
-     "note": "The family chart says Bautzen, 18 December 1968, car accident. He is not in the Bautzen city death register or index for 1968, so the death was probably registered at the place of the accident. His widow is called widowed in 1973."
+      "id": "dresden",
+      "name": "Dresden",
+      "kind": "town",
+      "precision": "town",
+      "lat": 51.0493286,
+      "lng": 13.7381437,
+      "uncertaintyMetres": 4000,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Only the town is known, so the circle marks Dresden rather than a street.",
+      "events": [
+        {
+          "id": "pe-dresden-married-eifler",
+          "type": "married",
+          "personIds": [
+            "ernst-alwin",
+            "gertrud-becker"
+          ],
+          "date": "1926-10-02",
+          "dateStart": "1926-10-02",
+          "dateEnd": "1926-10-02",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Ernst Alwin Eifler and Gertrud Elise Eifler: marriage, 1926",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-marriage-1926",
+            "ahnentafel-2007"
+          ],
+          "note": "Standesamt Dresden V, 1926 Nr. 352.",
+          "factRef": "ernst-alwin.spouses[0]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Dresden",
+      "address": "Dresden",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-bautzen-born-christa",
-     "type": "born",
-     "personIds": [
-      "christa"
-     ],
-     "date": "1928-11-25",
-     "dateStart": "1928-11-25",
-     "dateEnd": "1928-11-25",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Elise Christa Kohlmann: birth, 1928",
-     "confidence": "probable",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ],
-     "note": "From the 2007 family chart. The civil record has not been seen yet."
+      "id": "bautzen",
+      "name": "Bautzen",
+      "kind": "town",
+      "precision": "town",
+      "lat": 51.1809132,
+      "lng": 14.4276003,
+      "uncertaintyMetres": 2200,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Only the town is known for these events, so the circle marks Bautzen rather than a street. Street addresses in Bautzen have their own smaller circles.",
+      "events": [
+        {
+          "id": "pe-bautzen-died-alwin",
+          "type": "died",
+          "personIds": [
+            "ernst-alwin"
+          ],
+          "date": "1968-12-18",
+          "dateStart": "1968-12-18",
+          "dateEnd": "1968-12-18",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Ernst Alwin Eifler: death near Bautzen, 1968",
+          "confidence": "family tradition",
+          "sourceIds": [
+            "ahnentafel-2007",
+            "findbuch-index-1968",
+            "findbuch-death-1973"
+          ],
+          "note": "The family chart says Bautzen, 18 December 1968, car accident. He is not in the Bautzen city death register or index for 1968, so the death was probably registered at the place of the accident. His widow is called widowed in 1973.",
+          "factRef": "ernst-alwin.death",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": true
+        },
+        {
+          "id": "pe-bautzen-born-christa",
+          "type": "born",
+          "personIds": [
+            "christa"
+          ],
+          "date": "1928-11-25",
+          "dateStart": "1928-11-25",
+          "dateEnd": "1928-11-25",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Elise Christa Kohlmann: birth, 1928",
+          "confidence": "probable",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ],
+          "note": "From the 2007 family chart. The civil record has not been seen yet.",
+          "factRef": "christa.birth",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        },
+        {
+          "id": "pe-bautzen-married-kohlmann",
+          "type": "married",
+          "personIds": [
+            "alvin",
+            "christa"
+          ],
+          "date": "1952-07-24",
+          "dateStart": "1952-07-24",
+          "dateEnd": "1952-07-24",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Alvin Kohlmann and Elise Christa Kohlmann: marriage, 1952",
+          "confidence": "probable",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ],
+          "note": "From the 2007 family chart. The civil record has not been seen yet.",
+          "factRef": "alvin.spouses[0]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        },
+        {
+          "id": "pe-bautzen-married-sigrid",
+          "type": "married",
+          "personIds": [
+            "sigrid"
+          ],
+          "date": "1953-08-20",
+          "dateStart": "1953-08-20",
+          "dateEnd": "1953-08-20",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Gertrud Sigrid Eifler marries Mr Michaelis (first name not known), Bautzen, 20 August 1953",
+          "confidence": "probable",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ],
+          "note": "From the 2007 family chart. The marriage entry has not been seen.",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        },
+        {
+          "id": "pe-bautzen-married-bruno",
+          "type": "married",
+          "personIds": [
+            "bruno-weickert"
+          ],
+          "date": "1918-09-07",
+          "dateStart": "1918-09-07",
+          "dateEnd": "1918-09-07",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Bruno Weickert, saddler and reserve gunner at the front, marries Marie Martha Kuschel, Bautzen, 7 September 1918",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1956-225"
+          ],
+          "note": "Standesamt Bautzen Nr. 135/1918.",
+          "pages": [
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [
+            "1956-bautzen-death-register-225-max-bruno-weickert.jpg"
+          ],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Bautzen",
+      "address": "Bautzen",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-bautzen-married-kohlmann",
-     "type": "married",
-     "personIds": [
-      "alvin",
-      "christa"
-     ],
-     "date": "1952-07-24",
-     "dateStart": "1952-07-24",
-     "dateEnd": "1952-07-24",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Alvin Kohlmann and Elise Christa Kohlmann: marriage, 1952",
-     "confidence": "probable",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ],
-     "note": "From the 2007 family chart. The civil record has not been seen yet."
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
-  },
-  {
-   "id": "sohland",
-   "name": "Sohland an der Spree",
-   "kind": "town",
-   "precision": "town",
-   "lat": 51.0480913,
-   "lng": 14.427963,
-   "uncertaintyMetres": 1200,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "The Ahnentafel types only Sohland. The site reads that as Sohland an der Spree. The circle marks the village, not a house.",
-   "events": [
-    {
-     "id": "pe-sohland-born-alwin",
-     "type": "born",
-     "personIds": [
-      "ernst-alwin"
-     ],
-     "date": "1892-10-07",
-     "dateStart": "1892-10-07",
-     "dateEnd": "1892-10-07",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Ernst Alwin Eifler: birth, 1892",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "ahnentafel-2007",
-      "anc-marriage-1926"
-     ],
-     "note": "The 1926 marriage entry gives Sohland an der Spree and cites his Sohland birth entry."
+      "id": "sohland",
+      "name": "Sohland an der Spree",
+      "kind": "town",
+      "precision": "town",
+      "lat": 51.0480913,
+      "lng": 14.427963,
+      "uncertaintyMetres": 1200,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "The Ahnentafel types only Sohland. The site reads that as Sohland an der Spree. The circle marks the village, not a house.",
+      "events": [
+        {
+          "id": "pe-sohland-born-alwin",
+          "type": "born",
+          "personIds": [
+            "ernst-alwin"
+          ],
+          "date": "1892-10-07",
+          "dateStart": "1892-10-07",
+          "dateEnd": "1892-10-07",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Ernst Alwin Eifler: birth, 1892",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ahnentafel-2007",
+            "anc-marriage-1926"
+          ],
+          "note": "The 1926 marriage entry gives Sohland an der Spree and cites his Sohland birth entry.",
+          "factRef": "ernst-alwin.birth",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        },
+        {
+          "id": "pe-sohland-247",
+          "type": "lived",
+          "personIds": [
+            "ernst-eifler-sr"
+          ],
+          "date": "1926",
+          "dateStart": "1926-01-01",
+          "dateEnd": "1926-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Ernst Eifler: farm at Sohland Nr. 247, 1926",
+          "confidence": "probable",
+          "sourceIds": [
+            "anc-marriage-1926"
+          ],
+          "note": "Landwirt Ernst Eifler, 61, witness at Alwin's wedding. Probably Alwin's father; not yet proven.",
+          "factRef": "ernst-eifler-sr.residences[0]",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "historicName": "Sohland",
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "address": "Sohland an der Spree",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-sohland-247",
-     "type": "lived",
-     "personIds": [],
-     "date": "1926",
-     "dateStart": "1926",
-     "dateEnd": "1926",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Ernst Eifler: farm at Sohland Nr. 247, 1926",
-     "confidence": "probable",
-     "sourceIds": [
-      "anc-marriage-1926"
-     ],
-     "note": "Landwirt Ernst Eifler, 61, witness at Alwin's wedding. Probably Alwin's father; not yet proven."
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ],
-   "historicName": "Sohland"
-  },
-  {
-   "id": "starnberg",
-   "name": "Starnberg",
-   "kind": "town",
-   "precision": "town",
-   "lat": 47.9986851,
-   "lng": 11.3410791,
-   "uncertaintyMetres": 1800,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "Only the town is known, so the circle marks Starnberg rather than a street.",
-   "events": [
-    {
-     "id": "pe-starnberg-died-christa",
-     "type": "died",
-     "personIds": [
-      "christa"
-     ],
-     "date": "2006-05-21",
-     "dateStart": "2006-05-21",
-     "dateEnd": "2006-05-21",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Elise Christa Kohlmann: death, 2006",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ]
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
-  },
-  {
-   "id": "wilthener-19",
-   "name": "Wilthener Straße 19, Bautzen",
-   "kind": "home",
-   "precision": "street",
-   "lat": 51.1691484,
-   "lng": 14.4239137,
-   "uncertaintyMetres": 120,
-   "drawAs": "halo",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "The Eifler house. Called Martin-Mutschmann-Straße 19 from about 1933 to 1945 and Wilthener Straße 19 before and after. Alwin Eifler owned it by 1938. The firm had its office here by 1935. Clara Becker died here in 1954 and Gertrud Eifler in 1973, both recorded at \"Wilthener Straße 19\". The circle is around today's number 19.",
-   "events": [
-    {
-     "id": "pe-mms19-firm-1935",
-     "type": "worked",
-     "personIds": [
-      "ernst-alwin"
-     ],
-     "date": "1935",
-     "dateStart": "1935",
-     "dateEnd": "1945",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Ernst Alwin Eifler: office of Weickert & Eifler, 1935",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-bautzen-1935",
-      "slub-bautzen-1938",
-      "weickert-letterhead",
-      "weickert-invoice-1943"
-     ],
-     "note": "First seen in the 1935 address book. Still the office on the 1943 invoice."
+      "id": "starnberg",
+      "name": "Starnberg",
+      "kind": "town",
+      "precision": "town",
+      "lat": 47.9986851,
+      "lng": 11.3410791,
+      "uncertaintyMetres": 1800,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Only the town is known, so the circle marks Starnberg rather than a street.",
+      "events": [
+        {
+          "id": "pe-starnberg-died-christa",
+          "type": "died",
+          "personIds": [
+            "christa"
+          ],
+          "date": "2006-05-21",
+          "dateStart": "2006-05-21",
+          "dateEnd": "2006-05-21",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Elise Christa Kohlmann: death, 2006",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ahnentafel-2007"
+          ],
+          "factRef": "christa.death",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Starnberg",
+      "address": "Starnberg",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-mms19-home-alwin",
-     "type": "lived",
-     "personIds": [
-      "ernst-alwin"
-     ],
-     "date": "1938",
-     "dateStart": "1938",
-     "dateEnd": "1968",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Ernst Alwin Eifler: home and house he owned, 1938",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "slub-bautzen-1938"
-     ],
-     "note": "Listed as house owner, \"Fabrikant\", in 1938. The family still lived here in 1954 and 1973."
+      "id": "wilthener-19",
+      "name": "Wilthener Straße 19, Bautzen",
+      "kind": "home",
+      "precision": "street",
+      "lat": 51.1691484,
+      "lng": 14.4239137,
+      "uncertaintyMetres": 120,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "The Eifler house. Called Martin-Mutschmann-Straße 19 from about 1933 to 1945 and Wilthener Straße 19 before and after. Alwin Eifler owned it by 1938. The firm had its office here by 1935. Clara Becker died here in 1954 and Gertrud Eifler in 1973, both recorded at \"Wilthener Straße 19\". The circle is around today's number 19.",
+      "events": [
+        {
+          "id": "pe-mms19-firm-1935",
+          "type": "worked",
+          "personIds": [
+            "ernst-alwin"
+          ],
+          "date": "1935",
+          "dateStart": "1935-01-01",
+          "dateEnd": "1945-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Ernst Alwin Eifler: office of Weickert & Eifler, 1935",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-bautzen-1935",
+            "slub-bautzen-1938",
+            "weickert-letterhead",
+            "weickert-invoice-1943"
+          ],
+          "note": "First seen in the 1935 address book. Still the office on the 1943 invoice.",
+          "factRef": "",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [
+            "1938-bautzen-p14-eifler-alwin.jpg"
+          ],
+          "familyStatement": false
+        },
+        {
+          "id": "pe-mms19-home-alwin",
+          "type": "lived",
+          "personIds": [
+            "ernst-alwin"
+          ],
+          "date": "1938",
+          "dateStart": "1938-01-01",
+          "dateEnd": "1968-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Ernst Alwin Eifler: home and house he owned, 1938",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "slub-bautzen-1938"
+          ],
+          "note": "Listed as house owner, \"Fabrikant\", in 1938. The family still lived here in 1954 and 1973.",
+          "factRef": "ernst-alwin.residences[2]",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [
+            "1938-bautzen-house-owner-mms19-eifler.jpg",
+            "1938-bautzen-p14-eifler-alwin.jpg"
+          ],
+          "familyStatement": false
+        },
+        {
+          "id": "pe-office-gertrud",
+          "type": "worked",
+          "personIds": [
+            "gertrud-becker"
+          ],
+          "date": "1943",
+          "dateStart": "1943-01-01",
+          "dateEnd": "1943-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Gertrud Elise Eifler: office of Weickert & Eifler, 1943",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "weickert-invoice-1943"
+          ],
+          "note": "She signed the payment receipt on 28 April 1943.",
+          "factRef": "gertrud-becker.occupations[0]",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        },
+        {
+          "id": "pe-wilthener-died-clara",
+          "type": "died",
+          "personIds": [
+            "elise-just"
+          ],
+          "date": "1954-12-27",
+          "dateStart": "1954-12-27",
+          "dateEnd": "1954-12-27",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Clara Elise Becker: death at home, 1954",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-1954"
+          ],
+          "note": "Bautzen death register 1954 Nr. 881. Her daughter Gertrud, of the same address, reported the death.",
+          "factRef": "elise-just.death",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [
+            "1954-bautzen-death-881-clara-elise-becker.jpg"
+          ],
+          "familyStatement": false
+        },
+        {
+          "id": "pe-wilthener-home-gertrud",
+          "type": "lived",
+          "personIds": [
+            "gertrud-becker"
+          ],
+          "date": "1954",
+          "dateStart": "1954-01-01",
+          "dateEnd": "1973-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Gertrud Elise Eifler: home, 1954 to 1973",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-1954",
+            "findbuch-death-1973"
+          ],
+          "factRef": "gertrud-becker.residences[2]",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        },
+        {
+          "id": "pe-wilthener-died-gertrud",
+          "type": "died",
+          "personIds": [
+            "gertrud-becker"
+          ],
+          "date": "1973-12-11",
+          "dateStart": "1973-12-11",
+          "dateEnd": "1973-12-11",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Gertrud Elise Eifler: death, 1973",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-1973"
+          ],
+          "note": "Bautzen death register 1973 Nr. 1052. Died 11 December 1973 at 3:00, widowed.",
+          "factRef": "gertrud-becker.death",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [
+            "1973-bautzen-death-1052-gertrud-elise-eifler.jpg"
+          ],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim building for Wilthener Straße 19, 26 November 2026. Drawn as a small circle, not a door.",
+      "coordinateSourceIds": [
+        "bautzen-street-names",
+        "nominatim-2026-11-26"
+      ],
+      "address": "Martin-Mutschmann-Straße 19, Bautzen",
+      "historicName": "Martin-Mutschmann-Straße 19",
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "coordinatePrecision": "street",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-office-gertrud",
-     "type": "worked",
-     "personIds": [
-      "gertrud-becker"
-     ],
-     "date": "1943",
-     "dateStart": "1943",
-     "dateEnd": "1943",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Gertrud Elise Eifler: office of Weickert & Eifler, 1943",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "weickert-invoice-1943"
-     ],
-     "note": "She signed the payment receipt on 28 April 1943."
+      "id": "singwitz",
+      "name": "Singwitz",
+      "kind": "workplace",
+      "precision": "town",
+      "lat": 51.1412935,
+      "lng": 14.4020779,
+      "uncertaintyMetres": 900,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "The letterhead places the factory on the Industriegelände Singwitz, south of Bautzen. Only the village is known, so the circle marks Singwitz. The Industriegelände Singwitz was the set of buildings of the former Royal Saxon powder factory, let to firms from 1920 after the factory closed in 1919.",
+      "events": [
+        {
+          "id": "pe-singwitz-factory",
+          "type": "worked",
+          "personIds": [
+            "ernst-alwin"
+          ],
+          "date": "1943",
+          "dateStart": "1943-01-01",
+          "dateEnd": "1943-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Ernst Alwin Eifler: factory at Singwitz, 1943",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "weickert-letterhead",
+            "weickert-invoice-1943",
+            "sachsenschiene-industriebahn",
+            "stammtisch-singwitz"
+          ],
+          "note": "1943 is the year of the surviving invoice. The letterhead names the factory estate.",
+          "factRef": "",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Singwitz",
+      "address": "Singwitz",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-wilthener-died-clara",
-     "type": "died",
-     "personIds": [
-      "elise-just"
-     ],
-     "date": "1954-12-27",
-     "dateStart": "1954-12-27",
-     "dateEnd": "1954-12-27",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Clara Elise Becker: death at home, 1954",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "findbuch-death-1954"
-     ],
-     "note": "Bautzen death register 1954 Nr. 881. Her daughter Gertrud, of the same address, reported the death."
+      "id": "gnaschwitz",
+      "name": "Gnaschwitz",
+      "kind": "workplace",
+      "precision": "town",
+      "lat": 51.1474116,
+      "lng": 14.3698075,
+      "uncertaintyMetres": 700,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "The 1928 address book calls the firm \"Matratzenfabrik Gnaschwitz\". The letterhead names a private rail siding at the Gnaschwitz works railway. The works railway of 1916 ran from Großdöbschütz through Singwitz to the old Gnaschwitz powder factory. Only the village is known, so the circle marks Gnaschwitz.",
+      "events": [
+        {
+          "id": "pe-gnaschwitz-factory-1928",
+          "type": "worked",
+          "personIds": [
+            "ernst-alwin"
+          ],
+          "date": "1928",
+          "dateStart": "1928-01-01",
+          "dateEnd": "1932-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Ernst Alwin Eifler: mattress factory at Gnaschwitz, 1928",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "slub-bautzen-1928",
+            "slub-bautzen-1929"
+          ],
+          "note": "Address book 1928: \"Weikert & Eifler (Inhaber Alwin Eifler), Matratzenfabrik Gnaschwitz (Kontor und Verkaufsstelle)\".",
+          "factRef": "",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [
+            "1928-bautzen-weikert-eifler-matratzenfabrik-gnaschwitz.jpg",
+            "1928-bautzen-handelsregister-885-weickert-eifler.jpg"
+          ],
+          "familyStatement": false
+        },
+        {
+          "id": "pe-gnaschwitz-siding",
+          "type": "worked",
+          "personIds": [
+            "ernst-alwin"
+          ],
+          "date": "1943",
+          "dateStart": "1943-01-01",
+          "dateEnd": "1943-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Ernst Alwin Eifler: rail siding at Gnaschwitz, 1943",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "weickert-letterhead",
+            "weickert-invoice-1943"
+          ],
+          "note": "1943 is the year of the surviving invoice. The letterhead names the siding.",
+          "factRef": "ernst-alwin.occupations[0]",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [
+            "1928-bautzen-weikert-eifler-matratzenfabrik-gnaschwitz.jpg",
+            "1928-bautzen-handelsregister-885-weickert-eifler.jpg"
+          ],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Gnaschwitz",
+      "address": "Gnaschwitz",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-wilthener-home-gertrud",
-     "type": "lived",
-     "personIds": [
-      "gertrud-becker"
-     ],
-     "date": "1954",
-     "dateStart": "1954",
-     "dateEnd": "1973",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Gertrud Elise Eifler: home, 1954 to 1973",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "findbuch-death-1954",
-      "findbuch-death-1973"
-     ]
+      "id": "raun",
+      "name": "Raun (Vogtland)",
+      "kind": "town",
+      "precision": "town",
+      "lat": 50.2556927,
+      "lng": 12.2857438,
+      "uncertaintyMetres": 1200,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Clara Elise Just was born here. Her death entry gives \"Raun, Kreis Oelsnitz im Vogtland\", birth registered at Bad Elster, Nr. 132. Only the village is known.",
+      "events": [
+        {
+          "id": "pe-raun-born-clara",
+          "type": "born",
+          "personIds": [
+            "elise-just"
+          ],
+          "date": "1880-12-01",
+          "dateStart": "1880-12-01",
+          "dateEnd": "1880-12-01",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Clara Elise Just: birth, 1880",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-1954"
+          ],
+          "factRef": "elise-just.birth",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Raun (Vogtland)",
+      "address": "Raun (Vogtland)",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-wilthener-died-gertrud",
-     "type": "died",
-     "personIds": [
-      "gertrud-becker"
-     ],
-     "date": "1973-12-11",
-     "dateStart": "1973-12-11",
-     "dateEnd": "1973-12-11",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Gertrud Elise Eifler: death, 1973",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "findbuch-death-1973"
-     ],
-     "note": "Bautzen death register 1973 Nr. 1052. Died 11 December 1973 at 3:00, widowed."
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim building for Wilthener Straße 19, 26 November 2026. Drawn as a small circle, not a door.",
-   "coordinateSourceIds": [
-    "bautzen-street-names",
-    "nominatim-2026-11-26"
-   ],
-   "address": "Martin-Mutschmann-Straße 19, Bautzen",
-   "historicName": "Martin-Mutschmann-Straße 19"
-  },
-  {
-   "id": "singwitz",
-   "name": "Singwitz",
-   "kind": "workplace",
-   "precision": "town",
-   "lat": 51.1412935,
-   "lng": 14.4020779,
-   "uncertaintyMetres": 900,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "The letterhead places the factory on the Industriegelände Singwitz, south of Bautzen. Only the village is known, so the circle marks Singwitz. The Industriegelände Singwitz was the set of buildings of the former Royal Saxon powder factory, let to firms from 1920 after the factory closed in 1919.",
-   "events": [
-    {
-     "id": "pe-singwitz-factory",
-     "type": "worked",
-     "personIds": [
-      "ernst-alwin"
-     ],
-     "date": "1943",
-     "dateStart": "1943",
-     "dateEnd": "1943",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Ernst Alwin Eifler: factory at Singwitz, 1943",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "weickert-letterhead",
-      "weickert-invoice-1943",
-      "sachsenschiene-industriebahn",
-      "stammtisch-singwitz"
-     ],
-     "note": "1943 is the year of the surviving invoice. The letterhead names the factory estate."
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
-  },
-  {
-   "id": "gnaschwitz",
-   "name": "Gnaschwitz",
-   "kind": "workplace",
-   "precision": "town",
-   "lat": 51.1474116,
-   "lng": 14.3698075,
-   "uncertaintyMetres": 700,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "The 1928 address book calls the firm \"Matratzenfabrik Gnaschwitz\". The letterhead names a private rail siding at the Gnaschwitz works railway. The works railway of 1916 ran from Großdöbschütz through Singwitz to the old Gnaschwitz powder factory. Only the village is known, so the circle marks Gnaschwitz.",
-   "events": [
-    {
-     "id": "pe-gnaschwitz-factory-1928",
-     "type": "worked",
-     "personIds": [
-      "ernst-alwin"
-     ],
-     "date": "1928",
-     "dateStart": "1928",
-     "dateEnd": "1932",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Ernst Alwin Eifler: mattress factory at Gnaschwitz, 1928",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "slub-bautzen-1928",
-      "slub-bautzen-1929"
-     ],
-     "note": "Address book 1928: \"Weikert & Eifler (Inhaber Alwin Eifler), Matratzenfabrik Gnaschwitz (Kontor und Verkaufsstelle)\"."
+      "id": "dresden-ziegelstrasse-2",
+      "name": "Ziegelstraße 2, Dresden",
+      "kind": "home",
+      "precision": "street",
+      "lat": 51.0526194,
+      "lng": 13.7516172,
+      "uncertaintyMetres": 400,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Richard Becker's home when Gertrud was born. The old Ziegelstraße in the Pirnaische Vorstadt was destroyed in 1945; the circle is around today's street of that name.",
+      "events": [
+        {
+          "id": "pe-ziegel-born-gertrud",
+          "type": "born",
+          "personIds": [
+            "gertrud-becker"
+          ],
+          "date": "1905-01-22",
+          "dateStart": "1905-01-22",
+          "dateEnd": "1905-01-22",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Gertrud Elise Becker: birth, 1905",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-birth-1905"
+          ],
+          "note": "Dresden I 1905 Nr. 165. Her father, Kaufmann, reported the birth.",
+          "factRef": "gertrud-becker.birth",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        },
+        {
+          "id": "pe-ziegel-home-richard",
+          "type": "lived",
+          "personIds": [
+            "richard-becker"
+          ],
+          "date": "1905",
+          "dateStart": "1905-01-01",
+          "dateEnd": "1905-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Richard Hermann Becker: home, 1905",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-birth-1905"
+          ],
+          "factRef": "richard-becker.residences[0]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim, today's Ziegelstraße, 26 November 2026. The pre-war street is not the same street, so the circle is wide.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "address": "Ziegelstraße 2, I. Etage, Dresden",
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Ziegelstraße 2, Dresden",
+      "coordinatePrecision": "street",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-gnaschwitz-siding",
-     "type": "worked",
-     "personIds": [
-      "ernst-alwin"
-     ],
-     "date": "1943",
-     "dateStart": "1943",
-     "dateEnd": "1943",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Ernst Alwin Eifler: rail siding at Gnaschwitz, 1943",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "weickert-letterhead",
-      "weickert-invoice-1943"
-     ],
-     "note": "1943 is the year of the surviving invoice. The letterhead names the siding."
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
-  },
-  {
-   "id": "raun",
-   "name": "Raun (Vogtland)",
-   "kind": "town",
-   "precision": "town",
-   "lat": 50.2556927,
-   "lng": 12.2857438,
-   "uncertaintyMetres": 1200,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "Clara Elise Just was born here. Her death entry gives \"Raun, Kreis Oelsnitz im Vogtland\", birth registered at Bad Elster, Nr. 132. Only the village is known.",
-   "events": [
-    {
-     "id": "pe-raun-born-clara",
-     "type": "born",
-     "personIds": [
-      "elise-just"
-     ],
-     "date": "1880-12-01",
-     "dateStart": "1880-12-01",
-     "dateEnd": "1880-12-01",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Clara Elise Just: birth, 1880",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "findbuch-death-1954"
-     ]
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
-  },
-  {
-   "id": "dresden-ziegelstrasse-2",
-   "name": "Ziegelstraße 2, Dresden",
-   "kind": "home",
-   "precision": "street",
-   "lat": 51.0526194,
-   "lng": 13.7516172,
-   "uncertaintyMetres": 400,
-   "drawAs": "halo",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "Richard Becker's home when Gertrud was born. The old Ziegelstraße in the Pirnaische Vorstadt was destroyed in 1945; the circle is around today's street of that name.",
-   "events": [
-    {
-     "id": "pe-ziegel-born-gertrud",
-     "type": "born",
-     "personIds": [
-      "gertrud-becker"
-     ],
-     "date": "1905-01-22",
-     "dateStart": "1905-01-22",
-     "dateEnd": "1905-01-22",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Gertrud Elise Becker: birth, 1905",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-birth-1905"
-     ],
-     "note": "Dresden I 1905 Nr. 165. Her father, Kaufmann, reported the birth."
+      "id": "dresden-rothermundtstrasse-5",
+      "name": "Rothermundtstraße 5, Dresden-Striesen",
+      "kind": "home",
+      "precision": "street",
+      "lat": 51.03246,
+      "lng": 13.7850742,
+      "uncertaintyMetres": 150,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "The Becker home and ironmonger's shop. Gertrud lived here before her marriage. Richard Becker died here. A family note says his sister Marie also lived here.",
+      "events": [
+        {
+          "id": "pe-rothermundt-home-richard",
+          "type": "lived",
+          "personIds": [
+            "richard-becker"
+          ],
+          "date": "1926",
+          "dateStart": "1926-01-01",
+          "dateEnd": "1938-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Richard Hermann Becker: home and shop, 1926 to 1938",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-marriage-1926",
+            "anc-death-1938",
+            "slub-dresden-1938"
+          ],
+          "note": "\"Becker, R., Eisenwhdlg.\" on the ground floor in 1938.",
+          "factRef": "richard-becker.residences[1]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [
+            "1938-dresden-rothermundtstrasse5-becker.jpg"
+          ],
+          "familyStatement": false
+        },
+        {
+          "id": "pe-rothermundt-home-gertrud",
+          "type": "lived",
+          "personIds": [
+            "gertrud-becker"
+          ],
+          "date": "1926",
+          "dateStart": "1926-01-01",
+          "dateEnd": "1926-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Gertrud Elise Becker: home before her marriage, 1926",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-marriage-1926"
+          ],
+          "factRef": "gertrud-becker.residences[1]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        },
+        {
+          "id": "pe-rothermundt-died-richard",
+          "type": "died",
+          "personIds": [
+            "richard-becker"
+          ],
+          "date": "1938-01-09",
+          "dateStart": "1938-01-09",
+          "dateEnd": "1938-01-09",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Richard Hermann Becker: death at home, 1938",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-death-1938"
+          ],
+          "note": "Dresden V 1938 Nr. 52, 9 January 1938. The family chart has 5 January.",
+          "factRef": "richard-becker.death",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Rothermundtstraße 5, Dresden-Striesen",
+      "address": "Rothermundtstraße 5, Dresden-Striesen",
+      "coordinatePrecision": "street",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-ziegel-home-richard",
-     "type": "lived",
-     "personIds": [
-      "richard-becker"
-     ],
-     "date": "1905",
-     "dateStart": "1905",
-     "dateEnd": "1905",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Richard Hermann Becker: home, 1905",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-birth-1905"
-     ]
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim, today's Ziegelstraße, 26 November 2026. The pre-war street is not the same street, so the circle is wide.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ],
-   "address": "Ziegelstraße 2, I. Etage, Dresden"
-  },
-  {
-   "id": "dresden-rothermundtstrasse-5",
-   "name": "Rothermundtstraße 5, Dresden-Striesen",
-   "kind": "home",
-   "precision": "street",
-   "lat": 51.03246,
-   "lng": 13.7850742,
-   "uncertaintyMetres": 150,
-   "drawAs": "halo",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "The Becker home and ironmonger's shop. Gertrud lived here before her marriage. Richard Becker died here. A family note says his sister Marie also lived here.",
-   "events": [
-    {
-     "id": "pe-rothermundt-home-richard",
-     "type": "lived",
-     "personIds": [
-      "richard-becker"
-     ],
-     "date": "1926",
-     "dateStart": "1926",
-     "dateEnd": "1938",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Richard Hermann Becker: home and shop, 1926 to 1938",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-marriage-1926",
-      "anc-death-1938",
-      "slub-dresden-1938"
-     ],
-     "note": "\"Becker, R., Eisenwhdlg.\" on the ground floor in 1938."
+      "id": "dresden-krematorium-tolkewitz",
+      "name": "Krematorium Dresden-Tolkewitz",
+      "kind": "place",
+      "precision": "building",
+      "lat": 51.0368962,
+      "lng": 13.8203502,
+      "uncertaintyMetres": 200,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "The Dresden crematorium. Richard Becker was cremated here in January 1938.",
+      "events": [
+        {
+          "id": "pe-tolkewitz-cremation-richard",
+          "type": "buried",
+          "personIds": [
+            "richard-becker"
+          ],
+          "date": "1938-01",
+          "dateStart": "1938-01-01",
+          "dateEnd": "1938-01-31",
+          "datePrecision": "month",
+          "approximate": false,
+          "summary": "Richard Hermann Becker: cremation, 1938",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-cremation-1938"
+          ],
+          "note": "Certificate 60603. Where the urn was buried is not certain.",
+          "factRef": "",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim, crematorium building, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Krematorium Dresden-Tolkewitz",
+      "address": "Krematorium Dresden-Tolkewitz",
+      "coordinatePrecision": "street",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-rothermundt-home-gertrud",
-     "type": "lived",
-     "personIds": [
-      "gertrud-becker"
-     ],
-     "date": "1926",
-     "dateStart": "1926",
-     "dateEnd": "1926",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Gertrud Elise Becker: home before her marriage, 1926",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-marriage-1926"
-     ]
+      "id": "bautzen-wendischer-graben-3",
+      "name": "Wendischer Graben 3, Bautzen",
+      "kind": "home",
+      "precision": "street",
+      "lat": 51.1822703,
+      "lng": 14.4276497,
+      "uncertaintyMetres": 200,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Alwin Eifler's address at his wedding in 1926. Today number 3 is part of the Semper barracks site, so the old house may not survive.",
+      "events": [
+        {
+          "id": "pe-wendgraben-home-alwin",
+          "type": "lived",
+          "personIds": [
+            "ernst-alwin"
+          ],
+          "date": "1926",
+          "dateStart": "1926-01-01",
+          "dateEnd": "1926-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Ernst Alwin Eifler: home, 1926",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-marriage-1926"
+          ],
+          "note": "\"Fabrikant\", living at Bautzen, Wendischer Graben 3.",
+          "factRef": "ernst-alwin.residences[0]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Wendischer Graben 3, Bautzen",
+      "address": "Wendischer Graben 3, Bautzen",
+      "coordinatePrecision": "street",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-rothermundt-died-richard",
-     "type": "died",
-     "personIds": [
-      "richard-becker"
-     ],
-     "date": "1938-01-09",
-     "dateStart": "1938-01-09",
-     "dateEnd": "1938-01-09",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Richard Hermann Becker: death at home, 1938",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-death-1938"
-     ],
-     "note": "Dresden V 1938 Nr. 52, 9 January 1938. The family chart has 5 January."
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
-  },
-  {
-   "id": "dresden-krematorium-tolkewitz",
-   "name": "Krematorium Dresden-Tolkewitz",
-   "kind": "place",
-   "precision": "building",
-   "lat": 51.0368962,
-   "lng": 13.8203502,
-   "uncertaintyMetres": 200,
-   "drawAs": "halo",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "The Dresden crematorium. Richard Becker was cremated here in January 1938.",
-   "events": [
-    {
-     "id": "pe-tolkewitz-cremation-richard",
-     "type": "buried",
-     "personIds": [
-      "richard-becker"
-     ],
-     "date": "1938-01",
-     "dateStart": "1938-01",
-     "dateEnd": "1938-01",
-     "datePrecision": "month",
-     "approximate": false,
-     "summary": "Richard Hermann Becker: cremation, 1938",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-cremation-1938"
-     ],
-     "note": "Certificate 60603. Where the urn was buried is not certain."
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim, crematorium building, 26 November 2026.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
-  },
-  {
-   "id": "bautzen-wendischer-graben-3",
-   "name": "Wendischer Graben 3, Bautzen",
-   "kind": "home",
-   "precision": "street",
-   "lat": 51.1822703,
-   "lng": 14.4276497,
-   "uncertaintyMetres": 200,
-   "drawAs": "halo",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "Alwin Eifler's address at his wedding in 1926. Today number 3 is part of the Semper barracks site, so the old house may not survive.",
-   "events": [
-    {
-     "id": "pe-wendgraben-home-alwin",
-     "type": "lived",
-     "personIds": [
-      "ernst-alwin"
-     ],
-     "date": "1926",
-     "dateStart": "1926",
-     "dateEnd": "1926",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Ernst Alwin Eifler: home, 1926",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-marriage-1926"
-     ],
-     "note": "\"Fabrikant\", living at Bautzen, Wendischer Graben 3."
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
-  },
-  {
-   "id": "bautzen-loebauer-10",
-   "name": "Löbauer Straße 10, Bautzen",
-   "kind": "workplace",
-   "precision": "street",
-   "lat": 51.1808103,
-   "lng": 14.4373422,
-   "uncertaintyMetres": 200,
-   "drawAs": "halo",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "The first known address of the firm: Bruno Weickert's saddlery and upholstery shop, \"Fa.: Weickert & Eifler\", phone 512.",
-   "events": [
-    {
-     "id": "pe-loebauer-shop-1921",
-     "type": "worked",
-     "personIds": [],
-     "date": "1921",
-     "dateStart": "1921",
-     "dateEnd": "1921",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Bruno Weickert: Weickert & Eifler saddlery shop, 1921",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-bautzen-1921"
-     ]
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
-  },
-  {
-   "id": "bautzen-neusalzaer-34",
-   "name": "Neusalzaer Straße 34, Bautzen",
-   "kind": "home",
-   "precision": "street",
-   "lat": 51.1703656,
-   "lng": 14.4244997,
-   "uncertaintyMetres": 150,
-   "drawAs": "halo",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "Bruno Weickert's flat in 1921 (second floor).",
-   "events": [
-    {
-     "id": "pe-neusalzaer34-bruno",
-     "type": "lived",
-     "personIds": [],
-     "date": "1921",
-     "dateStart": "1921",
-     "dateEnd": "1921",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Bruno Weickert: home, 1921",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-bautzen-1921"
-     ]
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
-  },
-  {
-   "id": "bautzen-neusalzaer-20",
-   "name": "Neusalzaer Straße 20, Bautzen",
-   "kind": "home",
-   "precision": "street",
-   "lat": 51.1726457,
-   "lng": 14.4234381,
-   "uncertaintyMetres": 150,
-   "drawAs": "halo",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "The Weickert family house: Karl Weickert, master shoemaker, from 1917; Bruno Weickert, master saddler, in 1928.",
-   "events": [
-    {
-     "id": "pe-neusalzaer20-karl",
-     "type": "lived",
-     "personIds": [],
-     "date": "1917",
-     "dateStart": "1917",
-     "dateEnd": "1921",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Karl Weickert: home, 1917 to 1921",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "slub-bautzen-1917",
-      "anc-bautzen-1921"
-     ],
-     "note": "Probably Bruno's father. Not proven."
+      "id": "bautzen-loebauer-10",
+      "name": "Löbauer Straße 10, Bautzen",
+      "kind": "workplace",
+      "precision": "street",
+      "lat": 51.1808103,
+      "lng": 14.4373422,
+      "uncertaintyMetres": 200,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "The first known address of the firm: Bruno Weickert's saddlery and upholstery shop, \"Fa.: Weickert & Eifler\", phone 512.",
+      "events": [
+        {
+          "id": "pe-loebauer-shop-1921",
+          "type": "worked",
+          "personIds": [
+            "ernst-alwin"
+          ],
+          "date": "1921",
+          "dateStart": "1921-01-01",
+          "dateEnd": "1921-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Weickert & Eifler saddlery and upholstery shop, Löbauer Straße 10, 1921. The 1921 book names only Bruno Weickert; the Eifler in the firm name is probably Alwin.",
+          "confidence": "probable",
+          "sourceIds": [
+            "anc-bautzen-1921"
+          ],
+          "factRef": "",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Löbauer Straße 10, Bautzen",
+      "address": "Löbauer Straße 10, Bautzen",
+      "coordinatePrecision": "street",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-neusalzaer20-bruno",
-     "type": "lived",
-     "personIds": [],
-     "date": "1928",
-     "dateStart": "1928",
-     "dateEnd": "1928",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Bruno Weickert: home, 1928",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "slub-bautzen-1928"
-     ]
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
-  },
-  {
-   "id": "bautzen-neusalzaer-38",
-   "name": "Neusalzaer Straße 38 (Hinterhaus), Bautzen",
-   "kind": "workplace",
-   "precision": "street",
-   "lat": 51.1700015,
-   "lng": 14.4246993,
-   "uncertaintyMetres": 150,
-   "drawAs": "halo",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "Alwin Eifler's home and the firm's office and shop (Kontor und Verkaufsstelle), in the rear building. The Ancestry index of the 1932 book reads No. 36, next door; the SLUB copy reads No. 38.",
-   "events": [
-    {
-     "id": "pe-neusalzaer38-alwin",
-     "type": "lived",
-     "personIds": [
-      "ernst-alwin"
-     ],
-     "date": "1928",
-     "dateStart": "1928",
-     "dateEnd": "1932",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Ernst Alwin Eifler: home, 1928 to 1932",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "slub-bautzen-1928",
-      "slub-bautzen-1929",
-      "anc-bautzen-1932"
-     ]
+      "id": "bautzen-neusalzaer-38",
+      "name": "Neusalzaer Straße 38 (Hinterhaus), Bautzen",
+      "kind": "workplace",
+      "precision": "street",
+      "lat": 51.1700015,
+      "lng": 14.4246993,
+      "uncertaintyMetres": 150,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Alwin Eifler's home and the firm's office and shop (Kontor und Verkaufsstelle), in the rear building. The Ancestry index of the 1932 book reads No. 36, next door; the SLUB copy reads No. 38. From 1929 the firm's shop was at An den Fleischbänken 7; its telephone 2512 was Alwin Eifler's own number at Martin-Mutschmann-Straße 19 in 1935.",
+      "events": [
+        {
+          "id": "pe-neusalzaer38-alwin",
+          "type": "lived",
+          "personIds": [
+            "ernst-alwin"
+          ],
+          "date": "1928",
+          "dateStart": "1928-01-01",
+          "dateEnd": "1932-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Ernst Alwin Eifler: home, 1928 to 1932",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "slub-bautzen-1928",
+            "slub-bautzen-1929",
+            "anc-bautzen-1932",
+            "anc-bautzen-1928-eifler",
+            "anc-bautzen-1929-eifler"
+          ],
+          "factRef": "ernst-alwin.residences[1]",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        },
+        {
+          "id": "pe-neusalzaer38-office",
+          "type": "worked",
+          "personIds": [
+            "ernst-alwin"
+          ],
+          "date": "1928",
+          "dateStart": "1928-01-01",
+          "dateEnd": "1932-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Ernst Alwin Eifler: office of Weickert & Eifler, 1928 to 1932",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "slub-bautzen-1928",
+            "slub-bautzen-1929",
+            "anc-bautzen-1932",
+            "anc-bautzen-1928-eifler",
+            "anc-bautzen-1929-eifler"
+          ],
+          "factRef": "",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [
+            "1928-bautzen-handelsregister-885-weickert-eifler.jpg"
+          ],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Neusalzaer Straße 38 (Hinterhaus), Bautzen",
+      "address": "Neusalzaer Straße 38 (Hinterhaus), Bautzen",
+      "coordinatePrecision": "street",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-neusalzaer38-office",
-     "type": "worked",
-     "personIds": [
-      "ernst-alwin"
-     ],
-     "date": "1928",
-     "dateStart": "1928",
-     "dateEnd": "1932",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Ernst Alwin Eifler: office of Weickert & Eifler, 1928 to 1932",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "slub-bautzen-1928",
-      "slub-bautzen-1929",
-      "anc-bautzen-1932"
-     ]
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
-  },
-  {
-   "id": "herzberg",
-   "name": "Herzberg (Elster)",
-   "kind": "town",
-   "precision": "town",
-   "lat": 51.6924078,
-   "lng": 13.2358585,
-   "uncertaintyMetres": 2000,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "mapped",
-   "blurb": "Richard Becker's death entry gives \"Herzberg, Kreis Schweinitz\", which is Herzberg on the Black Elster, then in Prussian Saxony, today in Brandenburg. Only the town is known.",
-   "events": [
-    {
-     "id": "pe-herzberg-born-richard",
-     "type": "born",
-     "personIds": [
-      "richard-becker"
-     ],
-     "date": "1875-01-05",
-     "dateStart": "1875-01-05",
-     "dateEnd": "1875-01-05",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Richard Hermann Becker: birth, 1875",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "anc-death-1938"
-     ],
-     "note": "Born 5 January 1875. The family chart has 9 January; the death entry gives the 5th."
-    }
-   ],
-   "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
-  },
-  {
-   "id": "alvin-birth-unknown",
-   "name": "Birthplace of Alvin Kohlmann",
-   "kind": "town",
-   "precision": "town",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "unlocated",
-   "blurb": "The site leaves his birth as a placeholder.",
-   "events": [
-    {
-     "id": "pe-alvin-birth-unknown",
-     "type": "born",
-     "personIds": [
-      "alvin"
-     ],
-     "date": null,
-     "dateStart": null,
-     "dateEnd": null,
-     "approximate": false,
-     "summary": "Alvin Kohlmann: birth, year not recorded",
-     "confidence": "unverified",
-     "sourceIds": [
-      "family-testimony"
-     ],
-     "note": "Birth date and place are not recorded."
-    }
-   ],
-   "coordinateMethod": null,
-   "coordinateSourceIds": []
-  },
-  {
-   "id": "alvin-death-unknown",
-   "name": "Death place of Alvin Kohlmann",
-   "kind": "town",
-   "precision": "town",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "unlocated",
-   "blurb": "The site says he is deceased and leaves the date and place as a placeholder.",
-   "events": [
-    {
-     "id": "pe-alvin-death-unknown",
-     "type": "died",
-     "personIds": [
-      "alvin"
-     ],
-     "date": null,
-     "dateStart": null,
-     "dateEnd": null,
-     "approximate": false,
-     "summary": "Alvin Kohlmann: death, year not recorded",
-     "confidence": "unverified",
-     "sourceIds": [
-      "family-testimony"
-     ],
-     "note": "Death date and place are not recorded."
-    }
-   ],
-   "coordinateMethod": null,
-   "coordinateSourceIds": []
-  },
-  {
-   "id": "werner-home-unknown",
-   "name": "Home of Rita's father",
-   "kind": "town",
-   "precision": "town",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "unlocated",
-   "blurb": "No town is recorded for him.",
-   "events": [
-    {
-     "id": "pe-werner-home-unknown",
-     "type": "lived",
-     "personIds": [
-      "rita-father"
-     ],
-     "date": null,
-     "dateStart": null,
-     "dateEnd": null,
-     "approximate": false,
-     "summary": "Werner: home, year not recorded",
-     "confidence": "family tradition",
-     "sourceIds": [
-      "family-testimony"
-     ],
-     "note": "First name, dates, and home are not recorded."
-    }
-   ],
-   "coordinateMethod": null,
-   "coordinateSourceIds": []
-  },
-  {
-   "id": "brigitte-home-unknown",
-   "name": "Home of Brigitte Woltmann",
-   "kind": "town",
-   "precision": "town",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "unlocated",
-   "blurb": "No town is recorded for her.",
-   "events": [
-    {
-     "id": "pe-brigitte-home-unknown",
-     "type": "lived",
-     "personIds": [
-      "rita-mother"
-     ],
-     "date": null,
-     "dateStart": null,
-     "dateEnd": null,
-     "approximate": false,
-     "summary": "Brigitte Woltmann: home, year not recorded",
-     "confidence": "family tradition",
-     "sourceIds": [
-      "family-testimony"
-     ],
-     "note": "Dates and home are not recorded."
-    }
-   ],
-   "coordinateMethod": null,
-   "coordinateSourceIds": []
-  },
-  {
-   "id": "klix-lehmann",
-   "name": "Klix Nr. 58d, Kreis Bautzen",
-   "kind": "town",
-   "precision": "town",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "unlocated",
-   "blurb": "The 1943 invoice is addressed to Tischlermeister Erich Lehmann at Klix Nr. 58d. He was a customer, not one of the family, so his address is not pinned.",
-   "events": [],
-   "coordinateMethod": null,
-   "coordinateSourceIds": []
-  },
-  {
-   "id": "radebeul",
-   "name": "Radebeul",
-   "kind": "town",
-   "precision": "town",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "withheld",
-   "blurb": "Thomas Kohlmann was born here in 1956. He is living, so Radebeul is not on the map.",
-   "events": [
-    {
-     "id": "pe-radebeul-born-thomas",
-     "type": "born",
-     "personIds": [
-      "thomas"
-     ],
-     "date": "1956",
-     "dateStart": "1956",
-     "dateEnd": "1956",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Thomas Kohlmann: birth, 1956",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "family-testimony"
-     ]
-    }
-   ],
-   "coordinateMethod": null,
-   "coordinateSourceIds": []
-  },
-  {
-   "id": "dobeln",
-   "name": "Döbeln",
-   "kind": "town",
-   "precision": "town",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "withheld",
-   "blurb": "Rita Kohlmann was born here in 1956. She is living, so Döbeln is not on the map.",
-   "events": [
-    {
-     "id": "pe-dobeln-born-rita",
-     "type": "born",
-     "personIds": [
-      "rita"
-     ],
-     "date": "1956",
-     "dateStart": "1956",
-     "dateEnd": "1956",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Rita Kohlmann: birth, 1956",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "family-testimony"
-     ]
-    }
-   ],
-   "coordinateMethod": null,
-   "coordinateSourceIds": []
-  },
-  {
-   "id": "munich",
-   "name": "Munich",
-   "kind": "town",
-   "precision": "town",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "withheld",
-   "blurb": "Marriages and births here belong to living people, so Munich is not on the map.",
-   "events": [
-    {
-     "id": "pe-munich-married-thomas",
-     "type": "married",
-     "personIds": [
-      "thomas",
-      "rita"
-     ],
-     "date": "1980",
-     "dateStart": "1980",
-     "dateEnd": "1980",
-     "datePrecision": "year",
-     "approximate": false,
-     "summary": "Thomas Kohlmann and Rita Kohlmann: marriage, 1980",
-     "confidence": "family tradition",
-     "sourceIds": [
-      "family-testimony"
-     ]
+      "id": "herzberg",
+      "name": "Herzberg (Elster)",
+      "kind": "town",
+      "precision": "town",
+      "lat": 51.6924078,
+      "lng": 13.2358585,
+      "uncertaintyMetres": 2000,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Richard Becker's death entry gives \"Herzberg, Kreis Schweinitz\", which is Herzberg on the Black Elster, then in Prussian Saxony, today in Brandenburg. Only the town is known.",
+      "events": [
+        {
+          "id": "pe-herzberg-born-richard",
+          "type": "born",
+          "personIds": [
+            "richard-becker"
+          ],
+          "date": "1875-01-05",
+          "dateStart": "1875-01-05",
+          "dateEnd": "1875-01-05",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Richard Hermann Becker: birth, 1875",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-death-1938"
+          ],
+          "note": "Born 5 January 1875. The family chart has 9 January; the death entry gives the 5th.",
+          "factRef": "richard-becker.birth",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Herzberg (Elster)",
+      "address": "Herzberg (Elster)",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-munich-born-valeria",
-     "type": "born",
-     "personIds": [
-      "valeria"
-     ],
-     "date": "1990-06-27",
-     "dateStart": "1990-06-27",
-     "dateEnd": "1990-06-27",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Valeria Kohlmann: birth, 1990",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "family-knowledge"
-     ]
+      "id": "bautzen-schaefferstrasse-6",
+      "name": "Schäfferstraße 6, Bautzen",
+      "kind": "home",
+      "precision": "street",
+      "lat": 51.1850656,
+      "lng": 14.4364616,
+      "uncertaintyMetres": 150,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Lead only. Ernst Alwin Kohlmann, butcher (Fleischer), lived here from 1925 and was still here when he died in 1972. He may be Alvin Kohlmann's father. Not proven, so it is shown as no proven link. The circle is around today's number 6.",
+      "events": [
+        {
+          "id": "pe-schaeffer6-alwin-kohlmann",
+          "type": "lived",
+          "personIds": [
+            "alwin-kohlmann-butcher"
+          ],
+          "date": "1925 to 1938",
+          "dateStart": "1925-01-01",
+          "dateEnd": "1938-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "factRef": "alwin-kohlmann-butcher.residences[0]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "sourceIds": [
+            "anc-bautzen-1925-kohlmann",
+            "slub-bautzen-1928",
+            "anc-bautzen-1935-kohlmann",
+            "slub-bautzen-1938"
+          ],
+          "confidence": "unverified",
+          "familyStatement": false,
+          "summary": "Alwin Kohlmann, butcher, at Schäfferstraße 6 (address books 1925 to 1938). A lead for Alvin's family, not proven."
+        },
+        {
+          "id": "pe-schaeffer6-alwin-kohlmann-1972",
+          "type": "lived",
+          "personIds": [
+            "alwin-kohlmann-butcher"
+          ],
+          "date": "1972",
+          "dateStart": "1972-01-01",
+          "dateEnd": "1972-02-27",
+          "datePrecision": "year",
+          "approximate": false,
+          "factRef": "alwin-kohlmann-butcher.residences[2]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "sourceIds": [
+            "findbuch-death-register-1972-185"
+          ],
+          "confidence": "confirmed",
+          "familyStatement": false,
+          "summary": "Still his home when he died on 27 February 1972 (death register Nr. 185)."
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": true,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [
+        "anc-bautzen-1925-kohlmann",
+        "slub-bautzen-1938",
+        "findbuch-death-register-1972-185"
+      ],
+      "historicName": "Schäfferstraße 6, Bautzen",
+      "address": "Schäfferstraße 6, Bautzen",
+      "coordinatePrecision": "street",
+      "standsToday": "unknown"
     },
     {
-     "id": "pe-munich-born-elisa",
-     "type": "born",
-     "personIds": [
-      "elisa"
-     ],
-     "date": "1994-03-25",
-     "dateStart": "1994-03-25",
-     "dateEnd": "1994-03-25",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Elisa Kohlmann: birth, 1994",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "family-knowledge"
-     ]
+      "id": "doebeln-grimmaische-20",
+      "name": "Grimmaische Straße 20, Döbeln",
+      "historicName": "Kleinbauchlitzer Straße 20, Döbeln",
+      "variants": [
+        "Kleinbauchlitzer Straße 20"
+      ],
+      "kind": "home",
+      "address": "Grimmaische Straße 20, Döbeln",
+      "precision": "address",
+      "lat": 51.1263361,
+      "lng": 13.1013918,
+      "uncertaintyMetres": 100,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "coordinateMethod": "OpenStreetMap Nominatim, 26 November 2026, query \"Grimmaische Straße 20, Döbeln\" (matched a building). Drawn as a circle: the house number may have changed since 1939.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "coordinatePrecision": "street",
+      "status": "published",
+      "noProvenLink": true,
+      "blurb": "Lead only. Max Woltmann, tax official, lived here in 1925 and 1939. The street was called Kleinbauchlitzer Straße until the 1930s; the 1939 address book heads it \"Grimmaische Straße, vorher Kleinbauchlitzer Straße\". He may be Brigitte Woltmann's father or grandfather. Not proven, so it is shown as no proven link.",
+      "blurbSourceIds": [
+        "slub-doebeln-1925",
+        "slub-doebeln-1939"
+      ],
+      "standsToday": "unknown",
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "events": [
+        {
+          "id": "pe-doebeln-woltmann-1925",
+          "type": "lived",
+          "personIds": [
+            "max-woltmann"
+          ],
+          "date": "1925",
+          "dateStart": "1925-01-01",
+          "dateEnd": "1925-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "factRef": "max-woltmann.residences[0]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [
+            "1925-doebeln-woltmann-max-kleinbauchlitzer-20.jpg"
+          ],
+          "sourceIds": [
+            "slub-doebeln-1925"
+          ],
+          "confidence": "unverified",
+          "familyStatement": false,
+          "summary": "Max Woltmann, tax assistant, at Kleinbauchlitzer Straße 20 (address book 1925). A lead for Brigitte's family, not proven."
+        },
+        {
+          "id": "pe-doebeln-woltmann-1939",
+          "type": "lived",
+          "personIds": [
+            "max-woltmann"
+          ],
+          "date": "1939",
+          "dateStart": "1939-01-01",
+          "dateEnd": "1939-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "factRef": "max-woltmann.residences[1]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [
+            "1939-doebeln-grimmaische-20-woltmann-max.jpg",
+            "1939-doebeln-grimmaische-formerly-kleinbauchlitzer.jpg"
+          ],
+          "sourceIds": [
+            "slub-doebeln-1939"
+          ],
+          "confidence": "unverified",
+          "familyStatement": false,
+          "summary": "Max Woltmann, tax secretary, at Grimmaische Straße 20, the same house under its new street name (address book 1939). A lead, not proven."
+        }
+      ]
     },
     {
-     "id": "pe-munich-married-valeria",
-     "type": "married",
-     "personIds": [
-      "valeria",
-      "sebastian"
-     ],
-     "date": "2022-09",
-     "dateStart": "2022-09",
-     "dateEnd": "2022-09",
-     "approximate": false,
-     "summary": "Valeria Kohlmann and Sebastian Belfiore: marriage, 2022",
-     "confidence": "family tradition",
-     "sourceIds": [
-      "family-knowledge",
-      "self"
-     ]
+      "id": "bautzen-holzmarkt-27",
+      "name": "Holzmarkt 27, Bautzen",
+      "historicName": "Holzmarkt 27, Bautzen",
+      "variants": [],
+      "kind": "home",
+      "address": "Holzmarkt 27, Bautzen",
+      "precision": "address",
+      "lat": 51.1815376,
+      "lng": 14.4344008,
+      "uncertaintyMetres": 100,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "coordinateMethod": "OpenStreetMap Nominatim, 26 November 2026, query \"Holzmarkt 27, Bautzen\" (matched a building). Drawn as a circle: house numbers may have changed since 1924.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "coordinatePrecision": "street",
+      "status": "published",
+      "noProvenLink": true,
+      "blurb": "Lead only. Alwin Kohlmann lived here as a journeyman butcher in 1921 (rear building, first floor) and as a butcher in 1924 (ground floor), before moving to Schäfferstraße 6. He may be Alvin Kohlmann's father. Not proven, so it is shown as no proven link.",
+      "blurbSourceIds": [
+        "anc-bautzen-1921-kohlmann",
+        "anc-bautzen-1924-kohlmann"
+      ],
+      "standsToday": "unknown",
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "events": [
+        {
+          "id": "pe-holzmarkt27-alwin-kohlmann",
+          "type": "lived",
+          "personIds": [
+            "alwin-kohlmann-butcher"
+          ],
+          "date": "1921 to 1924",
+          "dateStart": "1921-01-01",
+          "dateEnd": "1924-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "factRef": "alwin-kohlmann-butcher.residences[1]",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "sourceIds": [
+            "anc-bautzen-1921-kohlmann",
+            "anc-bautzen-1924-kohlmann"
+          ],
+          "confidence": "unverified",
+          "familyStatement": false,
+          "summary": "Alwin Kohlmann, journeyman butcher (1921) and butcher (1924), at Holzmarkt 27 (address books). A lead for Alvin's family, not proven."
+        }
+      ]
+    },
+    {
+      "id": "koetzschau-lawalde",
+      "name": "Kötzschau near Lawalde",
+      "historicName": "Kötschau (as typed in 1972), Kreis Löbau",
+      "variants": [
+        "Kötschau",
+        "Kötzschau"
+      ],
+      "kind": "village",
+      "address": "Kötzschau, Kleindehsa, Lawalde",
+      "precision": "village",
+      "lat": 51.1019206,
+      "lng": 14.5781683,
+      "uncertaintyMetres": 1000,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "noProvenLink": true,
+      "blurb": "Lead only. Ernst Alwin Kohlmann, the Bautzen butcher, was born here on 21 September 1883. Kötzschau is a hamlet of Kleindehsa in the parish of Lawalde, near Löbau; his birth was registered at Lawalde. He may be Alvin Kohlmann's father. Not proven. Ernestine Hedwig Kohlmann, probably his sister, was born in Kleindehsa, the same village, in 1897.",
+      "blurbSourceIds": [
+        "findbuch-death-register-1972-185",
+        "findbuch-death-register-1980-40"
+      ],
+      "events": [
+        {
+          "id": "pe-koetzschau-born-alwin-kohlmann",
+          "type": "born",
+          "personIds": [
+            "alwin-kohlmann-butcher"
+          ],
+          "date": "1883-09-21",
+          "dateStart": "1883-09-21",
+          "dateEnd": "1883-09-21",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Ernst Alwin Kohlmann: birth, 1883 (a lead for Alvin's family, not proven)",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1972-185"
+          ],
+          "factRef": "alwin-kohlmann-butcher.birth",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim, hamlet node \"Kötzschau, Kleindehsa, Lawalde\", 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "coordinatePrecision": "village",
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "bautzen-fleischbaenken-7",
+      "name": "An den Fleischbänken 7, Bautzen",
+      "historicName": "An den Fleischbänken 7, Bautzen",
+      "variants": [],
+      "kind": "workplace",
+      "address": "An den Fleischbänken 7, Bautzen",
+      "precision": "address",
+      "lat": 51.1822481,
+      "lng": 14.4254275,
+      "uncertaintyMetres": 100,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "noProvenLink": false,
+      "blurb": "The Bautzen shop (Matratzen-Niederlage, mattress showroom and store) of Weikert & Eifler in 1929 and 1932, owner Alwin Eifler, telephone 2512. The mattresses were made at the factory in the Industriehof Gnaschwitz.",
+      "blurbSourceIds": [
+        "anc-bautzen-1929-firm",
+        "anc-bautzen-1932-firm"
+      ],
+      "events": [
+        {
+          "id": "pe-fleischbaenken7-shop",
+          "type": "worked",
+          "personIds": [
+            "ernst-alwin"
+          ],
+          "date": "1929 to 1932",
+          "dateStart": "1929-01-01",
+          "dateEnd": "1932-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Ernst Alwin Eifler: owner of the Weikert & Eifler mattress shop here, 1929 to 1932",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-bautzen-1929-firm",
+            "anc-bautzen-1932-firm"
+          ],
+          "factRef": "",
+          "pages": [
+            "weickert-eifler.html",
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "coordinatePrecision": "street",
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "radebeul",
+      "name": "Radebeul",
+      "kind": "town",
+      "precision": "town",
+      "lat": 51.0999765,
+      "lng": 13.6767995,
+      "uncertaintyMetres": 2500,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Thomas Kohlmann was born here in 1956, in the GDR. Only the town is known, so the circle marks Radebeul rather than a street.",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Radebeul",
+      "address": "Radebeul",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "doebeln",
+      "name": "Döbeln",
+      "kind": "town",
+      "precision": "town",
+      "lat": 51.1269973,
+      "lng": 13.1365727,
+      "uncertaintyMetres": 2000,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Rita Kohlmann was born here in 1956, in the GDR. Only the town is known, so the circle marks Döbeln rather than a street.",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Döbeln",
+      "address": "Döbeln",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "munich",
+      "name": "Munich",
+      "kind": "town",
+      "precision": "town",
+      "lat": 48.1371079,
+      "lng": 11.5753822,
+      "uncertaintyMetres": 6000,
+      "drawAs": "area",
+      "inHomeRegion": false,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Thomas and Rita married here in 1980, after both had left the GDR. Valeria and Elisa were born here, and Valeria married Sebastian here in 2022. Only the city is known.",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Munich",
+      "address": "Munich",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "tampa",
+      "name": "Tampa, Florida",
+      "kind": "town",
+      "precision": "town",
+      "lat": 27.9449854,
+      "lng": -82.4583107,
+      "uncertaintyMetres": 8000,
+      "drawAs": "area",
+      "inHomeRegion": false,
+      "country": "United States",
+      "status": "published",
+      "blurb": "Valeria and Sebastian's home. Their son Enzo was born here in January 2026. Only the city is known.",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Tampa, Florida",
+      "address": "Tampa, Florida",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "grossschoenau",
+      "name": "Großschönau",
+      "kind": "village",
+      "precision": "village",
+      "lat": 50.8876381,
+      "lng": 14.6656904,
+      "uncertaintyMetres": 1500,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Bruno Weickert, the co-founder of Weickert & Eifler, was born here on 2 December 1892. Only the village is known.",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Großschönau",
+      "address": "Großschönau",
+      "coordinatePrecision": "village",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "bautzen-neusalzaer-34",
+      "name": "Neusalzaer Straße 34, Bautzen",
+      "kind": "home",
+      "precision": "street",
+      "lat": 51.1703656,
+      "lng": 14.4244997,
+      "uncertaintyMetres": 150,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Bruno Weickert's flat in 1921 (second floor).",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Neusalzaer Straße 34, Bautzen",
+      "address": "Neusalzaer Straße 34, Bautzen",
+      "coordinatePrecision": "street",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "bautzen-neusalzaer-20",
+      "name": "Neusalzaer Straße 20, Bautzen",
+      "kind": "home",
+      "precision": "street",
+      "lat": 51.1726457,
+      "lng": 14.4234381,
+      "uncertaintyMetres": 150,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "The Weickert family house: Karl Gottlieb Weickert, shoemaker, from at least 1905 to 1921; Johanne Weickert née Albert, widow, 1924 to 1935; Bruno Weickert, master saddler, 1924 to 1928. Karl and Johanne may be Bruno's parents (not proven).",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Neusalzaer Straße 20, Bautzen",
+      "address": "Neusalzaer Straße 20, Bautzen",
+      "coordinatePrecision": "street",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "bautzen-fischergasse-31",
+      "name": "Fischergasse 31, Bautzen",
+      "kind": "home",
+      "precision": "street",
+      "lat": 51.1783011,
+      "lng": 14.4220264,
+      "uncertaintyMetres": 120,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Bruno Weickert's last home. He died here on 26 March 1956.",
+      "events": [],
+      "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [],
+      "historicName": "Fischergasse 31, Bautzen",
+      "address": "Fischergasse 31, Bautzen",
+      "coordinatePrecision": "street",
+      "standsToday": "unknown"
     }
-   ],
-   "coordinateMethod": null,
-   "coordinateSourceIds": []
-  },
-  {
-   "id": "tampa",
-   "name": "Tampa, Florida",
-   "kind": "town",
-   "precision": "town",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "United States",
-   "status": "withheld",
-   "blurb": "Valeria, Sebastian, and Enzo are living. Tampa is not on the map. Enzo was born here in January 2026.",
-   "events": [
-    {
-     "id": "pe-tampa-born-enzo",
-     "type": "born",
-     "personIds": [
-      "enzo"
-     ],
-     "date": "2026-01",
-     "dateStart": "2026-01",
-     "dateEnd": "2026-01",
-     "approximate": false,
-     "summary": "Enzo Belfiore: birth, 2026",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "family-knowledge"
-     ]
-    },
-    {
-     "id": "pe-tampa-home-valeria",
-     "type": "lived",
-     "personIds": [
-      "valeria"
-     ],
-     "date": null,
-     "dateStart": null,
-     "dateEnd": null,
-     "approximate": false,
-     "summary": "Valeria Kohlmann: home in Tampa",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "family-knowledge"
-     ],
-     "note": "Current home. No year is recorded for the move."
-    },
-    {
-     "id": "pe-tampa-home-sebastian",
-     "type": "lived",
-     "personIds": [
-      "sebastian"
-     ],
-     "date": null,
-     "dateStart": null,
-     "dateEnd": null,
-     "approximate": false,
-     "summary": "Sebastian Belfiore: home in Tampa",
-     "confidence": "confirmed",
-     "sourceIds": [
-      "self"
-     ],
-     "note": "Current home. The Family Tree page says he was born in 1991 in the UK. family-data.js has the year and no birthplace. That birthplace was not added, and he is living."
-    }
-   ],
-   "coordinateMethod": null,
-   "coordinateSourceIds": []
-  },
-  {
-   "id": "living-homes-unknown",
-   "name": "Homes not yet recorded",
-   "kind": "town",
-   "precision": "town",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "withheld",
-   "blurb": "These brothers and sisters are living, and the site does not record a town for them.",
-   "events": [
-    {
-     "id": "pe-home-matthias",
-     "type": "lived",
-     "personIds": [
-      "matthias"
-     ],
-     "date": null,
-     "dateStart": null,
-     "dateEnd": null,
-     "approximate": false,
-     "summary": "Matthias Kohlmann: home, year not recorded",
-     "confidence": "probable",
-     "sourceIds": [
-      "family-testimony"
-     ]
-    },
-    {
-     "id": "pe-home-sabine",
-     "type": "lived",
-     "personIds": [
-      "sabine"
-     ],
-     "date": null,
-     "dateStart": null,
-     "dateEnd": null,
-     "approximate": false,
-     "summary": "Sabine Kohlmann: home, year not recorded",
-     "confidence": "probable",
-     "sourceIds": [
-      "family-testimony"
-     ]
-    },
-    {
-     "id": "pe-home-heide",
-     "type": "lived",
-     "personIds": [
-      "heide"
-     ],
-     "date": null,
-     "dateStart": null,
-     "dateEnd": null,
-     "approximate": false,
-     "summary": "Heide: home, year not recorded",
-     "confidence": "unverified",
-     "sourceIds": [
-      "family-testimony"
-     ]
-    },
-    {
-     "id": "pe-home-annette",
-     "type": "lived",
-     "personIds": [
-      "annette"
-     ],
-     "date": null,
-     "dateStart": null,
-     "dateEnd": null,
-     "approximate": false,
-     "summary": "Annette: home, year not recorded",
-     "confidence": "unverified",
-     "sourceIds": [
-      "family-testimony"
-     ]
-    }
-   ],
-   "coordinateMethod": null,
-   "coordinateSourceIds": []
-  },
-  {
-   "id": "sigrid-bautzen",
-   "name": "Bautzen, for Sigrid Michaelis",
-   "kind": "town",
-   "precision": "town",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "withheld",
-   "blurb": "Sigrid was born in Bautzen in 1927 and married there in 1953. family-data.js marks her not living, but the notes and the research page say no death is recorded and that she may still be living. She is left off the map until that is decided.",
-   "events": [
-    {
-     "id": "pe-sigrid-born",
-     "type": "born",
-     "personIds": [
-      "sigrid"
-     ],
-     "date": "1927-07-20",
-     "dateStart": "1927-07-20",
-     "dateEnd": "1927-07-20",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Gertrud Sigrid Michaelis: birth, 1927",
-     "confidence": "probable",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ]
-    },
-    {
-     "id": "pe-sigrid-married",
-     "type": "married",
-     "personIds": [
-      "sigrid"
-     ],
-     "date": "1953-08-20",
-     "dateStart": "1953-08-20",
-     "dateEnd": "1953-08-20",
-     "datePrecision": "exact",
-     "approximate": false,
-     "summary": "Gertrud Sigrid Michaelis: marriage, 1953",
-     "confidence": "probable",
-     "sourceIds": [
-      "ahnentafel-2007"
-     ],
-     "note": "Her husband's first name is not on the Ahnentafel. He is not a person on the tree."
-    }
-   ],
-   "coordinateMethod": null,
-   "coordinateSourceIds": []
-  },
-  {
-   "id": "escape-route",
-   "name": "Escape route from East Germany",
-   "kind": "town",
-   "precision": "town",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "withheld",
-   "blurb": "Thomas crossed first and later helped Rita. The route, the year, and the border crossing are still placeholders, and both are living.",
-   "events": [
-    {
-     "id": "pe-escape-route",
-     "type": "lived",
-     "personIds": [
-      "thomas",
-      "rita"
-     ],
-     "date": null,
-     "dateStart": null,
-     "dateEnd": null,
-     "approximate": false,
-     "summary": "Thomas Kohlmann and Rita Kohlmann: escape route, year not recorded",
-     "confidence": "family tradition",
-     "sourceIds": [
-      "family-testimony"
-     ],
-     "note": "Route not recorded."
-    }
-   ],
-   "coordinateMethod": null,
-   "coordinateSourceIds": []
-  },
-  {
-   "id": "bautzen-schaefferstrasse-6",
-   "name": "Schäfferstraße 6, Bautzen",
-   "kind": "home",
-   "precision": "street",
-   "lat": 51.1850656,
-   "lng": 14.4364616,
-   "uncertaintyMetres": 150,
-   "drawAs": "halo",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "unlocated",
-   "blurb": "Lead only, not drawn. Alwin Kohlmann, butcher (Fleischer), lived here 1928 to 1938. He may be Alvin Kohlmann or his father. Not proven, so not on the map.",
-   "events": [],
-   "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
-  },
-  {
-   "id": "bautzen-paulistrasse-32",
-   "name": "Paulistraße 32, Bautzen",
-   "kind": "home",
-   "precision": "street",
-   "lat": 51.1747127,
-   "lng": 14.4358133,
-   "uncertaintyMetres": 150,
-   "drawAs": "halo",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "unlocated",
-   "blurb": "Lead only, not drawn. Max Eifler, railway platform conductor, lived here 1928 and 1938. He may be Alwin's brother Max. Not proven, so not on the map.",
-   "events": [],
-   "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
-   "coordinateSourceIds": [
-    "nominatim-2026-11-26"
-   ]
-  },
-  {
-   "id": "striesen-cemetery",
-   "name": "Burial place of Richard Becker",
-   "kind": "place",
-   "precision": "unknown",
-   "lat": null,
-   "lng": null,
-   "uncertaintyMetres": null,
-   "drawAs": "area",
-   "inHomeRegion": true,
-   "country": "Germany",
-   "status": "unlocated",
-   "blurb": "The crematorium register may say \"Striesener Friedhof\". The reading is not certain, so no circle is drawn.",
-   "events": [],
-   "coordinateMethod": null,
-   "coordinateSourceIds": []
-  }
- ]
+  ]
 }

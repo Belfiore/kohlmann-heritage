@@ -7,6 +7,88 @@
     <meta name="description" content="The Kohlmann and Werner families: Thomas's paternal line from Herzberg, Dresden and Bautzen, and Rita's maternal line from Döbeln, with the tree, the map and the records.">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IM+Fell+English+SC&family=Pinyon+Script&family=Special+Elite&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
+<style id="home-style">
+/* Home page, laid out like the FitzMaurice home page: the two surnames flank a picture,
+   then how it started, the two families, the way around the site, and the papers that survive. */
+:root { --sepia: var(--ink-faded); --ink-light: var(--ink-soft); --border: var(--paper-edge); --parchment: var(--paper-dark); --cream: var(--paper-light); --gold-dark: var(--gold); --font-display: 'Cinzel', serif; --font-accent: 'EB Garamond', serif; }
+.page-container { max-width: 1120px; }
+.home-narrow { max-width: 760px; margin-left: auto; margin-right: auto; }
+.home-hero { text-align: center; padding: 1.2rem 0 3rem; border-bottom: 2px solid var(--gold); }
+.hero-pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 420px) minmax(0, 1fr); align-items: center; gap: clamp(1.2rem, 2.6vw, 2.2rem); }
+.hero-side { margin: 0; }
+.hero-side--l { text-align: right; }
+.hero-side--r { text-align: left; }
+.hero-surname { display: block; font-family: var(--font-display); font-weight: 600; font-size: clamp(1.8rem, 3.3vw, 2.6rem); line-height: 1.05; color: var(--ink); letter-spacing: 0.02em; }
+.hero-who { display: block; margin-top: 0.4rem; font-style: italic; font-size: clamp(1.1rem, 1.7vw, 1.35rem); color: var(--sepia); }
+.hero-photo { margin: 0; }
+.hero-photo img { display: block; width: 100%; height: auto; border-radius: 3px; box-shadow: 0 26px 48px -26px rgba(26, 20, 16, 0.6), 0 2px 6px rgba(26, 20, 16, 0.12); }
+.hero-photo figcaption { margin-top: 0.85rem; font-size: 1rem; font-style: italic; color: var(--sepia); line-height: 1.45; }
+.hero-photo .seal-row { justify-content: center; }
+.home-hero .hero-title { margin-top: 2.2rem; }
+.home-hero h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(1.55rem, 2.8vw, 2.2rem); line-height: 1.25; color: var(--ink); max-width: 30ch; margin: 0.6rem auto 0.9rem; }
+.hero-dek { font-size: 1.22rem; line-height: 1.65; color: var(--ink-light); max-width: 58ch; margin: 0 auto; }
+.hero-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.8rem; margin-top: 1.8rem; }
+.home-story p { font-size: 1.18rem; line-height: 1.8; margin-bottom: 1.15rem; }
+.families-lede { font-size: 1.12rem; line-height: 1.7; color: var(--ink-light); margin: -0.4rem 0 0; }
+.families { display: grid; grid-template-columns: 1fr 1fr; margin: 2rem auto 0; max-width: 980px; }
+.family { padding: 0.2rem 2.6rem 0.4rem; }
+.family--l { border-right: 2px dashed rgba(124, 31, 31, 0.32); }
+.family h3 { font-family: var(--font-display); font-weight: 600; font-size: 1.35rem; color: var(--ink); line-height: 1.25; }
+.family-names { font-style: italic; color: var(--sepia); font-size: 1.08rem; margin: 0.15rem 0 0.9rem; }
+.family p { font-size: 1.08rem; line-height: 1.75; margin-bottom: 0.9rem; }
+.family-links { list-style: none; display: flex; flex-wrap: wrap; gap: 0.35rem 1.3rem; margin-top: 1.1rem; padding: 0; }
+.family-links a, .families-meet a { color: var(--burgundy); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; font-size: 1.05rem; }
+.families-meet { text-align: center; max-width: 56ch; margin: 0 auto; }
+.families-meet::before { content: ''; display: block; width: 0; height: 2.2rem; margin: 0 auto 0.5rem; border-left: 2px dashed rgba(124, 31, 31, 0.32); }
+.meet-pill { display: inline-block; padding: 0.1rem 0.75rem; border: 1px solid var(--burgundy); border-radius: 999px; font-family: var(--font-accent); font-size: 0.95rem; color: var(--burgundy); background: var(--cream); }
+.families-meet p { font-size: 1.15rem; line-height: 1.65; margin-top: 0.7rem; }
+.home-tour { margin-top: 1rem; }
+.tour-big { display: grid; grid-template-columns: 1fr 1fr; gap: 2.4rem; margin-top: 1.8rem; }
+.tour-small { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.8rem; margin-top: 2.6rem; padding-top: 2.4rem; border-top: 1px solid var(--border); }
+.tour { position: relative; }
+.tour-img { overflow: hidden; aspect-ratio: 16 / 10; background: var(--parchment); border: 1px solid var(--border); border-radius: 4px; }
+.tour--s .tour-img { aspect-ratio: 4 / 3; }
+.tour-img img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
+.tour h3 { font-family: var(--font-display); font-weight: 600; font-size: 1.35rem; line-height: 1.25; margin: 1.1rem 0 0.45rem; }
+.tour--s h3 { font-size: 1.05rem; margin-top: 0.85rem; }
+.tour h3 a { color: var(--ink); text-decoration: none; }
+.tour h3 a::after { content: ''; position: absolute; inset: 0; }
+.tour p { font-size: 1.08rem; line-height: 1.7; color: var(--ink-light); }
+.tour--s p { font-size: 1rem; line-height: 1.6; }
+.tour-go { display: inline-block; margin-top: 0.7rem; font-family: var(--font-display); font-size: 0.82rem; letter-spacing: 0.08em; color: var(--burgundy); border-bottom: 1px solid currentColor; padding-bottom: 1px; }
+.tour:hover h3 a { color: var(--burgundy); text-decoration: underline; text-underline-offset: 4px; }
+.tour:hover .tour-img { border-color: var(--gold); }
+.tour:focus-within { outline: 3px solid var(--gold); outline-offset: 6px; border-radius: 4px; }
+.tour-blank { display: grid; place-items: center; height: 100%; font-family: var(--font-display); font-size: 1.1rem; letter-spacing: 0.08em; color: var(--burgundy); text-align: center; padding: 1rem; }
+.home-clues { margin-top: 3.6rem; }
+.clue-grid { display: grid; gap: 1.6rem; max-width: 980px; margin: 1.6rem auto 0; }
+.clue-card { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: 1.6rem; padding: 1.3rem; background: var(--paper-light); border: 1px solid var(--border); border-left: 4px solid var(--burgundy); border-radius: 4px; }
+.clue-photos { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; align-content: start; }
+.clue-photos img:only-child { grid-column: 1 / -1; aspect-ratio: 4 / 3; }
+.clue-photos img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; object-position: 50% 30%; border: 1px solid var(--border); border-radius: 2px; }
+.clue-text h3 { font-family: var(--font-display); font-weight: 600; font-size: 1.15rem; margin-bottom: 0.4rem; color: var(--ink); }
+.clue-text p { font-size: 1.05rem; line-height: 1.65; color: var(--ink-light); }
+.clue-text p + p { margin-top: 0.6rem; }
+.clue-text a { color: var(--burgundy); text-underline-offset: 3px; }
+.clue-src { font-size: 0.95rem !important; font-style: italic; color: var(--sepia) !important; }
+@media (max-width: 980px) { .tour-small { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 760px) {
+ .hero-pair { grid-template-columns: 1fr 1fr; gap: 1.2rem 1rem; }
+ .hero-photo { grid-column: 1 / -1; order: -1; }
+ .families { grid-template-columns: 1fr; }
+ .family { padding: 0; }
+ .family--l { border-right: 0; padding-bottom: 1.6rem; margin-bottom: 1.6rem; border-bottom: 2px dashed rgba(124, 31, 31, 0.32); }
+ .tour-big { grid-template-columns: 1fr; gap: 2.2rem; }
+ .clue-card { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+ .tour-small { grid-template-columns: 1fr; gap: 1.2rem; }
+ .tour--s { display: grid; grid-template-columns: 120px 1fr; gap: 1rem; align-items: start; }
+ .tour--s .tour-img { aspect-ratio: 1; }
+ .tour--s h3 { margin-top: 0; }
+}
+</style>
 </head>
 <body>
 
@@ -36,30 +118,34 @@
             <span class="stamp stamp--rotate-r">Zwei Linien</span>
             <span class="stamp stamp--round stamp--rotate-flat">N&deg; I</span>
         </div>
-        <div class="home-pair">
-            <p class="home-side home-side--l"><span class="home-surname">Kohlmann</span><span class="home-who">Thomas's family, the paternal line</span></p>
-            <p class="home-mark" aria-hidden="true"><span class="seal">Kohle &middot; Mann</span></p>
-            <p class="home-side home-side--r"><span class="home-surname">Werner</span><span class="home-who">Rita's family, the maternal line</span></p>
+        <div class="hero-pair">
+            <p class="hero-side hero-side--l"><span class="hero-surname">Kohlmann</span><span class="hero-who">Thomas's family, the paternal line</span></p>
+            <figure class="hero-photo">
+                <img src="images/weickert-eifler-letterhead.jpg" width="2430" height="1506" alt="Pre-printed advertising letterhead of Weickert and Eifler, Bautzen, from the years 1933 to 1945.">
+                <figcaption>The Weickert &amp; Eifler letterhead, Bautzen. Undated; the street name dates it to 1933 to 1945.</figcaption>
+                <p class="seal-row" style="margin-top: 1.8rem;"><span class="seal" aria-hidden="true">Kohle &middot; Mann</span></p>
+            </figure>
+            <p class="hero-side hero-side--r"><span class="hero-surname">Werner</span><span class="hero-who">Rita's family, the maternal line</span></p>
         </div>
         <div class="hero-title">The Kohlmann Family</div>
         <h1 id="two-families">Two families, one from each parent</h1>
-        <p class="home-dek">This site follows the paternal line and the maternal line back from the people living now to the records behind them: where they lived, what they did, and how the two sides meet.</p>
-        <div class="home-actions">
+        <p class="hero-dek">This site follows the paternal line and the maternal line back from the people living now to the records behind them: where they lived, what they did, and how the two sides meet.</p>
+        <div class="hero-actions">
             <a class="home-btn home-btn--solid" href="tree-canvas.html">Open the interactive tree</a>
             <a class="home-btn home-btn--line" href="map.html">Open the family map</a>
         </div>
     </header>
 
-    <section class="story-section" aria-labelledby="h-start">
+    <section class="home-narrow home-story story-section" aria-labelledby="h-start">
         <h2 class="section-header" id="h-start">How this is put together</h2>
         <p>It started with family testimony and a one-page chart of the Eifler and Becker line, compiled on 18 January 2007. The chart named people and dates. The records came after: a 1926 marriage entry in Dresden, birth and death entries, Bautzen directories, a Handelsregister notice, and the firm's own letterhead and 1943 invoice.</p>
         <p>Where a record and the chart disagree, the record is what the site uses. Richard Becker's chart has his birth and death days the other way round from his 1938 death entry, so the entry wins. Where no record has been found, the page says so. Alvin Kohlmann's birth and death are still unknown. Rita's father's first name is still unknown. Sigrid's death is not recorded.</p>
-        <p>The map draws a place only for someone who has died. Towns are wide circles. A street from a directory or a register is a small circle around today's house number, because numbers can change. Living people stay off the map.</p>
+        <p>The map draws every place the records or the family give, for the living as well as the dead. Towns are wide circles. A street from a directory or a register is a small circle around today's house number, because numbers can change. A lead that is not proven, such as the Bautzen butcher Alwin Kohlmann, is drawn with the words "no proven link".</p>
     </section>
 
-    <section aria-labelledby="h-families">
+    <section class="home-families" aria-labelledby="h-families">
         <h2 class="section-header" id="h-families">The two families</h2>
-        <p class="home-lede">On the tree, Thomas's family is on the left and Rita's family is on the right.</p>
+        <p class="families-lede">On the tree, Thomas's family is on the left and Rita's family is on the right.</p>
         <div class="families">
             <article class="family family--l" aria-labelledby="h-paternal">
                 <h3 id="h-paternal">The paternal line</h3>
@@ -67,12 +153,22 @@
                 <p>The oldest Becker on the chart is <strong>Richard Hermann Becker</strong>, a merchant, born 5 January 1875 in Herzberg (Elster) and died at his shop and home, Rothermundtstra&szlig;e 5 in Dresden, on 9 January 1938. He was cremated at the crematorium in Tolkewitz. His wife <strong>Clara Elise</strong>, n&eacute;e Just, was born 1 December 1880 in Raun, in the Vogtland, and died 27 December 1954 at Wilthener Stra&szlig;e 19 in Bautzen.</p>
                 <p>Their daughter <strong>Gertrud Elise</strong> was born 22 January 1905 at Ziegelstra&szlig;e 2 in Dresden. On 2 October 1926 she married <strong>Ernst Alwin Eifler</strong>, born 7 October 1892 in Sohland an der Spree. By 1928 he was sole owner of <a href="weickert-eifler.html">Weickert &amp; Eifler</a> in Bautzen, a saddlery in 1921 that was a steel-wire mattress factory at Gnaschwitz by 1928. He died on 18 December 1968. The chart says Bautzen. A death entry for that day has not been found, so the place stays family tradition. Gertrud died at the same Bautzen house on 11 December 1973.</p>
                 <p>Their younger daughter <strong>Christa</strong>, born 25 November 1928 in Bautzen, married <strong>Alvin Kohlmann</strong> there on 24 July 1952 and died in Starnberg on 21 May 2006. Her older sister <strong>Sigrid</strong> was born in Bautzen on 20 July 1927 and married a Michaelis there on 20 August 1953. No death is recorded for Sigrid, and Alvin's own birth, death and occupation are not yet known. Their son <strong>Thomas</strong> was born in Radebeul in 1956. He has a brother, Matthias, and a sister, Sabine.</p>
+                <ul class="family-links">
+                    <li><a href="weickert-eifler.html">Weickert &amp; Eifler</a></li>
+                    <li><a href="tree-canvas.html">Thomas's side of the tree</a></li>
+                    <li><a href="map.html?family=thomas">Thomas's family on the map</a></li>
+                </ul>
             </article>
             <article class="family family--r" aria-labelledby="h-maternal">
                 <h3 id="h-maternal">The maternal line</h3>
                 <p class="family-names">Werner and Woltmann</p>
                 <p><strong>Rita</strong> was born in D&ouml;beln in 1956. Her birth surname was Woltmann, her mother <strong>Brigitte Woltmann</strong>'s name, because Brigitte and Rita's father were not married then. The surname was later changed to Werner, her father's surname. His first name is not known, and it is not known whether he and Brigitte ever married.</p>
                 <p>Rita has two sisters, <strong>Heide</strong> and <strong>Annette</strong>. Their maiden surnames are not confirmed, and no town is recorded for Brigitte, for Rita's father, or for the sisters. What is known about this line is still mostly family testimony.</p>
+                <ul class="family-links">
+                    <li><a href="tree-canvas.html">Rita's side of the tree</a></li>
+                    <li><a href="escape-from-east-germany.html">The escape</a></li>
+                    <li><a href="research.html">What is still being searched</a></li>
+                </ul>
             </article>
         </div>
         <div class="families-meet">
@@ -81,39 +177,98 @@
         </div>
     </section>
 
-    <section aria-labelledby="h-tour">
+    <section class="home-tour" aria-labelledby="h-tour">
         <h2 class="section-header" id="h-tour">Find your way around</h2>
-        <div class="page-list">
-            <a href="tree-canvas.html" class="page-link">
-                <span class="page-link-title">The interactive tree</span>
-                <span class="page-link-desc">Thomas's family on the left, Rita's family on the right, from Richard Becker and Clara Elise Just to Enzo. Select a person to read what is known, and what is still open.</span>
-                <span class="page-link-arrow">&rarr;</span>
-            </a>
-            <a href="map.html" class="page-link">
-                <span class="page-link-title">The family map</span>
-                <span class="page-link-desc">Herzberg, Raun, Dresden, Bautzen, Sohland, Gnaschwitz and Starnberg, for people who have died. Towns are wide circles. Street addresses are small circles, not door pins.</span>
-                <span class="page-link-arrow">&rarr;</span>
-            </a>
-            <a href="weickert-eifler.html" class="page-link">
-                <span class="page-link-title">Weickert &amp; Eifler</span>
-                <span class="page-link-desc">The Bautzen firm: Bruno Weickert's saddlery in 1921, the mattress factory at Gnaschwitz, and every address taken from a directory, a register or the family's own papers.</span>
-                <span class="page-link-arrow">&rarr;</span>
-            </a>
-            <a href="escape-from-east-germany.html" class="page-link">
-                <span class="page-link-title">The escape</span>
-                <span class="page-link-desc">Thomas crossed first. He later helped Rita get out. The dates and the route are still to be recorded.</span>
-                <span class="page-link-arrow">&rarr;</span>
-            </a>
-            <a href="family-tree.html" class="page-link">
-                <span class="page-link-title">The family tree, as a list</span>
-                <span class="page-link-desc">The same people in reading order, from the older generations down to Enzo, for a browser without the canvas.</span>
-                <span class="page-link-arrow">&rarr;</span>
-            </a>
-            <a href="research.html" class="page-link">
-                <span class="page-link-title">Research and records</span>
-                <span class="page-link-desc">What is confirmed, what is only family testimony, and the records still to chase, including Alvin's 1952 marriage entry.</span>
-                <span class="page-link-arrow">&rarr;</span>
-            </a>
+        <div class="tour-big">
+            <article class="tour">
+                <div class="tour-img"><img src="images/home/tree.jpg" width="1184" height="740" loading="lazy" alt="The interactive tree, with Thomas's family on the left and Rita's family on the right."></div>
+                <h3><a href="tree-canvas.html">The interactive tree</a></h3>
+                <p>Thomas's family on the left, Rita's family on the right, from Richard Becker and Clara Elise Just to Enzo. Select a person to read what is known, and what is still open.</p>
+                <span class="tour-go" aria-hidden="true">Open the tree</span>
+            </article>
+            <article class="tour">
+                <div class="tour-img"><img src="images/home/map.jpg" width="1184" height="740" loading="lazy" alt="The family map of Saxony, with circles at Dresden, Bautzen, Herzberg and Raun."></div>
+                <h3><a href="map.html">The family map</a></h3>
+                <p>Herzberg, Raun, Dresden, Bautzen, Sohland, Gnaschwitz and Starnberg, for people who have died. Towns are wide circles. Street addresses are small circles, not door pins.</p>
+                <span class="tour-go" aria-hidden="true">Open the map</span>
+            </article>
+        </div>
+        <div class="tour-small">
+            <article class="tour tour--s">
+                <div class="tour-img"><img src="images/weickert-eifler-rechnung-1943.jpg" width="1599" height="1200" loading="lazy" alt="Weickert and Eifler invoice of 9 April 1943."></div>
+                <div class="tour-text">
+                    <h3><a href="weickert-eifler.html">Weickert &amp; Eifler</a></h3>
+                    <p>The Bautzen firm: Bruno Weickert's saddlery in 1921, the mattress factory at Gnaschwitz, and every address taken from a directory, a register or the family's own papers.</p>
+                </div>
+            </article>
+            <article class="tour tour--s">
+                <div class="tour-img"><div class="tour-blank">1956 to 1980<br>East to West</div></div>
+                <div class="tour-text">
+                    <h3><a href="escape-from-east-germany.html">The escape</a></h3>
+                    <p>Thomas crossed first. He later helped Rita get out. The dates and the route are still to be recorded.</p>
+                </div>
+            </article>
+            <article class="tour tour--s">
+                <div class="tour-img"><img src="images/records/1938-bautzen-p14-eifler-alwin.jpg" width="1281" height="563" loading="lazy" alt="Bautzen address book 1938, the entry for Alwin Eifler."></div>
+                <div class="tour-text">
+                    <h3><a href="family-tree.html">The family tree, as a list</a></h3>
+                    <p>The same people in reading order, from the older generations down to Enzo, for a browser without the canvas.</p>
+                </div>
+            </article>
+            <article class="tour tour--s">
+                <div class="tour-img"><img src="images/records/1954-bautzen-death-881-clara-elise-becker.jpg" width="940" height="960" loading="lazy" alt="Bautzen death register 1954, entry 881."></div>
+                <div class="tour-text">
+                    <h3><a href="research.html">Research and records</a></h3>
+                    <p>What is confirmed, what is only family testimony, and the records still to chase, including Alvin's 1952 marriage entry.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="home-clues" aria-labelledby="h-clues">
+        <h2 class="section-header" id="h-clues">The papers that survive</h2>
+        <p class="families-lede">The family kept the firm's papers. The registers and address books below were found in archives and libraries. Each one is on the page of the person it belongs to.</p>
+        <div class="clue-grid">
+            <div class="clue-card">
+                <div class="clue-photos"><img src="images/weickert-eifler-rechnung-1943.jpg" width="1599" height="1200" loading="lazy" alt="Weickert and Eifler invoice of 9 April 1943 with Gertrud Eifler's signed receipt."></div>
+                <div class="clue-text">
+                    <h3>The 1943 invoice</h3>
+                    <p>Business invoice, 9 April 1943, with Gertrud Eifler's signed receipt of 28 April 1943. It is addressed to a customer, a master joiner at Klix.</p>
+                    <p class="clue-src">Family papers. See <a href="weickert-eifler.html">Weickert &amp; Eifler</a>.</p>
+                </div>
+            </div>
+            <div class="clue-card">
+                <div class="clue-photos"><img src="images/records/1928-bautzen-handelsregister-885-weickert-eifler.jpg" width="1147" height="498" loading="lazy" alt="Bautzen address book 1928, commercial register entry 885."><img src="images/records/1928-bautzen-weikert-eifler-matratzenfabrik-gnaschwitz.jpg" width="808" height="562" loading="lazy" alt="Bautzen address book 1928, the mattress factory at Gnaschwitz."></div>
+                <div class="clue-text">
+                    <h3>The firm in the 1928 address book</h3>
+                    <p>Bautzen Adressbuch 1928, commercial register: Nr. 885 Stahldrahtmatratzenfabrik Weickert &amp; Eifler, Inhaber Alwin Eifler, with the factory at Gnaschwitz.</p>
+                    <p class="clue-src">SLUB Dresden, public domain.</p>
+                </div>
+            </div>
+            <div class="clue-card">
+                <div class="clue-photos"><img src="images/alvin-yellow-pages.png" width="1692" height="1714" loading="lazy" alt="Page 14 of the 1938 Bautzen address book with the Alwin Eifler entry highlighted."><img src="images/records/1938-bautzen-house-owner-mms19-eifler.jpg" width="1109" height="460" loading="lazy" alt="Bautzen address book 1938, house owners list for Martin-Mutschmann-Strasse 19."></div>
+                <div class="clue-text">
+                    <h3>The house on Wilthener Stra&szlig;e</h3>
+                    <p>Bautzen Adressbuch 1938, page 14 (family copy). The highlighted line is "Eifler, Alwin, Kaufmann, Martin-Mutschmann-Str. 19". The house owners list names him as owner and "Fabrikant". The street was called Martin-Mutschmann-Stra&szlig;e from about 1933 to 1945; it is Wilthener Stra&szlig;e before and after.</p>
+                    <p class="clue-src">Family copy, and SLUB Dresden, public domain.</p>
+                </div>
+            </div>
+            <div class="clue-card">
+                <div class="clue-photos"><img src="images/records/1954-bautzen-death-881-clara-elise-becker.jpg" width="940" height="960" loading="lazy" alt="Bautzen death register 1954, entry 881, Clara Elise Becker."><img src="images/records/1973-bautzen-death-1052-gertrud-elise-eifler.jpg" width="940" height="1170" loading="lazy" alt="Bautzen death register 1973, entry 1052, Gertrud Elise Eifler."></div>
+                <div class="clue-text">
+                    <h3>Two deaths at Wilthener Stra&szlig;e 19</h3>
+                    <p>Bautzen death register 1954, Nr. 881: Clara Elise Becker n&eacute;e Just. Bautzen death register 1973, Nr. 1052: Gertrud Elise Eifler n&eacute;e Becker, recorded as a widow.</p>
+                    <p class="clue-src">Archivverbund Bautzen via Findbuch.net, CC BY 4.0.</p>
+                </div>
+            </div>
+            <div class="clue-card">
+                <div class="clue-photos"><img src="images/records/1938-dresden-rothermundtstrasse5-becker.jpg" width="760" height="550" loading="lazy" alt="Dresden address book 1938, Becker at Rothermundtstrasse 5."></div>
+                <div class="clue-text">
+                    <h3>Richard Becker in Dresden</h3>
+                    <p>The Dresden address book for 1938 lists Richard Becker at Rothermundtstra&szlig;e 5, the shop and home where he died on 9 January 1938.</p>
+                    <p class="clue-src">SLUB Dresden, public domain.</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -153,7 +308,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
 
-document.querySelectorAll('.family, .page-link, .families-meet').forEach(el => {
+document.querySelectorAll('.family, .tour, .families-meet, .clue-card').forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(20px)';
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';

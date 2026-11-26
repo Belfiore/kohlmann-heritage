@@ -2,7 +2,9 @@
   "$schema": "https://raw.githubusercontent.com/Belfiore/family-site-engine/main/schema/site-config.schema.json",
   "$comment": "The Kohlmann family site, built with the family site engine (Belfiore/family-site-engine). The story pages keep the German trade-catalogue look in styles.css. The tree takes the same colours through theme.",
   "schemaVersion": 1,
-  "engine": { "channel": "stable" },
+  "engine": {
+    "channel": "stable"
+  },
   "site": {
     "name": "Kohlmann",
     "familyName": "the Kohlmann family",
@@ -16,23 +18,56 @@
       "title": "Interactive Tree | Kohlmann",
       "description": "An interactive tree of the Kohlmann family. Thomas's family is on the left and Rita's family is on the right.",
       "heading": "The Interactive Tree",
-      "stylesheets": ["styles.css"]
+      "stylesheets": [
+        "styles.css"
+      ]
     },
-    "map": null,
+    "map": {
+      "file": "map.html",
+      "title": "Family Map | Kohlmann",
+      "description": "An interactive map of where the Kohlmann, Eifler, Becker and Werner families were born, lived, married, worked, died and were buried, with a timeline you can play.",
+      "heading": "The Family Map",
+      "stylesheets": [
+        "styles.css"
+      ]
+    },
     "ask": null
   },
   "nav": [
-    { "href": "index.html", "label": "Home" },
-    { "href": "family-tree.html", "label": "Family Tree" },
-    { "href": "tree-canvas.html", "label": "Interactive Tree" },
-    { "href": "map.html", "label": "Map" },
-    { "href": "escape-from-east-germany.html", "label": "The Escape" },
-    { "href": "weickert-eifler.html", "label": "Weickert & Eifler" },
-    { "href": "research.html", "label": "Research & Records" }
+    {
+      "href": "index.html",
+      "label": "Home"
+    },
+    {
+      "href": "family-tree.html",
+      "label": "Family Tree"
+    },
+    {
+      "href": "tree-canvas.html",
+      "label": "Interactive Tree"
+    },
+    {
+      "href": "map.html",
+      "label": "Map"
+    },
+    {
+      "href": "escape-from-east-germany.html",
+      "label": "The Escape"
+    },
+    {
+      "href": "weickert-eifler.html",
+      "label": "Weickert & Eifler"
+    },
+    {
+      "href": "research.html",
+      "label": "Research & Records"
+    }
   ],
   "head": {
     "fonts": "https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IM+Fell+English+SC&family=Pinyon+Script&family=Special+Elite&family=UnifrakturMaguntia&display=swap",
-    "stylesheets": ["styles.css"]
+    "stylesheets": [
+      "styles.css"
+    ]
   },
   "theme": {
     "--gold": "#B8860B",
@@ -91,32 +126,209 @@
     "--pc-shadow": "0 1px 2px rgba(26, 20, 16, 0.06), 0 6px 18px rgba(26, 20, 16, 0.07)",
     "--pc-shadow-lift": "0 2px 4px rgba(26, 20, 16, 0.08), 0 14px 32px rgba(26, 20, 16, 0.14)"
   },
-  "data": { "dir": "data" },
+  "data": {
+    "dir": "data"
+  },
   "tree": {
     "familyLabel": "Kohlmann family",
     "rootPersonId": "valeria",
     "directLineLabel": "Valeria's direct line",
     "generations": [
-      { "generation": 0, "label": "I", "title": "Becker and Just", "range": "1875 to 1880" },
-      { "generation": 1, "label": "II", "title": "Alwin and Gertrud", "range": "1892 to 1905" },
-      { "generation": 2, "label": "III", "title": "The grandparents", "range": "from 1927" },
-      { "generation": 3, "label": "IV", "title": "Thomas and Rita", "range": "born 1956" },
-      { "generation": 4, "label": "V", "title": "Valeria, Elisa, Sebastian", "range": "1990 to 1994" },
-      { "generation": 5, "label": "VI", "title": "Enzo", "range": "2026" }
+      {
+        "generation": 0,
+        "label": "I",
+        "title": "Becker and Just",
+        "range": "1875 to 1880"
+      },
+      {
+        "generation": 1,
+        "label": "II",
+        "title": "Alwin and Gertrud",
+        "range": "1892 to 1905"
+      },
+      {
+        "generation": 2,
+        "label": "III",
+        "title": "The grandparents",
+        "range": "from 1927"
+      },
+      {
+        "generation": 3,
+        "label": "IV",
+        "title": "Thomas and Rita",
+        "range": "born 1956"
+      },
+      {
+        "generation": 4,
+        "label": "V",
+        "title": "Valeria, Elisa, Sebastian",
+        "range": "1990 to 1994"
+      },
+      {
+        "generation": 5,
+        "label": "VI",
+        "title": "Enzo",
+        "range": "2026"
+      }
     ],
-    "rootOrder": ["richard-becker", "rita-father"],
+    "rootOrder": [
+      "richard-becker",
+      "rita-father"
+    ],
     "sides": {
       "left": "thomas",
       "right": "rita",
       "leftLabel": "Thomas's family",
       "rightLabel": "Rita's family"
     },
-    "initialView": { "ids": ["thomas", "rita", "valeria"], "fromGen": 0, "toGen": 5 },
+    "initialView": {
+      "ids": [
+        "thomas",
+        "rita",
+        "valeria"
+      ],
+      "fromGen": 0,
+      "toGen": 5
+    },
     "cardPhotos": "set",
     "coupleBlocks": "auto",
     "legendNote": "Rita's parents are drawn as partners. The site does not record a marriage between them.",
-    "noscript": "The <a href=\"family-tree.html\">list view of the family tree</a> works without it."
+    "noscript": "The <a href=\"family-tree.html\">list view of the family tree</a> works without it.",
+    "hiddenRegions": [
+      "leads",
+      "associates"
+    ],
+    "suspectedRelatives": {
+      "ernst-eifler-sr": "ernst-alwin",
+      "alwin-kohlmann-butcher": "alvin",
+      "max-woltmann": "rita-mother"
+    }
   },
-  "widget": { "enabled": false },
-  "publish": { "exclude": ["family-data.js", "tests/", ".gitignore"] }
+  "widget": {
+    "enabled": false
+  },
+  "publish": {
+    "exclude": [
+      "family-data.js",
+      "tests/",
+      ".gitignore"
+    ]
+  },
+  "map": {
+    "home": {
+      "name": "Saxony",
+      "bounds": [
+        [
+          11.8,
+          50.1
+        ],
+        [
+          15.1,
+          51.75
+        ]
+      ]
+    },
+    "branches": [
+      {
+        "id": "eifler-becker",
+        "label": "Eifler and Becker (Christa's parents)",
+        "pages": [
+          "weickert-eifler.html"
+        ],
+        "people": [
+          "ernst-alwin",
+          "gertrud-becker",
+          "richard-becker",
+          "elise-just",
+          "christa",
+          "sigrid"
+        ],
+        "default": true
+      },
+      {
+        "id": "kohlmann",
+        "label": "Kohlmann (Alvin's family)",
+        "pages": [],
+        "people": [
+          "alvin",
+          "thomas",
+          "matthias",
+          "sabine"
+        ]
+      },
+      {
+        "id": "werner",
+        "label": "Werner and Woltmann (Rita's family)",
+        "pages": [],
+        "people": [
+          "rita-father",
+          "rita-mother",
+          "rita",
+          "heide",
+          "annette"
+        ]
+      },
+      {
+        "id": "leads",
+        "label": "Leads (no proven link)",
+        "pages": [],
+        "regions": [
+          "leads"
+        ]
+      },
+      {
+        "id": "associates",
+        "label": "Business associates of Weickert & Eifler (not family)",
+        "pages": [],
+        "regions": [
+          "associates"
+        ]
+      }
+    ],
+    "kinAnchors": [
+      {
+        "id": "thomas",
+        "name": "Thomas"
+      },
+      {
+        "id": "rita",
+        "name": "Rita"
+      }
+    ],
+    "families": [
+      {
+        "id": "thomas",
+        "label": "Thomas's family",
+        "option": "Thomas's family (Kohlmann and Eifler)",
+        "roots": [
+          "thomas"
+        ]
+      },
+      {
+        "id": "rita",
+        "label": "Rita's family",
+        "option": "Rita's family (Werner and Woltmann)",
+        "roots": [
+          "rita"
+        ]
+      },
+      {
+        "id": "both",
+        "label": "Thomas's and Rita's families",
+        "option": "Thomas's and Rita's families",
+        "roots": [
+          "thomas",
+          "rita"
+        ]
+      }
+    ],
+    "noscript": "The places are also described on the <a href=\"weickert-eifler.html\">Weickert &amp; Eifler page</a> and the <a href=\"research.html\">research page</a>.",
+    "associates": {
+      "label": "Business associate",
+      "note": "Not family",
+      "people": {
+        "bruno-weickert": "ernst-alwin"
+      }
+    }
+  }
 }
