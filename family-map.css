@@ -1,0 +1,60 @@
+/* The family map. Circles, not door pins, on the German paper. */
+
+.map-page { max-width: 1100px; margin: 0 auto; padding: 1.2rem 1.2rem 3rem; }
+.map-lead { max-width: 42rem; margin: 0 auto 1.2rem; text-align: center; }
+.map-stage {
+    position: relative;
+    height: 68vh;
+    min-height: 420px;
+    border: 3px double var(--cobalt, #1E3A8A);
+    background: #E4D8B8;
+    margin: 0.6rem 0 1.4rem;
+}
+#familyMap { height: 100%; width: 100%; background: #E4D8B8; }
+#familyMap .leaflet-popup-content-wrapper,
+#familyMap .leaflet-popup-tip {
+    background: var(--paper-light, #F5F1E8);
+    color: var(--ink, #1A1410);
+    border-radius: 2px;
+    box-shadow: 0 8px 24px rgba(26, 20, 16, 0.18);
+}
+#familyMap .leaflet-popup-content { margin: 0.85rem 1rem; font-family: 'EB Garamond', Georgia, serif; font-size: 1.05rem; line-height: 1.4; }
+#familyMap .leaflet-popup-content h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--cobalt-dark, #142554);
+    margin: 0 0 0.35rem;
+}
+#familyMap .leaflet-popup-content ul { margin: 0.3rem 0 0; padding-left: 1.1rem; }
+#familyMap .leaflet-popup-content li { margin: 0.15rem 0; }
+.map-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem 1.4rem;
+    justify-content: center;
+    font-family: 'IM Fell English SC', 'Cinzel', serif;
+    letter-spacing: 0.08em;
+    font-size: 0.78rem;
+    color: var(--ink-soft, #3a2f24);
+    margin: 0 0 1.6rem;
+}
+.map-legend span { display: inline-flex; align-items: center; gap: 0.45rem; }
+.swatch { width: 1rem; height: 1rem; border-radius: 50%; border: 1.5px dashed #1E3A8A; background: rgba(30, 58, 138, 0.15); }
+.swatch--work { border-color: #7C1F1F; background: rgba(124, 31, 31, 0.15); }
+.map-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 1.4rem 2rem; }
+.map-columns h2 { margin-top: 0; }
+.map-columns ul, .map-single ul { margin: 0.4rem 0 0; padding-left: 1.2rem; }
+.map-columns li, .map-single li { margin: 0.35rem 0; }
+.map-columns .why, .map-single .why { display: block; color: var(--ink-faded, #6b5a44); font-size: 0.95rem; }
+.map-single { margin-top: 1.6rem; }
+.map-miss { margin: 0.4rem 0 0; color: var(--burgundy, #7C1F1F); text-align: center; }
+@media (max-width: 800px) {
+    .map-page { padding: 0.8rem 0.8rem 2.4rem; }
+    .map-stage { height: 62vh; min-height: 320px; }
+    .map-columns { grid-template-columns: 1fr; }
+}
+@media (max-width: 390px) {
+    .map-stage { height: 58vh; min-height: 280px; }
+}
