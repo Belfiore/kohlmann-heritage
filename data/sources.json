@@ -25,10 +25,12 @@
   },
   {
    "id": "adressbuch-eifler",
-   "title": "German Adressbuch page with an Eifler entry",
+   "title": "Bautzen Adressbuch 1938, page 14 (family copy)",
    "type": "document",
    "file": "images/alvin-yellow-pages.png",
-   "note": "Directory volume, year and the exact line of the highlighted entry are not yet confirmed. Family collection."
+   "note": "Identified 25 November 2026: page 14 of the 1938 Bautzen Adressbuch. The highlighted line is \"Eifler, Alwin, Kaufmann, Martin-Mutschmann-Str. 19\", Christa's father, not Alvin Kohlmann. Matches SLUB digital copy image 56 exactly. Family collection.",
+   "date": "1938",
+   "url": "https://digital.slub-dresden.de/id351743545-19380000/56"
   },
   {
    "id": "family-testimony",
@@ -59,6 +61,150 @@
    "type": "web",
    "url": "https://www.archivverbund-bautzen.de/fileadmin/media/archivverbund/2023-10_Strassennamen_aktualisiert_fuer_HP.pdf",
    "note": "Wilthener Straße is listed with the historical name Martin-Mutschmann-Straße, about 1933 to 1945."
+  },
+  {
+   "id": "anc-marriage-1926",
+   "title": "Marriage register, Standesamt Dresden V, 1926 Nr. 352: Ernst Alwin Eifler and Gertrud Elise Becker",
+   "type": "civil register",
+   "date": "1926-10-02",
+   "url": "https://www.ancestry.com/search/collections/9152/records/1523350944",
+   "note": "Ancestry, Saxony civil marriages (collection 9152), images 708 and 709. Subscription site; image not reproduced here."
+  },
+  {
+   "id": "anc-birth-1905",
+   "title": "Birth register, Standesamt Dresden I, 1905 Nr. 165: Gertrud Elise Becker",
+   "type": "civil register",
+   "date": "1905-01-27",
+   "url": "https://www.ancestry.com/search/collections/5405/records/24143873",
+   "note": "Ancestry, Dresden births (collection 5405), image 169. Margin note: died 11.12.1973, Standesamt Bautzen Nr. 1052/1973."
+  },
+  {
+   "id": "anc-death-1938",
+   "title": "Death register, Standesamt Dresden V, 1938 Nr. 52: Richard Hermann Becker",
+   "type": "civil register",
+   "date": "1938-01",
+   "url": "https://www.ancestry.com/search/collections/9153/records/3536758",
+   "note": "Ancestry, Dresden deaths (collection 9153), image 56."
+  },
+  {
+   "id": "anc-cremation-1938",
+   "title": "Dresden crematorium register 1938: Richard Hermann Becker, certificate 60603",
+   "type": "register",
+   "date": "1938-01",
+   "url": "https://www.ancestry.com/search/collections/61814/records/60638",
+   "note": "Ancestry, Dresden cremation registers (collection 61814), image 20. The burial column is hard to read; \"Striesener Friedhof\" is a possible reading only."
+  },
+  {
+   "id": "anc-bautzen-1921",
+   "title": "Adressbuch Bautzen 1921, page 121 (Weickert)",
+   "type": "directory",
+   "date": "1921",
+   "url": "https://www.ancestry.com/search/collections/60778/records/18247386",
+   "note": "Ancestry, German city directories (collection 60778). \"Weickert, Bruno, Sattlermeister (Fa.: Weickert & Eifler), Sattler- und Polstergeschäft, Löbauer Str. 10, Fernruf 512 (Wohnung: Neusalzaer Straße 34, II)\"."
+  },
+  {
+   "id": "anc-bautzen-1932",
+   "title": "Adressbuch Bautzen 1932 (Weickert & Eifler)",
+   "type": "directory",
+   "date": "1932",
+   "url": "https://www.ancestry.com/search/collections/60778/records/30291771",
+   "note": "Ancestry index gives Neusalzaer Straße 36. The SLUB copy read on 25 November 2026 gives No. 38. One of the two is a misreading."
+  },
+  {
+   "id": "anc-bautzen-1935",
+   "title": "Adressbuch Bautzen 1935, page 141 (Weickert & Eifler)",
+   "type": "directory",
+   "date": "1935",
+   "url": "https://www.ancestry.com/search/collections/60778/records/6031712",
+   "note": "\"Weickert & Eifler (Inhaber: A. Eifler), Martin-Mutschmann-Str. 19, Fernruf 2512\". Also record 6069895."
+  },
+  {
+   "id": "slub-bautzen-1917",
+   "title": "Einwohnerbuch Bautzen 1917",
+   "type": "directory",
+   "date": "1917",
+   "url": "https://digital.slub-dresden.de/id405286481-19170000/20",
+   "note": "SLUB Dresden digital collections, public domain. Image 20: no Eifler listed. Image 106: Karl Gottlieb Weickert, Schuhmachermeister, Neusalzaer Str. 20."
+  },
+  {
+   "id": "slub-bautzen-1928",
+   "title": "Adressbuch Bautzen 1928",
+   "type": "directory",
+   "date": "1928",
+   "url": "https://digital.slub-dresden.de/id351743545-19280000/73",
+   "note": "SLUB Dresden, public domain. Image 73: Eifler, Alwin, Kaufmann, Neusalzaer Str. 38 Hinterhaus. Image 179: Weickert, Bruno, Sattlermeister, Neusalzaer Str. 20. Image 201: Weikert & Eifler (Inhaber Alwin Eifler), Matratzenfabrik Gnaschwitz (Kontor und Verkaufsstelle). Image 366: Handelsregister Nr. 885 Stahldrahtmatratzenfabrik Weickert & Eifler, Inhaber Alwin Eifler."
+  },
+  {
+   "id": "slub-bautzen-1929",
+   "title": "Adressbuch Bautzen 1929",
+   "type": "directory",
+   "date": "1929",
+   "url": "https://digital.slub-dresden.de/id351743545-19290000/76",
+   "note": "SLUB Dresden, public domain. Alwin Eifler at Neusalzaer Str. 38 (image 76); firm in the Handelsregister (image 376)."
+  },
+  {
+   "id": "slub-bautzen-1938",
+   "title": "Adressbuch Bautzen 1938",
+   "type": "directory",
+   "date": "1938",
+   "url": "https://digital.slub-dresden.de/id351743545-19380000/56",
+   "note": "SLUB Dresden, public domain. Image 56 (page 14): Eifler, Alwin, Kaufmann, Martin-Mutschmann-Str. 19, phone 2512. Image 236: house owner of Martin-Mutschmann-Str. 19 \"Eifler, Alwin, Fabrikant\". Image 292: Handelsregister A 173 Weickert & Eifler, Inhaber Alwin Eifler."
+  },
+  {
+   "id": "slub-dresden-1938",
+   "title": "Adressbuch Dresden 1938, house register",
+   "type": "directory",
+   "date": "1938",
+   "url": "https://digital.slub-dresden.de/id32253167Z/2032",
+   "note": "SLUB Dresden, public domain. Rothermundtstraße 5, ground floor: \"Becker, R., Eisenwhdlg.\" (ironmonger's)."
+  },
+  {
+   "id": "findbuch-death-1954",
+   "title": "Death register, Standesamt Bautzen, 1954 Nr. 881: Clara Elise Becker née Just",
+   "type": "civil register",
+   "date": "1954-12-27",
+   "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61003-St-BZ._~Register._~61003-84-R-4.pdf",
+   "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister Stadt Bautzen, volume 84, page 882 of the PDF. Free on Findbuch.net, CC BY 4.0. Also in the name index 1951 to 1955, part 4, page 8."
+  },
+  {
+   "id": "findbuch-death-1973",
+   "title": "Death register, Standesamt Bautzen, 1973 Nr. 1052: Gertrud Elise Eifler née Becker",
+   "type": "civil register",
+   "date": "1973-12-11",
+   "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61003-St-BZ._~Register%20mit%20Sperrvermerk._~61003-103-R-5.pdf",
+   "note": "Archivverbund Bautzen, Bestand 61003, volume 103, page 1054 of the PDF. Free on Findbuch.net, CC BY 4.0."
+  },
+  {
+   "id": "findbuch-index-1968",
+   "title": "Name index of deaths, Standesamt Bautzen, 1968 (letter E)",
+   "type": "civil register index",
+   "date": "1968",
+   "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61003-St-BZ._~NV._~61003-129-R-4%20(3).pdf",
+   "note": "Archivverbund Bautzen, Bestand 61003, volume 129, part 3, page 15. No Eifler is listed in 1968. The December 1968 register pages (volume 98, entries 1035 to 1062) have no Eifler either."
+  },
+  {
+   "id": "google-patent-de435041",
+   "title": "German Reich patent 435041, Netzmatratze, August Filter, Hannover",
+   "type": "patent",
+   "date": "1926-10-06",
+   "url": "https://patents.google.com/patent/DE435041C/de",
+   "note": "Patented from 12 July 1925, published 6 October 1926. The patent printed on the Weickert & Eifler letterhead belongs to Filter, not to the firm."
+  },
+  {
+   "id": "sachsenschiene-industriebahn",
+   "title": "Sachsenschiene: Industriebahn Großdöbschütz to Gnaschwitz",
+   "type": "web",
+   "date": "2026",
+   "url": "https://www.sachsenschiene.net/bahn/str/str146.htm",
+   "note": "History of the 1916 works railway to the Gnaschwitz powder factory, the 1920 \"Interessengemeinschaft Industriegelände Singwitz\", and the GDR works on the line."
+  },
+  {
+   "id": "stammtisch-singwitz",
+   "title": "Historischer Stammtisch: Singwitz timeline",
+   "type": "web",
+   "date": "2026",
+   "url": "https://historischerstammtisch.webnode.page/geschichte/singwitz/",
+   "note": "Village timeline: powder factory closed 1918/1919; from 1920 its buildings were let as the Industriegelände Singwitz."
   }
  ]
 }

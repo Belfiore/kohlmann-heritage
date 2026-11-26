@@ -55,7 +55,7 @@
 html, body { min-height: 100%; }
 
 /* ============================================
-   PAPER GROUND — cream base + subtle grain + foxing
+   PAPER GROUND: cream base + subtle grain + foxing
    ============================================ */
 body {
     background-color: var(--paper);
@@ -78,7 +78,7 @@ body {
    TYPOGRAPHY HIERARCHY
    ============================================ */
 
-/* Hero display title — Fraktur, the major page subject */
+/* Hero display title: Fraktur, the major page subject */
 .hero-title {
     font-family: 'UnifrakturMaguntia', 'UnifrakturCook', serif;
     font-weight: 400;
@@ -90,7 +90,7 @@ body {
     text-shadow: 0 0 1px rgba(20, 37, 84, 0.25);
 }
 
-/* Hero h1 — small-caps title, more legible */
+/* Hero h1: small-caps title, more legible */
 .hero-intro h1 {
     font-family: 'Cinzel', 'Cormorant Garamond', serif;
     font-weight: 600;
@@ -102,7 +102,7 @@ body {
     margin: 1rem 0 1.6rem;
 }
 
-/* Major section header — Fraktur, smaller; flanked by ornament rules */
+/* Major section header: Fraktur, smaller; flanked by ornament rules */
 .section-header {
     font-family: 'UnifrakturMaguntia', serif;
     font-weight: 400;
@@ -127,7 +127,7 @@ body {
     opacity: 0.85;
 }
 
-/* Sub-headers in cards / story sections — Cinzel, more legible */
+/* Sub-headers in cards / story sections: Cinzel, more legible */
 h3 {
     font-family: 'Cinzel', 'Cormorant Garamond', serif;
     font-weight: 600;
@@ -168,7 +168,7 @@ p em { color: var(--ink-soft); font-style: italic; }
     opacity: 0.85;
 }
 
-/* Oval trademark seal — wraps an inline element */
+/* Oval trademark seal: wraps an inline element */
 .seal {
     display: inline-block;
     position: relative;
@@ -207,7 +207,7 @@ p em { color: var(--ink-soft); font-style: italic; }
 .seal--gold { border-color: var(--gold); color: var(--gold); box-shadow: inset 0 0 0 4px var(--paper), inset 0 0 0 5px var(--gold); }
 .seal--gold::before, .seal--gold::after { color: var(--gold); }
 
-/* Purple ink stamp — slightly rotated, off-register */
+/* Purple ink stamp: slightly rotated, off-register */
 .stamp {
     display: inline-block;
     padding: 0.45rem 1rem;
@@ -231,7 +231,7 @@ p em { color: var(--ink-soft); font-style: italic; }
 .stamp--rotate-flat { transform: rotate(-0.8deg); }
 .stamp--round { border-radius: 50px; }
 
-/* Ornamental cursive wordmark — for personal names and ceremonial moments */
+/* Ornamental cursive wordmark: for personal names and ceremonial moments */
 .wordmark {
     font-family: 'Pinyon Script', 'Allura', cursive;
     font-weight: 400;
@@ -241,7 +241,7 @@ p em { color: var(--ink-soft); font-style: italic; }
     letter-spacing: 0.01em;
 }
 
-/* Crossed swords (Meissen) — used as subtle watermark */
+/* Crossed swords (Meissen): used as subtle watermark */
 .crossed-swords {
     display: inline-block;
     width: 1.1em;
@@ -255,7 +255,7 @@ p em { color: var(--ink-soft); font-style: italic; }
 }
 
 /* ============================================
-   NAVIGATION — pre-printed letterhead
+   NAVIGATION: pre-printed letterhead
    ============================================ */
 .main-nav {
     position: sticky;
@@ -427,7 +427,7 @@ p em { color: var(--ink-soft); font-style: italic; }
     color: var(--ink-soft);
 }
 
-/* PLACEHOLDER token styling — make it visible but not distracting */
+/* PLACEHOLDER token styling: make it visible but not distracting */
 .story-section p code, .timeline-item p code, .intro-story p code,
 p code {
     font-family: 'Special Elite', 'Courier Prime', monospace;
@@ -965,7 +965,7 @@ p code {
 .bio-link-label { font-style: italic; }
 
 /* ============================================
-   RESEARCH PAGE — German genealogy source cards
+   RESEARCH PAGE: German genealogy source cards
    ============================================ */
 .research-grid {
     max-width: 1100px;
@@ -1054,7 +1054,7 @@ p code {
 }
 
 /* ============================================
-   DOCUMENT IMAGES — sepia treatment + frame
+   DOCUMENT IMAGES: sepia treatment + frame
    ============================================ */
 .document-image {
     margin: 1.4rem auto;
@@ -1257,7 +1257,7 @@ p code {
 }
 
 /* ============================================
-   PRINT — for physical archive use
+   PRINT: for physical archive use
    ============================================ */
 @media print {
     body { background: white; color: black; font-size: 12pt; }
