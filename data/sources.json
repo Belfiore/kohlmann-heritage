@@ -277,6 +277,30 @@
       "date": "1939",
       "url": "https://www.ancestry.com/search/collections/60778/records/41585419",
       "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. Second copy of the SLUB entry: \"Woltmann Max, Steuersekretär, Grimmaische Str. 20\"."
+    },
+    {
+      "id": "findbuch-death-index-1972-kohlmann",
+      "title": "Bautzen death register name index 1972, letter K, page 30 (Kohlmann, Ernst Alwin)",
+      "type": "civil-index",
+      "date": "1972",
+      "url": "https://www.archivverbund-bautzen.findbuch.net/",
+      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, Namensverzeichnis 61003-131 part 2, via Findbuch.net. CC BY 4.0. Entry: \"Kohlmann, Ernst Alwin\", died 27.2., register Nr. 185."
+    },
+    {
+      "id": "findbuch-death-index-1963-kohlmann",
+      "title": "Bautzen death register name index 1963, letter K, page 33 (Kohlmann, Karl Martin)",
+      "type": "civil-index",
+      "date": "1963",
+      "url": "https://www.archivverbund-bautzen.findbuch.net/",
+      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, Namensverzeichnis 61003-128 part 3, via Findbuch.net. CC BY 4.0. Entry: \"Kohlmann, Karl Martin\", died 24.1., register Nr. 75, remark \"Crostau\"."
+    },
+    {
+      "id": "findbuch-death-indexes-1946-1972",
+      "title": "Bautzen death register name indexes 1946 to 1979, letters E, K and W",
+      "type": "civil-index",
+      "date": "1946-1979",
+      "url": "https://www.archivverbund-bautzen.findbuch.net/",
+      "note": "Archivverbund Bautzen, Bestand 61003, Namensverzeichnisse 61003-125 to -129 and -131 (parts 1 to 9, 1971 to 1979), via Findbuch.net. CC BY 4.0. Read page by page for Kohlmann, Eifler and Weickert."
     }
   ]
 }
