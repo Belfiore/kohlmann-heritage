@@ -136,42 +136,66 @@
     "generations": [
       {
         "generation": 0,
+        "label": "1787",
+        "title": "Kötzschau",
+        "range": "1787"
+      },
+      {
+        "generation": 1,
+        "label": "1809",
+        "title": "Kleindehsa",
+        "range": "1787 to 1809"
+      },
+      {
+        "generation": 2,
+        "label": "1860",
+        "title": "Kleindehsa",
+        "range": "1860 to 1888"
+      },
+      {
+        "generation": 3,
         "label": "I",
         "title": "Becker and Just",
         "range": "1875 to 1880"
       },
       {
-        "generation": 1,
+        "generation": 4,
         "label": "II",
         "title": "Alwin and Gertrud",
         "range": "1892 to 1905"
       },
       {
-        "generation": 2,
+        "generation": 5,
         "label": "III",
         "title": "The grandparents",
         "range": "from 1927"
       },
       {
-        "generation": 3,
+        "generation": 6,
         "label": "IV",
         "title": "Thomas and Rita",
         "range": "born 1956"
       },
       {
-        "generation": 4,
+        "generation": 7,
         "label": "V",
         "title": "Valeria, Elisa, Sebastian",
         "range": "1990 to 1994"
       },
       {
-        "generation": 5,
+        "generation": 8,
         "label": "VI",
         "title": "Enzo",
         "range": "2026"
       }
     ],
     "rootOrder": [
+      "kd-johann-kohlmann",
+      "kd-johann-traugott-kohlmann",
+      "kd-ernst-kohlmann",
+      "kd-reinhold-kohlmann",
+      "kd-gustav-kohlmann",
+      "ernst-eifler-sr",
       "richard-becker",
       "rita-father"
     ],
@@ -187,8 +211,8 @@
         "rita",
         "valeria"
       ],
-      "fromGen": 0,
-      "toGen": 5
+      "fromGen": 3,
+      "toGen": 8
     },
     "cardPhotos": "set",
     "coupleBlocks": "auto",
@@ -199,10 +223,19 @@
       "associates"
     ],
     "suspectedRelatives": {
-      "ernst-eifler-sr": "ernst-alwin",
       "alwin-kohlmann-butcher": "alvin",
-      "max-woltmann": "rita-mother"
-    }
+      "max-woltmann": "rita-mother",
+      "marie-ida-jurack": "alwin-kohlmann-butcher",
+      "ernestine-kissal": "alwin-kohlmann-butcher"
+    },
+    "regions": [
+      {
+        "id": "kleindehsa",
+        "label": "The Kohlmann innkeepers of Kleindehsa, 1787 to 1959",
+        "sub": "From the village chronicle. No proven link to this family"
+      }
+    ],
+    "regionKicker": "Kleindehsa innkeepers (link unproven)"
   },
   "widget": {
     "enabled": false
@@ -211,7 +244,8 @@
     "exclude": [
       "family-data.js",
       "tests/",
-      ".gitignore"
+      ".gitignore",
+      "data/discoveries.json"
     ]
   },
   "map": {
@@ -241,7 +275,12 @@
           "richard-becker",
           "elise-just",
           "christa",
-          "sigrid"
+          "sigrid",
+          "ernst-eifler-sr",
+          "max-eifler",
+          "alfred-eifler",
+          "martha-eifler",
+          "marie-becker"
         ],
         "default": true
       },
@@ -254,6 +293,9 @@
           "thomas",
           "matthias",
           "sabine"
+        ],
+        "regions": [
+          "kleindehsa"
         ]
       },
       {
