@@ -310,7 +310,10 @@
           "confidence": "confirmed",
           "sourceIds": [
             "slub-bautzen-1928",
-            "slub-bautzen-1929"
+            "slub-bautzen-1929",
+            "anc-bautzen-1928-eifler",
+            "anc-bautzen-1929-eifler",
+            "anc-bautzen-1932"
           ]
         },
         {
@@ -1486,11 +1489,11 @@
       "facts": [
         {
           "label": "Marriage",
-          "value": "Married Marie Ida Jurack in 1914, registered at Malschwitz, Kreis Bautzen (Nr. 9/1914). She was his widow in 1972 and died in Bautzen on 20 January 1973.",
+          "value": "Married Marie Ida Jurack in 1914, registered at Malschwitz, Kreis Bautzen (Nr. 9/1914). She was born on 5 February 1887 at Briesing near Malschwitz, was his widow in 1972, and died in Bautzen on 20 January 1973, living at Am Stadtwall 1.",
           "confidence": "confirmed",
           "sourceIds": [
             "findbuch-death-register-1972-185",
-            "findbuch-death-indexes-1946-1972"
+            "findbuch-death-register-1973-55"
           ]
         }
       ],

@@ -1059,7 +1059,7 @@
       "inHomeRegion": true,
       "country": "Germany",
       "status": "published",
-      "blurb": "Alwin Eifler's home and the firm's office and shop (Kontor und Verkaufsstelle), in the rear building. The Ancestry index of the 1932 book reads No. 36, next door; the SLUB copy reads No. 38.",
+      "blurb": "Alwin Eifler's home and the firm's office and shop (Kontor und Verkaufsstelle), in the rear building. The Ancestry index of the 1932 book reads No. 36, next door; the SLUB copy reads No. 38. From 1929 the firm's shop was at An den Fleischbänken 7; its telephone 2512 was Alwin Eifler's own number at Martin-Mutschmann-Straße 19 in 1935.",
       "events": [
         {
           "id": "pe-neusalzaer38-alwin",
@@ -1077,7 +1077,9 @@
           "sourceIds": [
             "slub-bautzen-1928",
             "slub-bautzen-1929",
-            "anc-bautzen-1932"
+            "anc-bautzen-1932",
+            "anc-bautzen-1928-eifler",
+            "anc-bautzen-1929-eifler"
           ],
           "factRef": "ernst-alwin.residences[1]",
           "pages": [
@@ -1103,7 +1105,9 @@
           "sourceIds": [
             "slub-bautzen-1928",
             "slub-bautzen-1929",
-            "anc-bautzen-1932"
+            "anc-bautzen-1932",
+            "anc-bautzen-1928-eifler",
+            "anc-bautzen-1929-eifler"
           ],
           "factRef": "",
           "pages": [
@@ -1469,6 +1473,65 @@
         "nominatim-2026-11-26"
       ],
       "coordinatePrecision": "village",
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "standsToday": "unknown"
+    },
+    {
+      "id": "bautzen-fleischbaenken-7",
+      "name": "An den Fleischbänken 7, Bautzen",
+      "historicName": "An den Fleischbänken 7, Bautzen",
+      "variants": [],
+      "kind": "workplace",
+      "address": "An den Fleischbänken 7, Bautzen",
+      "precision": "address",
+      "lat": 51.1822481,
+      "lng": 14.4254275,
+      "uncertaintyMetres": 100,
+      "drawAs": "halo",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "noProvenLink": false,
+      "blurb": "The Bautzen shop (Matratzen-Niederlage, mattress showroom and store) of Weikert & Eifler in 1929 and 1932, owner Alwin Eifler, telephone 2512. The mattresses were made at the factory in the Industriehof Gnaschwitz.",
+      "blurbSourceIds": [
+        "anc-bautzen-1929-firm",
+        "anc-bautzen-1932-firm"
+      ],
+      "events": [
+        {
+          "id": "pe-fleischbaenken7-shop",
+          "type": "worked",
+          "personIds": [
+            "ernst-alwin"
+          ],
+          "date": "1929 to 1932",
+          "dateStart": "1929-01-01",
+          "dateEnd": "1932-12-31",
+          "datePrecision": "year",
+          "approximate": false,
+          "summary": "Ernst Alwin Eifler: owner of the Weikert & Eifler mattress shop here, 1929 to 1932",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-bautzen-1929-firm",
+            "anc-bautzen-1932-firm"
+          ],
+          "factRef": "",
+          "pages": [
+            "weickert-eifler.html",
+            "research.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "coordinatePrecision": "street",
       "images": [],
       "historicMap": null,
       "streetView": null,
