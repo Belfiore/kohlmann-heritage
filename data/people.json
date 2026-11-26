@@ -1495,6 +1495,15 @@
             "findbuch-death-register-1972-185",
             "findbuch-death-register-1973-55"
           ]
+        },
+        {
+          "label": "Probable sister",
+          "value": "Ernestine Hedwig Kohlmann, born 15 September 1897 at Kleindehsa, the village Kötzschau belongs to; married Ernst Hermann Kissal at Lawalde in 1926; died in Bautzen on 14 January 1980 (Mättigstraße 17). Same surname, same village and parish, 14 years younger: probably his sister, not proven.",
+          "confidence": "probable",
+          "sourceIds": [
+            "findbuch-death-register-1980-40",
+            "findbuch-death-register-1972-185"
+          ]
         }
       ],
       "media": [
@@ -1511,6 +1520,13 @@
           "caption": "Bautzen death name index 1972, letter K: \"Kohlmann, Ernst Alwin\", died 27 February, register Nr. 185. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
           "alt": "Handwritten index line for Ernst Alwin Kohlmann, highlighted.",
           "sourceId": "findbuch-death-index-1972-kohlmann"
+        },
+        {
+          "type": "document",
+          "file": "images/records/1980-bautzen-death-register-40-ernestine-hedwig-kissal-geb-kohlmann.jpg",
+          "caption": "Bautzen death register 1980, Nr. 40: Ernestine Hedwig Kissal née Kohlmann, born 15 September 1897 at Kleindehsa, Kreis Löbau. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
+          "alt": "Typed death register entry for Ernestine Hedwig Kissal née Kohlmann, highlighted.",
+          "sourceId": "findbuch-death-register-1980-40"
         }
       ],
       "birth": {
@@ -1541,13 +1557,16 @@
       "confidence": "unverified",
       "cardPlace": "Bautzen",
       "summary": "Ernst Alwin Kohlmann, a butcher, was born on 21 September 1883 at Kötzschau near Lawalde (Kreis Löbau) and died in Bautzen on 27 February 1972, still living at Schäfferstraße 6, his address since 1925. He married Marie Ida Jurack in 1914. Same rare first name as Alvin and the same town, and of the right age to be Alvin's father, but no link is proven yet.",
-      "story": "In 1921 the Bautzen address book lists \"Kohlmann, Alwin, Fleischergeselle\" (journeyman butcher) at Holzmarkt 27, in the rear building, first floor.[^anc-bautzen-1921-kohlmann] In 1924 he is a butcher (Fleischer) at Holzmarkt 27, ground floor.[^anc-bautzen-1924-kohlmann] From 1925 he lives at Schäfferstraße 6, and he is there in every book seen up to 1938.[^anc-bautzen-1925-kohlmann][^slub-bautzen-1928][^anc-bautzen-1935-kohlmann][^slub-bautzen-1938] He is the only Alwin Kohlmann in each book, and there is no second, younger Kohlmann butcher. Thomas Kohlmann's father is remembered as Alvin Kohlmann, who married Christa Eifler in Bautzen in 1952. A journeyman in 1921 had usually finished an apprenticeship, so this Alwin was probably born about 1904 or earlier. That makes him more likely Alvin's father (or uncle) than Alvin himself. Nothing found so far links them. The Bautzen death name index for 1972 lists \"Kohlmann, Ernst Alwin\", who died on 27 February 1972, death register number 185.[^findbuch-death-index-1972-kohlmann] He is the only Alwin Kohlmann in the Bautzen death indexes from 1946 to 1979, so he is probably the butcher, but the index gives no age or address. The register entry itself would give his birth and next of kin.[^findbuch-death-indexes-1946-1972] His death entry in the Bautzen register for 1972 settles who he was: Ernst Alwin Kohlmann of Schäfferstraße 6, the same house as in the address books, died on 27 February 1972. He was born on 21 September 1883 at Kötzschau, a hamlet near Lawalde in Kreis Löbau, and was married to Marie Ida Kohlmann née Jurack; the marriage was registered at Malschwitz in 1914.[^findbuch-death-register-1972-185] Marie Ida died in Bautzen less than a year later, on 20 January 1973.[^findbuch-death-indexes-1946-1972] The entry does not name his parents or any children.",
+      "story": "In 1921 the Bautzen address book lists \"Kohlmann, Alwin, Fleischergeselle\" (journeyman butcher) at Holzmarkt 27, in the rear building, first floor.[^anc-bautzen-1921-kohlmann] In 1924 he is a butcher (Fleischer) at Holzmarkt 27, ground floor.[^anc-bautzen-1924-kohlmann] From 1925 he lives at Schäfferstraße 6, and he is there in every book seen up to 1938.[^anc-bautzen-1925-kohlmann][^slub-bautzen-1928][^anc-bautzen-1935-kohlmann][^slub-bautzen-1938] He is the only Alwin Kohlmann in each book, and there is no second, younger Kohlmann butcher. Thomas Kohlmann's father is remembered as Alvin Kohlmann, who married Christa Eifler in Bautzen in 1952. A journeyman in 1921 had usually finished an apprenticeship, so this Alwin was probably born about 1904 or earlier. That makes him more likely Alvin's father (or uncle) than Alvin himself. Nothing found so far links them. The Bautzen death name index for 1972 lists \"Kohlmann, Ernst Alwin\", who died on 27 February 1972, death register number 185.[^findbuch-death-index-1972-kohlmann] He is the only Alwin Kohlmann in the Bautzen death indexes from 1946 to 1979, so he is probably the butcher, but the index gives no age or address. The register entry itself would give his birth and next of kin.[^findbuch-death-indexes-1946-1972] His death entry in the Bautzen register for 1972 settles who he was: Ernst Alwin Kohlmann of Schäfferstraße 6, the same house as in the address books, died on 27 February 1972. He was born on 21 September 1883 at Kötzschau, a hamlet near Lawalde in Kreis Löbau, and was married to Marie Ida Kohlmann née Jurack; the marriage was registered at Malschwitz in 1914.[^findbuch-death-register-1972-185] Marie Ida died in Bautzen less than a year later, on 20 January 1973.[^findbuch-death-indexes-1946-1972] The entry does not name his parents or any children. A second Kohlmann from the same village died in Bautzen in 1980: Ernestine Hedwig Kissal née Kohlmann, born on 15 September 1897 at Kleindehsa, the village that Kötzschau belongs to. She married Ernst Hermann Kissal at Lawalde in 1926 and lived at Mättigstraße 17.[^findbuch-death-register-1980-40] She was probably Alwin's younger sister, which would make the Kohlmanns of Bautzen a family from the Lawalde parish near Löbau.",
       "openQuestions": [
         {
           "question": "Is he Alvin's father? The 1952 marriage entry (Standesamt Bautzen) names Alvin's parents; a father \"Ernst Alwin Kohlmann\" and mother \"Marie Ida née Jurack\" would settle it."
         },
         {
           "question": "Who were his parents? His 1914 marriage entry (Malschwitz Nr. 9/1914) and his 1883 birth entry (Lawalde Nr. 71/1883) name them."
+        },
+        {
+          "question": "Was Ernestine Hedwig Kissal née Kohlmann (1897 to 1980) his sister? Her 1926 Lawalde marriage entry (Nr. 4/1926) names her parents."
         }
       ],
       "relatedPages": [

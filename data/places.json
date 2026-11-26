@@ -1439,9 +1439,10 @@
       "country": "Germany",
       "status": "published",
       "noProvenLink": true,
-      "blurb": "Lead only. Ernst Alwin Kohlmann, the Bautzen butcher, was born here on 21 September 1883. Kötzschau is a hamlet of Kleindehsa in the parish of Lawalde, near Löbau; his birth was registered at Lawalde. He may be Alvin Kohlmann's father. Not proven.",
+      "blurb": "Lead only. Ernst Alwin Kohlmann, the Bautzen butcher, was born here on 21 September 1883. Kötzschau is a hamlet of Kleindehsa in the parish of Lawalde, near Löbau; his birth was registered at Lawalde. He may be Alvin Kohlmann's father. Not proven. Ernestine Hedwig Kohlmann, probably his sister, was born in Kleindehsa, the same village, in 1897.",
       "blurbSourceIds": [
-        "findbuch-death-register-1972-185"
+        "findbuch-death-register-1972-185",
+        "findbuch-death-register-1980-40"
       ],
       "events": [
         {
