@@ -25,6 +25,7 @@
     { "href": "index.html", "label": "Home" },
     { "href": "family-tree.html", "label": "Family Tree" },
     { "href": "tree-canvas.html", "label": "Interactive Tree" },
+    { "href": "map.html", "label": "Map" },
     { "href": "escape-from-east-germany.html", "label": "The Escape" },
     { "href": "weickert-eifler.html", "label": "Weickert & Eifler" },
     { "href": "research.html", "label": "Research & Records" }

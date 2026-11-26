@@ -45,6 +45,20 @@
    "title": "Sebastian Belfiore",
    "type": "family testimony",
    "note": "Valeria's husband, and the researcher behind this site."
+  },
+  {
+   "id": "nominatim-2026-11-26",
+   "title": "OpenStreetMap, via Nominatim, 26 November 2026",
+   "type": "web",
+   "url": "https://nominatim.openstreetmap.org/",
+   "note": "Town and village centres, and the modern building at Wilthener Straße 19. No API key. A town is drawn as a circle."
+  },
+  {
+   "id": "bautzen-street-names",
+   "title": "Archivverbund Bautzen, list of historical street names (updated October 2023)",
+   "type": "web",
+   "url": "https://www.archivverbund-bautzen.de/fileadmin/media/archivverbund/2023-10_Strassennamen_aktualisiert_fuer_HP.pdf",
+   "note": "Wilthener Straße is listed with the historical name Martin-Mutschmann-Straße, about 1933 to 1945."
   }
  ]
 }
