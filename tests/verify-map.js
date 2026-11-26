@@ -33,6 +33,13 @@ const NO_PINS = new Set(people.filter(p => p.isLiving || (!p.death && p.birth &&
 
 const failures = [];
 const check = (c, m, d) => { if (c) console.log('  ok   ' + m); else { failures.push(m); console.log('  FAIL ' + m + (d ? '  [' + d + ']' : '')); } };
+// The site pages carry no visible research labels (FACT, PROBABLE, LEAD, UNKNOWN, CORRECTED, BACKGROUND): the family asked for plain wording.
+{
+    const LABEL = />\s*(FACT|PROBABLE|LEAD|UNKNOWN|CORRECTED|BACKGROUND)\s*<\/span>/;
+    const pages = fs.readdirSync(DIST).filter(n => n.endsWith('.html'));
+    const hits = pages.filter(n => LABEL.test(fs.readFileSync(path.join(DIST, n), 'utf8')));
+    check(pages.length > 3 && !hits.length, 'no page shows a research label badge (FACT, PROBABLE, LEAD, UNKNOWN, CORRECTED, BACKGROUND)', hits.join(', '));
+}
 
 function serve() {
     return new Promise(res => {
