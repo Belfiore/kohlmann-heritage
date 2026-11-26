@@ -96,6 +96,23 @@
       "source": {
         "text": "2007 Eifler/Becker family chart (Ahnentafel), page 1"
       }
+    },
+    {
+      "id": "herbert-kohlmann-correction",
+      "personIds": [
+        "alvin"
+      ],
+      "covers": [
+        "person:alvin",
+        "spouse:alvin:christa"
+      ],
+      "found": "2026-11-26",
+      "findType": "correction",
+      "foundBy": "Sebastian",
+      "confidence": "family tradition",
+      "headline": "Christa Eifler's husband, married at Bautzen in 1952, was Herbert Kohlmann, called Herbert Coleman in English. The name Alvin belonged to Christa's father, Alwin Eifler.",
+      "changeNote": "The site had given Christa's husband the first name Alvin.",
+      "source": "Family correction, 26 November 2026, given by the family"
     }
   ]
 }
