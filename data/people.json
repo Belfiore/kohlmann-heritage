@@ -1412,11 +1412,11 @@
       "spouses": [],
       "nameVariants": [
         {
-          "name": "Ernst Alwin Kohlmann",
-          "note": "full names in the 1972 death index (if the same man)",
-          "confidence": "probable",
+          "name": "Alwin Kohlmann",
+          "note": "name used in the Bautzen address books 1921 to 1938",
+          "confidence": "confirmed",
           "sourceIds": [
-            "findbuch-death-index-1972-kohlmann"
+            "findbuch-death-register-1972-185"
           ]
         }
       ],
@@ -1443,6 +1443,16 @@
           "sourceIds": [
             "anc-bautzen-1921-kohlmann",
             "anc-bautzen-1924-kohlmann"
+          ]
+        },
+        {
+          "place": "Bautzen",
+          "placeId": "bautzen-schaefferstrasse-6",
+          "address": "Schäfferstraße 6 (still his address at his death)",
+          "years": "1972",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1972-185"
           ]
         }
       ],
@@ -1473,8 +1483,25 @@
         }
       ],
       "timeline": [],
-      "facts": [],
+      "facts": [
+        {
+          "label": "Marriage",
+          "value": "Married Marie Ida Jurack in 1914, registered at Malschwitz, Kreis Bautzen (Nr. 9/1914). She was his widow in 1972 and died in Bautzen on 20 January 1973.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "findbuch-death-register-1972-185",
+            "findbuch-death-indexes-1946-1972"
+          ]
+        }
+      ],
       "media": [
+        {
+          "type": "document",
+          "file": "images/records/1972-bautzen-death-register-185-ernst-alwin-kohlmann.jpg",
+          "caption": "Bautzen death register 1972, Nr. 185: Ernst Alwin Kohlmann of Schäfferstraße 6, died 27 February 1972, born 21 September 1883, married to Marie Ida née Jurack. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
+          "alt": "Typed death register entry for Ernst Alwin Kohlmann, highlighted.",
+          "sourceId": "findbuch-death-register-1972-185"
+        },
         {
           "type": "document",
           "file": "images/records/1972-bautzen-death-index-kohlmann-ernst-alwin.jpg",
@@ -1483,32 +1510,41 @@
           "sourceId": "findbuch-death-index-1972-kohlmann"
         }
       ],
-      "birth": null,
-      "death": {
-        "date": "1972-02-27",
-        "display": "27 February 1972 (probably this man)",
-        "place": "Bautzen (city register office)",
-        "placeId": null,
-        "confidence": "probable",
+      "birth": {
+        "date": "1883-09-21",
+        "display": "21 September 1883",
+        "place": "Kötzschau near Lawalde, Kreis Löbau (typed \"Kötschau\")",
+        "placeId": "koetzschau-lawalde",
+        "confidence": "confirmed",
         "sourceIds": [
-          "findbuch-death-index-1972-kohlmann"
+          "findbuch-death-register-1972-185"
         ]
       },
-      "displayName": "Alwin Kohlmann (butcher, Bautzen)",
-      "givenNames": "Alwin",
+      "death": {
+        "date": "1972-02-27",
+        "display": "27 February 1972",
+        "place": "Bautzen",
+        "placeId": null,
+        "confidence": "confirmed",
+        "sourceIds": [
+          "findbuch-death-register-1972-185"
+        ]
+      },
+      "displayName": "Ernst Alwin Kohlmann (butcher, Bautzen)",
+      "givenNames": "Ernst Alwin",
       "surname": "Kohlmann",
       "disambiguator": "a lead for Alvin's family",
       "generation": 2,
       "confidence": "unverified",
       "cardPlace": "Bautzen",
-      "summary": "A butcher named Alwin Kohlmann lived in Bautzen from at least 1921 to 1938: at Holzmarkt 27 as a journeyman butcher in 1921 and 1924, then at Schäfferstraße 6 from 1925. An Ernst Alwin Kohlmann died in Bautzen on 27 February 1972, probably the same man. Same rare first name as Alvin, same town; more likely Alvin's father than Alvin himself. Not proven.",
-      "story": "In 1921 the Bautzen address book lists \"Kohlmann, Alwin, Fleischergeselle\" (journeyman butcher) at Holzmarkt 27, in the rear building, first floor.[^anc-bautzen-1921-kohlmann] In 1924 he is a butcher (Fleischer) at Holzmarkt 27, ground floor.[^anc-bautzen-1924-kohlmann] From 1925 he lives at Schäfferstraße 6, and he is there in every book seen up to 1938.[^anc-bautzen-1925-kohlmann][^slub-bautzen-1928][^anc-bautzen-1935-kohlmann][^slub-bautzen-1938] He is the only Alwin Kohlmann in each book, and there is no second, younger Kohlmann butcher. Thomas Kohlmann's father is remembered as Alvin Kohlmann, who married Christa Eifler in Bautzen in 1952. A journeyman in 1921 had usually finished an apprenticeship, so this Alwin was probably born about 1904 or earlier. That makes him more likely Alvin's father (or uncle) than Alvin himself. Nothing found so far links them. The Bautzen death name index for 1972 lists \"Kohlmann, Ernst Alwin\", who died on 27 February 1972, death register number 185.[^findbuch-death-index-1972-kohlmann] He is the only Alwin Kohlmann in the Bautzen death indexes from 1946 to 1979, so he is probably the butcher, but the index gives no age or address. The register entry itself would give his birth and next of kin.[^findbuch-death-indexes-1946-1972]",
+      "summary": "Ernst Alwin Kohlmann, a butcher, was born on 21 September 1883 at Kötzschau near Lawalde (Kreis Löbau) and died in Bautzen on 27 February 1972, still living at Schäfferstraße 6, his address since 1925. He married Marie Ida Jurack in 1914. Same rare first name as Alvin and the same town, and of the right age to be Alvin's father, but no link is proven yet.",
+      "story": "In 1921 the Bautzen address book lists \"Kohlmann, Alwin, Fleischergeselle\" (journeyman butcher) at Holzmarkt 27, in the rear building, first floor.[^anc-bautzen-1921-kohlmann] In 1924 he is a butcher (Fleischer) at Holzmarkt 27, ground floor.[^anc-bautzen-1924-kohlmann] From 1925 he lives at Schäfferstraße 6, and he is there in every book seen up to 1938.[^anc-bautzen-1925-kohlmann][^slub-bautzen-1928][^anc-bautzen-1935-kohlmann][^slub-bautzen-1938] He is the only Alwin Kohlmann in each book, and there is no second, younger Kohlmann butcher. Thomas Kohlmann's father is remembered as Alvin Kohlmann, who married Christa Eifler in Bautzen in 1952. A journeyman in 1921 had usually finished an apprenticeship, so this Alwin was probably born about 1904 or earlier. That makes him more likely Alvin's father (or uncle) than Alvin himself. Nothing found so far links them. The Bautzen death name index for 1972 lists \"Kohlmann, Ernst Alwin\", who died on 27 February 1972, death register number 185.[^findbuch-death-index-1972-kohlmann] He is the only Alwin Kohlmann in the Bautzen death indexes from 1946 to 1979, so he is probably the butcher, but the index gives no age or address. The register entry itself would give his birth and next of kin.[^findbuch-death-indexes-1946-1972] His death entry in the Bautzen register for 1972 settles who he was: Ernst Alwin Kohlmann of Schäfferstraße 6, the same house as in the address books, died on 27 February 1972. He was born on 21 September 1883 at Kötzschau, a hamlet near Lawalde in Kreis Löbau, and was married to Marie Ida Kohlmann née Jurack; the marriage was registered at Malschwitz in 1914.[^findbuch-death-register-1972-185] Marie Ida died in Bautzen less than a year later, on 20 January 1973.[^findbuch-death-indexes-1946-1972] The entry does not name his parents or any children.",
       "openQuestions": [
         {
-          "question": "Is this Alvin's father? The 1952 marriage entry (Standesamt Bautzen) names Alvin's parents."
+          "question": "Is he Alvin's father? The 1952 marriage entry (Standesamt Bautzen) names Alvin's parents; a father \"Ernst Alwin Kohlmann\" and mother \"Marie Ida née Jurack\" would settle it."
         },
         {
-          "question": "Is the Ernst Alwin Kohlmann who died in Bautzen on 27 February 1972 (register Nr. 185) this butcher? The register entry gives his birth and family."
+          "question": "Who were his parents? His 1914 marriage entry (Malschwitz Nr. 9/1914) and his 1883 birth entry (Lawalde Nr. 71/1883) name them."
         }
       ],
       "relatedPages": [
