@@ -40,7 +40,9 @@
           "pages": [
             "research.html"
           ],
-          "recordCrops": [],
+          "recordCrops": [
+            "1926-dresden-marriage-352-eifler-becker.jpg"
+          ],
           "familyStatement": false
         }
       ],
@@ -74,32 +76,6 @@
       "status": "published",
       "blurb": "Only the town is known for these events, so the circle marks Bautzen rather than a street. Street addresses in Bautzen have their own smaller circles.",
       "events": [
-        {
-          "id": "pe-bautzen-died-alwin",
-          "type": "died",
-          "personIds": [
-            "ernst-alwin"
-          ],
-          "date": "1968-12-18",
-          "dateStart": "1968-12-18",
-          "dateEnd": "1968-12-18",
-          "datePrecision": "exact",
-          "approximate": false,
-          "summary": "Ernst Alwin Eifler: death near Bautzen, 1968",
-          "confidence": "family tradition",
-          "sourceIds": [
-            "ahnentafel-2007",
-            "findbuch-index-1968",
-            "findbuch-death-1973"
-          ],
-          "note": "The family chart says Bautzen, 18 December 1968, car accident. He is not in the Bautzen city death register or index for 1968, so the death was probably registered at the place of the accident. His widow is called widowed in 1973.",
-          "factRef": "ernst-alwin.death",
-          "pages": [
-            "research.html"
-          ],
-          "recordCrops": [],
-          "familyStatement": true
-        },
         {
           "id": "pe-bautzen-born-christa",
           "type": "born",
@@ -251,7 +227,9 @@
             "research.html",
             "weickert-eifler.html"
           ],
-          "recordCrops": [],
+          "recordCrops": [
+            "1926-dresden-marriage-352-eifler-becker.jpg"
+          ],
           "familyStatement": false
         },
         {
@@ -781,7 +759,9 @@
           "pages": [
             "research.html"
           ],
-          "recordCrops": [],
+          "recordCrops": [
+            "1905-dresden-birth-165-gertrud-elise-becker.jpg"
+          ],
           "familyStatement": false
         },
         {
@@ -2099,6 +2079,67 @@
       "streetView": null,
       "streetViewReason": "Not checked yet.",
       "standsToday": "unknown"
+    },
+    {
+      "id": "zittau",
+      "name": "Zittau",
+      "kind": "town",
+      "precision": "town",
+      "lat": 50.9097785,
+      "lng": 14.8008877,
+      "uncertaintyMetres": 2000,
+      "drawAs": "area",
+      "inHomeRegion": true,
+      "country": "Germany",
+      "status": "published",
+      "blurb": "Alwin Eifler's death on 18 December 1968 was registered here, at the Zittau register office, according to a note on his 1926 marriage entry. The circle marks the town, not the place where he died.",
+      "coordinateMethod": "OpenStreetMap Nominatim town centre, 27 November 2026.",
+      "coordinateSourceIds": [
+        "nominatim-2026-11-26"
+      ],
+      "historicName": "Zittau",
+      "noProvenLink": false,
+      "variants": [],
+      "images": [],
+      "historicMap": null,
+      "streetView": null,
+      "streetViewReason": "Not checked yet.",
+      "blurbSourceIds": [
+        "anc-marriage-1926"
+      ],
+      "address": "Zittau",
+      "coordinatePrecision": "town",
+      "standsToday": "unknown",
+      "events": [
+        {
+          "id": "pe-zittau-died-alwin",
+          "type": "died",
+          "personIds": [
+            "ernst-alwin"
+          ],
+          "date": "1968-12-18",
+          "dateStart": "1968-12-18",
+          "dateEnd": "1968-12-18",
+          "datePrecision": "exact",
+          "approximate": false,
+          "summary": "Ernst Alwin Eifler: death registered at Zittau, 1968",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "anc-marriage-1926",
+            "ahnentafel-2007",
+            "findbuch-index-1968"
+          ],
+          "note": "A note stamped on his 1926 Dresden marriage entry on 6 November 1969 says he died on 18 December 1968, Standesamt Zittau Nr. 1169/1968 (number as read). The family chart says Bautzen and a car accident; the circle marks the town where the death was registered, not the place of the accident.",
+          "factRef": "ernst-alwin.death",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [
+            "1926-dresden-marriage-352-margin-death-1968.jpg"
+          ],
+          "familyStatement": true
+        }
+      ]
     }
   ]
 }
