@@ -973,13 +973,15 @@
         "alvin",
         "christa"
       ],
-      "children": [],
+      "children": [
+        "felix-kohlmann"
+      ],
       "spouses": [],
       "birth": null,
       "death": null,
       "cardPlace": null,
       "summary": "Thomas's brother.",
-      "story": "Thomas's brother. Son of Herbert Kohlmann and Elise Christa Kohlmann (née Eifler). [PLACEHOLDER: birth year, location, occupation, marriage and any children.][^family-testimony]",
+      "story": "Thomas's brother. Son of Herbert Kohlmann and Elise Christa Kohlmann (née Eifler). Father of Felix Kohlmann.[^family-testimony-2026-11-27] [PLACEHOLDER: birth year, location, occupation, marriage and any other children.][^family-testimony]",
       "residences": [],
       "occupations": [],
       "timeline": [],
@@ -989,6 +991,42 @@
       "relatedPages": [],
       "photo": null,
       "order": 2
+    },
+    {
+      "id": "felix-kohlmann",
+      "displayName": "Felix Kohlmann",
+      "givenNames": "Felix",
+      "surname": "Kohlmann",
+      "disambiguator": "Matthias's son",
+      "sex": "M",
+      "generation": 7,
+      "isLiving": true,
+      "isDirectLine": false,
+      "confidence": "family tradition",
+      "nameVariants": [],
+      "parents": [
+        "matthias"
+      ],
+      "children": [],
+      "spouses": [],
+      "birth": null,
+      "death": null,
+      "cardPlace": null,
+      "summary": "Son of Matthias Kohlmann, and so a first cousin of Valeria and Elisa.",
+      "story": "Felix Kohlmann is the son of Matthias Kohlmann, Thomas's brother, which makes him a first cousin of Valeria and Elisa.[^family-testimony-2026-11-27] His mother's name, his birth year and where he lives are not yet recorded here.",
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [
+        {
+          "question": "Who is Felix's mother, and when and where was he born?"
+        }
+      ],
+      "relatedPages": [],
+      "photo": null,
+      "order": 1
     },
     {
       "id": "sabine",

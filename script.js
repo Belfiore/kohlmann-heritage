@@ -175,12 +175,13 @@ const personData = {
         name: "Matthias Kohlmann",
         subtitle: "Thomas's brother; Generation 2",
         tags: ["Sibling", "Living"],
-        description: `Thomas Kohlmann's brother. Son of Herbert Kohlmann. [PLACEHOLDER: birth year and place, where he lives, occupation, marriage, any children, and any role in the family's East-to-West Germany story.]`,
+        description: `Thomas Kohlmann's brother. Son of Herbert Kohlmann. Father of Felix Kohlmann. [PLACEHOLDER: birth year and place, where he lives, occupation, marriage, any other children, and any role in the family's East-to-West Germany story.]`,
         details: {
             "Born": "[PLACEHOLDER]",
             "Father": "Herbert Kohlmann",
             "Mother": "[PLACEHOLDER]",
             "Siblings": "Thomas Kohlmann (b. 1956), Sabine Kohlmann",
+            "Children": "Felix Kohlmann",
             "Lives": "[PLACEHOLDER]"
         }
     },
