@@ -282,18 +282,19 @@
       "death": {
         "date": "1968-12-18",
         "display": "18 December 1968",
-        "place": "near Bautzen (the family chart says Bautzen)",
-        "placeId": "bautzen",
-        "confidence": "family tradition",
+        "place": "registered at Zittau",
+        "placeId": "zittau",
+        "confidence": "confirmed",
         "sourceIds": [
+          "anc-marriage-1926",
           "ahnentafel-2007",
-          "findbuch-index-1968",
-          "findbuch-death-1973"
-        ]
+          "findbuch-index-1968"
+        ],
+        "note": "Date from a 1969 note on his 1926 marriage entry, which gives Standesamt Zittau, register Nr. 1169/1968 (number as read). The family chart gives the same day. Where exactly he died is not yet seen."
       },
       "cardPlace": "Bautzen",
       "summary": "Father of Christa Kohlmann and Sigrid Michaelis.",
-      "story": "Father of Christa Kohlmann and Sigrid Michaelis, and Thomas Kohlmann's maternal grandfather. Born 7 October 1892 in Sohland an der Spree; his marriage entry gives the place and cites his Sohland birth entry.[^anc-marriage-1926] A Weickert & Eifler saddlery and upholstery shop already existed in Bautzen in 1921, run by the master saddler Bruno Weickert at Löbauer Straße 10.[^anc-bautzen-1921] On 2 October 1926 Alwin, a \"Fabrikant\" living at Wendischer Graben 3 in Bautzen, married Gertrud Elise Becker at the Dresden V registry office (1926 Nr. 352). The witnesses were Ernst Eifler, a farmer of Sohland an der Spree Nr. 247, aged 61 (probably his father), and the bride's father.[^anc-marriage-1926] From 1928 he is listed as sole owner (Inhaber) of the Stahldrahtmatratzenfabrik Weickert & Eifler, with the factory at Gnaschwitz and his home and office at Neusalzaer Straße 38.[^slub-bautzen-1928] By 1935 the firm was at Martin-Mutschmann-Straße 19 (today Wilthener Straße 19), a house he owned by 1938.[^anc-bautzen-1935][^slub-bautzen-1938] The family chart says he died on 18 December 1968 of a basal skull fracture after a car accident, aged 76, and names his siblings as Max, Alfred and Martha.[^ahnentafel-2007] His death is not in the Bautzen city register for 1968, so it was probably registered where the accident happened; Gertrud is recorded as widowed in 1973.[^findbuch-index-1968][^findbuch-death-1973] See the Weickert & Eifler page for the full story of the firm.",
+      "story": "Father of Christa Kohlmann and Sigrid Michaelis, and Thomas Kohlmann's maternal grandfather. Born 7 October 1892 in Sohland an der Spree; his marriage entry gives the place and cites his Sohland birth entry.[^anc-marriage-1926] A Weickert & Eifler saddlery and upholstery shop already existed in Bautzen in 1921, run by the master saddler Bruno Weickert at Löbauer Straße 10.[^anc-bautzen-1921] On 2 October 1926 Alwin, a \"Fabrikant\" living at Wendischer Graben 3 in Bautzen, married Gertrud Elise Becker at the Dresden V registry office (1926 Nr. 352). The witnesses were Ernst Eifler, a farmer of Sohland an der Spree Nr. 247, aged 61 (probably his father), and the bride's father.[^anc-marriage-1926] From 1928 he is listed as sole owner (Inhaber) of the Stahldrahtmatratzenfabrik Weickert & Eifler, with the factory at Gnaschwitz and his home and office at Neusalzaer Straße 38.[^slub-bautzen-1928] By 1935 the firm was at Martin-Mutschmann-Straße 19 (today Wilthener Straße 19), a house he owned by 1938.[^anc-bautzen-1935][^slub-bautzen-1938] The family chart says he died on 18 December 1968 of a basal skull fracture after a car accident, aged 76, and names his siblings as Max, Alfred and Martha.[^ahnentafel-2007] A note stamped on his 1926 marriage entry in Dresden on 6 November 1969 says he died on 18 December 1968 and that the death was registered at Zittau, about 30 km south east of Bautzen.[^anc-marriage-1926] That is why it is not in the Bautzen city register for 1968; Gertrud is recorded as widowed in 1973.[^findbuch-index-1968][^findbuch-death-1973] See the Weickert & Eifler page for the full story of the firm.",
       "residences": [
         {
           "place": "Bautzen",
@@ -384,6 +385,20 @@
           "caption": "Bautzen Adressbuch 1938, house owners: Martin-Mutschmann-Straße 19, owner Eifler, Alwin, Fabrikant. SLUB Dresden, public domain.",
           "alt": "Highlighted house register line from the 1938 Bautzen address book.",
           "sourceId": "slub-bautzen-1938"
+        },
+        {
+          "type": "document",
+          "file": "images/records/1926-dresden-marriage-352-eifler-becker.jpg",
+          "caption": "Dresden V marriage register 1926, Nr. 352: Ernst Alwin Eifler and Gertrud Elise Becker, 2 October 1926. Stadtarchiv der Landeshauptstadt Dresden, image via Ancestry.",
+          "alt": "Printed and typed German civil marriage entry number 352 of 1926 from Dresden, with a blue stamped note in the margin.",
+          "sourceId": "anc-marriage-1926"
+        },
+        {
+          "type": "document",
+          "file": "images/records/1926-dresden-marriage-352-margin-death-1968.jpg",
+          "caption": "Margin note on the same entry, Dresden, 6 November 1969: the husband died on 18 December 1968, Standesamt Zittau Nr. 1169/1968. Stadtarchiv der Landeshauptstadt Dresden, image via Ancestry.",
+          "alt": "Blue rubber-stamped and handwritten margin note dated 6 November 1969.",
+          "sourceId": "anc-marriage-1926"
         }
       ],
       "openQuestions": [
@@ -395,6 +410,9 @@
         },
         {
           "question": "When Bruno Weickert left the firm, and what happened to the firm after 1945."
+        },
+        {
+          "question": "What does his Zittau death entry (1968, Nr. 1169 as read) say about where and how he died?"
         }
       ],
       "relatedPages": [
@@ -553,6 +571,20 @@
           "caption": "Bautzen death register 1973, Nr. 1052: Gertrud Elise Eifler née Becker. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
           "alt": "Typed civil death entry number 1052 of 1973 from Bautzen, highlighted.",
           "sourceId": "findbuch-death-1973"
+        },
+        {
+          "type": "document",
+          "file": "images/records/1926-dresden-marriage-352-eifler-becker.jpg",
+          "caption": "Dresden V marriage register 1926, Nr. 352: Ernst Alwin Eifler and Gertrud Elise Becker, 2 October 1926. Stadtarchiv der Landeshauptstadt Dresden, image via Ancestry.",
+          "alt": "Printed and typed German civil marriage entry number 352 of 1926 from Dresden, with a blue stamped note in the margin.",
+          "sourceId": "anc-marriage-1926"
+        },
+        {
+          "type": "document",
+          "file": "images/records/1905-dresden-birth-165-gertrud-elise-becker.jpg",
+          "caption": "Dresden I birth register 1905, Nr. 165: Gertrud Elise Becker, born 22 January 1905, reported by her father Richard Hermann Becker. Stadtarchiv der Landeshauptstadt Dresden, image via Ancestry.",
+          "alt": "Handwritten German civil birth entry of 27 January 1905 from Dresden, with a margin note of her death in 1973.",
+          "sourceId": "anc-birth-1905"
         }
       ],
       "openQuestions": [],
@@ -2558,7 +2590,7 @@
       "disambiguator": "owner of the Kleindehsa inn from 1860",
       "cardPlace": "Kleindehsa",
       "summary": "Owner of the Kretscham at Kleindehsa from 1860; his widow held it in 1888.",
-      "story": "The village chronicle lists Ernst Kohlmann as the owner of the Kretscham from 1860, and his widow in 1888.[^lawalde-chronik-kleindehsa] The village chronicle gives only the year each owner took over; it does not say how they were related to one another, and no record yet links them to the Bautzen Kohlmanns.",
+      "story": "The village chronicle lists Ernst Kohlmann as the owner of the Kretscham from 1860, and his widow in 1888.[^lawalde-chronik-kleindehsa] The village chronicle gives only the year each owner took over; it does not say how they were related to one another, and no record yet links them to the Bautzen Kohlmanns. He may be the Karl Friedrich Ernst Kohlmann whom another researcher's tree names as the father of Maria Alwine Kohlmann, born at Kleindehsa in 1868; that is not proven.[^anc-tree-kirchhoff]",
       "relatedPages": [
         {
           "url": "research.html",
@@ -2687,6 +2719,234 @@
           "question": "Gustav's brother Ernst: could he be Ernst Alwin Kohlmann, the Bautzen butcher? Nothing links them yet."
         }
       ]
+    },
+    {
+      "id": "kd-karl-friedrich-ernst-kohlmann",
+      "sex": "M",
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [],
+      "children": [
+        "kd-maria-alwine-kohlmann"
+      ],
+      "spouses": [
+        {
+          "id": "kd-christiane-kriegel",
+          "order": 1,
+          "marriageDate": null,
+          "marriageDisplay": null,
+          "place": null,
+          "placeId": null,
+          "confidence": "unverified",
+          "sourceIds": [
+            "anc-tree-kirchhoff"
+          ]
+        }
+      ],
+      "nameVariants": [],
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": null,
+      "death": null,
+      "region": "kleindehsa",
+      "confidence": "unverified",
+      "cardPlace": "Kleindehsa",
+      "relatedPages": [
+        {
+          "url": "research.html",
+          "title": "Research"
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Is he the Ernst Kohlmann who owned the Kleindehsa inn from 1860? The Lawalde church books would show it."
+        },
+        {
+          "question": "Was the Bautzen butcher Ernst Alwin Kohlmann, born at Kötzschau in 1883, one of his children?"
+        }
+      ],
+      "displayName": "Karl Friedrich Ernst Kohlmann",
+      "givenNames": "Karl Friedrich Ernst",
+      "surname": "Kohlmann",
+      "generation": 2,
+      "disambiguator": "of Kleindehsa, father of Maria Alwine",
+      "summary": "Named in another researcher's tree as the father of Maria Alwine Kohlmann of Kleindehsa (born 1868). Possibly the innkeeper Ernst Kohlmann.",
+      "story": "Another researcher's Ancestry tree names Karl Friedrich Ernst Kohlmann and Christiane Elisabeth Kriegel (born 1848) as the parents of Maria Alwine Kohlmann, born at Kleindehsa in 1868.[^anc-tree-kirchhoff] He may be the Ernst Kohlmann who owned the village inn from 1860 and whose widow held it in 1888, but nothing proves they are the same man. If he is, he would have died before 1888."
+    },
+    {
+      "id": "kd-christiane-kriegel",
+      "sex": "F",
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [],
+      "children": [
+        "kd-maria-alwine-kohlmann"
+      ],
+      "spouses": [
+        {
+          "id": "kd-karl-friedrich-ernst-kohlmann",
+          "order": 1,
+          "marriageDate": null,
+          "marriageDisplay": null,
+          "place": null,
+          "placeId": null,
+          "confidence": "unverified",
+          "sourceIds": [
+            "anc-tree-kirchhoff"
+          ]
+        }
+      ],
+      "nameVariants": [],
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": {
+        "date": "1848",
+        "display": "1848",
+        "place": null,
+        "placeId": null,
+        "confidence": "unverified",
+        "sourceIds": [
+          "anc-tree-kirchhoff"
+        ]
+      },
+      "death": null,
+      "region": "kleindehsa",
+      "confidence": "unverified",
+      "cardPlace": "Kleindehsa",
+      "relatedPages": [
+        {
+          "url": "research.html",
+          "title": "Research"
+        }
+      ],
+      "openQuestions": [],
+      "displayName": "Christiane Elisabeth Kriegel",
+      "givenNames": "Christiane Elisabeth",
+      "surname": "Kriegel",
+      "generation": 2,
+      "disambiguator": "mother of Maria Alwine Kohlmann",
+      "summary": "Born 1848; named in another researcher's tree as the mother of Maria Alwine Kohlmann.",
+      "story": "Another researcher's Ancestry tree gives Christiane Elisabeth Kriegel, born in 1848, as the wife of Karl Friedrich Ernst Kohlmann and the mother of Maria Alwine Kohlmann.[^anc-tree-kirchhoff]"
+    },
+    {
+      "id": "kd-maria-alwine-kohlmann",
+      "sex": "F",
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [
+        "kd-karl-friedrich-ernst-kohlmann",
+        "kd-christiane-kriegel"
+      ],
+      "children": [],
+      "spouses": [],
+      "nameVariants": [
+        {
+          "name": "Maria Alwine Kirchhoff",
+          "note": "married name",
+          "sourceIds": [
+            "anc-tree-kirchhoff"
+          ]
+        }
+      ],
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": {
+        "date": "1868-05-23",
+        "display": "23 May 1868",
+        "place": "Kleindehsa",
+        "placeId": "kleindehsa",
+        "confidence": "unverified",
+        "sourceIds": [
+          "anc-tree-kirchhoff"
+        ]
+      },
+      "death": {
+        "date": "1900-03-30",
+        "display": "30 March 1900",
+        "place": "Kleindehsa",
+        "placeId": "kleindehsa",
+        "confidence": "unverified",
+        "sourceIds": [
+          "anc-tree-kirchhoff"
+        ]
+      },
+      "region": "kleindehsa",
+      "confidence": "unverified",
+      "cardPlace": "Kleindehsa",
+      "relatedPages": [
+        {
+          "url": "research.html",
+          "title": "Research"
+        }
+      ],
+      "openQuestions": [],
+      "displayName": "Maria Alwine Kohlmann",
+      "givenNames": "Maria Alwine",
+      "surname": "Kohlmann",
+      "generation": 3,
+      "disambiguator": "Kleindehsa, 1868 to 1900",
+      "summary": "Born and died at Kleindehsa (1868 to 1900); married Fritz Kirchhoff at Lawalde in 1891.",
+      "story": "Another researcher's Ancestry tree says Maria Alwine Kohlmann was born at Kleindehsa on 23 May 1868, married Fritz Wilhelm Otto Hermann Kirchhoff (1853 to 1937) at Lawalde on 6 July 1891, had a son, Ernst Otto Fritz Kirchhoff (1893 to 1962), born at Kleindehsa on 24 January 1893, and died at Kleindehsa on 30 March 1900, aged 31.[^anc-tree-kirchhoff] Her middle name, Alwine, and her father's name, Ernst, are the two names of the Bautzen butcher Ernst Alwin Kohlmann, born nearby in 1883. That could point to one family, but nothing links them yet."
+    },
+    {
+      "id": "kd-johanne-sophie-helene-kohlmann",
+      "sex": "F",
+      "isLiving": false,
+      "isDirectLine": false,
+      "parents": [],
+      "children": [],
+      "spouses": [],
+      "nameVariants": [
+        {
+          "name": "Johanne Sophie Helene Kutschke",
+          "note": "married name",
+          "sourceIds": [
+            "anc-tree-augsten"
+          ]
+        }
+      ],
+      "residences": [],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "birth": {
+        "date": null,
+        "display": "date not known",
+        "place": "Kleindehsa",
+        "placeId": "kleindehsa",
+        "confidence": "unverified",
+        "sourceIds": [
+          "anc-tree-augsten"
+        ]
+      },
+      "death": null,
+      "region": "kleindehsa",
+      "confidence": "unverified",
+      "cardPlace": "Kleindehsa",
+      "relatedPages": [
+        {
+          "url": "research.html",
+          "title": "Research"
+        }
+      ],
+      "openQuestions": [],
+      "displayName": "Johanne Sophie Helene Kohlmann",
+      "givenNames": "Johanne Sophie Helene",
+      "surname": "Kohlmann",
+      "generation": 2,
+      "disambiguator": "of Kleindehsa, married Kutschke at Cunnewalde",
+      "summary": "Born at Kleindehsa; married Johann Carl Traugott Kutschke and died at Cunnewalde. Her son was born there in 1857.",
+      "story": "Another researcher's Ancestry tree says Johanne Sophie Helene Kohlmann was born at Kleindehsa, married Johann Carl Traugott Kutschke and died at Cunnewalde, a village about 8 km to the west. Their son Karl Friedrich Ernst Kutschke was born at Cunnewalde on 31 July 1857.[^anc-tree-augsten] The boy shares all three given names with Karl Friedrich Ernst Kohlmann of Kleindehsa, which might mean he was named after an uncle, but the tree gives no dates for her and no parents."
     }
   ]
 }

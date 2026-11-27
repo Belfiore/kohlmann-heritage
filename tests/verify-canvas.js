@@ -67,6 +67,10 @@ const EXPECTED = {
     'kd-ernst-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
     'kd-reinhold-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
     'kd-gustav-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
+    'kd-karl-friedrich-ernst-kohlmann': { parents: [], spouses: ['kd-christiane-kriegel'], children: ['kd-maria-alwine-kohlmann'], region: 'kleindehsa' },
+    'kd-christiane-kriegel': { parents: [], spouses: ['kd-karl-friedrich-ernst-kohlmann'], children: ['kd-maria-alwine-kohlmann'], region: 'kleindehsa' },
+    'kd-maria-alwine-kohlmann': { parents: ['kd-karl-friedrich-ernst-kohlmann', 'kd-christiane-kriegel'], spouses: [], children: [], region: 'kleindehsa' },
+    'kd-johanne-sophie-helene-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
 };
 
 function serve() {
