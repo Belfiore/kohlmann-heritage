@@ -237,6 +237,29 @@
         "text": "Birth register Dresden I, 1905 Nr. 165 (Stadtarchiv Dresden, via Ancestry)",
         "url": "https://www.ancestry.com/imageviewer/collections/5405/images/5405_6425_0122091-00169?pId=24143873"
       }
+    },
+    {
+      "id": "becker-shop-1903",
+      "personIds": [
+        "richard-becker"
+      ],
+      "covers": [
+        "document:richard-becker:75c94aa03b",
+        "occupation:richard-becker:kaufmann-owner-of-a-grocery-and-drugstore-kolonialwaren-und-drogenhandlung:",
+        "residence:richard-becker:dresden-ziegelstrasse-2:1903-to-1905",
+        "residence:richard-becker:dresden-ziegelstrasse-2:1905"
+      ],
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "confidence": "confirmed",
+      "image": "images/records/1903-dresden-adressbuch-becker-richard-hermann-ziegelstr2.jpg",
+      "imageAlt": "Richard Becker's entry in the 1903 Dresden address book.",
+      "headline": "Richard Becker ran his own grocery and drugstore on the ground floor of Ziegelstraße 2 in Dresden by 1903, the house where his daughter Gertrud was born two years later.",
+      "source": {
+        "text": "Adreßbuch für Dresden und seine Vororte 1903 and 1905 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id32253180Z/153"
+      }
     }
   ]
 }

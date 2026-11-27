@@ -736,7 +736,7 @@
       "inHomeRegion": true,
       "country": "Germany",
       "status": "published",
-      "blurb": "Richard Becker's home when Gertrud was born. The old Ziegelstraße in the Pirnaische Vorstadt was destroyed in 1945; the circle is around today's street of that name.",
+      "blurb": "Richard Becker's shop and home: a grocery and drugstore on the ground floor in 1903 and 1905, and the house where Gertrud was born. The old Ziegelstraße in the Pirnaische Vorstadt was destroyed in 1945; the circle is around today's street of that name.",
       "events": [
         {
           "id": "pe-ziegel-born-gertrud",
@@ -770,21 +770,26 @@
           "personIds": [
             "richard-becker"
           ],
-          "date": "1905",
-          "dateStart": "1905-01-01",
+          "date": "1903",
+          "dateStart": "1903-01-01",
           "dateEnd": "1905-12-31",
           "datePrecision": "year",
           "approximate": false,
-          "summary": "Richard Hermann Becker: home, 1905",
+          "summary": "Richard Hermann Becker: grocery and drugstore, and home, 1903 to 1905",
           "confidence": "confirmed",
           "sourceIds": [
-            "anc-birth-1905"
+            "anc-birth-1905",
+            "slub-dresden-1903",
+            "slub-dresden-1905"
           ],
           "factRef": "richard-becker.residences[0]",
           "pages": [
             "research.html"
           ],
-          "recordCrops": [],
+          "recordCrops": [
+            "1903-dresden-adressbuch-becker-richard-hermann-ziegelstr2.jpg",
+            "1905-dresden-adressbuch-becker-richard-hermann-ziegelstr2.jpg"
+          ],
           "familyStatement": false
         }
       ],
@@ -799,7 +804,10 @@
       "historicMap": null,
       "streetView": null,
       "streetViewReason": "Not checked yet.",
-      "blurbSourceIds": [],
+      "blurbSourceIds": [
+        "slub-dresden-1903",
+        "slub-dresden-1905"
+      ],
       "historicName": "Ziegelstraße 2, Dresden",
       "coordinatePrecision": "street",
       "standsToday": "unknown"
