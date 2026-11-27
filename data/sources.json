@@ -67,16 +67,16 @@
       "title": "Marriage register, Standesamt Dresden V, 1926 Nr. 352: Ernst Alwin Eifler and Gertrud Elise Becker",
       "type": "civil register",
       "date": "1926-10-02",
-      "url": "https://www.ancestry.com/search/collections/9152/records/1523350944",
-      "note": "Ancestry, Saxony civil marriages (collection 9152), images 708 and 709. Subscription site; image not reproduced here."
+      "url": "https://www.ancestry.com/imageviewer/collections/9152/images/9152_6425_0532030-00708?pId=1523350944",
+      "note": "Ancestry, Dresden civil marriages (collection 9152), image 708 of 994, Stadtarchiv der Landeshauptstadt Dresden. Groom: Fabrikant Ernst Alwin Eifler, born 7 October 1892 at Sohland an der Spree (Sohland birth register Nr. 158), of Bautzen, Wendischer Graben 3. Bride: Gertrud Elise Becker, no occupation, born 22 January 1905 at Dresden (Dresden birth register Nr. 165), of Dresden, Rothermundtstraße 5. Margin stamp, Dresden, 6 November 1969: the husband died on 18 December 1968, Standesamt Zittau Nr. 1169/1968 (number as read). A crop of the page is shown on this site."
     },
     {
       "id": "anc-birth-1905",
       "title": "Birth register, Standesamt Dresden I, 1905 Nr. 165: Gertrud Elise Becker",
       "type": "civil register",
       "date": "1905-01-27",
-      "url": "https://www.ancestry.com/search/collections/5405/records/24143873",
-      "note": "Ancestry, Dresden births (collection 5405), image 169. Margin note: died 11.12.1973, Standesamt Bautzen Nr. 1052/1973."
+      "url": "https://www.ancestry.com/imageviewer/collections/5405/images/5405_6425_0122091-00169?pId=24143873",
+      "note": "Ancestry, Dresden births (collection 5405), image 169 of 2322, Stadtarchiv der Landeshauptstadt Dresden. Reported 27 January 1905 by the Kaufmann Richard Hermann Becker, of Dresden, Ziegelstraße 2, first floor, evangelical-Lutheran: his wife Elise Becker née Just, evangelical-Lutheran, gave birth to a girl, Gertrud Elise, at their home on 22 January 1905. Margin note: died 11.12.1973, Standesamt Bautzen Nr. 1052/1973 (the free Bautzen register confirms the number). A crop of the page is shown on this site."
     },
     {
       "id": "anc-death-1938",
@@ -452,6 +452,29 @@
       "type": "family testimony",
       "date": "2026-11-26",
       "note": "Thomas Kohlmann's father is Herbert Kohlmann, called Herbert Coleman in English; his mother is Christa (Krista) née Eifler, daughter of Alwin and Gertrud Eifler. Earlier versions of the site gave Thomas's father the wrong first name, a mix-up with Christa's father Alwin Eifler."
+    },
+    {
+      "id": "family-testimony-2026-11-27",
+      "title": "Family testimony, 27 November 2026, given by the family",
+      "type": "family testimony",
+      "date": "2026-11-27",
+      "note": "Felix Kohlmann is the son of Matthias Kohlmann, Thomas's brother."
+    },
+    {
+      "id": "anc-tree-kirchhoff",
+      "title": "Ancestry member tree \"Kirchhoff Family\": Maria Alwine Kohlmann (1868 to 1900)",
+      "type": "family tree (other researcher)",
+      "date": "2026-11-27",
+      "url": "https://www.ancestry.com/family-tree/person/tree/14740947/person/155155826/facts",
+      "note": "A family tree made by another Ancestry member, with no sources attached. Read 27 November 2026. A lead, not a record."
+    },
+    {
+      "id": "anc-tree-augsten",
+      "title": "Ancestry member tree \"Augsten-Familienstammbaum\": Johanne Sophie Helene Kohlmann",
+      "type": "family tree (other researcher)",
+      "date": "2026-11-27",
+      "url": "https://www.ancestry.com/family-tree/person/tree/77731004/person/102310353245/facts",
+      "note": "A family tree made by another Ancestry member, with no sources attached. Read 27 November 2026. A lead, not a record."
     }
   ]
 }

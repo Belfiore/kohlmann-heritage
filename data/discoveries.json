@@ -28,7 +28,9 @@
       "foundBy": "Stuart",
       "confidence": "probable",
       "headline": "The firm Weickert & Eifler had the wartime company number 0/0156/5156, stamped on its 1943 invoice. What it supplied is not yet known.",
-      "source": "Weickert & Eifler invoice, 9 April 1943, and a collectors' register of Reichs-Betriebs-Nummern"
+      "source": "Weickert & Eifler invoice, 9 April 1943, and a collectors' register of Reichs-Betriebs-Nummern",
+      "image": "images/records/1943-invoice-reichs-betriebs-nr-zoom.jpg",
+      "imageAlt": "The stamped company number on the Weickert and Eifler invoice of 9 April 1943."
     },
     {
       "id": "eifler-siblings",
@@ -61,7 +63,9 @@
       "foundBy": "Stuart",
       "confidence": "probable",
       "headline": "Ernst Eifler, a farmer at Sohland, was probably the father of Alwin, Max, Alfred and Martha Eifler. A birth entry would prove it.",
-      "source": "Marriage register, Standesamt Dresden V, 1926 Nr. 352, and the 2007 family chart"
+      "source": "Marriage register, Standesamt Dresden V, 1926 Nr. 352, and the 2007 family chart",
+      "image": "images/records/1926-dresden-marriage-352-eifler-becker.jpg",
+      "imageAlt": "Alwin Eifler and Gertrud Becker's 1926 marriage entry, Dresden V Nr. 352."
     },
     {
       "id": "marie-becker",
@@ -113,6 +117,126 @@
       "headline": "Christa Eifler's husband, married at Bautzen in 1952, was Herbert Kohlmann, called Herbert Coleman in English. The name Alvin belonged to Christa's father, Alwin Eifler.",
       "changeNote": "The site had given Christa's husband the first name Alvin.",
       "source": "Family correction, 26 November 2026, given by the family"
+    },
+    {
+      "id": "another-grandchild-2026-11-27",
+      "covers": [
+        "source:family-testimony-2026-11-27"
+      ],
+      "found": "2026-11-27",
+      "findType": "person",
+      "foundBy": "Sebastian",
+      "confidence": "family tradition",
+      "headline": "The family named another grandchild of Herbert and Christa Kohlmann, a son of one of their two sons. He is on the tree.",
+      "source": "Family testimony, 27 November 2026, given by the family"
+    },
+    {
+      "id": "alwin-death-zittau",
+      "personIds": [
+        "ernst-alwin"
+      ],
+      "covers": [
+        "death:ernst-alwin",
+        "place:zittau"
+      ],
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "confidence": "confirmed",
+      "headline": "A 1969 note on Alwin Eifler's marriage entry shows that his death on 18 December 1968 was registered at Zittau, which is why Bautzen has no record of it.",
+      "source": {
+        "text": "Marriage register Dresden V, 1926 Nr. 352, margin note (Ancestry)",
+        "url": "https://www.ancestry.com/imageviewer/collections/9152/images/9152_6425_0532030-00708?pId=1523350944"
+      },
+      "image": "images/records/1926-dresden-marriage-352-margin-death-1968.jpg",
+      "imageAlt": "The 1969 margin note on Alwin and Gertrud Eifler's 1926 marriage entry, recording his death at Zittau."
+    },
+    {
+      "id": "kleindehsa-member-trees",
+      "personIds": [
+        "kd-maria-alwine-kohlmann",
+        "kd-karl-friedrich-ernst-kohlmann",
+        "kd-christiane-kriegel"
+      ],
+      "covers": [
+        "person:kd-maria-alwine-kohlmann",
+        "person:kd-karl-friedrich-ernst-kohlmann",
+        "person:kd-christiane-kriegel",
+        "source:anc-tree-kirchhoff",
+        "birth:kd-maria-alwine-kohlmann",
+        "death:kd-maria-alwine-kohlmann",
+        "birth:kd-christiane-kriegel",
+        "spouse:kd-karl-friedrich-ernst-kohlmann:kd-christiane-kriegel",
+        "spouse:kd-christiane-kriegel:kd-karl-friedrich-ernst-kohlmann"
+      ],
+      "found": "2026-11-27",
+      "findType": "person",
+      "foundBy": "Stuart",
+      "confidence": "unverified",
+      "headline": "Another researcher's tree names more Kohlmanns of Kleindehsa: Maria Alwine (1868 to 1900) and her parents Karl Friedrich Ernst Kohlmann and Christiane Kriegel. Her father may be the innkeeper Ernst Kohlmann. No link to this family is proven.",
+      "source": "Ancestry member tree \"Kirchhoff Family\""
+    },
+    {
+      "id": "kleindehsa-kutschke-tree",
+      "personIds": [
+        "kd-johanne-sophie-helene-kohlmann"
+      ],
+      "covers": [
+        "person:kd-johanne-sophie-helene-kohlmann",
+        "birth:kd-johanne-sophie-helene-kohlmann",
+        "source:anc-tree-augsten"
+      ],
+      "found": "2026-11-27",
+      "findType": "person",
+      "foundBy": "Stuart",
+      "confidence": "unverified",
+      "headline": "A second researcher's tree has Johanne Sophie Helene Kohlmann of Kleindehsa, who married at Cunnewalde and named her son, born in 1857, Karl Friedrich Ernst. No link to this family is proven.",
+      "source": "Ancestry member tree \"Augsten-Familienstammbaum\""
+    },
+    {
+      "id": "marriage-1926-record",
+      "personIds": [
+        "ernst-alwin",
+        "gertrud-becker"
+      ],
+      "covers": [
+        "document:ernst-alwin:33d8117222",
+        "document:ernst-alwin:d4417d539e"
+      ],
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "confidence": "confirmed",
+      "image": "images/records/1926-dresden-marriage-352-eifler-becker.jpg",
+      "imageAlt": "Alwin Eifler and Gertrud Becker's 1926 marriage entry, Dresden V Nr. 352.",
+      "headline": "The original entry for Alwin Eifler and Gertrud Becker's wedding in Dresden on 2 October 1926: he was a manufacturer of Wendischer Graben 3, Bautzen, born at Sohland an der Spree; she was 21, of Rothermundtstraße 5.",
+      "source": {
+        "text": "Marriage register Dresden V, 1926 Nr. 352 (Stadtarchiv Dresden, via Ancestry)",
+        "url": "https://www.ancestry.com/imageviewer/collections/9152/images/9152_6425_0532030-00708?pId=1523350944"
+      }
+    },
+    {
+      "id": "birth-1905-record",
+      "personIds": [
+        "gertrud-becker",
+        "richard-becker",
+        "elise-just"
+      ],
+      "covers": [
+        "document:gertrud-becker:afe5e2453c",
+        "document:gertrud-becker:33d8117222"
+      ],
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "confidence": "confirmed",
+      "image": "images/records/1905-dresden-birth-165-gertrud-elise-becker.jpg",
+      "imageAlt": "Gertrud Elise Becker's 1905 birth entry, Dresden I Nr. 165.",
+      "headline": "Gertrud Becker's birth entry: born at home, Ziegelstraße 2 in Dresden, on 22 January 1905; her father, the merchant Richard Hermann Becker, reported it five days later and signed it.",
+      "source": {
+        "text": "Birth register Dresden I, 1905 Nr. 165 (Stadtarchiv Dresden, via Ancestry)",
+        "url": "https://www.ancestry.com/imageviewer/collections/5405/images/5405_6425_0122091-00169?pId=24143873"
+      }
     }
   ]
 }

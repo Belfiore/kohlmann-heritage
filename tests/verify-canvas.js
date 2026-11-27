@@ -36,7 +36,8 @@ const EXPECTED = {
     'rita-father': { parents: [], spouses: ['rita-mother'], partner: true, children: ['rita', 'heide', 'annette'], side: 'right' },
     'rita-mother': { parents: [], spouses: ['rita-father'], partner: true, children: ['rita', 'heide', 'annette'], side: 'right' },
     'thomas': { parents: ['alvin', 'christa'], spouses: ['rita'], children: ['valeria', 'elisa'], side: 'left' },
-    'matthias': { parents: ['alvin', 'christa'], spouses: [], children: [], side: 'left' },
+    'matthias': { parents: ['alvin', 'christa'], spouses: [], children: ['felix-kohlmann'], side: 'left' },
+    'felix-kohlmann': { parents: ['matthias'], spouses: [], children: [], side: 'left' },
     'sabine': { parents: ['alvin', 'christa'], spouses: [], children: [], side: 'left' },
     'rita': { parents: ['rita-father', 'rita-mother'], spouses: ['thomas'], children: ['valeria', 'elisa'], side: 'right' },
     'heide': { parents: ['rita-father', 'rita-mother'], spouses: [], children: [], side: 'right' },
@@ -66,6 +67,10 @@ const EXPECTED = {
     'kd-ernst-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
     'kd-reinhold-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
     'kd-gustav-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
+    'kd-karl-friedrich-ernst-kohlmann': { parents: [], spouses: ['kd-christiane-kriegel'], children: ['kd-maria-alwine-kohlmann'], region: 'kleindehsa' },
+    'kd-christiane-kriegel': { parents: [], spouses: ['kd-karl-friedrich-ernst-kohlmann'], children: ['kd-maria-alwine-kohlmann'], region: 'kleindehsa' },
+    'kd-maria-alwine-kohlmann': { parents: ['kd-karl-friedrich-ernst-kohlmann', 'kd-christiane-kriegel'], spouses: [], children: [], region: 'kleindehsa' },
+    'kd-johanne-sophie-helene-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
 };
 
 function serve() {
