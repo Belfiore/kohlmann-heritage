@@ -64,16 +64,18 @@
       },
       "cardPlace": "Herzberg and Dresden",
       "summary": "Father of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandfather.",
-      "story": "Father of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandfather. Kaufmann (merchant). Born 5 January 1875 in Herzberg, Kreis Schweinitz (Herzberg on the Black Elster), and died at home, Rothermundtstraße 5, Dresden, on 9 January 1938, aged 63, according to his civil death entry (Dresden V 1938 Nr. 52).[^anc-death-1938] The 2007 family chart has the two days the other way round (born 9 January, died 5 January); the record is preferred. The chart gives pneumonia as the cause.[^ahnentafel-2007] In 1905 he lived at Ziegelstraße 2 in Dresden, where Gertrud was born and where he reported her birth himself.[^anc-birth-1905] By 1926 the family lived at Rothermundtstraße 5 in Striesen, where he kept an ironmonger's shop on the ground floor (\"Becker, R., Eisenwhdlg.\").[^slub-dresden-1938] He was a witness at Gertrud's wedding to Alwin Eifler on 2 October 1926, aged 51.[^anc-marriage-1926] He was cremated at the Dresden crematorium in January 1938, certificate 60603.[^anc-cremation-1938] The chart records two sisters; a handwritten note names one as Marie (married surname perhaps Wettlitz) of Rothermundtstraße 5.",
+      "story": "Father of Gertrud Elise Becker (Christa's mother), so Thomas Kohlmann's maternal great-grandfather. Kaufmann (merchant). Born 5 January 1875 in Herzberg, Kreis Schweinitz (Herzberg on the Black Elster), and died at home, Rothermundtstraße 5, Dresden, on 9 January 1938, aged 63, according to his civil death entry (Dresden V 1938 Nr. 52).[^anc-death-1938] The 2007 family chart has the two days the other way round (born 9 January, died 5 January); the record is preferred. The chart gives pneumonia as the cause.[^ahnentafel-2007] By 1903 he had his own shop: the Dresden address books of 1903 and 1905 list him as a merchant and owner of a grocery and drugstore (Kolonialwaren- und Drogenhandlung) on the ground floor of Ziegelstraße 2.[^slub-dresden-1903][^slub-dresden-1905] The family lived in the same house, and Gertrud was born there in January 1905; he reported her birth himself.[^anc-birth-1905] By 1926 the family lived at Rothermundtstraße 5 in Striesen, where he kept an ironmonger's shop on the ground floor (\"Becker, R., Eisenwhdlg.\").[^slub-dresden-1938] He was a witness at Gertrud's wedding to Alwin Eifler on 2 October 1926, aged 51.[^anc-marriage-1926] He was cremated at the Dresden crematorium in January 1938, certificate 60603.[^anc-cremation-1938] The chart records two sisters; a handwritten note names one as Marie (married surname perhaps Wettlitz) of Rothermundtstraße 5.",
       "residences": [
         {
           "place": "Dresden",
           "placeId": "dresden-ziegelstrasse-2",
           "address": "Ziegelstraße 2, I",
-          "years": "1905",
+          "years": "1903 to 1905",
           "confidence": "confirmed",
           "sourceIds": [
-            "anc-birth-1905"
+            "anc-birth-1905",
+            "slub-dresden-1903",
+            "slub-dresden-1905"
           ]
         },
         {
@@ -91,6 +93,17 @@
       ],
       "occupations": [
         {
+          "title": "Kaufmann, owner of a grocery and drugstore (Kolonialwaren- und Drogenhandlung)",
+          "place": "Dresden",
+          "placeId": "dresden-ziegelstrasse-2",
+          "years": "1903 to 1905",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "slub-dresden-1903",
+            "slub-dresden-1905"
+          ]
+        },
+        {
           "title": "Kaufmann (merchant), ironmonger",
           "place": "Dresden",
           "placeId": "dresden-rothermundtstrasse-5",
@@ -103,7 +116,15 @@
       ],
       "timeline": [],
       "facts": [],
-      "media": [],
+      "media": [
+        {
+          "type": "document",
+          "file": "images/records/1903-dresden-adressbuch-becker-richard-hermann-ziegelstr2.jpg",
+          "caption": "Dresden address book 1903: Becker, Richard Herm., Kfm., owner of a grocery and drugstore, Ziegelstraße 2, ground floor. The 1905 book has the same entry. SLUB Dresden, public domain.",
+          "alt": "One printed entry from the 1903 Dresden address book in Gothic type.",
+          "sourceId": "slub-dresden-1903"
+        }
+      ],
       "openQuestions": [
         {
           "question": "Where his urn was buried (the crematorium register may say Striesener Friedhof)."
