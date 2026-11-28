@@ -260,6 +260,302 @@
         "text": "Adreßbuch für Dresden und seine Vororte 1903 and 1905 (SLUB Dresden)",
         "url": "https://digital.slub-dresden.de/id32253180Z/153"
       }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "eifler-baptisms-sohland",
+      "personIds": [
+        "ernst-alwin",
+        "ernst-eifler-sr",
+        "johanna-kahden",
+        "martha-eifler"
+      ],
+      "covers": [
+        "person:johanna-kahden",
+        "birth:martha-eifler",
+        "death:martha-eifler"
+      ],
+      "confidence": "confirmed",
+      "headline": "The Sohland church book names Alwin Eifler's parents: Ernst Gustav Eifler, a baker, and Johanna Christiane née Kahden. His sister Martha was born in the same house in 1890 and died in 1932.",
+      "source": {
+        "text": "Kirchgemeinde Sohland/Spree, church books 1890 Nr. 18 and 1892 Nr. 154 (extract sent to the family, 27 November 2026)"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "weickert-eifler-register-1922",
+      "personIds": [
+        "ernst-alwin",
+        "bruno-weickert"
+      ],
+      "confidence": "confirmed",
+      "image": "images/records/1922-12-15-bautzener-nachrichten-hr885-weickert-eifler.jpg",
+      "imageAlt": "The commercial register notice of December 1922 for Weickert & Eifler.",
+      "headline": "Weickert & Eifler was founded as a partnership on 11 October 1922 by the master saddler Bruno Weickert and the merchant Alwin Eifler, at An den Fleischbänken 7 in Bautzen.",
+      "source": {
+        "text": "Bautzener Nachrichten, 15 December 1922, p. 5 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id1887328319-19221215/5"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "weickert-leaves-1923",
+      "personIds": [
+        "ernst-alwin",
+        "bruno-weickert"
+      ],
+      "confidence": "confirmed",
+      "image": "images/records/1923-01-26-bautzener-nachrichten-hr885-weickert-ausgeschieden.jpg",
+      "imageAlt": "The commercial register notice of January 1923.",
+      "headline": "Only three months later, in January 1923, Bruno Weickert left the firm, and Alwin Eifler carried on alone under the old name.",
+      "source": {
+        "text": "Bautzener Nachrichten, 26 January 1923, p. 5 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id1887328319-19230126/5"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "industriehof-1922",
+      "personIds": [
+        "ernst-alwin"
+      ],
+      "confidence": "confirmed",
+      "image": "images/records/1922-06-26-bautzener-nachrichten-ausstellung-weickert-eifler.jpg",
+      "imageAlt": "Newspaper report listing Weickert und Eifler's steel-wire mattresses at the Industriehof exhibition.",
+      "headline": "In June 1922 Weickert & Eifler's steel-wire mattresses were on show at the opening of the Industriehof Gnaschwitz, a munitions works being turned over to peacetime trades.",
+      "source": {
+        "text": "Bautzener Nachrichten, 26 June 1922, p. 3 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id1887328319-19220626/3"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "export-ads-1923",
+      "personIds": [
+        "ernst-alwin"
+      ],
+      "confidence": "confirmed",
+      "headline": "In the hyperinflation autumn of 1923 the firm advertised in a Munich export weekly: \"Export to all countries! Agents abroad wanted.\"",
+      "source": {
+        "text": "\"Ost und Süd\", 8 September to 15 December 1923 (Deutsches Zeitungsportal)",
+        "url": "https://www.deutsche-digitale-bibliothek.de/newspaper"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "weickert-master-1920",
+      "personIds": [
+        "bruno-weickert"
+      ],
+      "confidence": "confirmed",
+      "image": "images/records/1920-04-23-bautzener-nachrichten-meisterpruefung-bruno-weickert.jpg",
+      "imageAlt": "News item on the master saddlers' examination of April 1920.",
+      "headline": "Bruno Weickert passed his master saddler's examination on 21 April 1920, back from the war like all five candidates.",
+      "source": {
+        "text": "Bautzener Nachrichten, 23 April 1920, p. 5 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id1887328319-19200423/5"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "kohlmann-daughter-1914",
+      "personIds": [
+        "alwin-kohlmann-butcher"
+      ],
+      "confidence": "probable",
+      "image": "images/records/1914-12-30-bautzener-nachrichten-taufe-ernestine-marianne-kohlmann.jpg",
+      "imageAlt": "Baptism entry for Ernestine Marianne Kohlmann, December 1914.",
+      "headline": "Alwin Kohlmann, then a journeyman butcher in Bautzen, had a daughter on 19 November 1914, baptised Ernestine Marianne.",
+      "source": {
+        "text": "Bautzener Nachrichten, 28 November and 30 December 1914 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id1887328319-19141230/5"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "hermann-kohlmann-pow-1919",
+      "personIds": [
+        "kd-hermann-kohlmann"
+      ],
+      "covers": [
+        "person:kd-hermann-kohlmann"
+      ],
+      "confidence": "confirmed",
+      "image": "images/records/vl-28656-kohlmann-hermann-1897-kleindehsa-vermisst.jpg",
+      "imageAlt": "Casualty list line for Hermann Kohlmann of Kleindehsa.",
+      "headline": "Hermann Kohlmann of Kleindehsa, born 1897, was reported missing with Infantry Regiment 107 and later found to be a prisoner of war.",
+      "source": {
+        "text": "Verlustliste Sachsen Nr. 568 and 609, 1919 (des.genealogy.net)",
+        "url": "https://des.genealogy.net/search/show/4700440"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "kretscham-1856",
+      "personIds": [
+        "kd-johann-traugott-kohlmann"
+      ],
+      "confidence": "confirmed",
+      "image": "images/records/1856-02-26-dresdner-journal-fleischer-schenkwirth-kohlmann-kleindehsa.jpg",
+      "imageAlt": "Dresdner Journal item of 1856 about J. T. Kohlmann.",
+      "headline": "In 1856 Johann Traugott Kohlmann was both butcher and innkeeper at Kleindehsa, and thieves kept stealing the hides drying in his slaughterhouse loft.",
+      "source": {
+        "text": "Dresdner Journal, 26 February 1856, p. 3 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id480674442-18560226/3"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "kretscham-owner-1874",
+      "personIds": [
+        "kd-karl-friedrich-ernst-kohlmann",
+        "kd-ernst-kohlmann"
+      ],
+      "confidence": "probable",
+      "image": "images/records/1874-12-05-bautzener-nachrichten-kretschamsbesitzer-karl-friedrich-ernst-kohlmann.jpg",
+      "imageAlt": "Newspaper line naming the Kretscham owner Karl Friedrich Ernst Kohlmann.",
+      "headline": "Karl Friedrich Ernst Kohlmann owned the Kleindehsa Kretscham in 1874, so he was very probably the innkeeper Ernst of the village chronicle.",
+      "source": {
+        "text": "Bautzener Nachrichten, 5 December 1874 and 14 March 1885 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id1887328319-18741205/2"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "kretscham-sale-1889",
+      "personIds": [
+        "kd-christiane-kriegel"
+      ],
+      "confidence": "confirmed",
+      "image": "images/records/1889-04-15-bautzener-nachrichten-versteigerung-kretscham-kleindehsa.jpg",
+      "imageAlt": "Court notice of the 1889 sale of the Kretscham.",
+      "headline": "In April 1889 the court auctioned the Kretscham, almost 8 hectares with the inn, from the estate of Christiane Elisabeth Kohlmann née Kriegel.",
+      "source": {
+        "text": "Bautzener Nachrichten, 15 April 1889, p. 1 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id1887328319-18890415/1"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "reinhold-1913",
+      "personIds": [
+        "kd-reinhold-kohlmann"
+      ],
+      "confidence": "confirmed",
+      "image": "images/records/1913-04-24-bautzener-nachrichten-unfall-sohn-reinhold-kohlmann-kleindehsa.jpg",
+      "imageAlt": "Local news item of April 1913 about Reinhold Kohlmann's son.",
+      "headline": "Reinhold Kohlmann of Kleindehsa was a master butcher and cattle dealer; in 1913 his eldest son, 19, fractured his skull when his cart overturned on a steep hill.",
+      "source": {
+        "text": "Bautzener Nachrichten, 24 April 1913, p. 4 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id1887328319-19130424/4"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "reinhold-master-1925",
+      "personIds": [
+        "kd-reinhold-kohlmann"
+      ],
+      "confidence": "probable",
+      "image": "images/records/1925-11-12-bautzener-nachrichten-meisterpruefung-reinhold-kohlmann.jpg",
+      "imageAlt": "List of new master butchers, November 1925.",
+      "headline": "A younger Reinhold Kohlmann of Kleindehsa, probably the son, passed the master butcher's examination in 1925.",
+      "source": {
+        "text": "Bautzener Nachrichten, 12 November 1925, p. 5 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id1887328319-19251112/5"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "kohlmanns-gasthof-1931",
+      "personIds": [
+        "kd-reinhold-kohlmann"
+      ],
+      "confidence": "confirmed",
+      "image": "images/records/1931-07-04-bautzener-nachrichten-gasthaus-kohlmann-kleindehsa-1931.jpg",
+      "imageAlt": "Court report of 1931 naming the Gasthaus von Kohlmann.",
+      "headline": "In the 1920s and 1930s the inn was known as Kohlmanns Gasthof; a court report of 1931 names it as the place where a political training course ate supper.",
+      "source": {
+        "text": "Bautzener Nachrichten, 4 July 1931, p. 2 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id1887328319-19310704/2"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "kohlmann-court-files-1807",
+      "personIds": [
+        "kd-gottfried-kohlmann"
+      ],
+      "confidence": "confirmed",
+      "headline": "The oldest Kohlmann papers found so far: two court files in the Saxon State Archives, a Christian Kohlmann of Kötzschau in 1807 and Gottfried Kohlmann of Kleindehsa in 1824, both quarrelling over village duties.",
+      "source": {
+        "text": "Sächsisches Staatsarchiv, 50151 Gutsherrschaft Kleindehsa Nr. 11 and 50009 Oberamtsregierung Nr. 2887",
+        "url": "http://www.archiv.sachsen.de/archiv/bestand.jsp?guid=53a8cd9e-2e3d-4735-aec5-25e00aab48d7"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "jurack-ww1",
+      "personIds": [
+        "marie-ida-jurack"
+      ],
+      "confidence": "unverified",
+      "image": "images/records/vl-09108-jurack-ernst-briesing-gefallen.jpg",
+      "imageAlt": "Casualty list line for Ernst Jurack of Briesing.",
+      "headline": "Two Jurack men from Briesing, Marie Ida's home village, appear in the First World War casualty lists: Ernst, killed in 1915, and Gustav, a prisoner who came home. A family link is not proven.",
+      "source": {
+        "text": "Verlustliste Sachsen Nr. 200, 1915, and later lists (des.genealogy.net)",
+        "url": "https://des.genealogy.net/search/show/2587534"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "woltmann-ww1",
+      "personIds": [
+        "max-woltmann"
+      ],
+      "confidence": "unverified",
+      "image": "images/records/vl-01063-woltmann-max-mittweida-verwundet.jpg",
+      "imageAlt": "Casualty list line for Sergeant Max Woltmann of Mittweida.",
+      "headline": "A Sergeant Max Woltmann of Mittweida, near Döbeln, was wounded in 1914. He may be the Döbeln tax official, but that is not proven.",
+      "source": {
+        "text": "Verlustliste Sachsen Nr. 25, 9 October 1914 (des.genealogy.net)",
+        "url": "https://des.genealogy.net/search/show/173237"
+      }
     }
   ]
 }

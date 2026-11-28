@@ -268,7 +268,8 @@
         }
       ],
       "parents": [
-        "ernst-eifler-sr"
+        "ernst-eifler-sr",
+        "johanna-kahden"
       ],
       "children": [
         "sigrid",
@@ -292,10 +293,11 @@
       "birth": {
         "date": "1892-10-07",
         "display": "7 October 1892",
-        "place": "Sohland an der Spree",
+        "place": "Äußerst Mittelsohland Nr. 250, Sohland an der Spree",
         "placeId": "sohland",
         "confidence": "confirmed",
         "sourceIds": [
+          "sohland-kb-1892",
           "anc-marriage-1926",
           "ahnentafel-2007"
         ]
@@ -315,7 +317,7 @@
       },
       "cardPlace": "Bautzen",
       "summary": "Father of Christa Kohlmann and Sigrid Michaelis.",
-      "story": "Father of Christa Kohlmann and Sigrid Michaelis, and Thomas Kohlmann's maternal grandfather. Born 7 October 1892 in Sohland an der Spree; his marriage entry gives the place and cites his Sohland birth entry.[^anc-marriage-1926] A Weickert & Eifler saddlery and upholstery shop already existed in Bautzen in 1921, run by the master saddler Bruno Weickert at Löbauer Straße 10.[^anc-bautzen-1921] On 2 October 1926 Alwin, a \"Fabrikant\" living at Wendischer Graben 3 in Bautzen, married Gertrud Elise Becker at the Dresden V registry office (1926 Nr. 352). The witnesses were Ernst Eifler, a farmer of Sohland an der Spree Nr. 247, aged 61 (probably his father), and the bride's father.[^anc-marriage-1926] From 1928 he is listed as sole owner (Inhaber) of the Stahldrahtmatratzenfabrik Weickert & Eifler, with the factory at Gnaschwitz and his home and office at Neusalzaer Straße 38.[^slub-bautzen-1928] By 1935 the firm was at Martin-Mutschmann-Straße 19 (today Wilthener Straße 19), a house he owned by 1938.[^anc-bautzen-1935][^slub-bautzen-1938] The family chart says he died on 18 December 1968 of a basal skull fracture after a car accident, aged 76, and names his siblings as Max, Alfred and Martha.[^ahnentafel-2007] A note stamped on his 1926 marriage entry in Dresden on 6 November 1969 says he died on 18 December 1968 and that the death was registered at Zittau, about 30 km south east of Bautzen.[^anc-marriage-1926] That is why it is not in the Bautzen city register for 1968; Gertrud is recorded as widowed in 1973.[^findbuch-index-1968][^findbuch-death-1973] See the Weickert & Eifler page for the full story of the firm.",
+      "story": "Father of Christa Kohlmann and Sigrid Michaelis, and Thomas Kohlmann's maternal grandfather. Born on 7 October 1892 at half past three in the afternoon in the house Äußerst Mittelsohland Nr. 250, Sohland an der Spree, and baptised there on 16 October. He was the second child and first son of Ernst Gustav Eifler, a baker, and Johanna Christiane née Kahden.[^sohland-kb-1892] His marriage entry gives the same place.[^anc-marriage-1926] A Weickert & Eifler saddlery and upholstery shop already existed in Bautzen in 1921, run by the master saddler Bruno Weickert at Löbauer Straße 10.[^anc-bautzen-1921] In June 1922 the firm's steel-wire mattresses were on show at the opening of the Industriehof Gnaschwitz, a former munitions works south of Bautzen.[^bn-1922-06-26-industriehof] On 11 October 1922 Alwin, a <em>Kaufmann</em> (merchant), and Bruno Weickert founded the Stahldrahtmatratzenfabrik Weickert & Eifler as a partnership, entered in the Bautzen commercial register as Blatt 885, with premises at An den Fleischbänken 7.[^bn-1922-12-15-hr885] Three months later the partnership was dissolved: Bruno left, and from January 1923 Alwin carried on the business alone under the old name.[^bn-1923-01-26-hr885] That autumn the firm advertised abroad: \"Oberlausitzer Stahldraht-Matratzen-Fabrik Weickert & Eifler, Bautzen. Export nach allen Ländern! Auslandsvertreter gesucht.\"[^ost-und-sued-1923] On 2 October 1926 Alwin, a \"Fabrikant\" living at Wendischer Graben 3 in Bautzen, married Gertrud Elise Becker at the Dresden V registry office (1926 Nr. 352). The witnesses were Ernst Eifler, a farmer of Sohland an der Spree Nr. 247, aged 61 (probably his father), and the bride's father.[^anc-marriage-1926] From 1928 he is listed as sole owner (Inhaber) of the Stahldrahtmatratzenfabrik Weickert & Eifler, with the factory at Gnaschwitz and his home and office at Neusalzaer Straße 38.[^slub-bautzen-1928] By 1935 the firm was at Martin-Mutschmann-Straße 19 (today Wilthener Straße 19), a house he owned by 1938.[^anc-bautzen-1935][^slub-bautzen-1938] The family chart says he died on 18 December 1968 of a basal skull fracture after a car accident, aged 76, and names his siblings as Max, Alfred and Martha.[^ahnentafel-2007] A note stamped on his 1926 marriage entry in Dresden on 6 November 1969 says he died on 18 December 1968 and that the death was registered at Zittau, about 30 km south east of Bautzen.[^anc-marriage-1926] That is why it is not in the Bautzen city register for 1968; Gertrud is recorded as widowed in 1973.[^findbuch-index-1968][^findbuch-death-1973] See the Weickert & Eifler page for the full story of the firm.",
       "residences": [
         {
           "place": "Bautzen",
@@ -420,6 +422,20 @@
           "caption": "Margin note on the same entry, Dresden, 6 November 1969: the husband died on 18 December 1968, Standesamt Zittau Nr. 1169/1968. Stadtarchiv der Landeshauptstadt Dresden, image via Ancestry.",
           "alt": "Blue rubber-stamped and handwritten margin note dated 6 November 1969.",
           "sourceId": "anc-marriage-1926"
+        },
+        {
+          "type": "document",
+          "file": "images/records/1922-12-15-bautzener-nachrichten-hr885-weickert-eifler.jpg",
+          "caption": "Bautzener Nachrichten, 15 December 1922: Weickert & Eifler entered in the commercial register, founded 11 October 1922, partners Bruno Weickert and Alwin Eifler. SLUB Dresden.",
+          "alt": "Highlighted notice in Gothic type from the commercial register column.",
+          "sourceId": "bn-1922-12-15-hr885"
+        },
+        {
+          "type": "document",
+          "file": "images/records/1923-01-26-bautzener-nachrichten-hr885-weickert-ausgeschieden.jpg",
+          "caption": "Bautzener Nachrichten, 26 January 1923: the partnership is dissolved, Bruno Weickert leaves, Alwin Eifler carries on alone. SLUB Dresden.",
+          "alt": "Highlighted register notice of January 1923.",
+          "sourceId": "bn-1923-01-26-hr885"
         }
       ],
       "openQuestions": [
@@ -427,13 +443,10 @@
           "question": "Where and on what date his death was registered (December 1968)."
         },
         {
-          "question": "His parents (Sohland birth entry 1892, about Nr. 158)."
-        },
-        {
-          "question": "When Bruno Weickert left the firm, and what happened to the firm after 1945."
-        },
-        {
           "question": "What does his Zittau death entry (1968, Nr. 1169 as read) say about where and how he died?"
+        },
+        {
+          "question": "What happened to the firm after 1945?"
         }
       ],
       "relatedPages": [
@@ -447,7 +460,7 @@
         }
       ],
       "photo": null,
-      "parentLinkConfidence": "probable"
+      "parentLinkConfidence": "confirmed"
     },
     {
       "id": "gertrud-becker",
@@ -1499,7 +1512,7 @@
       "id": "ernst-eifler-sr",
       "sex": "M",
       "isLiving": false,
-      "isDirectLine": false,
+      "isDirectLine": true,
       "region": null,
       "parents": [],
       "children": [
@@ -1508,9 +1521,34 @@
         "alfred-eifler",
         "martha-eifler"
       ],
-      "spouses": [],
+      "spouses": [
+        {
+          "id": "johanna-kahden",
+          "order": 1,
+          "marriageDate": null,
+          "marriageDisplay": null,
+          "place": null,
+          "placeId": null,
+          "confidence": "confirmed",
+          "sourceIds": [
+            "sohland-kb-1890",
+            "sohland-kb-1892"
+          ]
+        }
+      ],
       "nameVariants": [],
       "residences": [
+        {
+          "place": "Sohland an der Spree",
+          "placeId": "sohland",
+          "address": "Äußerst Mittelsohland Nr. 250",
+          "years": "1890 to 1892",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "sohland-kb-1890",
+            "sohland-kb-1892"
+          ]
+        },
         {
           "place": "Sohland an der Spree",
           "placeId": "sohland",
@@ -1533,6 +1571,18 @@
           "sourceIds": [
             "anc-marriage-1926"
           ]
+        },
+        {
+          "title": "Inwohner und Bäcker (baker, living as a tenant)",
+          "employer": null,
+          "place": "Äußerst Mittelsohland Nr. 250, Sohland an der Spree",
+          "placeId": "sohland",
+          "years": "1890 to 1892",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "sohland-kb-1890",
+            "sohland-kb-1892"
+          ]
         }
       ],
       "timeline": [],
@@ -1549,21 +1599,102 @@
         ]
       },
       "death": null,
-      "displayName": "Ernst Eifler (senior)",
-      "givenNames": "Ernst",
+      "displayName": "Ernst Gustav Eifler",
+      "givenNames": "Ernst Gustav",
       "surname": "Eifler",
-      "disambiguator": "farmer of Sohland, probably Alwin's father",
+      "disambiguator": "baker, later farmer, Sohland an der Spree",
       "generation": 3,
-      "confidence": "unverified",
+      "confidence": "confirmed",
       "cardPlace": "Sohland an der Spree",
-      "summary": "Farmer (Landwirt) at Sohland an der Spree Nr. 247, aged 61, witness at Alwin Eifler's wedding in 1926. Probably Alwin's father; not yet proven. The family chart names Alwin's brothers Max and Alfred and his sister Martha, so they are drawn here as Ernst's children as well, with the same dashed line.",
-      "story": "On 2 October 1926 a farmer named Ernst Eifler, of Sohland an der Spree Nr. 247, aged 61, signed as a witness at the Dresden wedding of Alwin Eifler and Gertrud Becker.[^anc-marriage-1926] Alwin was born in Sohland in 1892, so Ernst is probably his father, but no record seen so far says so. Alwin's Sohland birth entry or baptism would settle it. The 2007 family chart names Alwin's brothers Max and Alfred and his sister Martha.[^ahnentafel-2007] If Ernst was Alwin's father he was theirs too, and they are drawn that way here; the dashed lines show that this is not yet proven.",
+      "summary": "Alwin Eifler's father, so Thomas Kohlmann's great-grandfather. A baker in Mittelsohland in 1890 and 1892, and probably the farmer Ernst Eifler of Sohland Nr. 247 who was a witness at Alwin's wedding in 1926.",
+      "story": "Ernst Gustav Eifler was Alwin Eifler's father. The Sohland church book names him at the baptisms of his first two children: Martha Maria, born on 10 February 1890, and Ernst Alwin, born on 7 October 1892. Both were born in the house Äußerst Mittelsohland Nr. 250, where he lived as an <em>Inwohner</em> (a tenant, not an owner) and worked as a baker (<em>Bäcker</em>). His wife was Johanna Christiane Kahden of Mittelsohland.[^sohland-kb-1892][^sohland-kb-1890] Among the godparents was the wife of an Eifler from Niedercunnersdorf near Herrnhut, so the family probably had relatives there. Others were a bookbinder from Neugersdorf and a weaver from Wehrsdorf.[^sohland-kb-1892][^sohland-kb-1890] On 2 October 1926 a farmer named Ernst Eifler, of Sohland an der Spree Nr. 247, aged 61, signed as a witness at Alwin's wedding in Dresden.[^anc-marriage-1926] That is almost certainly the same man, by then farming a smallholding a few houses away. The 2007 family chart names Alwin's brothers Max and Alfred and his sister Martha.[^ahnentafel-2007] Martha is now proven by the church book; Max and Alfred are drawn as his sons too, with dashed lines until a record confirms them.",
       "openQuestions": [
         {
-          "question": "Is he Alwin Eifler's father? Alwin's 1892 Sohland birth entry or baptism names the parents."
+          "question": "Where and when was Ernst Gustav Eifler born (about 1865)? Niedercunnersdorf is worth checking."
         },
         {
-          "question": "Were Max, Alfred and Martha Eifler born at Sohland too? The Sohland birth registers from 1876 and the church books would list Ernst's children."
+          "question": "When did he marry Johanna Christiane Kahden (about 1889, probably at Sohland)?"
+        },
+        {
+          "question": "When did he die?"
+        }
+      ],
+      "relatedPages": [
+        {
+          "url": "weickert-eifler.html",
+          "title": "Weickert & Eifler"
+        }
+      ],
+      "knownAs": "Ernst"
+    },
+    {
+      "id": "johanna-kahden",
+      "displayName": "Johanna Christiane Kahden",
+      "givenNames": "Johanna Christiane",
+      "surname": "Kahden",
+      "disambiguator": "Alwin Eifler's mother, of Mittelsohland",
+      "sex": "F",
+      "generation": 3,
+      "isLiving": false,
+      "isDirectLine": true,
+      "confidence": "confirmed",
+      "nameVariants": [
+        {
+          "name": "Joh. Christiane Eifler",
+          "note": "married name, as written in the church book",
+          "sourceIds": [
+            "sohland-kb-1892"
+          ]
+        }
+      ],
+      "parents": [],
+      "children": [
+        "martha-eifler",
+        "ernst-alwin"
+      ],
+      "spouses": [
+        {
+          "id": "ernst-eifler-sr",
+          "order": 1,
+          "marriageDate": null,
+          "marriageDisplay": null,
+          "place": null,
+          "placeId": null,
+          "confidence": "confirmed",
+          "sourceIds": [
+            "sohland-kb-1890",
+            "sohland-kb-1892"
+          ]
+        }
+      ],
+      "birth": null,
+      "death": null,
+      "cardPlace": "Sohland an der Spree",
+      "summary": "Alwin Eifler's mother, so Thomas Kohlmann's great-grandmother. Born a Kahden in Mittelsohland.",
+      "story": "Johanna Christiane Kahden came from Mittelsohland, part of Sohland an der Spree. She married the baker Ernst Gustav Eifler, and their first two children were born in the house Äußerst Mittelsohland Nr. 250: Martha Maria on 10 February 1890 and Ernst Alwin, Christa Kohlmann's father, on 7 October 1892.[^sohland-kb-1890][^sohland-kb-1892] Kahden is a rare name. The First World War casualty lists name several Kahden men from Großharthau, about 25 km west of Sohland; whether they were her relatives is not known.",
+      "residences": [
+        {
+          "place": "Sohland an der Spree",
+          "placeId": "sohland",
+          "address": "Äußerst Mittelsohland Nr. 250",
+          "years": "1890 to 1892",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "sohland-kb-1890",
+            "sohland-kb-1892"
+          ]
+        }
+      ],
+      "occupations": [],
+      "timeline": [],
+      "facts": [],
+      "media": [],
+      "openQuestions": [
+        {
+          "question": "Her birth and baptism (about 1865 to 1870, probably Sohland) and her parents."
+        },
+        {
+          "question": "When she died."
         }
       ],
       "relatedPages": [
@@ -1689,6 +1820,15 @@
             "findbuch-death-register-1980-40",
             "findbuch-death-register-1972-185"
           ]
+        },
+        {
+          "label": "A daughter, 1914",
+          "value": "The Bautzen register office column of November 1914 lists a birth on 19 November: \"Ernst Alwin Kohlmann, Fleischergehilfe, e. T.\" (a journeyman butcher, a daughter). St Peter's baptisms in December name her: Ernestine Marianne. He had married Marie Ida Jurack earlier that year. Her first name is the same as that of Ernestine Hedwig Kohlmann, probably Alwin's sister. What became of Ernestine Marianne is not yet known.",
+          "confidence": "probable",
+          "sourceIds": [
+            "bn-1914-11-28-births",
+            "bn-1914-12-30-baptisms"
+          ]
         }
       ],
       "media": [
@@ -1712,6 +1852,13 @@
           "caption": "Bautzen death register 1980, Nr. 40: Ernestine Hedwig Kissal née Kohlmann, born 15 September 1897 at Kleindehsa, Kreis Löbau. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
           "alt": "Typed death register entry for Ernestine Hedwig Kissal née Kohlmann, highlighted.",
           "sourceId": "findbuch-death-register-1980-40"
+        },
+        {
+          "type": "document",
+          "file": "images/records/1914-12-30-bautzener-nachrichten-taufe-ernestine-marianne-kohlmann.jpg",
+          "caption": "Bautzener Nachrichten, 30 December 1914: baptism of Ernestine Marianne, daughter of Ernst Alwin Kohlmann, journeyman butcher. SLUB Dresden.",
+          "alt": "Highlighted baptism entry in a list of church news.",
+          "sourceId": "bn-1914-12-30-baptisms"
         }
       ],
       "birth": {
@@ -1822,7 +1969,16 @@
         }
       ],
       "timeline": [],
-      "facts": [],
+      "facts": [
+        {
+          "label": "A Max Woltmann in the First World War",
+          "value": "A Sergeant Max Woltmann of Mittweida, district Rochlitz, Infantry Regiment 139, was wounded in the first weeks of the war (casualty list of 9 October 1914). Mittweida is 20 km from Döbeln and had other Woltmanns; he may be the later Döbeln tax official, but nothing proves it.",
+          "confidence": "unverified",
+          "sourceIds": [
+            "vl-woltmann-mittweida-1914"
+          ]
+        }
+      ],
       "media": [
         {
           "type": "document",
@@ -1977,6 +2133,23 @@
           "sourceIds": [
             "anc-bautzen-1921"
           ]
+        },
+        {
+          "label": "Master saddler, 1920",
+          "value": "Passed his master saddler's examination at Bautzen on 21 April 1920, one of five candidates. The paper noted that all five had served in the war and some had not worked at their trade for four years, yet every piece was done with care.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "bn-1920-04-23-saddlers"
+          ]
+        },
+        {
+          "label": "Partner, 1922 to 1923",
+          "value": "Co-founder with Alwin Eifler of the Stahldrahtmatratzenfabrik Weickert & Eifler, registered as a partnership founded on 11 October 1922 (Bautzen commercial register Blatt 885). He left in January 1923, and Alwin carried on alone under the old name.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "bn-1922-12-15-hr885",
+            "bn-1923-01-26-hr885"
+          ]
         }
       ],
       "timeline": [],
@@ -1987,6 +2160,13 @@
           "caption": "Bautzen death register 1956, Nr. 225: Max Bruno Weickert, master saddler, Fischergasse 31, born 2 December 1892 in Großschönau, died 26 March 1956; married Marie Martha née Kuschel, Bautzen 7 Sept 1918 Nr. 135. Archivverbund Bautzen 61003 vol 86 p226, CC BY 4.0.",
           "sourceId": "findbuch-death-register-1956-225",
           "alt": "Typed civil death entry number 225 of 1956 from Bautzen, highlighted: Max Bruno Weickert, master saddler, Fischergasse 31."
+        },
+        {
+          "type": "document",
+          "file": "images/records/1920-04-23-bautzener-nachrichten-meisterpruefung-bruno-weickert.jpg",
+          "caption": "Bautzener Nachrichten, 23 April 1920: Bruno Weickert among the five saddlers who passed the master's examination on 21 April. SLUB Dresden.",
+          "alt": "Highlighted news item about the saddlers' master examination.",
+          "sourceId": "bn-1920-04-23-saddlers"
         }
       ],
       "openQuestions": [
@@ -2093,15 +2273,16 @@
     },
     {
       "id": "martha-eifler",
-      "displayName": "Martha Eifler",
-      "givenNames": "Martha",
+      "displayName": "Martha Maria Eifler",
+      "givenNames": "Martha Maria",
       "surname": "Eifler",
       "sex": "F",
       "generation": 4,
       "isLiving": false,
       "isDirectLine": false,
       "parents": [
-        "ernst-eifler-sr"
+        "ernst-eifler-sr",
+        "johanna-kahden"
       ],
       "children": [],
       "spouses": [],
@@ -2111,17 +2292,36 @@
       "timeline": [],
       "facts": [],
       "media": [],
-      "birth": null,
-      "death": null,
-      "parentLinkConfidence": "probable",
-      "confidence": "family tradition",
-      "disambiguator": "Alwin's sister, from the family chart",
-      "cardPlace": null,
-      "summary": "Sister of Alwin Eifler, named on the 2007 family chart. Dates and places are not yet known.",
-      "story": "The 2007 family chart names Martha as a sister of Alwin Eifler (1892 to 1968).[^ahnentafel-2007] Nothing more is known yet: not the dates, not where she lived. On this tree she is drawn as a child of Ernst Eifler, the Sohland farmer who was probably Alwin's father; that link is not proven, so the line is dashed.",
+      "birth": {
+        "date": "1890-02-10",
+        "display": "10 February 1890",
+        "place": "Äußerst Mittelsohland Nr. 250, Sohland an der Spree",
+        "placeId": "sohland",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "sohland-kb-1890"
+        ]
+      },
+      "death": {
+        "date": "1932-11-02",
+        "display": "2 November 1932",
+        "place": null,
+        "placeId": null,
+        "confidence": "confirmed",
+        "sourceIds": [
+          "sohland-kb-1890"
+        ],
+        "note": "From a note in the margin of her baptism entry. Where she died is not stated."
+      },
+      "parentLinkConfidence": "confirmed",
+      "confidence": "confirmed",
+      "disambiguator": "Alwin's elder sister, 1890 to 1932",
+      "cardPlace": "Sohland an der Spree",
+      "summary": "Alwin Eifler's elder sister, the first child of Ernst Gustav Eifler and Johanna Christiane Kahden. Born 1890 in Sohland, died 1932.",
+      "story": "Martha Maria Eifler was born on 10 February 1890 at half past one in the afternoon in the house Äußerst Mittelsohland Nr. 250, Sohland an der Spree, and baptised on 23 February. She was the first child of the baker Ernst Gustav Eifler and Johanna Christiane née Kahden, two and a half years older than her brother Alwin. Her godparents were a weaver from Wehrsdorf and two unmarried women from Mittelsohland and Wehrsdorf. A note added in the margin of the church book gives her death: 2 November 1932, when she was 42.[^sohland-kb-1890] The 2007 family chart names her as Alwin's sister.[^ahnentafel-2007]",
       "openQuestions": [
         {
-          "question": "When and where was Martha born? Alwin's Sohland birth entry (1892) and the Sohland church books would give the parents and the other children."
+          "question": "Did Martha marry, and where did she die in 1932?"
         }
       ],
       "relatedPages": [
@@ -2276,8 +2476,25 @@
       ],
       "occupations": [],
       "timeline": [],
-      "facts": [],
-      "media": [],
+      "facts": [
+        {
+          "label": "Juracks of Briesing in the First World War",
+          "value": "The Saxon casualty lists name two men from her village: Unteroffizier Ernst Jurack of Briesing, killed in 1915, and Gustav Jurack of Briesing, born on 23 January, missing in 1917, then a prisoner of war, and back home by July 1918. Same surname, same small village; whether they were her brothers or cousins is not known.",
+          "confidence": "unverified",
+          "sourceIds": [
+            "vl-jurack-briesing"
+          ]
+        }
+      ],
+      "media": [
+        {
+          "type": "document",
+          "file": "images/records/vl-09108-jurack-ernst-briesing-gefallen.jpg",
+          "caption": "Saxon casualty list Nr. 200, 30 September 1915: Unteroffizier Ernst Jurack of Briesing, Bautzen, killed. Index: Verein für Computergenealogie.",
+          "alt": "Highlighted line in a printed casualty list.",
+          "sourceId": "vl-jurack-briesing"
+        }
+      ],
       "birth": {
         "date": "1887-02-05",
         "display": "5 February 1887",
@@ -2489,7 +2706,17 @@
         }
       ],
       "timeline": [],
-      "facts": [],
+      "facts": [
+        {
+          "label": "A dispute over firewood, 1824 to 1830",
+          "value": "The Saxon State Archives keep a court file of 1824 to 1830 from the Upper Lusatian government: \"Gottfried Kohlmann, Kleindehsa, against Gottlob Randig and others, over the demanded yearly delivery of a cord of wood from the village forest\". An older file of 1807 to 1809 from the Kleindehsa manor court concerns Johann George Manitz and others of Kötzschau against a Christian Kohlmann who had refused part of his labour service for the manor.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "ssa-50009-2887",
+            "ssa-50151-11"
+          ]
+        }
+      ],
       "media": [],
       "birth": null,
       "death": null,
@@ -2546,8 +2773,25 @@
         }
       ],
       "timeline": [],
-      "facts": [],
-      "media": [],
+      "facts": [
+        {
+          "label": "Butcher and innkeeper, 1856",
+          "value": "In February 1856 the Dresdner Journal reported that thieves had several times taken cattle hides hung up to dry in the loft of the slaughterhouse of \"Fleischer und Schenkwirth J. T. Kohlmann\" in Kleindehsa: Johann Traugott Kohlmann kept the inn and was the village butcher too.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "dj-1856-02-26"
+          ]
+        }
+      ],
+      "media": [
+        {
+          "type": "document",
+          "file": "images/records/1856-02-26-dresdner-journal-fleischer-schenkwirth-kohlmann-kleindehsa.jpg",
+          "caption": "Dresdner Journal, 26 February 1856: hides stolen from the slaughterhouse of the butcher and innkeeper J. T. Kohlmann, Kleindehsa. SLUB Dresden, public domain.",
+          "alt": "Highlighted news item in Gothic type.",
+          "sourceId": "dj-1856-02-26"
+        }
+      ],
       "birth": null,
       "death": null,
       "region": "kleindehsa",
@@ -2602,8 +2846,27 @@
         }
       ],
       "timeline": [],
-      "facts": [],
-      "media": [],
+      "facts": [
+        {
+          "label": "The Kretscham owner, 1874 to 1885",
+          "value": "In December 1874 \"Kretschamsbesitzer Karl Friedrich Ernst Kohlmann in Kleindehsa\" was named to a district commission, and in March 1885 \"Ernst Kohlmann\" advertised cows for sale \"im Kretscham zu Kleindehsa\". In April 1889 the court sold the Kretscham from the estate of Christiane Elisabeth, widow Kohlmann, née Kriegel. So the innkeeper Ernst and Karl Friedrich Ernst, husband of Christiane Elisabeth Kriegel, were very probably the same man, who died before 1889.",
+          "confidence": "probable",
+          "sourceIds": [
+            "bn-1874-12-05",
+            "bn-1885-03-14",
+            "bn-1889-04-15"
+          ]
+        }
+      ],
+      "media": [
+        {
+          "type": "document",
+          "file": "images/records/1885-03-14-bautzener-nachrichten-kretscham-ernst-kohlmann.jpg",
+          "caption": "Bautzener Nachrichten, 14 March 1885: young cows for sale in the Kretscham at Kleindehsa, Ernst Kohlmann. SLUB Dresden, public domain.",
+          "alt": "Small Gothic advertisement, highlighted.",
+          "sourceId": "bn-1885-03-14"
+        }
+      ],
       "birth": null,
       "death": null,
       "region": "kleindehsa",
@@ -2658,8 +2921,41 @@
         }
       ],
       "timeline": [],
-      "facts": [],
-      "media": [],
+      "facts": [
+        {
+          "label": "Master butcher and cattle dealer, 1913",
+          "value": "In April 1913 the paper called him \"Fleischermeister und Viehhändler Reinhold Kohlmann in Kleindehsa\" (master butcher and cattle dealer). His eldest son, aged 19, was badly hurt that month when his cart overturned on the steep road from the Neue Schenke down to Obercunewalde; he was found unconscious with a fractured skull.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "bn-1913-04-24-kleindehsa"
+          ]
+        },
+        {
+          "label": "A second Reinhold, 1925",
+          "value": "In November 1925 a \"Reinhold Kohlmann-Kleindehsa\" passed the master butcher's examination, probably his son of the same name.",
+          "confidence": "probable",
+          "sourceIds": [
+            "bn-1925-11-12-butchers"
+          ]
+        },
+        {
+          "label": "Kohlmann's Gasthof, 1926 to 1931",
+          "value": "Bus timetables of 1926 have a stop called \"Kleindehsa, Kohlmanns Gasthof\". On 2 May 1931 the inn served supper to men from a Nazi party training course held at the Kleindehsa manor by its owner, Hans von Tschammer und Osten; a court report on a brawl later that night names the \"Gasthaus von Kohlmann\" only as the place of the meal.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "bn-1931-07-04"
+          ]
+        }
+      ],
+      "media": [
+        {
+          "type": "document",
+          "file": "images/records/1913-04-24-bautzener-nachrichten-unfall-sohn-reinhold-kohlmann-kleindehsa.jpg",
+          "caption": "Bautzener Nachrichten, 24 April 1913: the eldest son of the master butcher and cattle dealer Reinhold Kohlmann of Kleindehsa badly hurt in a cart accident. SLUB Dresden.",
+          "alt": "Highlighted local news item.",
+          "sourceId": "bn-1913-04-24-kleindehsa"
+        }
+      ],
       "birth": null,
       "death": null,
       "region": "kleindehsa",
@@ -2768,8 +3064,27 @@
       "residences": [],
       "occupations": [],
       "timeline": [],
-      "facts": [],
-      "media": [],
+      "facts": [
+        {
+          "label": "The Kretscham owner, 1874 to 1885",
+          "value": "In December 1874 \"Kretschamsbesitzer Karl Friedrich Ernst Kohlmann in Kleindehsa\" was named to a district commission, and in March 1885 \"Ernst Kohlmann\" advertised cows for sale \"im Kretscham zu Kleindehsa\". In April 1889 the court sold the Kretscham from the estate of Christiane Elisabeth, widow Kohlmann, née Kriegel. So the innkeeper Ernst and Karl Friedrich Ernst, husband of Christiane Elisabeth Kriegel, were very probably the same man, who died before 1889.",
+          "confidence": "probable",
+          "sourceIds": [
+            "bn-1874-12-05",
+            "bn-1885-03-14",
+            "bn-1889-04-15"
+          ]
+        }
+      ],
+      "media": [
+        {
+          "type": "document",
+          "file": "images/records/1874-12-05-bautzener-nachrichten-kretschamsbesitzer-karl-friedrich-ernst-kohlmann.jpg",
+          "caption": "Bautzener Nachrichten, 5 December 1874: \"Kretschamsbesitzer Karl Friedrich Ernst Kohlmann in Kleindehsa\". SLUB Dresden, public domain.",
+          "alt": "Highlighted line from a list of commission members.",
+          "sourceId": "bn-1874-12-05"
+        }
+      ],
       "birth": null,
       "death": null,
       "region": "kleindehsa",
@@ -2824,8 +3139,25 @@
       "residences": [],
       "occupations": [],
       "timeline": [],
-      "facts": [],
-      "media": [],
+      "facts": [
+        {
+          "label": "The Kretscham sold, 1889",
+          "value": "By April 1889 she had died as the widow of Kohlmann. To divide her estate the Löbau court auctioned the Kretscham at Kleindehsa (7.9 hectares, insured for 12,070 marks, without its inventory) and a pasture and spruce wood at Großdehsa, on 29 April 1889.",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "bn-1889-04-15"
+          ]
+        }
+      ],
+      "media": [
+        {
+          "type": "document",
+          "file": "images/records/1889-04-15-bautzener-nachrichten-versteigerung-kretscham-kleindehsa.jpg",
+          "caption": "Bautzener Nachrichten, 15 April 1889: court sale of the Kretscham at Kleindehsa from the estate of Christiane Elisabeth, widow Kohlmann, née Kriegel. SLUB Dresden, public domain.",
+          "alt": "Highlighted court notice.",
+          "sourceId": "bn-1889-04-15"
+        }
+      ],
       "birth": {
         "date": "1848",
         "display": "1848",
@@ -2968,6 +3300,73 @@
       "disambiguator": "of Kleindehsa, married Kutschke at Cunnewalde",
       "summary": "Born at Kleindehsa; married Johann Carl Traugott Kutschke and died at Cunnewalde. Her son was born there in 1857.",
       "story": "Another researcher's Ancestry tree says Johanne Sophie Helene Kohlmann was born at Kleindehsa, married Johann Carl Traugott Kutschke and died at Cunnewalde, a village about 8 km to the west. Their son Karl Friedrich Ernst Kutschke was born at Cunnewalde on 31 July 1857.[^anc-tree-augsten] The boy shares all three given names with Karl Friedrich Ernst Kohlmann of Kleindehsa, which might mean he was named after an uncle, but the tree gives no dates for her and no parents."
+    },
+    {
+      "id": "kd-hermann-kohlmann",
+      "displayName": "Hermann Kohlmann",
+      "givenNames": "Hermann",
+      "surname": "Kohlmann",
+      "disambiguator": "of Kleindehsa, soldier, prisoner of war 1918 to 1919",
+      "sex": "M",
+      "generation": 3,
+      "isLiving": false,
+      "isDirectLine": false,
+      "confidence": "confirmed",
+      "region": "kleindehsa",
+      "cardPlace": "Kleindehsa",
+      "nameVariants": [],
+      "parents": [],
+      "children": [],
+      "spouses": [],
+      "birth": {
+        "date": "1897-12-11",
+        "display": "11 December 1897",
+        "place": "Kleindehsa, Amtshauptmannschaft Löbau",
+        "placeId": "kleindehsa",
+        "confidence": "confirmed",
+        "sourceIds": [
+          "vl-kohlmann-hermann-1919"
+        ]
+      },
+      "death": null,
+      "summary": "A Kleindehsa Kohlmann born in 1897 who went missing with Infantry Regiment 107 in 1918 and turned out to be a prisoner of war.",
+      "story": "Hermann Kohlmann was born at Kleindehsa on 11 December 1897. He served with the Saxon Infantry Regiment 107. The casualty list of 10 January 1919 reported him missing; a correction of 26 August 1919 says he had been taken prisoner.[^vl-kohlmann-hermann-1919] He was born three months after Ernestine Hedwig Kohlmann of the same village, so the two cannot have been brother and sister; he may have been a cousin, perhaps of the innkeeping family. Another Kleindehsa man, Paul Kohlmann, was wounded twice in 1916.",
+      "residences": [],
+      "occupations": [
+        {
+          "title": "Soldier, Infanterie-Regiment 107",
+          "employer": null,
+          "place": null,
+          "placeId": null,
+          "years": "1918 to 1919",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "vl-kohlmann-hermann-1919"
+          ]
+        }
+      ],
+      "timeline": [],
+      "facts": [],
+      "media": [
+        {
+          "type": "document",
+          "file": "images/records/vl-28656-kohlmann-hermann-1897-kleindehsa-vermisst.jpg",
+          "caption": "Saxon casualty list Nr. 568, 10 January 1919: \"Kohlmann, Hermann, 11. 12. 97 Kleindehsa, Löbau, vermißt\". Index: Verein für Computergenealogie.",
+          "alt": "Highlighted line in a printed casualty list.",
+          "sourceId": "vl-kohlmann-hermann-1919"
+        }
+      ],
+      "openQuestions": [
+        {
+          "question": "Who were his parents, and when did he come home?"
+        }
+      ],
+      "relatedPages": [
+        {
+          "url": "research.html",
+          "title": "Research"
+        }
+      ]
     }
   ]
 }

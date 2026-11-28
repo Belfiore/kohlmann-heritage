@@ -202,7 +202,7 @@
       "inHomeRegion": true,
       "country": "Germany",
       "status": "published",
-      "blurb": "The Ahnentafel types only Sohland. The site reads that as Sohland an der Spree. The circle marks the village, not a house.",
+      "blurb": "Alwin Eifler's birthplace. He and his sister Martha were born in the house Äußerst Mittelsohland Nr. 250, where their father Ernst Gustav Eifler was a baker; in 1926 his father farmed at Nr. 247. The house numbers are old village numbers, so the circle marks the village, not a house.",
       "events": [
         {
           "id": "pe-sohland-born-alwin",
@@ -218,10 +218,11 @@
           "summary": "Ernst Alwin Eifler: birth, 1892",
           "confidence": "confirmed",
           "sourceIds": [
-            "ahnentafel-2007",
-            "anc-marriage-1926"
+            "sohland-kb-1892",
+            "anc-marriage-1926",
+            "ahnentafel-2007"
           ],
-          "note": "The 1926 marriage entry gives Sohland an der Spree and cites his Sohland birth entry.",
+          "note": "Church book 1892, p. 426, Nr. 154: born at Äußerst Mittelsohland Nr. 250, baptised 16 October.",
           "factRef": "ernst-alwin.birth",
           "pages": [
             "research.html",
@@ -248,7 +249,7 @@
           "sourceIds": [
             "anc-marriage-1926"
           ],
-          "note": "Landwirt Ernst Eifler, 61, witness at Alwin's wedding. Probably Alwin's father; not yet proven.",
+          "note": "Landwirt Ernst Eifler, 61, witness at Alwin's wedding; almost certainly his father Ernst Gustav Eifler.",
           "factRef": "ernst-eifler-sr.residences[0]",
           "pages": [
             "research.html",
@@ -256,6 +257,56 @@
           ],
           "recordCrops": [],
           "familyStatement": false
+        },
+        {
+          "datePrecision": "exact",
+          "approximate": false,
+          "factRef": "martha-eifler.birth",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false,
+          "id": "pe-sohland-born-martha",
+          "type": "born",
+          "personIds": [
+            "martha-eifler"
+          ],
+          "date": "1890-02-10",
+          "dateStart": "1890-02-10",
+          "dateEnd": "1890-02-10",
+          "summary": "Martha Maria Eifler: birth, 1890",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "sohland-kb-1890"
+          ]
+        },
+        {
+          "datePrecision": "year",
+          "approximate": false,
+          "factRef": "",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false,
+          "id": "pe-sohland-250-baker",
+          "type": "lived",
+          "personIds": [
+            "ernst-eifler-sr",
+            "johanna-kahden"
+          ],
+          "date": "1890 to 1892",
+          "dateStart": "1890-01-01",
+          "dateEnd": "1892-12-31",
+          "summary": "Ernst Gustav Eifler, baker, and Johanna Christiane Kahden: Äußerst Mittelsohland Nr. 250, 1890 to 1892",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "sohland-kb-1890",
+            "sohland-kb-1892"
+          ]
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
@@ -269,7 +320,11 @@
       "historicMap": null,
       "streetView": null,
       "streetViewReason": "Not checked yet.",
-      "blurbSourceIds": [],
+      "blurbSourceIds": [
+        "sohland-kb-1892",
+        "sohland-kb-1890",
+        "anc-marriage-1926"
+      ],
       "address": "Sohland an der Spree",
       "coordinatePrecision": "town",
       "standsToday": "unknown"
@@ -652,6 +707,33 @@
             "1928-bautzen-handelsregister-885-weickert-eifler.jpg"
           ],
           "familyStatement": false
+        },
+        {
+          "datePrecision": "year",
+          "approximate": false,
+          "factRef": "",
+          "pages": [
+            "weickert-eifler.html",
+            "research.html"
+          ],
+          "recordCrops": [
+            "1922-06-26-bautzener-nachrichten-ausstellung-weickert-eifler.jpg"
+          ],
+          "familyStatement": false,
+          "id": "pe-gnaschwitz-industriehof-1922",
+          "type": "worked",
+          "personIds": [
+            "ernst-alwin",
+            "bruno-weickert"
+          ],
+          "date": "1922",
+          "dateStart": "1922-06-24",
+          "dateEnd": "1922-06-26",
+          "summary": "Weickert & Eifler mattresses on show at the opening of the Industriehof Gnaschwitz, June 1922",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "bn-1922-06-26-industriehof"
+          ]
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
@@ -1475,11 +1557,12 @@
       "country": "Germany",
       "status": "published",
       "noProvenLink": true,
-      "blurb": "Lead only. Ernst Alwin Kohlmann, the Bautzen butcher, was born here on 21 September 1883. Kötzschau is a hamlet of Kleindehsa in the parish of Lawalde, near Löbau; his birth was registered at Lawalde. He is one of the leads being checked for Herbert Kohlmann's family; nothing links him to the family. Ernestine Hedwig Kohlmann, probably his sister, was born in Kleindehsa, the same village, in 1897. In 1787 the village judge here was a Johann Kohlmann, whose son Gottfried bought the inn at Kleindehsa; no record yet links him to the Bautzen Kohlmanns.",
+      "blurb": "Lead only. Ernst Alwin Kohlmann, the Bautzen butcher, was born here on 21 September 1883. Kötzschau is a hamlet of Kleindehsa in the parish of Lawalde, near Löbau; his birth was registered at Lawalde. He is one of the leads being checked for Herbert Kohlmann's family; nothing links him to the family. Ernestine Hedwig Kohlmann, probably his sister, was born in Kleindehsa, the same village, in 1897. In 1787 the village judge here was a Johann Kohlmann, whose son Gottfried bought the inn at Kleindehsa; no record yet links him to the Bautzen Kohlmanns. A court file of 1807 to 1809 concerns the villagers of Kötzschau against a Christian Kohlmann, who had refused part of his labour service for the manor.",
       "blurbSourceIds": [
         "findbuch-death-register-1972-185",
         "findbuch-death-register-1980-40",
-        "lawalde-chronik-kleindehsa"
+        "lawalde-chronik-kleindehsa",
+        "ssa-50151-11"
       ],
       "events": [
         {
@@ -1533,8 +1616,9 @@
       "country": "Germany",
       "status": "published",
       "noProvenLink": false,
-      "blurb": "The Bautzen shop (Matratzen-Niederlage, mattress showroom and store) of Weikert & Eifler in 1929 and 1932, owner Alwin Eifler, telephone 2512. The mattresses were made at the factory in the Industriehof Gnaschwitz.",
+      "blurb": "The registered premises of the Stahldrahtmatratzenfabrik Weickert & Eifler when the partnership was founded in October 1922, and the firm's mattress shop (Matratzen-Niederlage) in 1929 and 1932, owner Alwin Eifler, telephone 2512. The mattresses were made at the Industriehof Gnaschwitz.",
       "blurbSourceIds": [
+        "bn-1922-12-15-hr885",
         "anc-bautzen-1929-firm",
         "anc-bautzen-1932-firm"
       ],
@@ -1563,6 +1647,35 @@
           ],
           "recordCrops": [],
           "familyStatement": false
+        },
+        {
+          "datePrecision": "exact",
+          "approximate": false,
+          "factRef": "",
+          "pages": [
+            "weickert-eifler.html",
+            "research.html"
+          ],
+          "recordCrops": [
+            "1922-12-15-bautzener-nachrichten-hr885-weickert-eifler.jpg",
+            "1923-01-26-bautzener-nachrichten-hr885-weickert-ausgeschieden.jpg"
+          ],
+          "familyStatement": false,
+          "id": "pe-fleischbaenken7-firm-1922",
+          "type": "worked",
+          "personIds": [
+            "ernst-alwin",
+            "bruno-weickert"
+          ],
+          "date": "1922",
+          "dateStart": "1922-10-11",
+          "dateEnd": "1923-01-26",
+          "summary": "Weickert & Eifler registered here as a partnership of Bruno Weickert and Alwin Eifler, October 1922; Bruno left in January 1923",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "bn-1922-12-15-hr885",
+            "bn-1923-01-26-hr885"
+          ]
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
@@ -1829,10 +1942,14 @@
       "country": "Germany",
       "status": "published",
       "noProvenLink": true,
-      "blurb": "Lead only. A village near Löbau, now part of Lawalde. Its village inn, the Kretscham, belonged to a Kohlmann family from 1787 until 1959, according to the village chronicle. Ernestine Hedwig Kohlmann, probably the sister of Alwin Kohlmann the Bautzen butcher, was born here in 1897. No record yet links these innkeepers to the family. The Kretscham burned down on 29 January 1997 and was pulled down.",
+      "blurb": "Lead only. A village near Löbau, now part of Lawalde. Its village inn, the Kretscham, belonged to a Kohlmann family from 1787 until 1959, according to the village chronicle. Ernestine Hedwig Kohlmann, probably the sister of Alwin Kohlmann the Bautzen butcher, was born here in 1897. Newspapers show the innkeepers at work: J. T. Kohlmann, butcher and innkeeper, in 1856; Karl Friedrich Ernst Kohlmann, owner of the Kretscham, in 1874; the court sale of 1889 from his widow's estate; the master butcher and cattle dealer Reinhold Kohlmann in 1913; and \"Kohlmanns Gasthof\" on the bus timetable in 1926. No record yet links these innkeepers to the family. The Kretscham burned down on 29 January 1997 and was pulled down.",
       "blurbSourceIds": [
         "lawalde-chronik-kleindehsa",
-        "findbuch-death-register-1980-40"
+        "findbuch-death-register-1980-40",
+        "dj-1856-02-26",
+        "bn-1874-12-05",
+        "bn-1889-04-15",
+        "bn-1913-04-24-kleindehsa"
       ],
       "events": [
         {
@@ -1857,6 +1974,133 @@
           ],
           "recordCrops": [],
           "familyStatement": false
+        },
+        {
+          "datePrecision": "year",
+          "approximate": false,
+          "factRef": "",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [
+            "1856-02-26-dresdner-journal-fleischer-schenkwirth-kohlmann-kleindehsa.jpg"
+          ],
+          "familyStatement": false,
+          "id": "pe-kleindehsa-1856-jt",
+          "type": "worked",
+          "personIds": [
+            "kd-johann-traugott-kohlmann"
+          ],
+          "date": "1856",
+          "dateStart": "1856-02-01",
+          "dateEnd": "1856-02-26",
+          "summary": "J. T. Kohlmann, butcher and innkeeper, robbed of hides, 1856",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "dj-1856-02-26"
+          ]
+        },
+        {
+          "datePrecision": "year",
+          "approximate": false,
+          "factRef": "",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [
+            "1874-12-05-bautzener-nachrichten-kretschamsbesitzer-karl-friedrich-ernst-kohlmann.jpg",
+            "1885-03-14-bautzener-nachrichten-kretscham-ernst-kohlmann.jpg"
+          ],
+          "familyStatement": false,
+          "id": "pe-kleindehsa-1874-kfe",
+          "type": "worked",
+          "personIds": [
+            "kd-karl-friedrich-ernst-kohlmann"
+          ],
+          "date": "1874",
+          "dateStart": "1874-01-01",
+          "dateEnd": "1885-12-31",
+          "summary": "Karl Friedrich Ernst Kohlmann, owner of the Kretscham, 1874 to 1885",
+          "confidence": "probable",
+          "sourceIds": [
+            "bn-1874-12-05",
+            "bn-1885-03-14"
+          ]
+        },
+        {
+          "datePrecision": "exact",
+          "approximate": false,
+          "factRef": "",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [
+            "1889-04-15-bautzener-nachrichten-versteigerung-kretscham-kleindehsa.jpg"
+          ],
+          "familyStatement": false,
+          "id": "pe-kleindehsa-1889-sale",
+          "type": "civil case",
+          "personIds": [
+            "kd-christiane-kriegel"
+          ],
+          "date": "1889-04-29",
+          "dateStart": "1889-04-29",
+          "dateEnd": "1889-04-29",
+          "summary": "Court sale of the Kretscham from the estate of Christiane Elisabeth Kohlmann née Kriegel, 1889",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "bn-1889-04-15"
+          ]
+        },
+        {
+          "datePrecision": "year",
+          "approximate": false,
+          "factRef": "",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [
+            "1913-04-24-bautzener-nachrichten-unfall-sohn-reinhold-kohlmann-kleindehsa.jpg"
+          ],
+          "familyStatement": false,
+          "id": "pe-kleindehsa-1913-reinhold",
+          "type": "worked",
+          "personIds": [
+            "kd-reinhold-kohlmann"
+          ],
+          "date": "1913",
+          "dateStart": "1913-04-22",
+          "dateEnd": "1913-04-24",
+          "summary": "Reinhold Kohlmann, master butcher and cattle dealer; his eldest son hurt in a cart accident, 1913",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "bn-1913-04-24-kleindehsa"
+          ]
+        },
+        {
+          "datePrecision": "exact",
+          "approximate": false,
+          "factRef": "kd-hermann-kohlmann.birth",
+          "pages": [
+            "research.html"
+          ],
+          "recordCrops": [
+            "vl-28656-kohlmann-hermann-1897-kleindehsa-vermisst.jpg"
+          ],
+          "familyStatement": false,
+          "id": "pe-kleindehsa-born-hermann",
+          "type": "born",
+          "personIds": [
+            "kd-hermann-kohlmann"
+          ],
+          "date": "1897-12-11",
+          "dateStart": "1897-12-11",
+          "dateEnd": "1897-12-11",
+          "summary": "Hermann Kohlmann: birth, 1897",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "vl-kohlmann-hermann-1919"
+          ]
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, village node \"Kleindehsa, Lawalde\", 26 November 2026.",

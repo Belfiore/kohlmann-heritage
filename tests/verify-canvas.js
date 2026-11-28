@@ -28,7 +28,7 @@ const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/cs
 const EXPECTED = {
     'richard-becker': { parents: [], spouses: ['elise-just'], children: ['gertrud-becker'], side: 'left' },
     'elise-just': { parents: [], spouses: ['richard-becker'], children: ['gertrud-becker'], side: 'left' },
-    'ernst-alwin': { parents: ['ernst-eifler-sr'], spouses: ['gertrud-becker'], children: ['sigrid', 'christa'], side: 'left' },
+    'ernst-alwin': { parents: ['ernst-eifler-sr', 'johanna-kahden'], spouses: ['gertrud-becker'], children: ['sigrid', 'christa'], side: 'left' },
     'gertrud-becker': { parents: ['richard-becker', 'elise-just'], spouses: ['ernst-alwin'], children: ['sigrid', 'christa'], side: 'left' },
     'alvin': { parents: [], spouses: ['christa'], children: ['thomas', 'matthias', 'sabine'], side: 'left' },
     'christa': { parents: ['ernst-alwin', 'gertrud-becker'], spouses: ['alvin'], children: ['thomas', 'matthias', 'sabine'], side: 'left' },
@@ -48,10 +48,12 @@ const EXPECTED = {
     'enzo': { parents: ['valeria', 'sebastian'], spouses: [], children: [], side: 'right' },
     // Patch 0014. Ernst Eifler, the Sohland farmer, probably Alwin's father (dashed lines), with the brothers
     // and sister the 2007 family chart names for Alwin.
-    'ernst-eifler-sr': { parents: [], spouses: [], children: ['ernst-alwin', 'max-eifler', 'alfred-eifler', 'martha-eifler'], side: 'left' },
+    'ernst-eifler-sr': { parents: [], spouses: ['johanna-kahden'], children: ['ernst-alwin', 'max-eifler', 'alfred-eifler', 'martha-eifler'], side: 'left' },
     'max-eifler': { parents: ['ernst-eifler-sr'], spouses: [], children: [], side: 'left' },
     'alfred-eifler': { parents: ['ernst-eifler-sr'], spouses: [], children: [], side: 'left' },
-    'martha-eifler': { parents: ['ernst-eifler-sr'], spouses: [], children: [], side: 'left' },
+    'martha-eifler': { parents: ['ernst-eifler-sr', 'johanna-kahden'], spouses: [], children: [], side: 'left' },
+    // Patch 0019. The Sohland church book (1890, 1892) names Alwin's parents: Ernst Gustav Eifler and Johanna Christiane Kahden.
+    'johanna-kahden': { parents: [], spouses: ['ernst-eifler-sr'], children: ['martha-eifler', 'ernst-alwin'], side: 'left' },
     // Richard Becker's two sisters from the chart, drawn beside him (uncertainBeside).
     'marie-becker': { parents: [], spouses: [], children: [], side: 'left', lead: 'richard-becker' },
     'becker-sister-2': { parents: [], spouses: [], children: [], side: 'left', lead: 'richard-becker' },
@@ -71,6 +73,8 @@ const EXPECTED = {
     'kd-christiane-kriegel': { parents: [], spouses: ['kd-karl-friedrich-ernst-kohlmann'], children: ['kd-maria-alwine-kohlmann'], region: 'kleindehsa' },
     'kd-maria-alwine-kohlmann': { parents: ['kd-karl-friedrich-ernst-kohlmann', 'kd-christiane-kriegel'], spouses: [], children: [], region: 'kleindehsa' },
     'kd-johanne-sophie-helene-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
+    // Patch 0019. Hermann Kohlmann of Kleindehsa, born 1897 (WWI casualty lists).
+    'kd-hermann-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
 };
 
 function serve() {
