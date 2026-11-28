@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Family Tree, The Kohlmann Family Heritage</title>
+    <title data-label-de="Stammbaum, Das Erbe der Familie Kohlmann">Family Tree, The Kohlmann Family Heritage</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IM+Fell+English+SC&family=Pinyon+Script&family=Special+Elite&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -26,7 +26,251 @@
     </div>
 </nav>
 
-<div class="tree-page">
+<div class="tree-page" data-html-de="
+
+    &lt;!-- LEFT: SCROLLABLE TREE --&gt;
+    &lt;div class=&quot;tree-main&quot;&gt;
+
+        &lt;div class=&quot;tree-header&quot;&gt;
+            &lt;h1&gt;Der Stammbaum der Familie Kohlmann&lt;/h1&gt;
+            &lt;p&gt;Vier Generationen von Herbert Kohlmann bis Enzo Belfiore. Klicken Sie auf eine Person, um zu lesen, was bekannt ist, oder um die Platzhalter zu sehen, die noch zu füllen sind.&lt;/p&gt;
+            &lt;div class=&quot;stamp-row&quot; style=&quot;margin-top: 1rem;&quot;&gt;
+                &lt;span class=&quot;stamp stamp--rotate-flat&quot;&gt;Stammbaum&lt;/span&gt;
+                &lt;span class=&quot;stamp stamp--round stamp--rotate-r&quot;&gt;IV Gen.&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- FILTER BUTTONS --&gt;
+        &lt;div class=&quot;tree-filter&quot;&gt;
+            &lt;button class=&quot;tree-btn active&quot; data-view=&quot;full&quot;&gt;Gesamte Familie&lt;/button&gt;
+            &lt;button class=&quot;tree-btn&quot; data-view=&quot;direct&quot;&gt;Direkte Linie&lt;/button&gt;
+            &lt;button class=&quot;tree-btn&quot; data-view=&quot;kohlmann_side&quot;&gt;Seite Kohlmann&lt;/button&gt;
+            &lt;button class=&quot;tree-btn&quot; data-view=&quot;rita_side&quot;&gt;Seite von Rita&lt;/button&gt;
+        &lt;/div&gt;
+
+        &lt;!-- ===== GENERATION 1: GRANDPARENTS ===== --&gt;
+        &lt;div class=&quot;tree-generation&quot;&gt;
+            &lt;div class=&quot;gen-label&quot;&gt;Generation 1, Großeltern&lt;/div&gt;
+            &lt;div class=&quot;gen-subtitle&quot;&gt;Herbert Kohlmann (Vater von Thomas) und die Eltern von Rita&lt;/div&gt;
+
+            &lt;!-- KOHLMANN SIDE --&gt;
+            &lt;div class=&quot;siblings-label&quot;&gt;Die Seite Kohlmann&lt;/div&gt;
+            &lt;div class=&quot;gen-people&quot;&gt;
+                &lt;div class=&quot;couple-row&quot;&gt;
+                    &lt;div class=&quot;tree-person&quot; data-id=&quot;alvin&quot; data-side=&quot;kohlmann_side&quot; data-type=&quot;direct&quot;&gt;
+                        &lt;div class=&quot;person-avatar&quot;&gt;A&lt;/div&gt;
+                        &lt;div class=&quot;person-info&quot;&gt;
+                            &lt;h4&gt;Herbert Kohlmann&lt;/h4&gt;
+                            &lt;span class=&quot;person-subtitle&quot;&gt;Vater von Thomas &amp;bull; verstorben&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;span class=&quot;couple-connector&quot;&gt;verheiratet&lt;/span&gt;
+                    &lt;div class=&quot;tree-person&quot; data-id=&quot;christa&quot; data-side=&quot;kohlmann_side&quot; data-type=&quot;spouse&quot;&gt;
+                        &lt;div class=&quot;person-avatar female&quot;&gt;C&lt;/div&gt;
+                        &lt;div class=&quot;person-info&quot;&gt;
+                            &lt;h4&gt;Elise Christa Kohlmann (geb. Eifler)&lt;/h4&gt;
+                            &lt;span class=&quot;person-subtitle&quot;&gt;geb. 25. Nov. 1928, Bautzen &amp;bull; gest. 21. Mai 2006, Starnberg &amp;bull; verh. mit Herbert 24. Juli 1952, Bautzen &amp;bull; Mutter von Thomas &amp;bull; Tochter von Alwin Eifler, Inhaber von Weickert &amp;amp; Eifler&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;!-- RITA&#x27;S SIDE --&gt;
+            &lt;div class=&quot;siblings-label&quot; style=&quot;margin-top: 1.5rem;&quot;&gt;Seite von Rita&lt;/div&gt;
+            &lt;div class=&quot;gen-people&quot;&gt;
+                &lt;div class=&quot;couple-row&quot;&gt;
+                    &lt;div class=&quot;tree-person&quot; data-id=&quot;rita_father&quot; data-side=&quot;rita_side&quot; data-type=&quot;direct&quot;&gt;
+                        &lt;div class=&quot;person-avatar&quot;&gt;W&lt;/div&gt;
+                        &lt;div class=&quot;person-info&quot;&gt;
+                            &lt;h4&gt;[PLACEHOLDER: Vorname] Werner&lt;/h4&gt;
+                            &lt;span class=&quot;person-subtitle&quot;&gt;Vater von Rita &amp;bull; Vorname noch zu bestätigen&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;span class=&quot;couple-connector&quot;&gt;[PLACEHOLDER: verheiratet?]&lt;/span&gt;
+                    &lt;div class=&quot;tree-person&quot; data-id=&quot;rita_mother&quot; data-side=&quot;rita_side&quot; data-type=&quot;spouse&quot;&gt;
+                        &lt;div class=&quot;person-avatar female&quot;&gt;B&lt;/div&gt;
+                        &lt;div class=&quot;person-info&quot;&gt;
+                            &lt;h4&gt;Brigitte Woltmann&lt;/h4&gt;
+                            &lt;span class=&quot;person-subtitle&quot;&gt;Mutter von Rita&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;gen-connector&quot;&gt;&amp;#9661;&lt;/div&gt;
+
+        &lt;!-- ===== GENERATION 2: PARENTS, AUNTS, UNCLES ===== --&gt;
+        &lt;div class=&quot;tree-generation&quot;&gt;
+            &lt;div class=&quot;gen-label&quot;&gt;Generation 2, Eltern, Tanten &amp;amp; Onkel&lt;/div&gt;
+            &lt;div class=&quot;gen-subtitle&quot;&gt;Die drei Kinder von Herbert sowie Rita und ihre beiden Schwestern&lt;/div&gt;
+
+            &lt;!-- ALVIN&#x27;S CHILDREN --&gt;
+            &lt;div class=&quot;siblings-label&quot;&gt;Die Kinder von Herbert&lt;/div&gt;
+            &lt;div class=&quot;gen-people&quot;&gt;
+                &lt;div class=&quot;tree-person&quot; data-id=&quot;thomas&quot; data-side=&quot;kohlmann_side&quot; data-type=&quot;direct&quot;&gt;
+                    &lt;div class=&quot;person-avatar&quot;&gt;T&lt;/div&gt;
+                    &lt;div class=&quot;person-info&quot;&gt;
+                        &lt;h4&gt;Thomas Kohlmann&lt;/h4&gt;
+                        &lt;span class=&quot;person-subtitle&quot;&gt;geb. 1956, Radebeul &amp;bull; Vater von Valeria&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;tree-person&quot; data-id=&quot;matthias&quot; data-side=&quot;kohlmann_side&quot; data-type=&quot;sibling&quot;&gt;
+                    &lt;div class=&quot;person-avatar&quot;&gt;M&lt;/div&gt;
+                    &lt;div class=&quot;person-info&quot;&gt;
+                        &lt;h4&gt;Matthias Kohlmann&lt;/h4&gt;
+                        &lt;span class=&quot;person-subtitle&quot;&gt;Bruder von Thomas&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;tree-person&quot; data-id=&quot;sabine&quot; data-side=&quot;kohlmann_side&quot; data-type=&quot;sibling&quot;&gt;
+                    &lt;div class=&quot;person-avatar female&quot;&gt;S&lt;/div&gt;
+                    &lt;div class=&quot;person-info&quot;&gt;
+                        &lt;h4&gt;Sabine Kohlmann&lt;/h4&gt;
+                        &lt;span class=&quot;person-subtitle&quot;&gt;Schwester von Thomas&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;!-- RITA AND HER SISTERS --&gt;
+            &lt;div class=&quot;siblings-label&quot; style=&quot;margin-top: 1.5rem;&quot;&gt;Rita und ihre Schwestern&lt;/div&gt;
+            &lt;div class=&quot;gen-people&quot;&gt;
+                &lt;div class=&quot;tree-person&quot; data-id=&quot;rita&quot; data-side=&quot;rita_side&quot; data-type=&quot;direct&quot;&gt;
+                    &lt;div class=&quot;person-avatar female&quot;&gt;R&lt;/div&gt;
+                    &lt;div class=&quot;person-info&quot;&gt;
+                        &lt;h4&gt;Rita Kohlmann&lt;/h4&gt;
+                        &lt;span class=&quot;person-subtitle&quot;&gt;geb. 1956, D&amp;ouml;beln &amp;bull; Name vor der Ehe Werner (geboren als Woltmann)&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;tree-person&quot; data-id=&quot;heide&quot; data-side=&quot;rita_side&quot; data-type=&quot;sibling&quot;&gt;
+                    &lt;div class=&quot;person-avatar female&quot;&gt;H&lt;/div&gt;
+                    &lt;div class=&quot;person-info&quot;&gt;
+                        &lt;h4&gt;Heide&lt;/h4&gt;
+                        &lt;span class=&quot;person-subtitle&quot;&gt;Schwester von Rita&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;tree-person&quot; data-id=&quot;annette&quot; data-side=&quot;rita_side&quot; data-type=&quot;sibling&quot;&gt;
+                    &lt;div class=&quot;person-avatar female&quot;&gt;A&lt;/div&gt;
+                    &lt;div class=&quot;person-info&quot;&gt;
+                        &lt;h4&gt;Annette&lt;/h4&gt;
+                        &lt;span class=&quot;person-subtitle&quot;&gt;Schwester von Rita&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;!-- THOMAS &amp; RITA&#x27;S MARRIAGE --&gt;
+            &lt;div class=&quot;siblings-label&quot; style=&quot;margin-top: 1.5rem;&quot;&gt;Thomas &amp;amp; Rita&lt;/div&gt;
+            &lt;div class=&quot;gen-people&quot;&gt;
+                &lt;div class=&quot;couple-row&quot;&gt;
+                    &lt;div class=&quot;tree-person&quot; data-id=&quot;thomas&quot; data-side=&quot;kohlmann_side&quot; data-type=&quot;direct&quot; style=&quot;opacity: 0.5; pointer-events: none;&quot;&gt;
+                        &lt;div class=&quot;person-avatar&quot;&gt;T&lt;/div&gt;
+                        &lt;div class=&quot;person-info&quot;&gt;
+                            &lt;h4&gt;Thomas Kohlmann&lt;/h4&gt;
+                            &lt;span class=&quot;person-subtitle&quot;&gt;geb. 1956, Radebeul&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;span class=&quot;couple-connector&quot;&gt;verheiratet 1980, München&lt;/span&gt;
+                    &lt;div class=&quot;tree-person&quot; data-id=&quot;rita&quot; data-side=&quot;rita_side&quot; data-type=&quot;direct&quot; style=&quot;opacity: 0.5; pointer-events: none;&quot;&gt;
+                        &lt;div class=&quot;person-avatar female&quot;&gt;R&lt;/div&gt;
+                        &lt;div class=&quot;person-info&quot;&gt;
+                            &lt;h4&gt;Rita Kohlmann&lt;/h4&gt;
+                            &lt;span class=&quot;person-subtitle&quot;&gt;geb. 1956, D&amp;ouml;beln &amp;bull; Name vor der Ehe Werner&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;gen-connector&quot;&gt;&amp;#9661;&lt;/div&gt;
+
+        &lt;!-- ===== GENERATION 3: VALERIA &amp; ELISA ===== --&gt;
+        &lt;div class=&quot;tree-generation&quot;&gt;
+            &lt;div class=&quot;gen-label&quot;&gt;Generation 3, Töchter von Thomas &amp;amp; Rita&lt;/div&gt;
+            &lt;div class=&quot;gen-subtitle&quot;&gt;Valeria und Elisa&lt;/div&gt;
+
+            &lt;div class=&quot;gen-people&quot;&gt;
+                &lt;div class=&quot;tree-person&quot; data-id=&quot;valeria&quot; data-side=&quot;direct&quot; data-type=&quot;direct&quot;&gt;
+                    &lt;div class=&quot;person-avatar female&quot;&gt;V&lt;/div&gt;
+                    &lt;div class=&quot;person-info&quot;&gt;
+                        &lt;h4&gt;Valeria Kohlmann&lt;/h4&gt;
+                        &lt;span class=&quot;person-subtitle&quot;&gt;geb. 27. Juni 1990, München&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;tree-person&quot; data-id=&quot;elisa&quot; data-side=&quot;direct&quot; data-type=&quot;sibling&quot;&gt;
+                    &lt;div class=&quot;person-avatar female&quot;&gt;E&lt;/div&gt;
+                    &lt;div class=&quot;person-info&quot;&gt;
+                        &lt;h4&gt;Elisa Kohlmann&lt;/h4&gt;
+                        &lt;span class=&quot;person-subtitle&quot;&gt;geb. 25. März 1994, München&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;!-- VALERIA &amp; SEBASTIAN&#x27;S MARRIAGE --&gt;
+            &lt;div class=&quot;siblings-label&quot; style=&quot;margin-top: 1.5rem;&quot;&gt;Valeria &amp;amp; Sebastian&lt;/div&gt;
+            &lt;div class=&quot;gen-people&quot;&gt;
+                &lt;div class=&quot;couple-row&quot;&gt;
+                    &lt;div class=&quot;tree-person&quot; data-id=&quot;valeria&quot; data-side=&quot;direct&quot; data-type=&quot;direct&quot; style=&quot;opacity: 0.5; pointer-events: none;&quot;&gt;
+                        &lt;div class=&quot;person-avatar female&quot;&gt;V&lt;/div&gt;
+                        &lt;div class=&quot;person-info&quot;&gt;
+                            &lt;h4&gt;Valeria Kohlmann&lt;/h4&gt;
+                            &lt;span class=&quot;person-subtitle&quot;&gt;geb. 27. Juni 1990, München&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;span class=&quot;couple-connector&quot;&gt;verheiratet Sept. 2022, München&lt;/span&gt;
+                    &lt;div class=&quot;tree-person&quot; data-id=&quot;sebastian&quot; data-side=&quot;direct&quot; data-type=&quot;spouse&quot;&gt;
+                        &lt;div class=&quot;person-avatar&quot;&gt;S&lt;/div&gt;
+                        &lt;div class=&quot;person-info&quot;&gt;
+                            &lt;h4&gt;Sebastian Belfiore&lt;/h4&gt;
+                            &lt;span class=&quot;person-subtitle&quot;&gt;geb. 1991, Vereinigtes Königreich &amp;bull; Vater von Enzo&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;gen-connector&quot;&gt;&amp;#9661;&lt;/div&gt;
+
+        &lt;!-- ===== GENERATION 4: ENZO ===== --&gt;
+        &lt;div class=&quot;tree-generation&quot;&gt;
+            &lt;div class=&quot;gen-label&quot;&gt;Generation 4&lt;/div&gt;
+            &lt;div class=&quot;gen-subtitle&quot;&gt;Sohn von Valeria &amp;amp; Sebastian&lt;/div&gt;
+
+            &lt;div class=&quot;gen-people&quot;&gt;
+                &lt;div class=&quot;tree-person&quot; data-id=&quot;enzo&quot; data-side=&quot;direct&quot; data-type=&quot;you&quot;&gt;
+                    &lt;div class=&quot;person-avatar&quot;&gt;E&lt;/div&gt;
+                    &lt;div class=&quot;person-info&quot;&gt;
+                        &lt;h4&gt;Enzo Belfiore&lt;/h4&gt;
+                        &lt;span class=&quot;person-subtitle&quot;&gt;geb. Januar 2026, Tampa &amp;bull; USA/Vereinigtes Königreich/deutsch&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- ===== LEGEND ===== --&gt;
+        &lt;div style=&quot;margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border);&quot;&gt;
+            &lt;div class=&quot;siblings-label&quot;&gt;Legende der Kartenränder&lt;/div&gt;
+            &lt;div style=&quot;display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 0.5rem; font-size: 0.9rem;&quot;&gt;
+                &lt;span&gt;&lt;span style=&quot;display: inline-block; width: 12px; height: 12px; background: var(--border-direct); border-radius: 2px; vertical-align: middle; margin-right: 4px;&quot;&gt;&lt;/span&gt; Direkte Linie&lt;/span&gt;
+                &lt;span&gt;&lt;span style=&quot;display: inline-block; width: 12px; height: 12px; background: var(--border-spouse); border-radius: 2px; vertical-align: middle; margin-right: 4px;&quot;&gt;&lt;/span&gt; Ehepartner&lt;/span&gt;
+                &lt;span&gt;&lt;span style=&quot;display: inline-block; width: 12px; height: 12px; background: var(--border-sibling); border-radius: 2px; vertical-align: middle; margin-right: 4px;&quot;&gt;&lt;/span&gt; Geschwister / weitere Verwandtschaft&lt;/span&gt;
+                &lt;span&gt;&lt;span style=&quot;display: inline-block; width: 12px; height: 12px; background: var(--border-you); border-radius: 2px; vertical-align: middle; margin-right: 4px;&quot;&gt;&lt;/span&gt; Jüngste Generation&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+    &lt;!-- MOBILE OVERLAY --&gt;
+    &lt;div class=&quot;tree-sidebar-overlay&quot; id=&quot;sidebarOverlay&quot;&gt;&lt;/div&gt;
+
+    &lt;!-- RIGHT: STICKY BIO PANEL --&gt;
+    &lt;div class=&quot;tree-sidebar&quot; id=&quot;bioSidebar&quot;&gt;
+        &lt;button class=&quot;tree-sidebar-close&quot; id=&quot;sidebarClose&quot;&gt;&amp;times;&lt;/button&gt;
+        &lt;h2&gt;Biografie&lt;/h2&gt;
+        &lt;div id=&quot;bioContent&quot;&gt;
+            &lt;p class=&quot;bio-placeholder&quot;&gt;Klicken Sie auf eine Person im Stammbaum, um zu lesen, was bekannt ist oder was noch zu ermitteln ist.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+">
 
     <!-- LEFT: SCROLLABLE TREE -->
     <div class="tree-main">

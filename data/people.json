@@ -21,7 +21,8 @@
           "note": "also known as",
           "sourceIds": [
             "ahnentafel-2007"
-          ]
+          ],
+          "note_de": "auch bekannt als"
         }
       ],
       "parents": [],
@@ -98,7 +99,8 @@
           "sourceIds": [
             "anc-death-1938",
             "slub-dresden-1938"
-          ]
+          ],
+          "title_de": "Kaufmann (Händler), Eisenwarenhändler"
         }
       ],
       "timeline": [],
@@ -106,14 +108,20 @@
       "media": [],
       "openQuestions": [
         {
-          "question": "Where his urn was buried (the crematorium register may say Striesener Friedhof)."
+          "question": "Where his urn was buried (the crematorium register may say Striesener Friedhof).",
+          "question_de": "Wo seine Urne beigesetzt wurde (das Krematoriumsregister nennt vielleicht den Striesener Friedhof)."
         },
         {
-          "question": "Name of his second sister, and Marie's married surname."
+          "question": "Name of his second sister, and Marie's married surname.",
+          "question_de": "Name seiner zweiten Schwester und Maries Ehename."
         }
       ],
       "relatedPages": [],
-      "photo": null
+      "photo": null,
+      "disambiguator_de": "Kaufmann, Dresden",
+      "cardPlace_de": "Herzberg und Dresden",
+      "summary_de": "Vater von Gertrud Elise Becker (Christas Mutter), also der Urgroßvater mütterlicherseits von Thomas Kohlmann.",
+      "story_de": "Vater von Gertrud Elise Becker (Christas Mutter), also der Urgroßvater mütterlicherseits von Thomas Kohlmann. Kaufmann (Händler). Geboren am 5. Januar 1875 in Herzberg, Kreis Schweinitz (Herzberg an der Schwarzen Elster), und gestorben zu Hause, Rothermundtstraße 5, Dresden, am 9. Januar 1938 im Alter von 63 Jahren, laut seinem standesamtlichen Sterbeeintrag (Dresden V 1938 Nr. 52).[^anc-death-1938] Die Familientafel von 2007 hat die beiden Tage umgekehrt (geboren am 9. Januar, gestorben am 5. Januar); der Eintrag wird vorgezogen. Die Tafel nennt Lungenentzündung als Todesursache.[^ahnentafel-2007] 1905 wohnte er in der Ziegelstraße 2 in Dresden, wo Gertrud geboren wurde und wo er ihre Geburt selbst anzeigte.[^anc-birth-1905] Spätestens 1926 wohnte die Familie in der Rothermundtstraße 5 in Striesen, wo er im Erdgeschoss eine Eisenwarenhandlung führte (\"Becker, R., Eisenwhdlg.\").[^slub-dresden-1938] Er war Trauzeuge bei Gertruds Hochzeit mit Alwin Eifler am 2. Oktober 1926, im Alter von 51 Jahren.[^anc-marriage-1926] Er wurde im Januar 1938 im Krematorium Dresden eingeäschert, Urkunde 60603.[^anc-cremation-1938] Die Tafel verzeichnet zwei Schwestern; eine handschriftliche Notiz nennt eine von ihnen Marie (Ehename vielleicht Wettlitz) aus der Rothermundtstraße 5."
     },
     {
       "id": "elise-just",
@@ -132,21 +140,24 @@
           "note": "name at birth",
           "sourceIds": [
             "findbuch-death-1954"
-          ]
+          ],
+          "note_de": "Geburtsname"
         },
         {
           "name": "Elise Just",
           "note": "as on the 2007 family chart",
           "sourceIds": [
             "ahnentafel-2007"
-          ]
+          ],
+          "note_de": "wie auf der Familientafel von 2007"
         },
         {
           "name": "Klara Elise Becker",
           "note": "spelling in her husband's 1938 death entry",
           "sourceIds": [
             "anc-death-1938"
-          ]
+          ],
+          "note_de": "Schreibweise im Sterbeeintrag ihres Mannes von 1938"
         }
       ],
       "parents": [],
@@ -210,19 +221,27 @@
           "file": "images/records/1954-bautzen-death-881-clara-elise-becker.jpg",
           "caption": "Bautzen death register 1954, Nr. 881: Clara Elise Becker née Just. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
           "alt": "Typed civil death entry number 881 of 1954 from Bautzen, highlighted.",
-          "sourceId": "findbuch-death-1954"
+          "sourceId": "findbuch-death-1954",
+          "caption_de": "Sterberegister Bautzen 1954, Nr. 881: Clara Elise Becker geb. Just. Archivverbund Bautzen über Findbuch.net, CC BY 4.0.",
+          "alt_de": "Maschinengeschriebener standesamtlicher Sterbeeintrag Nummer 881 von 1954 aus Bautzen, hervorgehoben."
         }
       ],
       "openQuestions": [
         {
-          "question": "Her parents' names (birth entry, Standesamt Bad Elster 1880 Nr. 132)."
+          "question": "Her parents' names (birth entry, Standesamt Bad Elster 1880 Nr. 132).",
+          "question_de": "Die Namen ihrer Eltern (Geburtseintrag, Standesamt Bad Elster 1880 Nr. 132)."
         },
         {
-          "question": "Date and place of her marriage to Richard Becker."
+          "question": "Date and place of her marriage to Richard Becker.",
+          "question_de": "Datum und Ort ihrer Heirat mit Richard Becker."
         }
       ],
       "relatedPages": [],
-      "photo": null
+      "photo": null,
+      "disambiguator_de": "geb. Just",
+      "cardPlace_de": "Raun, Dresden und Bautzen",
+      "summary_de": "Mutter von Gertrud Elise Becker (Christas Mutter), also die Urgroßmutter mütterlicherseits von Thomas Kohlmann.",
+      "story_de": "Mutter von Gertrud Elise Becker (Christas Mutter), also die Urgroßmutter mütterlicherseits von Thomas Kohlmann. Ihr standesamtlicher Sterbeeintrag nennt sie Clara Elise Becker geb. Just, Hausfrau, geboren am 1. Dezember 1880 in Raun, Kreis Oelsnitz im Vogtland (Geburt registriert in Bad Elster, Nr. 132).[^findbuch-death-1954] Sie heiratete den Kaufmann Richard Hermann Becker und lebte in Dresden. 1938 verwitwet, wohnte sie später bei der Familie ihrer Tochter in der Wilthener Straße 19 in Bautzen, wo sie am 27. Dezember 1954 um 2:10 Uhr morgens im Alter von 74 Jahren starb. Gertrud zeigte den Tod an.[^findbuch-death-1954] Die Familientafel sagt, sie sei eines von acht Just-Kindern gewesen (zwei Schwestern und fünf Brüder) und an Herzversagen gestorben.[^ahnentafel-2007]"
     },
     {
       "id": "ernst-alwin",
@@ -243,7 +262,8 @@
           "sourceIds": [
             "ahnentafel-2007",
             "weickert-letterhead"
-          ]
+          ],
+          "note_de": "der Name, den er geschäftlich führte"
         }
       ],
       "parents": [
@@ -356,63 +376,81 @@
           "file": "images/weickert-eifler-letterhead.jpg",
           "caption": "Advertising letterhead, Weickert & Eifler, Bautzen. Undated; the street name dates it to 1933-1945.",
           "alt": "Pre-printed advertising letterhead, Weickert and Eifler, Bautzen, from the Nazi period (1933-1945).",
-          "sourceId": "weickert-letterhead"
+          "sourceId": "weickert-letterhead",
+          "caption_de": "Werbebriefkopf, Weickert & Eifler, Bautzen. Undatiert; der Straßenname datiert ihn auf 1933 bis 1945.",
+          "alt_de": "Vorgedruckter Werbebriefkopf, Weickert und Eifler, Bautzen, aus der Zeit des Nationalsozialismus (1933 bis 1945)."
         },
         {
           "type": "document",
           "file": "images/weickert-eifler-rechnung-1943.jpg",
           "caption": "Business invoice, 9 April 1943, with Gertrud Eifler's signed receipt of 28 April 1943.",
           "alt": "Weickert and Eifler business invoice, 9 April 1943, with payment receipt signed by Gertrud Eifler.",
-          "sourceId": "weickert-invoice-1943"
+          "sourceId": "weickert-invoice-1943",
+          "caption_de": "Geschäftsrechnung vom 9. April 1943, mit der unterschriebenen Empfangsbestätigung von Gertrud Eifler vom 28. April 1943.",
+          "alt_de": "Geschäftsrechnung von Weickert und Eifler vom 9. April 1943, mit von Gertrud Eifler unterschriebener Zahlungsquittung."
         },
         {
           "type": "document",
           "file": "images/alvin-yellow-pages.png",
           "caption": "Bautzen Adressbuch 1938, page 14 (family copy). The highlighted line is \"Eifler, Alwin, Kaufmann, Martin-Mutschmann-Str. 19\".",
           "alt": "Page 14 of the 1938 Bautzen address book with the Alwin Eifler entry highlighted.",
-          "sourceId": "adressbuch-eifler"
+          "sourceId": "adressbuch-eifler",
+          "caption_de": "Bautzen Adressbuch 1938, Seite 14 (Familienexemplar). Die hervorgehobene Zeile lautet \"Eifler, Alwin, Kaufmann, Martin-Mutschmann-Str. 19\".",
+          "alt_de": "Seite 14 des Bautzener Adressbuchs von 1938 mit hervorgehobenem Eintrag zu Alwin Eifler."
         },
         {
           "type": "document",
           "file": "images/records/1928-bautzen-handelsregister-885-weickert-eifler.jpg",
           "caption": "Bautzen Adressbuch 1928, commercial register: Nr. 885 Stahldrahtmatratzenfabrik Weickert & Eifler, Inhaber Alwin Eifler. SLUB Dresden, public domain.",
           "alt": "Highlighted commercial register line from the 1928 Bautzen address book.",
-          "sourceId": "slub-bautzen-1928"
+          "sourceId": "slub-bautzen-1928",
+          "caption_de": "Bautzen Adressbuch 1928, Handelsregister: Nr. 885 Stahldrahtmatratzenfabrik Weickert & Eifler, Inhaber Alwin Eifler. SLUB Dresden, gemeinfrei.",
+          "alt_de": "Hervorgehobene Handelsregisterzeile aus dem Bautzener Adressbuch von 1928."
         },
         {
           "type": "document",
           "file": "images/records/1938-bautzen-house-owner-mms19-eifler.jpg",
           "caption": "Bautzen Adressbuch 1938, house owners: Martin-Mutschmann-Straße 19, owner Eifler, Alwin, Fabrikant. SLUB Dresden, public domain.",
           "alt": "Highlighted house register line from the 1938 Bautzen address book.",
-          "sourceId": "slub-bautzen-1938"
+          "sourceId": "slub-bautzen-1938",
+          "caption_de": "Bautzen Adressbuch 1938, Hauseigentümer: Martin-Mutschmann-Straße 19, Eigentümer Eifler, Alwin, Fabrikant. SLUB Dresden, gemeinfrei.",
+          "alt_de": "Hervorgehobene Zeile aus dem Häuserverzeichnis des Bautzener Adressbuchs von 1938."
         },
         {
           "type": "document",
           "file": "images/records/1926-dresden-marriage-352-eifler-becker.jpg",
           "caption": "Dresden V marriage register 1926, Nr. 352: Ernst Alwin Eifler and Gertrud Elise Becker, 2 October 1926. Stadtarchiv der Landeshauptstadt Dresden, image via Ancestry.",
           "alt": "Printed and typed German civil marriage entry number 352 of 1926 from Dresden, with a blue stamped note in the margin.",
-          "sourceId": "anc-marriage-1926"
+          "sourceId": "anc-marriage-1926",
+          "caption_de": "Heiratsregister Dresden V 1926, Nr. 352: Ernst Alwin Eifler und Gertrud Elise Becker, 2. Oktober 1926. Stadtarchiv der Landeshauptstadt Dresden, Bild über Ancestry.",
+          "alt_de": "Gedruckter und maschinengeschriebener deutscher standesamtlicher Heiratseintrag Nummer 352 von 1926 aus Dresden, mit einem blauen Stempelvermerk am Rand."
         },
         {
           "type": "document",
           "file": "images/records/1926-dresden-marriage-352-margin-death-1968.jpg",
           "caption": "Margin note on the same entry, Dresden, 6 November 1969: the husband died on 18 December 1968, Standesamt Zittau Nr. 1169/1968. Stadtarchiv der Landeshauptstadt Dresden, image via Ancestry.",
           "alt": "Blue rubber-stamped and handwritten margin note dated 6 November 1969.",
-          "sourceId": "anc-marriage-1926"
+          "sourceId": "anc-marriage-1926",
+          "caption_de": "Randvermerk auf demselben Eintrag, Dresden, 6. November 1969: der Ehemann starb am 18. Dezember 1968, Standesamt Zittau Nr. 1169/1968. Stadtarchiv der Landeshauptstadt Dresden, Bild über Ancestry.",
+          "alt_de": "Blauer gestempelter und handschriftlicher Randvermerk vom 6. November 1969."
         }
       ],
       "openQuestions": [
         {
-          "question": "Where and on what date his death was registered (December 1968)."
+          "question": "Where and on what date his death was registered (December 1968).",
+          "question_de": "Wo und an welchem Datum sein Tod beurkundet wurde (Dezember 1968)."
         },
         {
-          "question": "His parents (Sohland birth entry 1892, about Nr. 158)."
+          "question": "His parents (Sohland birth entry 1892, about Nr. 158).",
+          "question_de": "Seine Eltern (Geburtseintrag Sohland 1892, etwa Nr. 158)."
         },
         {
-          "question": "When Bruno Weickert left the firm, and what happened to the firm after 1945."
+          "question": "When Bruno Weickert left the firm, and what happened to the firm after 1945.",
+          "question_de": "Wann Bruno Weickert aus der Firma ausschied und was nach 1945 aus der Firma wurde."
         },
         {
-          "question": "What does his Zittau death entry (1968, Nr. 1169 as read) say about where and how he died?"
+          "question": "What does his Zittau death entry (1968, Nr. 1169 as read) say about where and how he died?",
+          "question_de": "Was sagt sein Sterbeeintrag aus Zittau (1968, Nr. 1169 wie gelesen) darüber, wo und wie er gestorben ist?"
         }
       ],
       "relatedPages": [
@@ -426,7 +464,10 @@
         }
       ],
       "photo": null,
-      "parentLinkConfidence": "probable"
+      "parentLinkConfidence": "probable",
+      "disambiguator_de": "Alwin, von Weickert & Eifler",
+      "summary_de": "Vater von Christa Kohlmann und Sigrid Michaelis.",
+      "story_de": "Vater von Christa Kohlmann und Sigrid Michaelis und Großvater mütterlicherseits von Thomas Kohlmann. Geboren am 7. Oktober 1892 in Sohland an der Spree; sein Heiratseintrag nennt den Ort und führt seinen Geburtseintrag aus Sohland an.[^anc-marriage-1926] Eine Sattlerei und Polsterei Weickert & Eifler bestand in Bautzen schon 1921, geführt vom Sattlermeister Bruno Weickert in der Löbauer Straße 10.[^anc-bautzen-1921] Am 2. Oktober 1926 heiratete Alwin, ein \"Fabrikant\" mit Wohnsitz Wendischer Graben 3 in Bautzen, Gertrud Elise Becker beim Standesamt Dresden V (1926 Nr. 352). Die Trauzeugen waren Ernst Eifler, ein Landwirt aus Sohland an der Spree Nr. 247, 61 Jahre alt (vermutlich sein Vater), und der Vater der Braut.[^anc-marriage-1926] Ab 1928 ist er als alleiniger Inhaber der Stahldrahtmatratzenfabrik Weickert & Eifler eingetragen, mit der Fabrik in Gnaschwitz und Wohnung und Büro in der Neusalzaer Straße 38.[^slub-bautzen-1928] Spätestens 1935 war die Firma in der Martin-Mutschmann-Straße 19 (heute Wilthener Straße 19), einem Haus, das ihm spätestens 1938 gehörte.[^anc-bautzen-1935][^slub-bautzen-1938] Die Familientafel sagt, er sei am 18. Dezember 1968 an einem Schädelbasisbruch nach einem Autounfall im Alter von 76 Jahren gestorben, und nennt seine Geschwister Max, Alfred und Martha.[^ahnentafel-2007] Ein am 6. November 1969 in Dresden auf seinen Heiratseintrag von 1926 gestempelter Vermerk sagt, er sei am 18. Dezember 1968 gestorben und der Tod sei in Zittau beurkundet worden, etwa 30 km südöstlich von Bautzen.[^anc-marriage-1926] Deshalb steht er nicht im Register der Stadt Bautzen für 1968; Gertrud ist 1973 als verwitwet eingetragen.[^findbuch-index-1968][^findbuch-death-1973] Die ganze Geschichte der Firma steht auf der Seite Weickert & Eifler."
     },
     {
       "id": "gertrud-becker",
@@ -445,21 +486,24 @@
           "note": "name at birth",
           "sourceIds": [
             "ahnentafel-2007"
-          ]
+          ],
+          "note_de": "Geburtsname"
         },
         {
           "name": "Gertrud",
           "note": "called Gertrud",
           "sourceIds": [
             "ahnentafel-2007"
-          ]
+          ],
+          "note_de": "genannt Gertrud"
         },
         {
           "name": "Gertrude",
           "note": "as the family gives her name in English",
           "sourceIds": [
             "family-correction-2026-11-26"
-          ]
+          ],
+          "note_de": "wie die Familie ihren Namen auf Englisch angibt"
         }
       ],
       "parents": [
@@ -563,28 +607,36 @@
           "file": "images/weickert-eifler-rechnung-1943.jpg",
           "caption": "Business invoice, 9 April 1943. Gertrud Eifler signed the receipt on 28 April 1943.",
           "alt": "Weickert and Eifler business invoice, 9 April 1943, with payment receipt signed by Gertrud Eifler.",
-          "sourceId": "weickert-invoice-1943"
+          "sourceId": "weickert-invoice-1943",
+          "caption_de": "Geschäftsrechnung vom 9. April 1943. Gertrud Eifler unterschrieb die Empfangsbestätigung am 28. April 1943.",
+          "alt_de": "Geschäftsrechnung von Weickert und Eifler vom 9. April 1943, mit von Gertrud Eifler unterschriebener Zahlungsquittung."
         },
         {
           "type": "document",
           "file": "images/records/1973-bautzen-death-1052-gertrud-elise-eifler.jpg",
           "caption": "Bautzen death register 1973, Nr. 1052: Gertrud Elise Eifler née Becker. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
           "alt": "Typed civil death entry number 1052 of 1973 from Bautzen, highlighted.",
-          "sourceId": "findbuch-death-1973"
+          "sourceId": "findbuch-death-1973",
+          "caption_de": "Sterberegister Bautzen 1973, Nr. 1052: Gertrud Elise Eifler geb. Becker. Archivverbund Bautzen über Findbuch.net, CC BY 4.0.",
+          "alt_de": "Maschinengeschriebener standesamtlicher Sterbeeintrag Nummer 1052 von 1973 aus Bautzen, hervorgehoben."
         },
         {
           "type": "document",
           "file": "images/records/1926-dresden-marriage-352-eifler-becker.jpg",
           "caption": "Dresden V marriage register 1926, Nr. 352: Ernst Alwin Eifler and Gertrud Elise Becker, 2 October 1926. Stadtarchiv der Landeshauptstadt Dresden, image via Ancestry.",
           "alt": "Printed and typed German civil marriage entry number 352 of 1926 from Dresden, with a blue stamped note in the margin.",
-          "sourceId": "anc-marriage-1926"
+          "sourceId": "anc-marriage-1926",
+          "caption_de": "Heiratsregister Dresden V 1926, Nr. 352: Ernst Alwin Eifler und Gertrud Elise Becker, 2. Oktober 1926. Stadtarchiv der Landeshauptstadt Dresden, Bild über Ancestry.",
+          "alt_de": "Gedruckter und maschinengeschriebener deutscher standesamtlicher Heiratseintrag Nummer 352 von 1926 aus Dresden, mit einem blauen Stempelvermerk am Rand."
         },
         {
           "type": "document",
           "file": "images/records/1905-dresden-birth-165-gertrud-elise-becker.jpg",
           "caption": "Dresden I birth register 1905, Nr. 165: Gertrud Elise Becker, born 22 January 1905, reported by her father Richard Hermann Becker. Stadtarchiv der Landeshauptstadt Dresden, image via Ancestry.",
           "alt": "Handwritten German civil birth entry of 27 January 1905 from Dresden, with a margin note of her death in 1973.",
-          "sourceId": "anc-birth-1905"
+          "sourceId": "anc-birth-1905",
+          "caption_de": "Geburtsregister Dresden I 1905, Nr. 165: Gertrud Elise Becker, geboren am 22. Januar 1905, angezeigt von ihrem Vater Richard Hermann Becker. Stadtarchiv der Landeshauptstadt Dresden, Bild über Ancestry.",
+          "alt_de": "Handschriftlicher deutscher standesamtlicher Geburtseintrag vom 27. Januar 1905 aus Dresden, mit einem Randvermerk zu ihrem Tod 1973."
         }
       ],
       "openQuestions": [],
@@ -594,7 +646,11 @@
           "title": "Weickert & Eifler"
         }
       ],
-      "photo": null
+      "photo": null,
+      "disambiguator_de": "geb. Becker",
+      "cardPlace_de": "Dresden und Bautzen",
+      "summary_de": "Mutter von Christa Kohlmann und Sigrid Michaelis.",
+      "story_de": "Mutter von Christa Kohlmann und Sigrid Michaelis und Großmutter mütterlicherseits von Thomas Kohlmann. Geboren am 22. Januar 1905 in der Ziegelstraße 2 in Dresden, Tochter des Kaufmanns Richard Hermann Becker, der die Geburt anzeigte (Dresden I 1905 Nr. 165).[^anc-birth-1905] Sie wohnte bei ihren Eltern in der Rothermundtstraße 5 in Dresden-Striesen und heiratete am 2. Oktober 1926 beim Standesamt Dresden V Alwin Eifler, im Alter von 21 Jahren.[^anc-marriage-1926] Eine Rechnung von Weickert & Eifler vom 9. April 1943 trägt ihre unterschriebene Empfangsbestätigung: \"Betrag dankend erhalten. Gertrud Eifler. d. 28.4.1943.\" Das zeigt, dass sie für die Firma unterschrieb; ob sie die Bücher führte, ist nicht überliefert.[^weickert-invoice-1943] 1954 zeigte sie den Tod ihrer Mutter im Familienhaus an, Wilthener Straße 19, Bautzen.[^findbuch-death-1954] Sie starb dort als Witwe am 11. Dezember 1973 um 3:00 Uhr morgens im Alter von 68 Jahren (Bautzen 1973 Nr. 1052).[^findbuch-death-1973] Die Familientafel nennt Krebs als Todesursache.[^ahnentafel-2007]"
     },
     {
       "id": "alvin",
@@ -614,7 +670,8 @@
           "confidence": "family tradition",
           "sourceIds": [
             "family-correction-2026-11-26"
-          ]
+          ],
+          "note_de": "wie die Familie seinen Namen auf Englisch angibt"
         }
       ],
       "parents": [],
@@ -636,7 +693,8 @@
             "ahnentafel-2007",
             "family-correction-2026-11-26"
           ],
-          "note": "Marriage date and place from the 2007 family chart; the groom is Herbert Kohlmann on the family's word. If the name Alwin or Alvin was ever attached to this marriage, it probably came from Christa's father, Alwin Eifler. The register entry has not been seen."
+          "note": "Marriage date and place from the 2007 family chart; the groom is Herbert Kohlmann on the family's word. If the name Alwin or Alvin was ever attached to this marriage, it probably came from Christa's father, Alwin Eifler. The register entry has not been seen.",
+          "note_de": "Heiratsdatum und Heiratsort nach der Familientafel von 2007; der Bräutigam ist nach Auskunft der Familie Herbert Kohlmann. Wenn dieser Ehe jemals der Name Alwin oder Alvin beigelegt wurde, stammt er vermutlich von Christas Vater, Alwin Eifler. Der Registereintrag ist noch nicht gesehen worden."
         }
       ],
       "birth": null,
@@ -651,15 +709,20 @@
       "media": [],
       "openQuestions": [
         {
-          "question": "When and where was Herbert born, and who were his parents? The 1952 Bautzen marriage entry names them."
+          "question": "When and where was Herbert born, and who were his parents? The 1952 Bautzen marriage entry names them.",
+          "question_de": "Wann und wo wurde Herbert geboren, und wer waren seine Eltern? Der Bautzener Heiratseintrag von 1952 nennt sie."
         },
         {
-          "question": "Was he a son of Ernst Alwin Kohlmann, the Bautzen butcher (1883 to 1972), and Marie Ida née Jurack? Nothing links them yet."
+          "question": "Was he a son of Ernst Alwin Kohlmann, the Bautzen butcher (1883 to 1972), and Marie Ida née Jurack? Nothing links them yet.",
+          "question_de": "War er ein Sohn von Ernst Alwin Kohlmann, dem Fleischer aus Bautzen (1883 bis 1972), und Marie Ida geb. Jurack? Noch verbindet sie nichts."
         }
       ],
       "relatedPages": [],
       "photo": null,
-      "knownAs": "Herbert"
+      "knownAs": "Herbert",
+      "disambiguator_de": "Vater von Thomas",
+      "summary_de": "Vater von Thomas, Herbert Kohlmann, in der Familie auf Englisch als Herbert Coleman bekannt. Er heiratete Christa Eifler am 24. Juli 1952 in Bautzen.",
+      "story_de": "Vater von Thomas, Herbert Kohlmann. Die Familie gibt seinen Namen auf Englisch als Herbert Coleman an.[^family-correction-2026-11-26] Er heiratete Elise Christa Eifler, Tochter von Alwin und Gertrud Eifler von der Bautzener Matratzenfirma Weickert & Eifler, am 24. Juli 1952 in Bautzen; das Datum steht auf der Familientafel von 2007.[^ahnentafel-2007] Sie hatten drei Kinder, Thomas, Matthias und Sabine. Verstorben. Frühere Fassungen dieser Website gaben seinen Vornamen falsch an, eine Verwechslung mit Christas Vater, Alwin Eifler, und die Familie berichtigte das am 26. November 2026. Herberts Geburt, Tod, Beruf und Eltern sind noch nicht bekannt. Der Bautzener Heiratseintrag von 1952 würde seine Eltern, seinen Geburtsort und seinen Beruf nennen. Ernst Alwin Kohlmann, ein 1883 geborener Fleischer aus Bautzen, kommt wegen des Familiennamens, der Stadt und seines Alters als sein Vater in Frage, aber nichts verbindet die beiden."
     },
     {
       "id": "christa",
@@ -679,28 +742,32 @@
           "note": "name at birth",
           "sourceIds": [
             "ahnentafel-2007"
-          ]
+          ],
+          "note_de": "Geburtsname"
         },
         {
           "name": "Christa",
           "note": "called Christa",
           "sourceIds": [
             "ahnentafel-2007"
-          ]
+          ],
+          "note_de": "genannt Christa"
         },
         {
           "name": "Krista",
           "note": "spelling used by the family",
           "sourceIds": [
             "family-correction-2026-11-26"
-          ]
+          ],
+          "note_de": "Schreibweise, die die Familie verwendet"
         },
         {
           "name": "Krista Coleman",
           "note": "her married name as the family gives it in English",
           "sourceIds": [
             "family-correction-2026-11-26"
-          ]
+          ],
+          "note_de": "ihr Ehename, wie die Familie ihn auf Englisch angibt"
         }
       ],
       "parents": [
@@ -725,7 +792,8 @@
             "ahnentafel-2007",
             "family-correction-2026-11-26"
           ],
-          "note": "Marriage date and place from the 2007 family chart; the groom is Herbert Kohlmann on the family's word. If the name Alwin or Alvin was ever attached to this marriage, it probably came from Christa's father, Alwin Eifler. The register entry has not been seen."
+          "note": "Marriage date and place from the 2007 family chart; the groom is Herbert Kohlmann on the family's word. If the name Alwin or Alvin was ever attached to this marriage, it probably came from Christa's father, Alwin Eifler. The register entry has not been seen.",
+          "note_de": "Heiratsdatum und Heiratsort nach der Familientafel von 2007; der Bräutigam ist nach Auskunft der Familie Herbert Kohlmann. Wenn dieser Ehe jemals der Name Alwin oder Alvin beigelegt wurde, stammt er vermutlich von Christas Vater, Alwin Eifler. Der Registereintrag ist noch nicht gesehen worden."
         }
       ],
       "birth": {
@@ -759,7 +827,11 @@
       "openQuestions": [],
       "relatedPages": [],
       "photo": null,
-      "order": 2
+      "order": 2,
+      "disambiguator_de": "geb. Eifler, genannt Christa",
+      "cardPlace_de": "Bautzen, dann Starnberg",
+      "summary_de": "Mutter von Thomas Kohlmann.",
+      "story_de": "Mutter von Thomas Kohlmann. Tochter von Ernst Alwin Eifler (alleiniger Inhaber der Familienfirma Weickert & Eifler in Bautzen) und Gertrud Elise Eifler (geb. Becker). Jüngere Schwester von Sigrid Michaelis (geb. Eifler). Heiratete Herbert Kohlmann am 24. Juli 1952 in Bautzen. Starb im Alter von 77 Jahren an Krebs. Mutter von Thomas, Matthias und Sabine.[^ahnentafel-2007]"
     },
     {
       "id": "sigrid",
@@ -779,14 +851,16 @@
           "note": "name at birth",
           "sourceIds": [
             "ahnentafel-2007"
-          ]
+          ],
+          "note_de": "Geburtsname"
         },
         {
           "name": "Sigrid",
           "note": "called Sigrid",
           "sourceIds": [
             "ahnentafel-2007"
-          ]
+          ],
+          "note_de": "genannt Sigrid"
         }
       ],
       "parents": [
@@ -819,14 +893,19 @@
           "confidence": "probable",
           "sourceIds": [
             "ahnentafel-2007"
-          ]
+          ],
+          "label_de": "Heirat",
+          "value_de": "20. August 1953 in Bautzen, mit einem Mann namens Michaelis. Sein Vorname steht nicht auf der Ahnentafel, deshalb ist er in diesem Stammbaum keine eigene Person."
         }
       ],
       "media": [],
       "openQuestions": [],
       "relatedPages": [],
       "photo": null,
-      "order": 1
+      "order": 1,
+      "disambiguator_de": "geb. Eifler, genannt Sigrid",
+      "summary_de": "Tante von Thomas mütterlicherseits.",
+      "story_de": "Tante von Thomas mütterlicherseits. Ältere Schwester von Christa. Tochter von Ernst Alwin Eifler und Gertrud Elise Eifler (geb. Becker). Heiratete am 20. August 1953 in Bautzen einen Michaelis; der Vorname des Ehemanns steht auf Seite 1 der Ahnentafel nicht. Zum Erstellungsdatum der Tafel (18. Januar 2007) lebte sie vermutlich noch; der heutige Stand ist ohne weitere Recherche unbekannt. 2025 wäre sie 98 Jahre alt.[^ahnentafel-2007]"
     },
     {
       "id": "rita-father",
@@ -859,7 +938,8 @@
             "family-testimony"
           ],
           "relation": "partner",
-          "note": "The site lists them as a couple and as the parents of Rita, Heide and Annette. It also says they were not married when Rita was born, and that it is not known whether they ever married."
+          "note": "The site lists them as a couple and as the parents of Rita, Heide and Annette. It also says they were not married when Rita was born, and that it is not known whether they ever married.",
+          "note_de": "Die Website führt sie als Paar und als Eltern von Rita, Heide und Annette. Sie sagt auch, dass sie bei Ritas Geburt nicht verheiratet waren und dass nicht bekannt ist, ob sie je geheiratet haben."
         }
       ],
       "birth": null,
@@ -875,7 +955,10 @@
       "openQuestions": [],
       "relatedPages": [],
       "photo": null,
-      "nameUncertain": true
+      "nameUncertain": true,
+      "disambiguator_de": "Vater von Rita, Vorname unbekannt",
+      "summary_de": "Vater von Rita.",
+      "story_de": "Vater von Rita. Sein Familienname Werner ist der Name, in den Ritas Name von Woltmann geändert wurde. Vater von Rita, Heide und Annette. [PLACEHOLDER: Vorname, Daten, Ort, Beruf, ob er und Brigitte je geheiratet haben.][^family-testimony]"
     },
     {
       "id": "rita-mother",
@@ -908,7 +991,8 @@
             "family-testimony"
           ],
           "relation": "partner",
-          "note": "The site lists them as a couple and as the parents of Rita, Heide and Annette. It also says they were not married when Rita was born, and that it is not known whether they ever married."
+          "note": "The site lists them as a couple and as the parents of Rita, Heide and Annette. It also says they were not married when Rita was born, and that it is not known whether they ever married.",
+          "note_de": "Die Website führt sie als Paar und als Eltern von Rita, Heide und Annette. Sie sagt auch, dass sie bei Ritas Geburt nicht verheiratet waren und dass nicht bekannt ist, ob sie je geheiratet haben."
         }
       ],
       "birth": null,
@@ -923,7 +1007,10 @@
       "media": [],
       "openQuestions": [],
       "relatedPages": [],
-      "photo": null
+      "photo": null,
+      "disambiguator_de": "Mutter von Rita",
+      "summary_de": "Mutter von Rita.",
+      "story_de": "Mutter von Rita. Der Familienname Woltmann ist der Name, den sie zur Zeit von Ritas Geburt trug (sie und Ritas Vater waren damals nicht verheiratet). Ob sich ihr Familienname später änderte, zu Werner, falls sie Ritas Vater heiratete, oder anders, ist noch nicht bekannt. Mutter von Rita, Heide und Annette. [PLACEHOLDER: Mädchenname, falls Woltmann schon ein Ehename war, Daten, Ort.][^family-testimony]"
     },
     {
       "id": "thomas",
@@ -957,7 +1044,8 @@
           "sourceIds": [
             "family-testimony"
           ],
-          "note": "Family testimony. No marriage record is cited on the site."
+          "note": "Family testimony. No marriage record is cited on the site.",
+          "note_de": "Familienauskunft. Auf der Website wird kein Heiratseintrag angeführt."
         }
       ],
       "birth": {
@@ -987,7 +1075,10 @@
         }
       ],
       "photo": null,
-      "order": 1
+      "order": 1,
+      "disambiguator_de": "Vater von Valeria",
+      "summary_de": "Vater von Valeria.",
+      "story_de": "Vater von Valeria. Geboren 1956 in Radebeul, Sachsen (Ostdeutschland). Sohn von Herbert Kohlmann und Elise Christa Kohlmann (geb. Eifler). Bruder von Matthias und Sabine. Floh aus Ostdeutschland nach Westdeutschland; später half er Rita bei der Flucht. Heiratete Rita 1980 in München. [PLACEHOLDER: genaues Geburtsdatum, Datum und Weg der Flucht, derzeitige Stadt, Beruf.][^family-testimony]"
     },
     {
       "id": "matthias",
@@ -1022,7 +1113,10 @@
       "openQuestions": [],
       "relatedPages": [],
       "photo": null,
-      "order": 2
+      "order": 2,
+      "disambiguator_de": "Bruder von Thomas",
+      "summary_de": "Bruder von Thomas.",
+      "story_de": "Bruder von Thomas. Sohn von Herbert Kohlmann und Elise Christa Kohlmann (geb. Eifler). Vater von Felix Kohlmann.[^family-testimony-2026-11-27] [PLACEHOLDER: Geburtsjahr, Ort, Beruf, Heirat und etwaige weitere Kinder.][^family-testimony]"
     },
     {
       "id": "felix-kohlmann",
@@ -1053,12 +1147,16 @@
       "media": [],
       "openQuestions": [
         {
-          "question": "Who is Felix's mother, and when and where was he born?"
+          "question": "Who is Felix's mother, and when and where was he born?",
+          "question_de": "Wer ist die Mutter von Felix, und wann und wo wurde er geboren?"
         }
       ],
       "relatedPages": [],
       "photo": null,
-      "order": 1
+      "order": 1,
+      "disambiguator_de": "Sohn von Matthias",
+      "summary_de": "Sohn von Matthias Kohlmann und damit ein Cousin ersten Grades von Valeria und Elisa.",
+      "story_de": "Felix Kohlmann ist der Sohn von Matthias Kohlmann, dem Bruder von Thomas, und damit ein Cousin ersten Grades von Valeria und Elisa.[^family-testimony-2026-11-27] Der Name seiner Mutter, sein Geburtsjahr und wo er wohnt, sind hier noch nicht festgehalten."
     },
     {
       "id": "sabine",
@@ -1091,7 +1189,10 @@
       "openQuestions": [],
       "relatedPages": [],
       "photo": null,
-      "order": 3
+      "order": 3,
+      "disambiguator_de": "Schwester von Thomas",
+      "summary_de": "Schwester von Thomas.",
+      "story_de": "Schwester von Thomas. Tochter von Herbert Kohlmann und Elise Christa Kohlmann (geb. Eifler). [PLACEHOLDER: Geburtsjahr, Ort, Ehename falls vorhanden, Familie.][^family-testimony]"
     },
     {
       "id": "rita",
@@ -1110,14 +1211,16 @@
           "note": "birth surname, her mother's surname",
           "sourceIds": [
             "family-testimony"
-          ]
+          ],
+          "note_de": "Geburtsname, der Familienname ihrer Mutter"
         },
         {
           "name": "Rita Werner",
           "note": "surname before marriage, her father's surname",
           "sourceIds": [
             "family-testimony"
-          ]
+          ],
+          "note_de": "Name vor der Heirat, der Familienname ihres Vaters"
         }
       ],
       "parents": [
@@ -1140,7 +1243,8 @@
           "sourceIds": [
             "family-testimony"
           ],
-          "note": "Family testimony. No marriage record is cited on the site."
+          "note": "Family testimony. No marriage record is cited on the site.",
+          "note_de": "Familienauskunft. Auf der Website wird kein Heiratseintrag angeführt."
         }
       ],
       "birth": {
@@ -1170,7 +1274,10 @@
         }
       ],
       "photo": null,
-      "order": 1
+      "order": 1,
+      "disambiguator_de": "geb. Werner, als Woltmann geboren",
+      "summary_de": "Mutter von Valeria.",
+      "story_de": "Mutter von Valeria. Geboren 1956 in Döbeln, Sachsen (Ostdeutschland). Schwester von Heide und Annette. Der Geburtsname war Woltmann (der Familienname ihrer Mutter Brigitte; ihre Eltern waren bei ihrer Geburt nicht verheiratet). Der Familienname wurde später zu Werner geändert (der Familienname ihres Vaters); Werner ist der Ledigname, den sie in die Ehe mitbrachte. Floh nach Thomas aus Ostdeutschland nach Westdeutschland; er half ihr bei der Flucht. Heiratete Thomas 1980 in München. [PLACEHOLDER: genaues Geburtsdatum, Datum und Weg der Flucht, derzeitige Stadt.][^family-testimony]"
     },
     {
       "id": "heide",
@@ -1189,7 +1296,8 @@
           "note": "not yet known",
           "sourceIds": [
             "family-testimony"
-          ]
+          ],
+          "note_de": "noch nicht bekannt"
         }
       ],
       "parents": [
@@ -1211,7 +1319,10 @@
       "openQuestions": [],
       "relatedPages": [],
       "photo": null,
-      "order": 2
+      "order": 2,
+      "disambiguator_de": "Schwester von Rita, Familienname unbekannt",
+      "summary_de": "Schwester von Rita.",
+      "story_de": "Schwester von Rita. Der Ledigname war entweder Woltmann oder Werner, je nach ihrem Geburtsjahr im Verhältnis zu Ritas Namensänderung; noch zu bestätigen. [PLACEHOLDER: Geburtsjahr, Ort, Heirat und etwaige Kinder.][^family-testimony]"
     },
     {
       "id": "annette",
@@ -1230,7 +1341,8 @@
           "note": "not yet known",
           "sourceIds": [
             "family-testimony"
-          ]
+          ],
+          "note_de": "noch nicht bekannt"
         }
       ],
       "parents": [
@@ -1252,7 +1364,10 @@
       "openQuestions": [],
       "relatedPages": [],
       "photo": null,
-      "order": 3
+      "order": 3,
+      "disambiguator_de": "Schwester von Rita, Familienname unbekannt",
+      "summary_de": "Schwester von Rita.",
+      "story_de": "Schwester von Rita. Der Ledigname war entweder Woltmann oder Werner, je nach ihrem Geburtsjahr im Verhältnis zu Ritas Namensänderung; noch zu bestätigen. [PLACEHOLDER: Geburtsjahr, Ort, Heirat und etwaige Kinder.][^family-testimony]"
     },
     {
       "id": "valeria",
@@ -1286,7 +1401,8 @@
             "family-knowledge",
             "self"
           ],
-          "note": "Family knowledge. No marriage record is cited on the site."
+          "note": "Family knowledge. No marriage record is cited on the site.",
+          "note_de": "Familienwissen. Auf der Website wird kein Heiratseintrag angeführt."
         }
       ],
       "birth": {
@@ -1322,7 +1438,10 @@
       "openQuestions": [],
       "relatedPages": [],
       "photo": null,
-      "order": 1
+      "order": 1,
+      "disambiguator_de": "ältere Tochter von Thomas und Rita",
+      "summary_de": "Tochter von Thomas und Rita Kohlmann.",
+      "story_de": "Tochter von Thomas und Rita Kohlmann. Geboren am 27. Juni 1990 in München. Schwester von Elisa. Heiratete Sebastian Belfiore im September 2022 in München. Mutter von Enzo.[^family-knowledge]"
     },
     {
       "id": "elisa",
@@ -1364,7 +1483,10 @@
       "openQuestions": [],
       "relatedPages": [],
       "photo": null,
-      "order": 2
+      "order": 2,
+      "disambiguator_de": "jüngere Tochter von Thomas und Rita",
+      "summary_de": "Tochter von Thomas und Rita Kohlmann.",
+      "story_de": "Tochter von Thomas und Rita Kohlmann. Geboren am 25. März 1994 in München. Schwester von Valeria. [PLACEHOLDER: derzeitiger Ort, Beruf, Heirat und Familie falls vorhanden.][^family-knowledge]"
     },
     {
       "id": "sebastian",
@@ -1395,7 +1517,8 @@
             "family-knowledge",
             "self"
           ],
-          "note": "Family knowledge. No marriage record is cited on the site."
+          "note": "Family knowledge. No marriage record is cited on the site.",
+          "note_de": "Familienwissen. Auf der Website wird kein Heiratseintrag angeführt."
         }
       ],
       "birth": {
@@ -1430,7 +1553,10 @@
       "media": [],
       "openQuestions": [],
       "relatedPages": [],
-      "photo": null
+      "photo": null,
+      "disambiguator_de": "Ehemann von Valeria",
+      "summary_de": "Ehemann von Valeria.",
+      "story_de": "Ehemann von Valeria. Heiratete Valeria Kohlmann im September 2022 in München. Vater von Enzo. Besitzt die Staatsangehörigkeit der USA und des Vereinigten Königreichs. Der Forscher hinter dieser Website.[^self]"
     },
     {
       "id": "enzo",
@@ -1472,7 +1598,10 @@
       "openQuestions": [],
       "relatedPages": [],
       "photo": null,
-      "order": 1
+      "order": 1,
+      "disambiguator_de": "Sohn von Valeria und Sebastian",
+      "summary_de": "Geboren im Januar 2026 in Tampa, Florida.",
+      "story_de": "Geboren im Januar 2026 in Tampa, Florida. Sohn von Valeria Kohlmann und Sebastian Belfiore. Besitzt drei Staatsangehörigkeiten: die der USA, die des Vereinigten Königreichs und die deutsche.[^family-knowledge]"
     },
     {
       "id": "ernst-eifler-sr",
@@ -1511,7 +1640,8 @@
           "confidence": "confirmed",
           "sourceIds": [
             "anc-marriage-1926"
-          ]
+          ],
+          "title_de": "Landwirt (Bauer)"
         }
       ],
       "timeline": [],
@@ -1539,10 +1669,12 @@
       "story": "On 2 October 1926 a farmer named Ernst Eifler, of Sohland an der Spree Nr. 247, aged 61, signed as a witness at the Dresden wedding of Alwin Eifler and Gertrud Becker.[^anc-marriage-1926] Alwin was born in Sohland in 1892, so Ernst is probably his father, but no record seen so far says so. Alwin's Sohland birth entry or baptism would settle it. The 2007 family chart names Alwin's brothers Max and Alfred and his sister Martha.[^ahnentafel-2007] If Ernst was Alwin's father he was theirs too, and they are drawn that way here; the dashed lines show that this is not yet proven.",
       "openQuestions": [
         {
-          "question": "Is he Alwin Eifler's father? Alwin's 1892 Sohland birth entry or baptism names the parents."
+          "question": "Is he Alwin Eifler's father? Alwin's 1892 Sohland birth entry or baptism names the parents.",
+          "question_de": "Ist er der Vater von Alwin Eifler? Alwins Geburtseintrag oder Taufeintrag aus Sohland von 1892 nennt die Eltern."
         },
         {
-          "question": "Were Max, Alfred and Martha Eifler born at Sohland too? The Sohland birth registers from 1876 and the church books would list Ernst's children."
+          "question": "Were Max, Alfred and Martha Eifler born at Sohland too? The Sohland birth registers from 1876 and the church books would list Ernst's children.",
+          "question_de": "Wurden Max, Alfred und Martha Eifler ebenfalls in Sohland geboren? Die Geburtsregister von Sohland ab 1876 und die Kirchenbücher würden Ernsts Kinder nennen."
         }
       ],
       "relatedPages": [
@@ -1550,7 +1682,10 @@
           "url": "weickert-eifler.html",
           "title": "Weickert & Eifler"
         }
-      ]
+      ],
+      "disambiguator_de": "Landwirt aus Sohland, vermutlich Vater von Alwin",
+      "summary_de": "Landwirt in Sohland an der Spree Nr. 247, 61 Jahre alt, Trauzeuge bei der Hochzeit von Alwin Eifler 1926. Vermutlich Alwins Vater; noch nicht bewiesen. Die Familientafel nennt Alwins Brüder Max und Alfred und seine Schwester Martha, deshalb sind sie hier ebenfalls als Kinder von Ernst eingezeichnet, mit derselben gestrichelten Linie.",
+      "story_de": "Am 2. Oktober 1926 unterschrieb ein Landwirt namens Ernst Eifler aus Sohland an der Spree Nr. 247, 61 Jahre alt, als Trauzeuge bei der Hochzeit von Alwin Eifler und Gertrud Becker in Dresden.[^anc-marriage-1926] Alwin wurde 1892 in Sohland geboren, deshalb ist Ernst vermutlich sein Vater, aber kein bisher gesehener Eintrag sagt das. Alwins Geburtseintrag oder Taufeintrag aus Sohland würde es klären. Die Familientafel von 2007 nennt Alwins Brüder Max und Alfred und seine Schwester Martha.[^ahnentafel-2007] Wenn Ernst Alwins Vater war, war er auch ihrer, und so sind sie hier eingezeichnet; die gestrichelten Linien zeigen, dass das noch nicht bewiesen ist."
     },
     {
       "id": "alwin-kohlmann-butcher",
@@ -1584,7 +1719,8 @@
           "confidence": "confirmed",
           "sourceIds": [
             "findbuch-death-register-1972-185"
-          ]
+          ],
+          "note_de": "Name in den Bautzener Adressbüchern 1921 bis 1938"
         }
       ],
       "residences": [
@@ -1599,7 +1735,8 @@
             "slub-bautzen-1928",
             "anc-bautzen-1935-kohlmann",
             "slub-bautzen-1938"
-          ]
+          ],
+          "address_de": "Schäfferstraße 6 (erster Stock 1932, 1935 und 1938)"
         },
         {
           "place": "Bautzen",
@@ -1610,7 +1747,8 @@
           "sourceIds": [
             "anc-bautzen-1921-kohlmann",
             "anc-bautzen-1924-kohlmann"
-          ]
+          ],
+          "address_de": "Holzmarkt 27 (1921: Hinterhaus, erster Stock; 1924: Erdgeschoss)"
         },
         {
           "place": "Bautzen",
@@ -1620,20 +1758,22 @@
           "confidence": "confirmed",
           "sourceIds": [
             "findbuch-death-register-1972-185"
-          ]
+          ],
+          "address_de": "Schäfferstraße 6 (noch seine Adresse bei seinem Tod)"
         }
       ],
       "occupations": [
         {
           "title": "Fleischergeselle (journeyman butcher)",
           "employer": null,
-          "place": "Bautzen",
-          "placeId": null,
+          "place": "Holzmarkt 27, Bautzen",
+          "placeId": "bautzen-holzmarkt-27",
           "years": "1921",
           "confidence": "confirmed",
           "sourceIds": [
             "anc-bautzen-1921-kohlmann"
-          ]
+          ],
+          "title_de": "Fleischergeselle (Geselle)"
         },
         {
           "title": "Fleischer (butcher)",
@@ -1646,7 +1786,8 @@
             "anc-bautzen-1924-kohlmann",
             "slub-bautzen-1928",
             "slub-bautzen-1938"
-          ]
+          ],
+          "title_de": "Fleischer (Metzger)"
         }
       ],
       "timeline": [],
@@ -1658,7 +1799,9 @@
           "sourceIds": [
             "findbuch-death-register-1972-185",
             "findbuch-death-register-1973-55"
-          ]
+          ],
+          "label_de": "Heirat",
+          "value_de": "Heiratete Marie Ida Jurack 1914, beurkundet in Malschwitz, Kreis Bautzen (Nr. 9/1914). Sie wurde am 5. Februar 1887 in Briesing bei Malschwitz geboren, war 1972 seine Witwe und starb am 20. Januar 1973 in Bautzen, wohnhaft Am Stadtwall 1."
         },
         {
           "label": "Probable sister",
@@ -1667,7 +1810,9 @@
           "sourceIds": [
             "findbuch-death-register-1980-40",
             "findbuch-death-register-1972-185"
-          ]
+          ],
+          "label_de": "Vermutliche Schwester",
+          "value_de": "Ernestine Hedwig Kohlmann, geboren am 15. September 1897 in Kleindehsa, dem Dorf, zu dem Kötzschau gehört; heiratete 1926 in Lawalde Ernst Hermann Kissal; starb am 14. Januar 1980 in Bautzen (Mättigstraße 17). Gleicher Familienname, dasselbe Dorf und dieselbe Kirchgemeinde, 14 Jahre jünger: vermutlich seine Schwester, nicht bewiesen."
         }
       ],
       "media": [
@@ -1676,21 +1821,27 @@
           "file": "images/records/1972-bautzen-death-register-185-ernst-alwin-kohlmann.jpg",
           "caption": "Bautzen death register 1972, Nr. 185: Ernst Alwin Kohlmann of Schäfferstraße 6, died 27 February 1972, born 21 September 1883, married to Marie Ida née Jurack. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
           "alt": "Typed death register entry for Ernst Alwin Kohlmann, highlighted.",
-          "sourceId": "findbuch-death-register-1972-185"
+          "sourceId": "findbuch-death-register-1972-185",
+          "caption_de": "Sterberegister Bautzen 1972, Nr. 185: Ernst Alwin Kohlmann aus der Schäfferstraße 6, gestorben am 27. Februar 1972, geboren am 21. September 1883, verheiratet mit Marie Ida geb. Jurack. Archivverbund Bautzen über Findbuch.net, CC BY 4.0.",
+          "alt_de": "Maschinengeschriebener Sterberegistereintrag für Ernst Alwin Kohlmann, hervorgehoben."
         },
         {
           "type": "document",
           "file": "images/records/1972-bautzen-death-index-kohlmann-ernst-alwin.jpg",
           "caption": "Bautzen death name index 1972, letter K: \"Kohlmann, Ernst Alwin\", died 27 February, register Nr. 185. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
           "alt": "Handwritten index line for Ernst Alwin Kohlmann, highlighted.",
-          "sourceId": "findbuch-death-index-1972-kohlmann"
+          "sourceId": "findbuch-death-index-1972-kohlmann",
+          "caption_de": "Sterbenamenverzeichnis Bautzen 1972, Buchstabe K: \"Kohlmann, Ernst Alwin\", gestorben am 27. Februar, Register Nr. 185. Archivverbund Bautzen über Findbuch.net, CC BY 4.0.",
+          "alt_de": "Handschriftliche Verzeichniszeile für Ernst Alwin Kohlmann, hervorgehoben."
         },
         {
           "type": "document",
           "file": "images/records/1980-bautzen-death-register-40-ernestine-hedwig-kissal-geb-kohlmann.jpg",
           "caption": "Bautzen death register 1980, Nr. 40: Ernestine Hedwig Kissal née Kohlmann, born 15 September 1897 at Kleindehsa, Kreis Löbau. Archivverbund Bautzen via Findbuch.net, CC BY 4.0.",
           "alt": "Typed death register entry for Ernestine Hedwig Kissal née Kohlmann, highlighted.",
-          "sourceId": "findbuch-death-register-1980-40"
+          "sourceId": "findbuch-death-register-1980-40",
+          "caption_de": "Sterberegister Bautzen 1980, Nr. 40: Ernestine Hedwig Kissal geb. Kohlmann, geboren am 15. September 1897 in Kleindehsa, Kreis Löbau. Archivverbund Bautzen über Findbuch.net, CC BY 4.0.",
+          "alt_de": "Maschinengeschriebener Sterberegistereintrag für Ernestine Hedwig Kissal geb. Kohlmann, hervorgehoben."
         }
       ],
       "birth": {
@@ -1706,8 +1857,8 @@
       "death": {
         "date": "1972-02-27",
         "display": "27 February 1972",
-        "place": "Bautzen",
-        "placeId": null,
+        "place": "Schäfferstraße 6, Bautzen",
+        "placeId": "bautzen-schaefferstrasse-6",
         "confidence": "confirmed",
         "sourceIds": [
           "findbuch-death-register-1972-185"
@@ -1725,13 +1876,16 @@
       "story": "In 1921 the Bautzen address book lists \"Kohlmann, Alwin, Fleischergeselle\" (journeyman butcher) at Holzmarkt 27, in the rear building, first floor.[^anc-bautzen-1921-kohlmann] In 1924 he is a butcher (Fleischer) at Holzmarkt 27, ground floor.[^anc-bautzen-1924-kohlmann] From 1925 he lives at Schäfferstraße 6, and he is there in every book seen up to 1938.[^anc-bautzen-1925-kohlmann][^slub-bautzen-1928][^anc-bautzen-1935-kohlmann][^slub-bautzen-1938] He is the only Alwin Kohlmann in each book, and there is no second, younger Kohlmann butcher. Thomas Kohlmann's father was Herbert Kohlmann, who married Christa Eifler in Bautzen in 1952. This Alwin, born in 1883, could belong to Herbert's parents' generation, but nothing found so far links him to Herbert or to the family. (An older idea that Thomas's father was called Alvin, and might be this Alwin, came from a mix-up with Christa's father Alwin Eifler and is closed.) The Bautzen death name index for 1972 lists \"Kohlmann, Ernst Alwin\", who died on 27 February 1972, death register number 185.[^findbuch-death-index-1972-kohlmann] He is the only Alwin Kohlmann in the Bautzen death indexes from 1946 to 1979, so he is probably the butcher, but the index gives no age or address. The register entry itself would give his birth and next of kin.[^findbuch-death-indexes-1946-1972] His death entry in the Bautzen register for 1972 settles who he was: Ernst Alwin Kohlmann of Schäfferstraße 6, the same house as in the address books, died on 27 February 1972. He was born on 21 September 1883 at Kötzschau, a hamlet near Lawalde in Kreis Löbau, and was married to Marie Ida Kohlmann née Jurack; the marriage was registered at Malschwitz in 1914.[^findbuch-death-register-1972-185] Marie Ida died in Bautzen less than a year later, on 20 January 1973.[^findbuch-death-indexes-1946-1972] The entry does not name his parents or any children. A second Kohlmann from the same village died in Bautzen in 1980: Ernestine Hedwig Kissal née Kohlmann, born on 15 September 1897 at Kleindehsa, the village that Kötzschau belongs to. She married Ernst Hermann Kissal at Lawalde in 1926 and lived at Mättigstraße 17.[^findbuch-death-register-1980-40] She was probably Alwin's younger sister, which would make this Bautzen Kohlmann family one from the Lawalde parish near Löbau.",
       "openQuestions": [
         {
-          "question": "Was he Herbert Kohlmann's father? The 1952 marriage entry (Standesamt Bautzen) names Herbert's parents and would show whether this family is connected."
+          "question": "Was he Herbert Kohlmann's father? The 1952 marriage entry (Standesamt Bautzen) names Herbert's parents and would show whether this family is connected.",
+          "question_de": "War er der Vater von Herbert Kohlmann? Der Heiratseintrag von 1952 (Standesamt Bautzen) nennt Herberts Eltern und würde zeigen, ob diese Familie verbunden ist."
         },
         {
-          "question": "Who were his parents? His 1914 marriage entry (Malschwitz Nr. 9/1914) and his 1883 birth entry (Lawalde Nr. 71/1883) name them."
+          "question": "Who were his parents? His 1914 marriage entry (Malschwitz Nr. 9/1914) and his 1883 birth entry (Lawalde Nr. 71/1883) name them.",
+          "question_de": "Wer waren seine Eltern? Sein Heiratseintrag von 1914 (Malschwitz Nr. 9/1914) und sein Geburtseintrag von 1883 (Lawalde Nr. 71/1883) nennen sie."
         },
         {
-          "question": "Was Ernestine Hedwig Kissal née Kohlmann (1897 to 1980) his sister? Her 1926 Lawalde marriage entry (Nr. 4/1926) names her parents."
+          "question": "Was Ernestine Hedwig Kissal née Kohlmann (1897 to 1980) his sister? Her 1926 Lawalde marriage entry (Nr. 4/1926) names her parents.",
+          "question_de": "War Ernestine Hedwig Kissal geb. Kohlmann (1897 bis 1980) seine Schwester? Ihr Heiratseintrag aus Lawalde von 1926 (Nr. 4/1926) nennt ihre Eltern."
         }
       ],
       "relatedPages": [
@@ -1739,7 +1893,10 @@
           "url": "research.html",
           "title": "Research & Records"
         }
-      ]
+      ],
+      "disambiguator_de": "eine Spur zur Familie von Herbert Kohlmann",
+      "summary_de": "Ernst Alwin Kohlmann, Fleischer, wurde am 21. September 1883 in Kötzschau bei Lawalde (Kreis Löbau) geboren und starb am 27. Februar 1972 in Bautzen, noch wohnhaft in der Schäfferstraße 6, seiner Adresse seit 1925. Er heiratete 1914 Marie Ida Jurack. Gleicher Familienname und gleiche Stadt wie Herbert Kohlmann, der Vater von Thomas, und im passenden Alter, um sein Vater zu sein, aber nichts verbindet ihn mit der Familie. Er wird nur als vermuteter Verwandter gezeigt.",
+      "story_de": "1921 verzeichnet das Bautzener Adressbuch \"Kohlmann, Alwin, Fleischergeselle\" (Geselle) am Holzmarkt 27, im Hinterhaus, erster Stock.[^anc-bautzen-1921-kohlmann] 1924 ist er Fleischer am Holzmarkt 27, Erdgeschoss.[^anc-bautzen-1924-kohlmann] Ab 1925 wohnt er in der Schäfferstraße 6, und er steht dort in jedem gesehenen Buch bis 1938.[^anc-bautzen-1925-kohlmann][^slub-bautzen-1928][^anc-bautzen-1935-kohlmann][^slub-bautzen-1938] Er ist in jedem Buch der einzige Alwin Kohlmann, und es gibt keinen zweiten, jüngeren Kohlmann, der Fleischer war. Der Vater von Thomas Kohlmann war Herbert Kohlmann, der 1952 in Bautzen Christa Eifler heiratete. Dieser Alwin, geboren 1883, könnte zur Generation von Herberts Eltern gehören, aber nichts bisher Gefundenes verbindet ihn mit Herbert oder mit der Familie. (Eine ältere Annahme, der Vater von Thomas habe Alvin geheißen und könnte dieser Alwin sein, entstand aus einer Verwechslung mit Christas Vater Alwin Eifler und ist erledigt.) Das Bautzener Sterbenamenverzeichnis für 1972 führt \"Kohlmann, Ernst Alwin\", gestorben am 27. Februar 1972, Sterberegister Nummer 185.[^findbuch-death-index-1972-kohlmann] Er ist der einzige Alwin Kohlmann in den Bautzener Sterbeverzeichnissen von 1946 bis 1979, also ist er vermutlich der Fleischer, aber das Verzeichnis nennt kein Alter und keine Adresse. Der Registereintrag selbst würde seine Geburt und die nächsten Angehörigen nennen.[^findbuch-death-indexes-1946-1972] Sein Sterbeeintrag im Bautzener Register für 1972 stellt klar, wer er war: Ernst Alwin Kohlmann aus der Schäfferstraße 6, demselben Haus wie in den Adressbüchern, starb am 27. Februar 1972. Er wurde am 21. September 1883 in Kötzschau geboren, einem Weiler bei Lawalde im Kreis Löbau, und war verheiratet mit Marie Ida Kohlmann geb. Jurack; die Ehe wurde 1914 in Malschwitz beurkundet.[^findbuch-death-register-1972-185] Marie Ida starb weniger als ein Jahr später, am 20. Januar 1973, in Bautzen.[^findbuch-death-indexes-1946-1972] Der Eintrag nennt seine Eltern nicht und auch keine Kinder. Eine zweite Kohlmann aus demselben Dorf starb 1980 in Bautzen: Ernestine Hedwig Kissal geb. Kohlmann, geboren am 15. September 1897 in Kleindehsa, dem Dorf, zu dem Kötzschau gehört. Sie heiratete 1926 in Lawalde Ernst Hermann Kissal und wohnte in der Mättigstraße 17.[^findbuch-death-register-1980-40] Sie war vermutlich Alwins jüngere Schwester, wodurch diese Bautzener Familie Kohlmann eine aus der Kirchgemeinde Lawalde bei Löbau wäre."
     },
     {
       "id": "max-woltmann",
@@ -1783,7 +1940,8 @@
           "sourceIds": [
             "slub-doebeln-1939",
             "anc-doebeln-1939"
-          ]
+          ],
+          "address_de": "Grimmaische Straße 20 (dasselbe Haus, Straße umbenannt)"
         }
       ],
       "occupations": [
@@ -1808,26 +1966,33 @@
           "file": "images/records/1925-doebeln-woltmann-max-kleinbauchlitzer-20.jpg",
           "caption": "Adressbuch Döbeln 1925, page 187: Woltmann Max, Steuerassistent, Kleinbauchlitzer Straße 20. SLUB Dresden, public domain.",
           "alt": "Döbeln address book 1925 with the Max Woltmann entry highlighted.",
-          "sourceId": "slub-doebeln-1925"
+          "sourceId": "slub-doebeln-1925",
+          "caption_de": "Adressbuch Döbeln 1925, Seite 187: Woltmann Max, Steuerassistent, Kleinbauchlitzer Straße 20. SLUB Dresden, gemeinfrei.",
+          "alt_de": "Adressbuch Döbeln 1925 mit hervorgehobenem Eintrag zu Max Woltmann."
         },
         {
           "type": "document",
           "file": "images/records/1939-doebeln-grimmaische-20-woltmann-max.jpg",
           "caption": "Adressbuch Döbeln 1939, house list for Grimmaische Straße 20: Woltmann Max, Steuersekretär. SLUB Dresden, public domain.",
           "alt": "Döbeln address book 1939, house list, Max Woltmann highlighted.",
-          "sourceId": "slub-doebeln-1939"
+          "sourceId": "slub-doebeln-1939",
+          "caption_de": "Adressbuch Döbeln 1939, Häuserverzeichnis für Grimmaische Straße 20: Woltmann Max, Steuersekretär. SLUB Dresden, gemeinfrei.",
+          "alt_de": "Adressbuch Döbeln 1939, Häuserverzeichnis, Max Woltmann hervorgehoben."
         },
         {
           "type": "document",
           "file": "images/records/1939-doebeln-grimmaische-formerly-kleinbauchlitzer.jpg",
           "caption": "Adressbuch Döbeln 1939: \"Grimmaische Straße, vorher Kleinbauchlitzer Straße\". SLUB Dresden, public domain.",
           "alt": "Street heading in the Döbeln address book of 1939.",
-          "sourceId": "slub-doebeln-1939"
+          "sourceId": "slub-doebeln-1939",
+          "caption_de": "Adressbuch Döbeln 1939: \"Grimmaische Straße, vorher Kleinbauchlitzer Straße\". SLUB Dresden, gemeinfrei.",
+          "alt_de": "Straßenüberschrift im Adressbuch Döbeln von 1939."
         }
       ],
       "openQuestions": [
         {
-          "question": "Is Max Woltmann Brigitte Woltmann's father or grandfather? Brigitte's birth entry (Standesamt Döbeln) names her parents."
+          "question": "Is Max Woltmann Brigitte Woltmann's father or grandfather? Brigitte's birth entry (Standesamt Döbeln) names her parents.",
+          "question_de": "Ist Max Woltmann der Vater oder Großvater von Brigitte Woltmann? Brigittes Geburtseintrag (Standesamt Döbeln) nennt ihre Eltern."
         }
       ],
       "relatedPages": [
@@ -1835,7 +2000,10 @@
           "url": "research.html",
           "title": "Research & Records"
         }
-      ]
+      ],
+      "disambiguator_de": "Steuerbeamter in Döbeln, eine Spur zur Familie von Brigitte",
+      "summary_de": "Max Woltmann, ein Steuerbeamter, war der einzige Woltmann in den Döbelner Adressbüchern von 1925 und 1939, beide Male im selben Haus. Rita wurde 1956 in Döbeln als Woltmann geboren, deshalb kann er Brigittes Vater oder ein anderer naher Verwandter sein. Nicht bewiesen.",
+      "story_de": "Das Döbelner Adressbuch für 1925 führt \"Woltmann Max, Steuerassist.\" (Steuerassistent) in der Kleinbauchlitzer Straße 20. Er ist der einzige Woltmann im Buch.[^slub-doebeln-1925] 1939 führt das Buch \"Woltmann, Max, Steuersekretär\" (Steuersekretär) an der Adresse Grimmaische Straße 20, wieder der einzige Woltmann.[^slub-doebeln-1939] Das Buch von 1939 leitet Grimmaische Straße mit der Überschrift \"vorher Kleinbauchlitzer Straße\" ein (früher Kleinbauchlitzer Straße), also ist es dasselbe Haus: er wohnte mindestens von 1925 bis 1939 in Nr. 20 und wurde vom Assistenten zum Sekretär befördert.[^slub-doebeln-1939] 1900 bis 1901 gab es in Döbeln keinen Woltmann, also kam er nach 1900 in die Stadt.[^slub-doebeln-1900] Rita wurde 1956 in Döbeln mit dem Familiennamen ihrer Mutter Brigitte geboren, Woltmann.[^family-testimony] Bei einem so seltenen Namen ist Max vermutlich Brigittes Vater oder Großvater, aber kein bisher gesehener Eintrag verbindet sie. Brigittes Geburtseintrag würde es klären. Die Exemplare derselben beiden Bücher bei Ancestry zeigen dieselben Einträge; Ancestry hat keinen Geburts-, Heirats- oder Sterbeeintrag für ihn und keinen für Brigitte.[^anc-doebeln-1925][^anc-doebeln-1939]"
     },
     {
       "id": "bruno-weickert",
@@ -1857,7 +2025,8 @@
           "confidence": "confirmed",
           "sourceIds": [
             "anc-bautzen-1929-firm"
-          ]
+          ],
+          "note_de": "wie der Firmenname in den Adressbüchern 1928 bis 1932 gedruckt ist"
         }
       ],
       "parents": [],
@@ -1892,7 +2061,8 @@
           "confidence": "confirmed",
           "sourceIds": [
             "anc-bautzen-1921"
-          ]
+          ],
+          "address_de": "Neusalzaer Straße 34, zweiter Stock"
         },
         {
           "place": "Bautzen",
@@ -1904,7 +2074,8 @@
             "anc-bautzen-weickert-1924",
             "anc-bautzen-weickert-1925",
             "anc-bautzen-weickert-1928"
-          ]
+          ],
+          "address_de": "Neusalzaer Straße 20, das Haus der Familie Weickert"
         },
         {
           "place": "Bautzen",
@@ -1927,7 +2098,8 @@
           "confidence": "confirmed",
           "sourceIds": [
             "anc-bautzen-1921"
-          ]
+          ],
+          "title_de": "Sattlermeister (Meister); Sattlerei und Polsterei, Firmenname Weickert & Eifler"
         }
       ],
       "facts": [
@@ -1938,7 +2110,9 @@
           "sourceIds": [
             "findbuch-marriage-index-1918",
             "findbuch-death-register-1956-225"
-          ]
+          ],
+          "label_de": "Heirat",
+          "value_de": "Heiratete Marie Martha Kuschel, eine Näherin, am 7. September 1918 in Bautzen (Standesamt Bautzen Nr. 135/1918). Das Heiratsverzeichnis nennt ihn Sattler und \"z. Zt. Kanonier d. Res., z. Zt. im Felde\": ein Kanonier der Reserve, an der Front, er heiratete also auf Urlaub in den letzten Monaten des Ersten Weltkriegs."
         },
         {
           "label": "Same age as his partner",
@@ -1947,7 +2121,9 @@
           "sourceIds": [
             "findbuch-death-register-1956-225",
             "anc-marriage-1926"
-          ]
+          ],
+          "label_de": "Gleich alt wie sein Geschäftspartner",
+          "value_de": "Geboren am 2. Dezember 1892, acht Wochen nach Alwin Eifler (7. Oktober 1892). Die beiden Gründer der Firma waren gleich alt."
         },
         {
           "label": "Not family",
@@ -1955,7 +2131,9 @@
           "confidence": "confirmed",
           "sourceIds": [
             "anc-bautzen-1921"
-          ]
+          ],
+          "label_de": "Nicht zur Familie gehörig",
+          "value_de": "Bruno Weickert war der Geschäftspartner von Alwin Eifler, kein Verwandter. Er steht auf der Karte als Geschäftspartner und nicht im Stammbaum."
         }
       ],
       "timeline": [],
@@ -1965,15 +2143,19 @@
           "file": "images/records/1956-bautzen-death-register-225-max-bruno-weickert.jpg",
           "caption": "Bautzen death register 1956, Nr. 225: Max Bruno Weickert, master saddler, Fischergasse 31, born 2 December 1892 in Großschönau, died 26 March 1956; married Marie Martha née Kuschel, Bautzen 7 Sept 1918 Nr. 135. Archivverbund Bautzen 61003 vol 86 p226, CC BY 4.0.",
           "sourceId": "findbuch-death-register-1956-225",
-          "alt": "Typed civil death entry number 225 of 1956 from Bautzen, highlighted: Max Bruno Weickert, master saddler, Fischergasse 31."
+          "alt": "Typed civil death entry number 225 of 1956 from Bautzen, highlighted: Max Bruno Weickert, master saddler, Fischergasse 31.",
+          "caption_de": "Sterberegister Bautzen 1956, Nr. 225: Max Bruno Weickert, Sattlermeister, Fischergasse 31, geboren am 2. Dezember 1892 in Großschönau, gestorben am 26. März 1956; verheiratet mit Marie Martha geb. Kuschel, Bautzen 7. Sept. 1918 Nr. 135. Archivverbund Bautzen 61003 Bd. 86 S. 226, CC BY 4.0.",
+          "alt_de": "Maschinengeschriebener standesamtlicher Sterbeeintrag Nummer 225 von 1956 aus Bautzen, hervorgehoben: Max Bruno Weickert, Sattlermeister, Fischergasse 31."
         }
       ],
       "openQuestions": [
         {
-          "question": "His parents: the 1918 marriage entry (Bautzen Nr. 135/1918, not online) names them. Karl Gottlieb Weickert, shoemaker at Neusalzaer Straße 20, may be his father."
+          "question": "His parents: the 1918 marriage entry (Bautzen Nr. 135/1918, not online) names them. Karl Gottlieb Weickert, shoemaker at Neusalzaer Straße 20, may be his father.",
+          "question_de": "Seine Eltern: der Heiratseintrag von 1918 (Bautzen Nr. 135/1918, nicht online) nennt sie. Karl Gottlieb Weickert, Schuhmacher in der Neusalzaer Straße 20, könnte sein Vater sein."
         },
         {
-          "question": "When and why he left the firm: the Handelsregister file at the Archivverbund Bautzen."
+          "question": "When and why he left the firm: the Handelsregister file at the Archivverbund Bautzen.",
+          "question_de": "Wann und warum er aus der Firma ausschied: die Handelsregisterakte im Archivverbund Bautzen."
         }
       ],
       "relatedPages": [
@@ -1985,7 +2167,10 @@
       "cardPlace": null,
       "photo": null,
       "summary": "Master saddler and co-founder of Weickert & Eifler with Alwin Eifler. Not family.",
-      "story": "Max Bruno Weickert, master saddler, was the Weickert of Weickert & Eifler. Born on 2 December 1892 in Großschönau near Zittau, he ran the saddlery and upholstery shop at Löbauer Straße 10 that carried the firm's name in 1921. By 1928 Alwin Eifler was the sole owner. Bruno died at home, Fischergasse 31 in Bautzen, on 26 March 1956.[^findbuch-death-register-1956-225][^anc-bautzen-1921]"
+      "story": "Max Bruno Weickert, master saddler, was the Weickert of Weickert & Eifler. Born on 2 December 1892 in Großschönau near Zittau, he ran the saddlery and upholstery shop at Löbauer Straße 10 that carried the firm's name in 1921. By 1928 Alwin Eifler was the sole owner. Bruno died at home, Fischergasse 31 in Bautzen, on 26 March 1956.[^findbuch-death-register-1956-225][^anc-bautzen-1921]",
+      "disambiguator_de": "Sattlermeister, der Weickert von Weickert & Eifler; nicht zur Familie gehörig",
+      "summary_de": "Sattlermeister und Mitgründer von Weickert & Eifler zusammen mit Alwin Eifler. Nicht zur Familie gehörig.",
+      "story_de": "Max Bruno Weickert, Sattlermeister, war der Weickert von Weickert & Eifler. Geboren am 2. Dezember 1892 in Großschönau bei Zittau, führte er 1921 die Sattlerei und Polsterei in der Löbauer Straße 10, die den Firmennamen trug. Spätestens 1928 war Alwin Eifler der alleinige Inhaber. Bruno starb am 26. März 1956 zu Hause, Fischergasse 31 in Bautzen.[^findbuch-death-register-1956-225][^anc-bautzen-1921]"
     },
     {
       "id": "max-eifler",
@@ -2017,10 +2202,12 @@
       "story": "The 2007 family chart names Max as a brother of Alwin Eifler (1892 to 1968).[^ahnentafel-2007] Nothing more is known yet: not the dates, not where he lived. On this tree he is drawn as a child of Ernst Eifler, the Sohland farmer who was probably Alwin's father; that link is not proven, so the line is dashed. A Max Eifler lived in Bautzen at Paulistraße 32 and is listed right under Alwin in the 1928 address book, but his 1978 death entry shows he was Max Oswald Eifler, born on 2 March 1892 at Oberrennersdorf, seven months before Alwin and in another village, so he cannot be Alwin's full brother.[^findbuch-death-register-1978-704]",
       "openQuestions": [
         {
-          "question": "When and where was Max born? Alwin's Sohland birth entry (1892) and the Sohland church books would give the parents and the other children."
+          "question": "When and where was Max born? Alwin's Sohland birth entry (1892) and the Sohland church books would give the parents and the other children.",
+          "question_de": "Wann und wo wurde Max geboren? Alwins Geburtseintrag aus Sohland (1892) und die Kirchenbücher von Sohland würden die Eltern und die anderen Kinder nennen."
         },
         {
-          "question": "Max Oswald Eifler of Paulistraße 32 (1892 to 1978) is not this Max. Was he a cousin?"
+          "question": "Max Oswald Eifler of Paulistraße 32 (1892 to 1978) is not this Max. Was he a cousin?",
+          "question_de": "Max Oswald Eifler aus der Paulistraße 32 (1892 bis 1978) ist nicht dieser Max. War er ein Cousin?"
         }
       ],
       "relatedPages": [
@@ -2028,7 +2215,10 @@
           "url": "weickert-eifler.html",
           "title": "Weickert & Eifler"
         }
-      ]
+      ],
+      "disambiguator_de": "Bruder von Alwin, laut Familientafel",
+      "summary_de": "Bruder von Alwin Eifler, genannt auf der Familientafel von 2007. Daten und Orte sind noch nicht bekannt.",
+      "story_de": "Die Familientafel von 2007 nennt Max als Bruder von Alwin Eifler (1892 bis 1968).[^ahnentafel-2007] Mehr ist noch nicht bekannt: nicht die Daten und nicht, wo er wohnte. In diesem Stammbaum ist er als Kind von Ernst Eifler eingezeichnet, dem Landwirt aus Sohland, der vermutlich Alwins Vater war; diese Verbindung ist nicht bewiesen, deshalb ist die Linie gestrichelt. Ein Max Eifler wohnte in Bautzen in der Paulistraße 32 und steht im Adressbuch von 1928 direkt unter Alwin, aber sein Sterbeeintrag von 1978 zeigt, dass er Max Oswald Eifler war, geboren am 2. März 1892 in Oberrennersdorf, sieben Monate vor Alwin und in einem anderen Dorf, also kann er nicht Alwins Vollbruder sein.[^findbuch-death-register-1978-704]"
     },
     {
       "id": "alfred-eifler",
@@ -2060,7 +2250,8 @@
       "story": "The 2007 family chart names Alfred as a brother of Alwin Eifler (1892 to 1968).[^ahnentafel-2007] Nothing more is known yet: not the dates, not where he lived. On this tree he is drawn as a child of Ernst Eifler, the Sohland farmer who was probably Alwin's father; that link is not proven, so the line is dashed.",
       "openQuestions": [
         {
-          "question": "When and where was Alfred born? Alwin's Sohland birth entry (1892) and the Sohland church books would give the parents and the other children."
+          "question": "When and where was Alfred born? Alwin's Sohland birth entry (1892) and the Sohland church books would give the parents and the other children.",
+          "question_de": "Wann und wo wurde Alfred geboren? Alwins Geburtseintrag aus Sohland (1892) und die Kirchenbücher von Sohland würden die Eltern und die anderen Kinder nennen."
         }
       ],
       "relatedPages": [
@@ -2068,7 +2259,10 @@
           "url": "weickert-eifler.html",
           "title": "Weickert & Eifler"
         }
-      ]
+      ],
+      "disambiguator_de": "Bruder von Alwin, laut Familientafel",
+      "summary_de": "Bruder von Alwin Eifler, genannt auf der Familientafel von 2007. Daten und Orte sind noch nicht bekannt.",
+      "story_de": "Die Familientafel von 2007 nennt Alfred als Bruder von Alwin Eifler (1892 bis 1968).[^ahnentafel-2007] Mehr ist noch nicht bekannt: nicht die Daten und nicht, wo er wohnte. In diesem Stammbaum ist er als Kind von Ernst Eifler eingezeichnet, dem Landwirt aus Sohland, der vermutlich Alwins Vater war; diese Verbindung ist nicht bewiesen, deshalb ist die Linie gestrichelt."
     },
     {
       "id": "martha-eifler",
@@ -2100,7 +2294,8 @@
       "story": "The 2007 family chart names Martha as a sister of Alwin Eifler (1892 to 1968).[^ahnentafel-2007] Nothing more is known yet: not the dates, not where she lived. On this tree she is drawn as a child of Ernst Eifler, the Sohland farmer who was probably Alwin's father; that link is not proven, so the line is dashed.",
       "openQuestions": [
         {
-          "question": "When and where was Martha born? Alwin's Sohland birth entry (1892) and the Sohland church books would give the parents and the other children."
+          "question": "When and where was Martha born? Alwin's Sohland birth entry (1892) and the Sohland church books would give the parents and the other children.",
+          "question_de": "Wann und wo wurde Martha geboren? Alwins Geburtseintrag aus Sohland (1892) und die Kirchenbücher von Sohland würden die Eltern und die anderen Kinder nennen."
         }
       ],
       "relatedPages": [
@@ -2108,7 +2303,10 @@
           "url": "weickert-eifler.html",
           "title": "Weickert & Eifler"
         }
-      ]
+      ],
+      "disambiguator_de": "Schwester von Alwin, laut Familientafel",
+      "summary_de": "Schwester von Alwin Eifler, genannt auf der Familientafel von 2007. Daten und Orte sind noch nicht bekannt.",
+      "story_de": "Die Familientafel von 2007 nennt Martha als Schwester von Alwin Eifler (1892 bis 1968).[^ahnentafel-2007] Mehr ist noch nicht bekannt: nicht die Daten und nicht, wo sie wohnte. In diesem Stammbaum ist sie als Kind von Ernst Eifler eingezeichnet, dem Landwirt aus Sohland, der vermutlich Alwins Vater war; diese Verbindung ist nicht bewiesen, deshalb ist die Linie gestrichelt."
     },
     {
       "id": "marie-becker",
@@ -2129,7 +2327,8 @@
           "confidence": "family tradition",
           "sourceIds": [
             "ahnentafel-2007"
-          ]
+          ],
+          "note_de": "Ehename, wie die handschriftliche Notiz der Familientafel ihn zu geben scheint; er kann auch Wettlich oder Wettnitz lauten"
         }
       ],
       "residences": [
@@ -2142,7 +2341,8 @@
           "note": "The chart's note gives this address, which was her brother Richard's home from 1926 to 1938; no date is given.",
           "sourceIds": [
             "ahnentafel-2007"
-          ]
+          ],
+          "note_de": "Die Notiz der Tafel gibt diese Adresse an, das Zuhause ihres Bruders Richard von 1926 bis 1938; ein Datum ist nicht angegeben."
         }
       ],
       "occupations": [],
@@ -2159,7 +2359,8 @@
       "story": "The 2007 family chart records two sisters of Richard Becker, and a handwritten note names one of them as Marie, with a married surname that seems to read Wettlitz (or Wettlich, or Wettnitz), at Rothermundtstraße 5 in Dresden, Richard's own address.[^ahnentafel-2007] She was probably born in Herzberg on the Black Elster, like Richard, between about 1870 and 1885, but no record of her has been found yet. The Dresden house registers for Rothermundtstraße 5 in 1938 and 1943 list nobody under a W name, so she may have lived there earlier or later.[^slub-dresden-1938] She is drawn beside Richard with a dashed line because no record yet proves the link.",
       "openQuestions": [
         {
-          "question": "What was her married name? The Dresden address books from 1925 to 1943 and the Herzberg church books are the next places to look."
+          "question": "What was her married name? The Dresden address books from 1925 to 1943 and the Herzberg church books are the next places to look.",
+          "question_de": "Wie lautete ihr Ehename? Die Dresdner Adressbücher von 1925 bis 1943 und die Kirchenbücher von Herzberg sind die nächsten Stellen zum Nachsehen."
         }
       ],
       "relatedPages": [
@@ -2167,7 +2368,10 @@
           "url": "weickert-eifler.html",
           "title": "Weickert & Eifler"
         }
-      ]
+      ],
+      "disambiguator_de": "Schwester von Richard, laut Familientafel",
+      "summary_de": "Schwester von Richard Becker, genannt in einer handschriftlichen Notiz auf der Familientafel von 2007, mit der Adresse Rothermundtstraße 5 in Dresden. Ihr Ehename ist vielleicht Wettlitz.",
+      "story_de": "Die Familientafel von 2007 verzeichnet zwei Schwestern von Richard Becker, und eine handschriftliche Notiz nennt eine von ihnen Marie, mit einem Ehenamen, der Wettlitz zu lauten scheint (oder Wettlich oder Wettnitz), in der Rothermundtstraße 5 in Dresden, Richards eigener Adresse.[^ahnentafel-2007] Sie wurde vermutlich wie Richard in Herzberg an der Schwarzen Elster geboren, etwa zwischen 1870 und 1885, aber ein Eintrag über sie ist noch nicht gefunden. Die Dresdner Hausregister für die Rothermundtstraße 5 von 1938 und 1943 führen niemanden mit einem Namen auf W, deshalb kann sie früher oder später dort gewohnt haben.[^slub-dresden-1938] Sie ist neben Richard mit einer gestrichelten Linie eingezeichnet, weil noch kein Eintrag die Verbindung beweist."
     },
     {
       "id": "becker-sister-2",
@@ -2199,9 +2403,13 @@
       "story": "The 2007 family chart records two sisters of Richard Becker. One is Marie; the other is not named on page 1, the only page the family has.[^ahnentafel-2007] Page 2 of the chart may name her.",
       "openQuestions": [
         {
-          "question": "What was her name? Page 2 of the 2007 chart, or the Herzberg church books, would tell."
+          "question": "What was her name? Page 2 of the 2007 chart, or the Herzberg church books, would tell.",
+          "question_de": "Wie hieß sie? Seite 2 der Tafel von 2007 oder die Kirchenbücher von Herzberg würden es sagen."
         }
-      ]
+      ],
+      "disambiguator_de": "Name noch nicht bekannt",
+      "summary_de": "Die Familientafel von 2007 hält fest, dass Richard Becker zwei Schwestern hatte. Dies ist die zweite; ihr Name steht nicht auf der Seite, die die Familie besitzt.",
+      "story_de": "Die Familientafel von 2007 verzeichnet zwei Schwestern von Richard Becker. Eine ist Marie; die andere ist auf Seite 1 nicht genannt, der einzigen Seite, die die Familie hat.[^ahnentafel-2007] Seite 2 der Tafel nennt sie vielleicht."
     },
     {
       "id": "marie-ida-jurack",
@@ -2238,7 +2446,8 @@
           "confidence": "confirmed",
           "sourceIds": [
             "findbuch-death-register-1973-55"
-          ]
+          ],
+          "note_de": "Mädchenname"
         }
       ],
       "residences": [
@@ -2285,7 +2494,8 @@
       "story": "Marie Ida Jurack was born on 5 February 1887 at Briesing near Malschwitz, north of Bautzen, and married Ernst Alwin Kohlmann, a butcher, at Malschwitz in 1914 (register Nr. 9/1914). She was his widow when he died in February 1972 and died herself on 20 January 1973 in Bautzen, living at Am Stadtwall 1.[^findbuch-death-register-1973-55][^findbuch-death-register-1972-185] Briesing was a Sorbian village: when Arnošt Muka counted the villages in 1884 and 1885, 176 of its 183 people were Sorbs, and Jurack is a Sorbian surname (from Jurij, George).[^wikipedia-briesing] Whether her own family spoke Sorbian at home is not yet known. Her husband is one of the leads being checked for Herbert Kohlmann's family. Nothing links either of them to the family, so she is shown as a suspected relative only, not as an ancestor.",
       "openQuestions": [
         {
-          "question": "Did she and Alwin have children? The Malschwitz marriage entry (1914) gives both sets of parents, and Bautzen births from 1914 would show any children."
+          "question": "Did she and Alwin have children? The Malschwitz marriage entry (1914) gives both sets of parents, and Bautzen births from 1914 would show any children.",
+          "question_de": "Hatten sie und Alwin Kinder? Der Heiratseintrag aus Malschwitz (1914) nennt beide Elternpaare, und die Geburten in Bautzen ab 1914 würden etwaige Kinder zeigen."
         }
       ],
       "relatedPages": [
@@ -2293,7 +2503,11 @@
           "url": "research.html",
           "title": "Research"
         }
-      ]
+      ],
+      "disambiguator_de": "Ehefrau von Alwin Kohlmann, dem Fleischer",
+      "cardPlace_de": "Briesing und Bautzen",
+      "summary_de": "Ehefrau von Ernst Alwin Kohlmann, einem Fleischer aus Bautzen, der eine der Spuren zur Familie von Herbert Kohlmann ist. Geboren 1887 in Briesing, geheiratet 1914 in Malschwitz, gestorben 1973 in Bautzen. Nicht als Familienangehörige bewiesen.",
+      "story_de": "Marie Ida Jurack wurde am 5. Februar 1887 in Briesing bei Malschwitz, nördlich von Bautzen, geboren und heiratete 1914 in Malschwitz Ernst Alwin Kohlmann, einen Fleischer (Register Nr. 9/1914). Sie war seine Witwe, als er im Februar 1972 starb, und starb selbst am 20. Januar 1973 in Bautzen, wohnhaft Am Stadtwall 1.[^findbuch-death-register-1973-55][^findbuch-death-register-1972-185] Briesing war ein sorbisches Dorf: als Arnošt Muka die Dörfer 1884 und 1885 zählte, waren 176 der 183 Einwohner Sorben, und Jurack ist ein sorbischer Familienname (von Jurij, Georg).[^wikipedia-briesing] Ob ihre eigene Familie zu Hause Sorbisch sprach, ist noch nicht bekannt. Ihr Mann ist eine der Spuren, die für die Familie von Herbert Kohlmann geprüft werden. Nichts verbindet einen von beiden mit der Familie, deshalb wird sie nur als vermutete Verwandte gezeigt, nicht als Vorfahrin."
     },
     {
       "id": "ernestine-kissal",
@@ -2314,7 +2528,8 @@
           "confidence": "confirmed",
           "sourceIds": [
             "findbuch-death-register-1980-40"
-          ]
+          ],
+          "note_de": "Mädchenname"
         }
       ],
       "residences": [
@@ -2338,7 +2553,9 @@
           "confidence": "confirmed",
           "sourceIds": [
             "findbuch-death-register-1980-40"
-          ]
+          ],
+          "label_de": "Heirat",
+          "value_de": "Heiratete Ernst Hermann Kissal, beurkundet in Lawalde, Kreis Löbau, Nr. 4/1926. Er lebte noch, als sie 1980 starb."
         }
       ],
       "media": [],
@@ -2370,7 +2587,8 @@
       "story": "Ernestine Hedwig Kohlmann was born on 15 September 1897 at Kleindehsa, Kreis Löbau. She married Ernst Hermann Kissal at Lawalde in 1926 (Nr. 4/1926) and died in Bautzen on 14 January 1980, living at Mättigstraße 17; her husband was still alive.[^findbuch-death-register-1980-40] Alwin Kohlmann the butcher was born in 1883 at Kötzschau, a hamlet of Kleindehsa, and registered at the same office, Lawalde.[^findbuch-death-register-1972-185] Same surname, same village, fourteen years apart: she was probably his sister, but no record seen yet names their parents.",
       "openQuestions": [
         {
-          "question": "Who were her parents? The Lawalde marriage entry of 1926 (Nr. 4) would name them, and so would answer whether she was Alwin's sister."
+          "question": "Who were her parents? The Lawalde marriage entry of 1926 (Nr. 4) would name them, and so would answer whether she was Alwin's sister.",
+          "question_de": "Wer waren ihre Eltern? Der Heiratseintrag aus Lawalde von 1926 (Nr. 4) würde sie nennen und damit beantworten, ob sie Alwins Schwester war."
         }
       ],
       "relatedPages": [
@@ -2378,7 +2596,11 @@
           "url": "research.html",
           "title": "Research"
         }
-      ]
+      ],
+      "disambiguator_de": "vermutlich die Schwester von Alwin Kohlmann",
+      "cardPlace_de": "Kleindehsa und Bautzen",
+      "summary_de": "Geboren 1897 in Kleindehsa, dem Dorf, zu dem Kötzschau gehört, wo der Fleischer Alwin Kohlmann 1883 geboren wurde. Vermutlich seine Schwester; nicht bewiesen.",
+      "story_de": "Ernestine Hedwig Kohlmann wurde am 15. September 1897 in Kleindehsa, Kreis Löbau, geboren. Sie heiratete 1926 in Lawalde Ernst Hermann Kissal (Nr. 4/1926) und starb am 14. Januar 1980 in Bautzen, wohnhaft in der Mättigstraße 17; ihr Mann lebte noch.[^findbuch-death-register-1980-40] Der Fleischer Alwin Kohlmann wurde 1883 in Kötzschau geboren, einem Weiler von Kleindehsa, und bei demselben Amt, Lawalde, eingetragen.[^findbuch-death-register-1972-185] Gleicher Familienname, dasselbe Dorf, vierzehn Jahre Abstand: sie war vermutlich seine Schwester, aber kein bisher gesehener Eintrag nennt die Eltern beider."
     },
     {
       "id": "kd-johann-kohlmann",
@@ -2406,7 +2628,8 @@
           "confidence": "probable",
           "sourceIds": [
             "lawalde-chronik-kleindehsa"
-          ]
+          ],
+          "title_de": "Richter (Dorfrichter)"
         }
       ],
       "timeline": [],
@@ -2425,7 +2648,10 @@
           "url": "research.html",
           "title": "Research"
         }
-      ]
+      ],
+      "disambiguator_de": "Dorfrichter von Kötzschau",
+      "summary_de": "Richter (Dorfrichter) von Kötzschau, Vater von Gottfried Kohlmann, der 1787 den Gasthof in Kleindehsa kaufte.",
+      "story_de": "1787 kaufte Gottfried Kohlmann, \"son of the judge Johann Kohlmann of Kötschau\", den Kretscham in Kleindehsa.[^lawalde-chronik-kleindehsa] Der Dorfrichter (Richter) stand dem Dorfgericht vor und sprach für das Dorf gegenüber der Gutsherrschaft. Die Dorfchronik nennt nur das Jahr, in dem jeder Besitzer übernahm; sie sagt nicht, wie sie miteinander verwandt waren, und noch kein Eintrag verbindet sie mit den Kohlmanns aus Bautzen."
     },
     {
       "id": "kd-gottfried-kohlmann",
@@ -2451,7 +2677,8 @@
           "confidence": "probable",
           "sourceIds": [
             "lawalde-chronik-kleindehsa"
-          ]
+          ],
+          "address_de": "der Kretscham (Dorfgasthof mit seinem Hof)"
         }
       ],
       "occupations": [
@@ -2464,7 +2691,8 @@
           "confidence": "probable",
           "sourceIds": [
             "lawalde-chronik-kleindehsa"
-          ]
+          ],
+          "title_de": "Kretschamwirt (Gastwirt)"
         }
       ],
       "timeline": [],
@@ -2484,7 +2712,10 @@
           "title": "Research"
         }
       ],
-      "parentLinkConfidence": "probable"
+      "parentLinkConfidence": "probable",
+      "disambiguator_de": "kaufte 1787 den Gasthof in Kleindehsa",
+      "summary_de": "Sohn des Dorfrichters Johann Kohlmann aus Kötzschau. 1787 kaufte er den Kretscham, den Dorfgasthof von Kleindehsa, für 600 Taler; die Familie behielt ihn etwa 150 Jahre.",
+      "story_de": "1787 kaufte Gottfried Kohlmann, Sohn des Richters Johann Kohlmann aus Kötzschau, das Kretschamgut, den Dorfgasthof mit seinem Hof, von der Witwe eines Appellationsgerichtsrats, von Heldreich, für 600 Taler. Von da an blieb der Gasthof 150 Jahre in der Familie Kohlmann.[^lawalde-chronik-kleindehsa] Vierzig Jahre zuvor, 1748 und 1749, hatte die Gutsherrschaft den Gasthof neu gebaut und an einen Gastwirt verkauft, der die Zunge jedes geschlachteten Ochsen abliefern und nur Bier aus Löbau ausschenken musste. Die Dorfchronik nennt nur das Jahr, in dem jeder Besitzer übernahm; sie sagt nicht, wie sie miteinander verwandt waren, und noch kein Eintrag verbindet sie mit den Kohlmanns aus Bautzen."
     },
     {
       "id": "kd-johann-traugott-kohlmann",
@@ -2508,7 +2739,8 @@
           "confidence": "probable",
           "sourceIds": [
             "lawalde-chronik-kleindehsa"
-          ]
+          ],
+          "address_de": "der Kretscham (Dorfgasthof mit seinem Hof)"
         }
       ],
       "occupations": [
@@ -2521,7 +2753,8 @@
           "confidence": "probable",
           "sourceIds": [
             "lawalde-chronik-kleindehsa"
-          ]
+          ],
+          "title_de": "Kretschamwirt (Gastwirt)"
         }
       ],
       "timeline": [],
@@ -2540,7 +2773,10 @@
           "url": "research.html",
           "title": "Research"
         }
-      ]
+      ],
+      "disambiguator_de": "Besitzer des Gasthofs in Kleindehsa ab 1809",
+      "summary_de": "Besitzer des Kretschams in Kleindehsa ab 1809, laut der Dorfchronik.",
+      "story_de": "Die Dorfchronik führt Johann Traugott Kohlmann ab 1809 als Besitzer des Kretschams.[^lawalde-chronik-kleindehsa] Die Dorfchronik nennt nur das Jahr, in dem jeder Besitzer übernahm; sie sagt nicht, wie sie miteinander verwandt waren, und noch kein Eintrag verbindet sie mit den Kohlmanns aus Bautzen."
     },
     {
       "id": "kd-ernst-kohlmann",
@@ -2564,7 +2800,8 @@
           "confidence": "probable",
           "sourceIds": [
             "lawalde-chronik-kleindehsa"
-          ]
+          ],
+          "address_de": "der Kretscham (Dorfgasthof mit seinem Hof)"
         }
       ],
       "occupations": [
@@ -2577,7 +2814,8 @@
           "confidence": "probable",
           "sourceIds": [
             "lawalde-chronik-kleindehsa"
-          ]
+          ],
+          "title_de": "Kretschamwirt (Gastwirt)"
         }
       ],
       "timeline": [],
@@ -2596,7 +2834,10 @@
           "url": "research.html",
           "title": "Research"
         }
-      ]
+      ],
+      "disambiguator_de": "Besitzer des Gasthofs in Kleindehsa ab 1860",
+      "summary_de": "Besitzer des Kretschams in Kleindehsa ab 1860; seine Witwe hatte ihn 1888 inne.",
+      "story_de": "Die Dorfchronik führt Ernst Kohlmann ab 1860 als Besitzer des Kretschams und 1888 seine Witwe.[^lawalde-chronik-kleindehsa] Die Dorfchronik nennt nur das Jahr, in dem jeder Besitzer übernahm; sie sagt nicht, wie sie miteinander verwandt waren, und noch kein Eintrag verbindet sie mit den Kohlmanns aus Bautzen. Er könnte der Karl Friedrich Ernst Kohlmann sein, den der Stammbaum eines anderen Forschers als Vater der 1868 in Kleindehsa geborenen Maria Alwine Kohlmann nennt; das ist nicht bewiesen.[^anc-tree-kirchhoff]"
     },
     {
       "id": "kd-reinhold-kohlmann",
@@ -2620,7 +2861,8 @@
           "confidence": "probable",
           "sourceIds": [
             "lawalde-chronik-kleindehsa"
-          ]
+          ],
+          "address_de": "der Kretscham (Dorfgasthof mit seinem Hof)"
         }
       ],
       "occupations": [
@@ -2633,7 +2875,8 @@
           "confidence": "probable",
           "sourceIds": [
             "lawalde-chronik-kleindehsa"
-          ]
+          ],
+          "title_de": "Kretschamwirt (Gastwirt)"
         }
       ],
       "timeline": [],
@@ -2655,9 +2898,13 @@
       ],
       "openQuestions": [
         {
-          "question": "Was he the father of Alwin Kohlmann (born 1883 at Kötzschau) and of Ernestine Hedwig (born 1897 at Kleindehsa)? Alwin's Lawalde birth entry, 1883 Nr. 71, names his parents."
+          "question": "Was he the father of Alwin Kohlmann (born 1883 at Kötzschau) and of Ernestine Hedwig (born 1897 at Kleindehsa)? Alwin's Lawalde birth entry, 1883 Nr. 71, names his parents.",
+          "question_de": "War er der Vater von Alwin Kohlmann (geboren 1883 in Kötzschau) und von Ernestine Hedwig (geboren 1897 in Kleindehsa)? Alwins Geburtseintrag aus Lawalde, 1883 Nr. 71, nennt seine Eltern."
         }
-      ]
+      ],
+      "disambiguator_de": "übernahm 1885 den Gasthof in Kleindehsa",
+      "summary_de": "Übernahm 1885 den Gasthof in Kleindehsa, laut der Dorfchronik.",
+      "story_de": "Die Dorfchronik sagt, Karl August Reinhold Kohlmann habe 1885 den Gasthof übernommen.[^lawalde-chronik-kleindehsa] Der Fleischer Alwin Kohlmann wurde zwei Jahre zuvor, 1883, in Kötzschau geboren, einem Weiler desselben Dorfes.[^findbuch-death-register-1972-185] Die Dorfchronik nennt nur das Jahr, in dem jeder Besitzer übernahm; sie sagt nicht, wie sie miteinander verwandt waren, und noch kein Eintrag verbindet sie mit den Kohlmanns aus Bautzen."
     },
     {
       "id": "kd-gustav-kohlmann",
@@ -2681,7 +2928,8 @@
           "confidence": "probable",
           "sourceIds": [
             "lawalde-chronik-kleindehsa"
-          ]
+          ],
+          "address_de": "der Kretscham (Dorfgasthof mit seinem Hof)"
         }
       ],
       "occupations": [
@@ -2694,7 +2942,8 @@
           "confidence": "probable",
           "sourceIds": [
             "lawalde-chronik-kleindehsa"
-          ]
+          ],
+          "title_de": "Kretschamwirt (Gastwirt)"
         }
       ],
       "timeline": [],
@@ -2716,9 +2965,13 @@
       ],
       "openQuestions": [
         {
-          "question": "Gustav's brother Ernst: could he be Ernst Alwin Kohlmann, the Bautzen butcher? Nothing links them yet."
+          "question": "Gustav's brother Ernst: could he be Ernst Alwin Kohlmann, the Bautzen butcher? Nothing links them yet.",
+          "question_de": "Gustavs Bruder Ernst: könnte er Ernst Alwin Kohlmann sein, der Fleischer aus Bautzen? Noch verbindet sie nichts."
         }
-      ]
+      ],
+      "disambiguator_de": "Besitzer des Gasthofs in Kleindehsa nach 1927",
+      "summary_de": "Wurde einige Jahre nach 1927 Besitzer des Kretschams; nach seinem Tod behielten ihn sein Bruder Ernst und eine Tochter bis 1959.",
+      "story_de": "1927 wurde an der Südseite des Kretschams ein Saal eröffnet. Einige Jahre später wurde Gustav Kohlmann der Besitzer, und nach seinem Tod hatten ihn sein Bruder Ernst und seine Tochter bis 1959 inne.[^lawalde-chronik-kleindehsa] Ab 1958 betrieb das Braunkohlenkombinat Senftenberg in einem Seitenflügel ein Ferienlager, und nach 1959 ging der ganze Gasthof an das Kombinat. Der Kretscham brannte am Abend des 29. Januar 1997 ab und wurde abgerissen. Die Dorfchronik nennt nur das Jahr, in dem jeder Besitzer übernahm; sie sagt nicht, wie sie miteinander verwandt waren, und noch kein Eintrag verbindet sie mit den Kohlmanns aus Bautzen."
     },
     {
       "id": "kd-karl-friedrich-ernst-kohlmann",
@@ -2762,10 +3015,12 @@
       ],
       "openQuestions": [
         {
-          "question": "Is he the Ernst Kohlmann who owned the Kleindehsa inn from 1860? The Lawalde church books would show it."
+          "question": "Is he the Ernst Kohlmann who owned the Kleindehsa inn from 1860? The Lawalde church books would show it.",
+          "question_de": "Ist er der Ernst Kohlmann, der den Gasthof in Kleindehsa ab 1860 besaß? Die Kirchenbücher von Lawalde würden es zeigen."
         },
         {
-          "question": "Was the Bautzen butcher Ernst Alwin Kohlmann, born at Kötzschau in 1883, one of his children?"
+          "question": "Was the Bautzen butcher Ernst Alwin Kohlmann, born at Kötzschau in 1883, one of his children?",
+          "question_de": "War der Fleischer Ernst Alwin Kohlmann aus Bautzen, geboren 1883 in Kötzschau, eines seiner Kinder?"
         }
       ],
       "displayName": "Karl Friedrich Ernst Kohlmann",
@@ -2774,7 +3029,10 @@
       "generation": 2,
       "disambiguator": "of Kleindehsa, father of Maria Alwine",
       "summary": "Named in another researcher's tree as the father of Maria Alwine Kohlmann of Kleindehsa (born 1868). Possibly the innkeeper Ernst Kohlmann.",
-      "story": "Another researcher's Ancestry tree names Karl Friedrich Ernst Kohlmann and Christiane Elisabeth Kriegel (born 1848) as the parents of Maria Alwine Kohlmann, born at Kleindehsa in 1868.[^anc-tree-kirchhoff] He may be the Ernst Kohlmann who owned the village inn from 1860 and whose widow held it in 1888, but nothing proves they are the same man. If he is, he would have died before 1888."
+      "story": "Another researcher's Ancestry tree names Karl Friedrich Ernst Kohlmann and Christiane Elisabeth Kriegel (born 1848) as the parents of Maria Alwine Kohlmann, born at Kleindehsa in 1868.[^anc-tree-kirchhoff] He may be the Ernst Kohlmann who owned the village inn from 1860 and whose widow held it in 1888, but nothing proves they are the same man. If he is, he would have died before 1888.",
+      "disambiguator_de": "aus Kleindehsa, Vater von Maria Alwine",
+      "summary_de": "Im Stammbaum eines anderen Forschers als Vater von Maria Alwine Kohlmann aus Kleindehsa genannt (geboren 1868). Möglicherweise der Gastwirt Ernst Kohlmann.",
+      "story_de": "Der Ancestry-Stammbaum eines anderen Forschers nennt Karl Friedrich Ernst Kohlmann und Christiane Elisabeth Kriegel (geboren 1848) als Eltern von Maria Alwine Kohlmann, geboren 1868 in Kleindehsa.[^anc-tree-kirchhoff] Er könnte der Ernst Kohlmann sein, der ab 1860 den Dorfgasthof besaß und dessen Witwe ihn 1888 innehatte, aber nichts beweist, dass sie derselbe Mann sind. Wenn er es ist, wäre er vor 1888 gestorben."
     },
     {
       "id": "kd-christiane-kriegel",
@@ -2832,7 +3090,10 @@
       "generation": 2,
       "disambiguator": "mother of Maria Alwine Kohlmann",
       "summary": "Born 1848; named in another researcher's tree as the mother of Maria Alwine Kohlmann.",
-      "story": "Another researcher's Ancestry tree gives Christiane Elisabeth Kriegel, born in 1848, as the wife of Karl Friedrich Ernst Kohlmann and the mother of Maria Alwine Kohlmann.[^anc-tree-kirchhoff]"
+      "story": "Another researcher's Ancestry tree gives Christiane Elisabeth Kriegel, born in 1848, as the wife of Karl Friedrich Ernst Kohlmann and the mother of Maria Alwine Kohlmann.[^anc-tree-kirchhoff]",
+      "disambiguator_de": "Mutter von Maria Alwine Kohlmann",
+      "summary_de": "Geboren 1848; im Stammbaum eines anderen Forschers als Mutter von Maria Alwine Kohlmann genannt.",
+      "story_de": "Der Ancestry-Stammbaum eines anderen Forschers nennt Christiane Elisabeth Kriegel, geboren 1848, als Ehefrau von Karl Friedrich Ernst Kohlmann und als Mutter von Maria Alwine Kohlmann.[^anc-tree-kirchhoff]"
     },
     {
       "id": "kd-maria-alwine-kohlmann",
@@ -2851,7 +3112,8 @@
           "note": "married name",
           "sourceIds": [
             "anc-tree-kirchhoff"
-          ]
+          ],
+          "note_de": "Ehename"
         }
       ],
       "residences": [],
@@ -2895,7 +3157,10 @@
       "generation": 3,
       "disambiguator": "Kleindehsa, 1868 to 1900",
       "summary": "Born and died at Kleindehsa (1868 to 1900); married Fritz Kirchhoff at Lawalde in 1891.",
-      "story": "Another researcher's Ancestry tree says Maria Alwine Kohlmann was born at Kleindehsa on 23 May 1868, married Fritz Wilhelm Otto Hermann Kirchhoff (1853 to 1937) at Lawalde on 6 July 1891, had a son, Ernst Otto Fritz Kirchhoff (1893 to 1962), born at Kleindehsa on 24 January 1893, and died at Kleindehsa on 30 March 1900, aged 31.[^anc-tree-kirchhoff] Her middle name, Alwine, and her father's name, Ernst, are the two names of the Bautzen butcher Ernst Alwin Kohlmann, born nearby in 1883. That could point to one family, but nothing links them yet."
+      "story": "Another researcher's Ancestry tree says Maria Alwine Kohlmann was born at Kleindehsa on 23 May 1868, married Fritz Wilhelm Otto Hermann Kirchhoff (1853 to 1937) at Lawalde on 6 July 1891, had a son, Ernst Otto Fritz Kirchhoff (1893 to 1962), born at Kleindehsa on 24 January 1893, and died at Kleindehsa on 30 March 1900, aged 31.[^anc-tree-kirchhoff] Her middle name, Alwine, and her father's name, Ernst, are the two names of the Bautzen butcher Ernst Alwin Kohlmann, born nearby in 1883. That could point to one family, but nothing links them yet.",
+      "disambiguator_de": "Kleindehsa, 1868 bis 1900",
+      "summary_de": "In Kleindehsa geboren und gestorben (1868 bis 1900); heiratete 1891 in Lawalde Fritz Kirchhoff.",
+      "story_de": "Der Ancestry-Stammbaum eines anderen Forschers sagt, Maria Alwine Kohlmann sei am 23. Mai 1868 in Kleindehsa geboren, habe am 6. Juli 1891 in Lawalde Fritz Wilhelm Otto Hermann Kirchhoff (1853 bis 1937) geheiratet, habe einen Sohn gehabt, Ernst Otto Fritz Kirchhoff (1893 bis 1962), geboren am 24. Januar 1893 in Kleindehsa, und sei am 30. März 1900 in Kleindehsa im Alter von 31 Jahren gestorben.[^anc-tree-kirchhoff] Ihr zweiter Vorname Alwine und der Name ihres Vaters, Ernst, sind die beiden Namen des Fleischers Ernst Alwin Kohlmann aus Bautzen, 1883 in der Nähe geboren. Das könnte auf eine Familie hindeuten, aber noch verbindet sie nichts."
     },
     {
       "id": "kd-johanne-sophie-helene-kohlmann",
@@ -2911,7 +3176,8 @@
           "note": "married name",
           "sourceIds": [
             "anc-tree-augsten"
-          ]
+          ],
+          "note_de": "Ehename"
         }
       ],
       "residences": [],
@@ -2946,7 +3212,10 @@
       "generation": 2,
       "disambiguator": "of Kleindehsa, married Kutschke at Cunnewalde",
       "summary": "Born at Kleindehsa; married Johann Carl Traugott Kutschke and died at Cunnewalde. Her son was born there in 1857.",
-      "story": "Another researcher's Ancestry tree says Johanne Sophie Helene Kohlmann was born at Kleindehsa, married Johann Carl Traugott Kutschke and died at Cunnewalde, a village about 8 km to the west. Their son Karl Friedrich Ernst Kutschke was born at Cunnewalde on 31 July 1857.[^anc-tree-augsten] The boy shares all three given names with Karl Friedrich Ernst Kohlmann of Kleindehsa, which might mean he was named after an uncle, but the tree gives no dates for her and no parents."
+      "story": "Another researcher's Ancestry tree says Johanne Sophie Helene Kohlmann was born at Kleindehsa, married Johann Carl Traugott Kutschke and died at Cunnewalde, a village about 8 km to the west. Their son Karl Friedrich Ernst Kutschke was born at Cunnewalde on 31 July 1857.[^anc-tree-augsten] The boy shares all three given names with Karl Friedrich Ernst Kohlmann of Kleindehsa, which might mean he was named after an uncle, but the tree gives no dates for her and no parents.",
+      "disambiguator_de": "aus Kleindehsa, heiratete Kutschke in Cunnewalde",
+      "summary_de": "Geboren in Kleindehsa; heiratete Johann Carl Traugott Kutschke und starb in Cunnewalde. Ihr Sohn wurde dort 1857 geboren.",
+      "story_de": "Der Ancestry-Stammbaum eines anderen Forschers sagt, Johanne Sophie Helene Kohlmann sei in Kleindehsa geboren, habe Johann Carl Traugott Kutschke geheiratet und sei in Cunnewalde gestorben, einem Dorf etwa 8 km westlich. Ihr Sohn Karl Friedrich Ernst Kutschke wurde am 31. Juli 1857 in Cunnewalde geboren.[^anc-tree-augsten] Der Junge hat alle drei Vornamen mit Karl Friedrich Ernst Kohlmann aus Kleindehsa gemeinsam, was heißen könnte, dass er nach einem Onkel benannt wurde, aber der Stammbaum nennt keine Daten für sie und keine Eltern."
     }
   ]
 }

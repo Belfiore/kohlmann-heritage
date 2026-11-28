@@ -8,11 +8,23 @@
   "timeline": {
     "enabled": true
   },
+  "visitor": {
+    "enabled": true
+  },
+  "language": {
+    "default": "en",
+    "available": [
+      "en",
+      "de"
+    ]
+  },
   "site": {
     "name": "Kohlmann",
     "familyName": "the Kohlmann family",
     "lang": "en",
-    "description": "The Kohlmann family, from Saxony to Tampa: Thomas and Rita Kohlmann, the Eifler and Becker line, and Enzo Belfiore."
+    "description": "The Kohlmann family, from Saxony to Tampa: Thomas and Rita Kohlmann, the Eifler and Becker line, and Enzo Belfiore.",
+    "familyName_de": "die Familie Kohlmann",
+    "description_de": "Die Familie Kohlmann, von Sachsen nach Tampa: Thomas und Rita Kohlmann, die Linie Eifler und Becker, und Enzo Belfiore."
   },
   "pages": {
     "home": "index.html",
@@ -23,7 +35,10 @@
       "heading": "The Interactive Tree",
       "stylesheets": [
         "styles.css"
-      ]
+      ],
+      "title_de": "Interaktiver Stammbaum | Kohlmann",
+      "description_de": "Ein interaktiver Stammbaum der Familie Kohlmann. Thomas' Familie steht links und Ritas Familie rechts.",
+      "heading_de": "Der interaktive Stammbaum"
     },
     "map": {
       "file": "map.html",
@@ -32,38 +47,48 @@
       "heading": "The Family Map",
       "stylesheets": [
         "styles.css"
-      ]
+      ],
+      "title_de": "Familienkarte | Kohlmann",
+      "description_de": "Eine interaktive Karte der Orte, an denen die Familien Kohlmann, Eifler, Becker und Werner geboren wurden, lebten, heirateten, arbeiteten, starben und begraben wurden, mit einer Zeitachse zum Abspielen.",
+      "heading_de": "Die Familienkarte"
     },
     "ask": null
   },
   "nav": [
     {
       "href": "index.html",
-      "label": "Home"
+      "label": "Home",
+      "label_de": "Startseite"
     },
     {
       "href": "family-tree.html",
-      "label": "Family Tree"
+      "label": "Family Tree",
+      "label_de": "Stammbaum"
     },
     {
       "href": "tree-canvas.html",
-      "label": "Interactive Tree"
+      "label": "Interactive Tree",
+      "label_de": "Interaktiver Stammbaum"
     },
     {
       "href": "map.html",
-      "label": "Map"
+      "label": "Map",
+      "label_de": "Karte"
     },
     {
       "href": "escape-from-east-germany.html",
-      "label": "The Escape"
+      "label": "The Escape",
+      "label_de": "Die Flucht"
     },
     {
       "href": "weickert-eifler.html",
-      "label": "Weickert & Eifler"
+      "label": "Weickert & Eifler",
+      "label_de": "Weickert & Eifler"
     },
     {
       "href": "research.html",
-      "label": "Research & Records"
+      "label": "Research & Records",
+      "label_de": "Forschung und Urkunden"
     }
   ],
   "head": {
@@ -141,55 +166,71 @@
         "generation": 0,
         "label": "1787",
         "title": "Kötzschau",
-        "range": "1787"
+        "range": "1787",
+        "title_de": "Kötzschau"
       },
       {
         "generation": 1,
         "label": "1809",
         "title": "Kleindehsa",
-        "range": "1787 to 1809"
+        "range": "1787 to 1809",
+        "title_de": "Kleindehsa",
+        "range_de": "1787 bis 1809"
       },
       {
         "generation": 2,
         "label": "1860",
         "title": "Kleindehsa",
-        "range": "1860 to 1888"
+        "range": "1860 to 1888",
+        "title_de": "Kleindehsa",
+        "range_de": "1860 bis 1888"
       },
       {
         "generation": 3,
         "label": "I",
         "title": "Becker and Just",
-        "range": "1875 to 1880"
+        "range": "1875 to 1880",
+        "title_de": "Becker und Just",
+        "range_de": "1875 bis 1880"
       },
       {
         "generation": 4,
         "label": "II",
         "title": "Alwin and Gertrud",
-        "range": "1892 to 1905"
+        "range": "1892 to 1905",
+        "title_de": "Alwin und Gertrud",
+        "range_de": "1892 bis 1905"
       },
       {
         "generation": 5,
         "label": "III",
         "title": "The grandparents",
-        "range": "from 1927"
+        "range": "from 1927",
+        "title_de": "Die Großeltern",
+        "range_de": "ab 1927"
       },
       {
         "generation": 6,
         "label": "IV",
         "title": "Thomas and Rita",
-        "range": "born 1956"
+        "range": "born 1956",
+        "title_de": "Thomas und Rita",
+        "range_de": "geboren 1956"
       },
       {
         "generation": 7,
         "label": "V",
         "title": "Valeria, Elisa, Sebastian",
-        "range": "1990 to 1994"
+        "range": "1990 to 1994",
+        "title_de": "Valeria, Elisa, Sebastian",
+        "range_de": "1990 bis 1994"
       },
       {
         "generation": 8,
         "label": "VI",
         "title": "Enzo",
-        "range": "2026"
+        "range": "2026",
+        "title_de": "Enzo"
       }
     ],
     "rootOrder": [
@@ -206,7 +247,9 @@
       "left": "thomas",
       "right": "rita",
       "leftLabel": "Thomas's family",
-      "rightLabel": "Rita's family"
+      "rightLabel": "Rita's family",
+      "leftLabel_de": "Thomas' Familie",
+      "rightLabel_de": "Ritas Familie"
     },
     "initialView": {
       "ids": [
@@ -235,10 +278,17 @@
       {
         "id": "kleindehsa",
         "label": "The Kohlmann innkeepers of Kleindehsa, 1787 to 1959",
-        "sub": "From the village chronicle. No proven link to this family"
+        "sub": "From the village chronicle. No proven link to this family",
+        "label_de": "Die Kohlmann-Wirte von Kleindehsa, 1787 bis 1959",
+        "sub_de": "Aus der Dorfchronik. Kein belegter Zusammenhang mit dieser Familie"
       }
     ],
-    "regionKicker": "Kleindehsa innkeepers (link unproven)"
+    "regionKicker": "Kleindehsa innkeepers (link unproven)",
+    "familyLabel_de": "Familie Kohlmann",
+    "directLineLabel_de": "Valerias direkte Linie",
+    "legendNote_de": "Ritas Eltern sind als Paar gezeichnet. Die Seite verzeichnet keine Ehe zwischen ihnen.",
+    "noscript_de": "Die <a href=\"family-tree.html\">Listenansicht des Stammbaums</a> funktioniert auch ohne JavaScript.",
+    "regionKicker_de": "Wirte von Kleindehsa (Zusammenhang nicht belegt)"
   },
   "widget": {
     "enabled": false
@@ -263,7 +313,8 @@
           15.1,
           51.75
         ]
-      ]
+      ],
+      "name_de": "Sachsen"
     },
     "branches": [
       {
@@ -348,7 +399,9 @@
         "option": "Thomas's family (Kohlmann and Eifler)",
         "roots": [
           "thomas"
-        ]
+        ],
+        "label_de": "Thomas' Familie",
+        "option_de": "Thomas' Familie (Kohlmann und Eifler)"
       },
       {
         "id": "rita",
@@ -356,7 +409,9 @@
         "option": "Rita's family (Werner and Woltmann)",
         "roots": [
           "rita"
-        ]
+        ],
+        "label_de": "Ritas Familie",
+        "option_de": "Ritas Familie (Werner und Woltmann)"
       },
       {
         "id": "both",
@@ -365,7 +420,9 @@
         "roots": [
           "thomas",
           "rita"
-        ]
+        ],
+        "label_de": "Thomas' und Ritas Familien",
+        "option_de": "Thomas' und Ritas Familien"
       }
     ],
     "noscript": "The places are also described on the <a href=\"weickert-eifler.html\">Weickert &amp; Eifler page</a> and the <a href=\"research.html\">research page</a>.",
@@ -374,7 +431,10 @@
       "note": "Not family",
       "people": {
         "bruno-weickert": "ernst-alwin"
-      }
-    }
+      },
+      "label_de": "Geschäftspartner",
+      "note_de": "Nicht zur Familie"
+    },
+    "noscript_de": "Die Orte sind auch auf der Seite <a href=\"weickert-eifler.html\">Weickert &amp; Eifler</a> und auf der <a href=\"research.html\">Forschungsseite</a> beschrieben."
   }
 }
