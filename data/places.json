@@ -618,7 +618,7 @@
       "address": "Singwitz",
       "coordinatePrecision": "town",
       "standsToday": "unknown",
-      "blurb_de": "Der Briefkopf setzt die Fabrik auf das Industriegelände Singwitz, südlich von Bautzen. Nur das Dorf ist bekannt, daher markiert der Kreis Singwitz. Das Industriegelände Singwitz war der Gebäudekomplex der ehemaligen Königlich Sächsischen Pulverfabrik, ab 1920 an Firmen vermietet, nachdem die Fabrik 1919 geschlossen worden war.",
+      "blurb_de": "Der Briefkopf verortet die Fabrik auf dem Industriegelände Singwitz, südlich von Bautzen. Nur das Dorf ist bekannt, daher markiert der Kreis Singwitz. Das Industriegelände Singwitz war der Gebäudekomplex der ehemaligen Königlich Sächsischen Pulverfabrik, ab 1920 an Firmen vermietet, nachdem die Fabrik 1919 geschlossen worden war.",
       "coordinateMethod_de": "OpenStreetMap Nominatim, Dorfmitte, 26. November 2026."
     },
     {
@@ -1601,7 +1601,7 @@
       "streetViewReason": "Not checked yet.",
       "standsToday": "unknown",
       "blurb_de": "Nur ein Anhaltspunkt. Ernst Alwin Kohlmann, der Bautzener Fleischer, wurde hier am 21. September 1883 geboren. Kötzschau ist ein Weiler von Kleindehsa im Kirchspiel Lawalde, bei Löbau; seine Geburt wurde in Lawalde eingetragen. Er ist einer der Anhaltspunkte, die für Herbert Kohlmanns Familie geprüft werden; nichts verbindet ihn mit der Familie. Ernestine Hedwig Kohlmann, wahrscheinlich seine Schwester, wurde 1897 in Kleindehsa, demselben Dorf, geboren. 1787 war der Dorfrichter hier ein Johann Kohlmann, dessen Sohn Gottfried den Gasthof in Kleindehsa kaufte; noch keine Urkunde verbindet ihn mit den Bautzener Kohlmanns.",
-      "coordinateMethod_de": "OpenStreetMap Nominatim, Weilerknoten \"Kötzschau, Kleindehsa, Lawalde\", 26. November 2026."
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Knoten des Weilers \"Kötzschau, Kleindehsa, Lawalde\", 26. November 2026."
     },
     {
       "id": "bautzen-fleischbaenken-7",
@@ -1976,7 +1976,7 @@
       "streetViewReason": "Not checked yet.",
       "standsToday": "unknown",
       "blurb_de": "Nur ein Anhaltspunkt. Ein Dorf bei Löbau, heute Teil von Lawalde. Sein Dorfgasthof, der Kretscham, gehörte laut der Dorfchronik von 1787 bis 1959 einer Familie Kohlmann. Ernestine Hedwig Kohlmann, wahrscheinlich die Schwester von Alwin Kohlmann, dem Bautzener Fleischer, wurde hier 1897 geboren. Noch keine Urkunde verbindet diese Gastwirte mit der Familie. Der Kretscham brannte am 29. Januar 1997 ab und wurde abgerissen.",
-      "coordinateMethod_de": "OpenStreetMap Nominatim, Dorfknoten \"Kleindehsa, Lawalde\", 26. November 2026."
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Knoten des Dorfes \"Kleindehsa, Lawalde\", 26. November 2026."
     },
     {
       "id": "briesing",
