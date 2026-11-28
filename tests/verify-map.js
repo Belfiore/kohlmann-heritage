@@ -8,7 +8,9 @@
  * Checks: every drawn place has coordinates and a source; living people are on the map like anyone
  * else (the family's choice, 26 November 2026); business associates are marked as not family; the filters (event type, family,
  * person), the timeline, the list view and the "Not yet on the map" tray are there and
- * work; a place panel shows sources and links to profiles; no page errors.
+ * work; a place panel shows sources and links to profiles; engine 1.5's Relationships to,
+ * source preview and the absence of a Street View message; Discoveries stays in English
+ * with confidence labels hidden; no page errors.
  */
 const http = require('http');
 const fs = require('fs');
@@ -144,6 +146,50 @@ function serve() {
     check(panel.shown && /Wilthener/.test(panel.text), 'a place opens its panel from the URL', panel.text.slice(0, 120));
     check(panel.links.some(h => /tree-canvas\.html|person=|#/.test(h || '')), 'the panel links to profiles', panel.links.slice(0, 8).join(' '));
     check(/Source|source|Findbuch|Adressbuch|address book/i.test(panel.text), 'the panel shows sources');
+    console.log('Engine 1.5');
+    const vp = await page.evaluate(() => ({
+        label: (document.querySelector('#vpBox label') || {}).textContent || '',
+        first: (document.querySelector('#vpSel option') || {}).textContent || '',
+        n: document.querySelectorAll('#vpSel option').length,
+        inKey: !!document.querySelector('#key #vpBox'),
+        nosv: /No Street View/i.test(document.body.innerText),
+        nosvEl: !!document.querySelector('.pn-nosv, .ec-nosv'),
+        tn: document.querySelectorAll('#panel .pn-tn button').length,
+        langs: document.querySelectorAll('.lang-switch').length
+    }));
+    check(vp.inKey && vp.label === 'Relationships to' && vp.first === 'No one' && vp.n > 10, 'the map key offers Relationships to, starting at No one', JSON.stringify(vp));
+    check(!vp.nosv && !vp.nosvEl, 'a place with no Street View says nothing about it');
+    check(vp.tn === 2, 'Then and Today stay on the place panel', String(vp.tn));
+    check(vp.langs === 0, 'the site stays English only, with no language switcher');
+    const letter = page.locator('#panelBody .pn-src a.sp-link', { hasText: 'advertising letterhead' });
+    check(await letter.count() === 1, 'a source with a picture is a title link');
+    await letter.hover();
+    await page.waitForTimeout(450);
+    const card = await page.evaluate(() => {
+        const c = document.getElementById('sp-card');
+        return { shown: !!(c && !c.hidden), img: !!(c && c.querySelector('.sp-thumb img')), title: (c && (c.querySelector('.sp-t') || {}).textContent) || '' };
+    });
+    check(card.shown && card.img && /letterhead/.test(card.title), 'hovering a pictured source shows its preview', JSON.stringify(card));
+    await letter.click();
+    await page.waitForTimeout(350);
+    const drawer = await page.evaluate(() => {
+        const d = document.querySelector('.sp-drawer');
+        return { open: !!(d && !d.hidden && d.classList.contains('is-open')), img: !!(d && d.querySelector('.sp-d-img img')), title: (document.getElementById('sp-d-title') || {}).textContent || '' };
+    });
+    check(drawer.open && drawer.img && /letterhead/.test(drawer.title), 'clicking that source opens the picture in the drawer', JSON.stringify(drawer));
+    await page.keyboard.press('Escape');
+    await page.waitForTimeout(250);
+    await page.selectOption('#vpSel', 'thomas');
+    await page.waitForTimeout(300);
+    const kin = await page.evaluate(() => ({
+        alwin: FM.rel.phrase('ernst-alwin'),
+        bruno: FM.rel.phrase('bruno-weickert'),
+        chips: [...document.querySelectorAll('#panelBody .chip-vp')].map(c => c.textContent)
+    }));
+    check(kin.alwin === 'your grandfather' && kin.chips.includes('your grandfather'), 'choosing Thomas names Alwin Eifler as your grandfather', JSON.stringify(kin));
+    check(!kin.bruno, 'Bruno Weickert, a business associate, gets no relationship words', JSON.stringify(kin));
+    await page.selectOption('#vpSel', '');
+    await page.waitForTimeout(200);
     await page.goto(base + 'map.html?place=bautzen-fischergasse-31'); await page.waitForFunction(() => window.FM && FM.ready); await page.waitForTimeout(1200);
     const ap = await page.evaluate(() => { const p = document.getElementById('panel'); return { shown: !p.hidden, badge: [].map.call(p.querySelectorAll('.badge--assoc'), b => b.textContent).join(' | ') }; });
     check(ap.shown && /Business associate\. Not family/.test(ap.badge), 'an associate\'s place panel says "Business associate. Not family"', ap.badge);
@@ -159,6 +205,15 @@ function serve() {
     const listMissing = drawable.filter(id => !list.includes(PL[id].name));
     check(!listMissing.length, 'the list view names every place', listMissing.join(', '));
     await page.keyboard.press('Escape');
+    await page.goto(base + 'discoveries.html', { waitUntil: 'domcontentloaded' });
+    await page.waitForTimeout(300);
+    const disc = await page.evaluate(() => ({
+        cards: document.querySelectorAll('.tl-card').length,
+        conf: document.querySelectorAll('.tl-conf').length,
+        herbert: /Herbert Kohlmann/.test(document.body.innerText),
+        langs: document.querySelectorAll('.lang-switch').length
+    }));
+    check(disc.cards > 0 && disc.conf === 0 && disc.herbert && disc.langs === 0, 'Discoveries lists the finds, hides confidence labels, and stays in English', JSON.stringify(disc));
     if (SHOTS) { await page.goto(base + 'map.html'); await page.waitForFunction(() => window.FM && FM.ready); await page.waitForTimeout(1500); await page.screenshot({ path: path.join(SHOTS, 'map-1440.png') }); }
     check(!errors.length, 'no page errors', errors.slice(0, 3).join(' | '));
     await browser.close(); srv.close();
