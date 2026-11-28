@@ -1635,7 +1635,7 @@
           "title": "Landwirt (farmer)",
           "employer": null,
           "place": "Sohland an der Spree",
-          "placeId": null,
+          "placeId": "sohland",
           "years": null,
           "confidence": "confirmed",
           "sourceIds": [
@@ -1779,7 +1779,7 @@
           "title": "Fleischer (butcher)",
           "employer": null,
           "place": "Bautzen",
-          "placeId": null,
+          "placeId": "bautzen",
           "years": "1924 to 1938",
           "confidence": "confirmed",
           "sourceIds": [
