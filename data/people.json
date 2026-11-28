@@ -1627,8 +1627,8 @@
         {
           "title": "Fleischergeselle (journeyman butcher)",
           "employer": null,
-          "place": "Bautzen",
-          "placeId": null,
+          "place": "Holzmarkt 27, Bautzen",
+          "placeId": "bautzen-holzmarkt-27",
           "years": "1921",
           "confidence": "confirmed",
           "sourceIds": [
@@ -1706,8 +1706,8 @@
       "death": {
         "date": "1972-02-27",
         "display": "27 February 1972",
-        "place": "Bautzen",
-        "placeId": null,
+        "place": "Schäfferstraße 6, Bautzen",
+        "placeId": "bautzen-schaefferstrasse-6",
         "confidence": "confirmed",
         "sourceIds": [
           "findbuch-death-register-1972-185"

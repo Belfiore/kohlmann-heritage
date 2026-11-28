@@ -5,7 +5,9 @@
       "title": "2007 Eifler/Becker Ahnentafel, page 1",
       "type": "family tree",
       "date": "2007-01-18",
-      "note": "Compiler unidentified, likely a family member shortly after Christa Kohlmann's death. Page 2 is not yet in hand."
+      "note": "Compiler unidentified, likely a family member shortly after Christa Kohlmann's death. Page 2 is not yet in hand.",
+      "title_de": "2007 Eifler/Becker Ahnentafel, Seite 1",
+      "note_de": "Verfasser nicht ermittelt, wahrscheinlich ein Familienmitglied kurz nach dem Tod von Christa Kohlmann. Seite 2 ist noch nicht zur Hand."
     },
     {
       "id": "weickert-letterhead",
@@ -13,7 +15,9 @@
       "type": "document",
       "date": "1933/1945",
       "file": "images/weickert-eifler-letterhead.jpg",
-      "note": "Undated. The street name Martin-Mutschmann-Straße dates it to 1933-1945. Family collection."
+      "note": "Undated. The street name Martin-Mutschmann-Straße dates it to 1933-1945. Family collection.",
+      "title_de": "Weickert & Eifler Werbebriefkopf",
+      "note_de": "Undatiert. Der Straßenname Martin-Mutschmann-Straße datiert den Briefkopf auf 1933 bis 1945. Familiensammlung."
     },
     {
       "id": "weickert-invoice-1943",
@@ -21,7 +25,9 @@
       "type": "document",
       "date": "1943-04-09",
       "file": "images/weickert-eifler-rechnung-1943.jpg",
-      "note": "Payment receipt signed by Gertrud Eifler on 28 April 1943. Family collection."
+      "note": "Payment receipt signed by Gertrud Eifler on 28 April 1943. Family collection.",
+      "title_de": "Weickert & Eifler Rechnung, 9. April 1943",
+      "note_de": "Zahlungsquittung, unterschrieben von Gertrud Eifler am 28. April 1943. Familiensammlung."
     },
     {
       "id": "adressbuch-eifler",
@@ -30,37 +36,46 @@
       "file": "images/alvin-yellow-pages.png",
       "note": "Identified 25 November 2026: page 14 of the 1938 Bautzen Adressbuch. The highlighted line is \"Eifler, Alwin, Kaufmann, Martin-Mutschmann-Str. 19\", Christa's father, not Thomas's father. Matches SLUB digital copy image 56 exactly. Family collection.",
       "date": "1938",
-      "url": "https://digital.slub-dresden.de/id351743545-19380000/56"
+      "url": "https://digital.slub-dresden.de/id351743545-19380000/56",
+      "title_de": "Bautzen Adressbuch 1938, Seite 14 (Familienexemplar)",
+      "note_de": "Identifiziert am 25. November 2026: Seite 14 des Bautzener Adressbuchs von 1938. Die hervorgehobene Zeile lautet \"Eifler, Alwin, Kaufmann, Martin-Mutschmann-Str. 19\", der Vater von Christa, nicht der Vater von Thomas. Stimmt mit dem digitalen SLUB-Exemplar, Bild 56, genau überein. Familiensammlung."
     },
     {
       "id": "family-testimony",
       "title": "Family testimony from Thomas Kohlmann, Rita Kohlmann and Sebastian Belfiore",
-      "type": "family testimony"
+      "type": "family testimony",
+      "title_de": "Familienaussage von Thomas Kohlmann, Rita Kohlmann und Sebastian Belfiore"
     },
     {
       "id": "family-knowledge",
       "title": "Family knowledge",
-      "type": "family testimony"
+      "type": "family testimony",
+      "title_de": "Familienwissen"
     },
     {
       "id": "self",
       "title": "Sebastian Belfiore",
       "type": "family testimony",
-      "note": "Valeria's husband, and the researcher behind this site."
+      "note": "Valeria's husband, and the researcher behind this site.",
+      "note_de": "Valerias Ehemann und der Forscher, der hinter dieser Website steht."
     },
     {
       "id": "nominatim-2026-11-26",
       "title": "OpenStreetMap, via Nominatim, 26 November 2026",
       "type": "web",
       "url": "https://nominatim.openstreetmap.org/",
-      "note": "Town and village centres, and the modern building at Wilthener Straße 19. No API key. A town is drawn as a circle."
+      "note": "Town and village centres, and the modern building at Wilthener Straße 19. No API key. A town is drawn as a circle.",
+      "title_de": "OpenStreetMap, über Nominatim, 26. November 2026",
+      "note_de": "Stadt- und Dorfmitten sowie das heutige Gebäude in der Wilthener Straße 19. Kein API-Schlüssel. Eine Stadt wird als Kreis gezeichnet."
     },
     {
       "id": "bautzen-street-names",
       "title": "Archivverbund Bautzen, list of historical street names (updated October 2023)",
       "type": "web",
       "url": "https://www.archivverbund-bautzen.de/fileadmin/media/archivverbund/2023-10_Strassennamen_aktualisiert_fuer_HP.pdf",
-      "note": "Wilthener Straße is listed with the historical name Martin-Mutschmann-Straße, about 1933 to 1945."
+      "note": "Wilthener Straße is listed with the historical name Martin-Mutschmann-Straße, about 1933 to 1945.",
+      "title_de": "Archivverbund Bautzen, Liste der historischen Straßennamen (aktualisiert im Oktober 2023)",
+      "note_de": "Wilthener Straße ist mit dem historischen Namen Martin-Mutschmann-Straße aufgeführt, etwa 1933 bis 1945."
     },
     {
       "id": "anc-marriage-1926",
@@ -68,7 +83,10 @@
       "type": "civil register",
       "date": "1926-10-02",
       "url": "https://www.ancestry.com/imageviewer/collections/9152/images/9152_6425_0532030-00708?pId=1523350944",
-      "note": "Ancestry, Dresden civil marriages (collection 9152), image 708 of 994, Stadtarchiv der Landeshauptstadt Dresden. Groom: Fabrikant Ernst Alwin Eifler, born 7 October 1892 at Sohland an der Spree (Sohland birth register Nr. 158), of Bautzen, Wendischer Graben 3. Bride: Gertrud Elise Becker, no occupation, born 22 January 1905 at Dresden (Dresden birth register Nr. 165), of Dresden, Rothermundtstraße 5. Margin stamp, Dresden, 6 November 1969: the husband died on 18 December 1968, Standesamt Zittau Nr. 1169/1968 (number as read). A crop of the page is shown on this site."
+      "note": "Ancestry, Dresden civil marriages (collection 9152), image 708 of 994, Stadtarchiv der Landeshauptstadt Dresden. Groom: Fabrikant Ernst Alwin Eifler, born 7 October 1892 at Sohland an der Spree (Sohland birth register Nr. 158), of Bautzen, Wendischer Graben 3. Bride: Gertrud Elise Becker, no occupation, born 22 January 1905 at Dresden (Dresden birth register Nr. 165), of Dresden, Rothermundtstraße 5. Margin stamp, Dresden, 6 November 1969: the husband died on 18 December 1968, Standesamt Zittau Nr. 1169/1968 (number as read). A crop of the page is shown on this site.",
+      "file": "images/records/1926-dresden-marriage-352-eifler-becker.jpg",
+      "title_de": "Heiratsregister, Standesamt Dresden V, 1926 Nr. 352: Ernst Alwin Eifler und Gertrud Elise Becker",
+      "note_de": "Ancestry, standesamtliche Heiraten Dresden (Sammlung 9152), Bild 708 von 994, Stadtarchiv der Landeshauptstadt Dresden. Bräutigam: Fabrikant Ernst Alwin Eifler, geboren am 7. Oktober 1892 in Sohland an der Spree (Sohland Geburtsregister Nr. 158), wohnhaft Bautzen, Wendischer Graben 3. Braut: Gertrud Elise Becker, ohne Beruf, geboren am 22. Januar 1905 in Dresden (Dresden Geburtsregister Nr. 165), wohnhaft Dresden, Rothermundtstraße 5. Randstempel, Dresden, 6. November 1969: der Ehemann starb am 18. Dezember 1968, Standesamt Zittau Nr. 1169/1968 (Nummer wie gelesen). Ein Ausschnitt der Seite wird auf dieser Website gezeigt."
     },
     {
       "id": "anc-birth-1905",
@@ -76,7 +94,10 @@
       "type": "civil register",
       "date": "1905-01-27",
       "url": "https://www.ancestry.com/imageviewer/collections/5405/images/5405_6425_0122091-00169?pId=24143873",
-      "note": "Ancestry, Dresden births (collection 5405), image 169 of 2322, Stadtarchiv der Landeshauptstadt Dresden. Reported 27 January 1905 by the Kaufmann Richard Hermann Becker, of Dresden, Ziegelstraße 2, first floor, evangelical-Lutheran: his wife Elise Becker née Just, evangelical-Lutheran, gave birth to a girl, Gertrud Elise, at their home on 22 January 1905. Margin note: died 11.12.1973, Standesamt Bautzen Nr. 1052/1973 (the free Bautzen register confirms the number). A crop of the page is shown on this site."
+      "note": "Ancestry, Dresden births (collection 5405), image 169 of 2322, Stadtarchiv der Landeshauptstadt Dresden. Reported 27 January 1905 by the Kaufmann Richard Hermann Becker, of Dresden, Ziegelstraße 2, first floor, evangelical-Lutheran: his wife Elise Becker née Just, evangelical-Lutheran, gave birth to a girl, Gertrud Elise, at their home on 22 January 1905. Margin note: died 11.12.1973, Standesamt Bautzen Nr. 1052/1973 (the free Bautzen register confirms the number). A crop of the page is shown on this site.",
+      "file": "images/records/1905-dresden-birth-165-gertrud-elise-becker.jpg",
+      "title_de": "Geburtsregister, Standesamt Dresden I, 1905 Nr. 165: Gertrud Elise Becker",
+      "note_de": "Ancestry, Geburten Dresden (Sammlung 5405), Bild 169 von 2322, Stadtarchiv der Landeshauptstadt Dresden. Angezeigt am 27. Januar 1905 vom Kaufmann Richard Hermann Becker, wohnhaft Dresden, Ziegelstraße 2, erster Stock, evangelisch-lutherisch: seine Frau Elise Becker geb. Just, evangelisch-lutherisch, brachte am 22. Januar 1905 in ihrer Wohnung ein Mädchen zur Welt, Gertrud Elise. Randvermerk: gestorben 11.12.1973, Standesamt Bautzen Nr. 1052/1973 (das frei einsehbare Bautzener Register bestätigt die Nummer). Ein Ausschnitt der Seite wird auf dieser Website gezeigt."
     },
     {
       "id": "anc-death-1938",
@@ -84,7 +105,9 @@
       "type": "civil register",
       "date": "1938-01",
       "url": "https://www.ancestry.com/search/collections/9153/records/3536758",
-      "note": "Ancestry, Dresden deaths (collection 9153), image 56."
+      "note": "Ancestry, Dresden deaths (collection 9153), image 56.",
+      "title_de": "Sterberegister, Standesamt Dresden V, 1938 Nr. 52: Richard Hermann Becker",
+      "note_de": "Ancestry, Sterbefälle Dresden (Sammlung 9153), Bild 56."
     },
     {
       "id": "anc-cremation-1938",
@@ -92,7 +115,9 @@
       "type": "register",
       "date": "1938-01",
       "url": "https://www.ancestry.com/search/collections/61814/records/60638",
-      "note": "Ancestry, Dresden cremation registers (collection 61814), image 20. The burial column is hard to read; \"Striesener Friedhof\" is a possible reading only."
+      "note": "Ancestry, Dresden cremation registers (collection 61814), image 20. The burial column is hard to read; \"Striesener Friedhof\" is a possible reading only.",
+      "title_de": "Krematoriumsregister Dresden 1938: Richard Hermann Becker, Bescheinigung 60603",
+      "note_de": "Ancestry, Krematoriumsregister Dresden (Sammlung 61814), Bild 20. Die Beisetzungsspalte ist schwer zu lesen; \"Striesener Friedhof\" ist nur eine mögliche Lesung."
     },
     {
       "id": "anc-bautzen-1921",
@@ -100,7 +125,9 @@
       "type": "directory",
       "date": "1921",
       "url": "https://www.ancestry.com/search/collections/60778/records/18247386",
-      "note": "Ancestry, German city directories (collection 60778). \"Weickert, Bruno, Sattlermeister (Fa.: Weickert & Eifler), Sattler- und Polstergeschäft, Löbauer Str. 10, Fernruf 512 (Wohnung: Neusalzaer Straße 34, II)\"."
+      "note": "Ancestry, German city directories (collection 60778). \"Weickert, Bruno, Sattlermeister (Fa.: Weickert & Eifler), Sattler- und Polstergeschäft, Löbauer Str. 10, Fernruf 512 (Wohnung: Neusalzaer Straße 34, II)\".",
+      "title_de": "Adressbuch Bautzen 1921, Seite 121 (Weickert)",
+      "note_de": "Ancestry, deutsche Stadtadressbücher (Sammlung 60778). \"Weickert, Bruno, Sattlermeister (Fa.: Weickert & Eifler), Sattler- und Polstergeschäft, Löbauer Str. 10, Fernruf 512 (Wohnung: Neusalzaer Straße 34, II)\"."
     },
     {
       "id": "anc-bautzen-1932",
@@ -108,7 +135,8 @@
       "type": "directory",
       "date": "1932",
       "url": "https://www.ancestry.com/search/collections/60778/records/30291771",
-      "note": "Ancestry index gives Neusalzaer Straße 36. The SLUB copy read on 25 November 2026 gives No. 38. One of the two is a misreading."
+      "note": "Ancestry index gives Neusalzaer Straße 36. The SLUB copy read on 25 November 2026 gives No. 38. One of the two is a misreading.",
+      "note_de": "Der Ancestry-Index gibt Neusalzaer Straße 36 an. Das am 25. November 2026 gelesene SLUB-Exemplar gibt Nr. 38 an. Eine der beiden Angaben ist eine Fehllesung."
     },
     {
       "id": "anc-bautzen-1935",
@@ -116,7 +144,9 @@
       "type": "directory",
       "date": "1935",
       "url": "https://www.ancestry.com/search/collections/60778/records/6031712",
-      "note": "\"Weickert & Eifler (Inhaber: A. Eifler), Martin-Mutschmann-Str. 19, Fernruf 2512\". Also record 6069895."
+      "note": "\"Weickert & Eifler (Inhaber: A. Eifler), Martin-Mutschmann-Str. 19, Fernruf 2512\". Also record 6069895.",
+      "title_de": "Adressbuch Bautzen 1935, Seite 141 (Weickert & Eifler)",
+      "note_de": "\"Weickert & Eifler (Inhaber: A. Eifler), Martin-Mutschmann-Str. 19, Fernruf 2512\". Außerdem Datensatz 6069895."
     },
     {
       "id": "slub-bautzen-1917",
@@ -124,7 +154,8 @@
       "type": "directory",
       "date": "1917",
       "url": "https://digital.slub-dresden.de/id405286481-19170000/20",
-      "note": "SLUB Dresden digital collections, public domain. Image 20: no Eifler listed. Image 106: Karl Gottlieb Weickert, Schuhmachermeister, Neusalzaer Str. 20."
+      "note": "SLUB Dresden digital collections, public domain. Image 20: no Eifler listed. Image 106: Karl Gottlieb Weickert, Schuhmachermeister, Neusalzaer Str. 20.",
+      "note_de": "Digitale Sammlungen der SLUB Dresden, gemeinfrei. Bild 20: kein Eifler verzeichnet. Bild 106: Karl Gottlieb Weickert, Schuhmachermeister, Neusalzaer Str. 20."
     },
     {
       "id": "slub-bautzen-1928",
@@ -132,7 +163,9 @@
       "type": "directory",
       "date": "1928",
       "url": "https://digital.slub-dresden.de/id351743545-19280000/73",
-      "note": "SLUB Dresden, public domain. Image 73: Eifler, Alwin, Kaufmann, Neusalzaer Str. 38 Hinterhaus. Image 179: Weickert, Bruno, Sattlermeister, Neusalzaer Str. 20. Image 201: Weikert & Eifler (Inhaber Alwin Eifler), Matratzenfabrik Gnaschwitz (Kontor und Verkaufsstelle). Image 366: Handelsregister Nr. 885 Stahldrahtmatratzenfabrik Weickert & Eifler, Inhaber Alwin Eifler."
+      "note": "SLUB Dresden, public domain. Image 73: Eifler, Alwin, Kaufmann, Neusalzaer Str. 38 Hinterhaus. Image 179: Weickert, Bruno, Sattlermeister, Neusalzaer Str. 20. Image 201: Weikert & Eifler (Inhaber Alwin Eifler), Matratzenfabrik Gnaschwitz (Kontor und Verkaufsstelle). Image 366: Handelsregister Nr. 885 Stahldrahtmatratzenfabrik Weickert & Eifler, Inhaber Alwin Eifler.",
+      "file": "images/records/1928-bautzen-handelsregister-885-weickert-eifler.jpg",
+      "note_de": "SLUB Dresden, gemeinfrei. Bild 73: Eifler, Alwin, Kaufmann, Neusalzaer Str. 38 Hinterhaus. Bild 179: Weickert, Bruno, Sattlermeister, Neusalzaer Str. 20. Bild 201: Weikert & Eifler (Inhaber Alwin Eifler), Matratzenfabrik Gnaschwitz (Kontor und Verkaufsstelle). Bild 366: Handelsregister Nr. 885 Stahldrahtmatratzenfabrik Weickert & Eifler, Inhaber Alwin Eifler."
     },
     {
       "id": "slub-bautzen-1929",
@@ -140,7 +173,8 @@
       "type": "directory",
       "date": "1929",
       "url": "https://digital.slub-dresden.de/id351743545-19290000/76",
-      "note": "SLUB Dresden, public domain. Alwin Eifler at Neusalzaer Str. 38 (image 76); firm in the Handelsregister (image 376)."
+      "note": "SLUB Dresden, public domain. Alwin Eifler at Neusalzaer Str. 38 (image 76); firm in the Handelsregister (image 376).",
+      "note_de": "SLUB Dresden, gemeinfrei. Alwin Eifler in der Neusalzaer Str. 38 (Bild 76); die Firma im Handelsregister (Bild 376)."
     },
     {
       "id": "slub-bautzen-1938",
@@ -148,7 +182,9 @@
       "type": "directory",
       "date": "1938",
       "url": "https://digital.slub-dresden.de/id351743545-19380000/56",
-      "note": "SLUB Dresden, public domain. Image 56 (page 14): Eifler, Alwin, Kaufmann, Martin-Mutschmann-Str. 19, phone 2512. Image 236: house owner of Martin-Mutschmann-Str. 19 \"Eifler, Alwin, Fabrikant\". Image 292: Handelsregister A 173 Weickert & Eifler, Inhaber Alwin Eifler."
+      "note": "SLUB Dresden, public domain. Image 56 (page 14): Eifler, Alwin, Kaufmann, Martin-Mutschmann-Str. 19, phone 2512. Image 236: house owner of Martin-Mutschmann-Str. 19 \"Eifler, Alwin, Fabrikant\". Image 292: Handelsregister A 173 Weickert & Eifler, Inhaber Alwin Eifler.",
+      "file": "images/records/1938-bautzen-house-owner-mms19-eifler.jpg",
+      "note_de": "SLUB Dresden, gemeinfrei. Bild 56 (Seite 14): Eifler, Alwin, Kaufmann, Martin-Mutschmann-Str. 19, Telefon 2512. Bild 236: Hauseigentümer der Martin-Mutschmann-Str. 19 \"Eifler, Alwin, Fabrikant\". Bild 292: Handelsregister A 173 Weickert & Eifler, Inhaber Alwin Eifler."
     },
     {
       "id": "slub-dresden-1938",
@@ -156,7 +192,9 @@
       "type": "directory",
       "date": "1938",
       "url": "https://digital.slub-dresden.de/id32253167Z/2032",
-      "note": "SLUB Dresden, public domain. Rothermundtstraße 5, ground floor: \"Becker, R., Eisenwhdlg.\" (ironmonger's)."
+      "note": "SLUB Dresden, public domain. Rothermundtstraße 5, ground floor: \"Becker, R., Eisenwhdlg.\" (ironmonger's).",
+      "title_de": "Adressbuch Dresden 1938, Hausregister",
+      "note_de": "SLUB Dresden, gemeinfrei. Rothermundtstraße 5, Erdgeschoss: \"Becker, R., Eisenwhdlg.\" (Eisenwarenhandlung)."
     },
     {
       "id": "findbuch-death-1954",
@@ -164,7 +202,10 @@
       "type": "civil register",
       "date": "1954-12-27",
       "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61003-St-BZ._~Register._~61003-84-R-4.pdf",
-      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister Stadt Bautzen, volume 84, page 882 of the PDF. Free on Findbuch.net, CC BY 4.0. Also in the name index 1951 to 1955, part 4, page 8."
+      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister Stadt Bautzen, volume 84, page 882 of the PDF. Free on Findbuch.net, CC BY 4.0. Also in the name index 1951 to 1955, part 4, page 8.",
+      "file": "images/records/1954-bautzen-death-881-clara-elise-becker.jpg",
+      "title_de": "Sterberegister, Standesamt Bautzen, 1954 Nr. 881: Clara Elise Becker geb. Just",
+      "note_de": "Archivverbund Bautzen, Bestand 61003 Sterberegister Stadt Bautzen, Band 84, Seite 882 der PDF. Kostenlos auf Findbuch.net, CC BY 4.0. Auch im Namensregister 1951 bis 1955, Teil 4, Seite 8."
     },
     {
       "id": "findbuch-death-1973",
@@ -172,7 +213,10 @@
       "type": "civil register",
       "date": "1973-12-11",
       "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61003-St-BZ._~Register%20mit%20Sperrvermerk._~61003-103-R-5.pdf",
-      "note": "Archivverbund Bautzen, Bestand 61003, volume 103, page 1054 of the PDF. Free on Findbuch.net, CC BY 4.0."
+      "note": "Archivverbund Bautzen, Bestand 61003, volume 103, page 1054 of the PDF. Free on Findbuch.net, CC BY 4.0.",
+      "file": "images/records/1973-bautzen-death-1052-gertrud-elise-eifler.jpg",
+      "title_de": "Sterberegister, Standesamt Bautzen, 1973 Nr. 1052: Gertrud Elise Eifler geb. Becker",
+      "note_de": "Archivverbund Bautzen, Bestand 61003, Band 103, Seite 1054 der PDF. Kostenlos auf Findbuch.net, CC BY 4.0."
     },
     {
       "id": "findbuch-index-1968",
@@ -180,7 +224,9 @@
       "type": "civil register index",
       "date": "1968",
       "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61003-St-BZ._~NV._~61003-129-R-4%20(3).pdf",
-      "note": "Archivverbund Bautzen, Bestand 61003, volume 129, part 3, page 15. No Eifler is listed in 1968. The December 1968 register pages (volume 98, entries 1035 to 1062) have no Eifler either."
+      "note": "Archivverbund Bautzen, Bestand 61003, volume 129, part 3, page 15. No Eifler is listed in 1968. The December 1968 register pages (volume 98, entries 1035 to 1062) have no Eifler either.",
+      "title_de": "Namensregister der Sterbefälle, Standesamt Bautzen, 1968 (Buchstabe E)",
+      "note_de": "Archivverbund Bautzen, Bestand 61003, Band 129, Teil 3, Seite 15. 1968 ist kein Eifler verzeichnet. Die Registerseiten vom Dezember 1968 (Band 98, Einträge 1035 bis 1062) enthalten ebenfalls keinen Eifler."
     },
     {
       "id": "google-patent-de435041",
@@ -188,7 +234,9 @@
       "type": "patent",
       "date": "1926-10-06",
       "url": "https://patents.google.com/patent/DE435041C/de",
-      "note": "Patented from 12 July 1925, published 6 October 1926. The patent printed on the Weickert & Eifler letterhead belongs to Filter, not to the firm."
+      "note": "Patented from 12 July 1925, published 6 October 1926. The patent printed on the Weickert & Eifler letterhead belongs to Filter, not to the firm.",
+      "title_de": "Deutsches Reichspatent 435041, Netzmatratze, August Filter, Hannover",
+      "note_de": "Patentiert ab dem 12. Juli 1925, veröffentlicht am 6. Oktober 1926. Das auf dem Briefkopf von Weickert & Eifler abgedruckte Patent gehört Filter, nicht der Firma."
     },
     {
       "id": "sachsenschiene-industriebahn",
@@ -196,7 +244,9 @@
       "type": "web",
       "date": "2026",
       "url": "https://www.sachsenschiene.net/bahn/str/str146.htm",
-      "note": "History of the 1916 works railway to the Gnaschwitz powder factory, the 1920 \"Interessengemeinschaft Industriegelände Singwitz\", and the GDR works on the line."
+      "note": "History of the 1916 works railway to the Gnaschwitz powder factory, the 1920 \"Interessengemeinschaft Industriegelände Singwitz\", and the GDR works on the line.",
+      "title_de": "Sachsenschiene: Industriebahn Großdöbschütz nach Gnaschwitz",
+      "note_de": "Geschichte der Werkbahn von 1916 zur Pulverfabrik Gnaschwitz, der \"Interessengemeinschaft Industriegelände Singwitz\" von 1920 und der DDR-Werke an der Strecke."
     },
     {
       "id": "stammtisch-singwitz",
@@ -204,7 +254,9 @@
       "type": "web",
       "date": "2026",
       "url": "https://historischerstammtisch.webnode.page/geschichte/singwitz/",
-      "note": "Village timeline: powder factory closed 1918/1919; from 1920 its buildings were let as the Industriegelände Singwitz."
+      "note": "Village timeline: powder factory closed 1918/1919; from 1920 its buildings were let as the Industriegelände Singwitz.",
+      "title_de": "Historischer Stammtisch: Zeittafel Singwitz",
+      "note_de": "Dorfzeittafel: die Pulverfabrik wurde 1918/1919 geschlossen; ab 1920 wurden ihre Gebäude als Industriegelände Singwitz vermietet."
     },
     {
       "id": "slub-doebeln-1925",
@@ -212,7 +264,9 @@
       "type": "directory",
       "date": "1925",
       "url": "https://digital.slub-dresden.de/id32255658Z/223",
-      "note": "SLUB Dresden, public domain. Image 223 (page 187), residents list: \"Woltmann Max, Steuerassist., Kleinbauchlitzer Straße 20\". The only Woltmann in the book."
+      "note": "SLUB Dresden, public domain. Image 223 (page 187), residents list: \"Woltmann Max, Steuerassist., Kleinbauchlitzer Straße 20\". The only Woltmann in the book.",
+      "file": "images/records/1925-doebeln-woltmann-max-kleinbauchlitzer-20.jpg",
+      "note_de": "SLUB Dresden, gemeinfrei. Bild 223 (Seite 187), Einwohnerliste: \"Woltmann Max, Steuerassist., Kleinbauchlitzer Straße 20\". Der einzige Woltmann im Buch."
     },
     {
       "id": "slub-doebeln-1939",
@@ -220,7 +274,9 @@
       "type": "directory",
       "date": "1939",
       "url": "https://digital.slub-dresden.de/id380602059-19390000/264",
-      "note": "SLUB Dresden, public domain. Image 213, residents list: \"Woltmann, Max, Steuersekretär, Grimmaische Str. 20\", the only Woltmann. Image 263: the street heading \"Grimmaische Straße, vorher Kleinbauchlitzer Straße\". Image 264: house list for Grimmaische Straße 20, with \"Woltmann Max, Steuersekretär\"."
+      "note": "SLUB Dresden, public domain. Image 213, residents list: \"Woltmann, Max, Steuersekretär, Grimmaische Str. 20\", the only Woltmann. Image 263: the street heading \"Grimmaische Straße, vorher Kleinbauchlitzer Straße\". Image 264: house list for Grimmaische Straße 20, with \"Woltmann Max, Steuersekretär\".",
+      "file": "images/records/1939-doebeln-grimmaische-20-woltmann-max.jpg",
+      "note_de": "SLUB Dresden, gemeinfrei. Bild 213, Einwohnerliste: \"Woltmann, Max, Steuersekretär, Grimmaische Str. 20\", der einzige Woltmann. Bild 263: die Straßenüberschrift \"Grimmaische Straße, vorher Kleinbauchlitzer Straße\". Bild 264: Hausliste für Grimmaische Straße 20, mit \"Woltmann Max, Steuersekretär\"."
     },
     {
       "id": "slub-doebeln-1900",
@@ -228,7 +284,8 @@
       "type": "directory",
       "date": "1900",
       "url": "https://digital.slub-dresden.de/id32255666Z/81",
-      "note": "SLUB Dresden, public domain. Image 81 (page 57): the residents list runs Wolf, Wollburg, Wollner, Wolke, Wolter, Worm. No Woltmann."
+      "note": "SLUB Dresden, public domain. Image 81 (page 57): the residents list runs Wolf, Wollburg, Wollner, Wolke, Wolter, Worm. No Woltmann.",
+      "note_de": "SLUB Dresden, gemeinfrei. Bild 81 (Seite 57): die Einwohnerliste führt nacheinander Wolf, Wollburg, Wollner, Wolke, Wolter, Worm auf. Kein Woltmann."
     },
     {
       "id": "anc-bautzen-1921-kohlmann",
@@ -236,7 +293,9 @@
       "type": "directory",
       "date": "1921",
       "url": "https://www.ancestry.com/search/collections/60778/records/18241430",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. \"Kohlmann, Alwin, Fleischergeselle, Holzmarkt 27, Hths. I.\""
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. \"Kohlmann, Alwin, Fleischergeselle, Holzmarkt 27, Hths. I.\"",
+      "title_de": "Einwohnerbuch für Bautzen 1921, Seite 60 (Kohlmann)",
+      "note_de": "Ancestry, Deutschland und umliegende Gebiete, Adressbücher 1815-1974 (Sammlung 60778), aus der Deutschen Nationalbibliothek, Leipzig. Abonnementseite; Bild hier nicht wiedergegeben. \"Kohlmann, Alwin, Fleischergeselle, Holzmarkt 27, Hths. I.\""
     },
     {
       "id": "anc-bautzen-1924-kohlmann",
@@ -244,7 +303,8 @@
       "type": "directory",
       "date": "1924",
       "url": "https://www.ancestry.com/search/collections/60778/records/7669002",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. \"Kohlmann, Alwin, Fleischer, Holzmarkt 27, Eg.\" (the index fields are scrambled; read from the image)."
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. \"Kohlmann, Alwin, Fleischer, Holzmarkt 27, Eg.\" (the index fields are scrambled; read from the image).",
+      "note_de": "Ancestry, Deutschland und umliegende Gebiete, Adressbücher 1815-1974 (Sammlung 60778), aus der Deutschen Nationalbibliothek, Leipzig. Abonnementseite; Bild hier nicht wiedergegeben. \"Kohlmann, Alwin, Fleischer, Holzmarkt 27, Eg.\" (die Indexfelder sind durcheinander; nach dem Bild gelesen)."
     },
     {
       "id": "anc-bautzen-1925-kohlmann",
@@ -252,7 +312,8 @@
       "type": "directory",
       "date": "1925",
       "url": "https://www.ancestry.com/search/collections/60778/records/30269020",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. \"Kohlmann, Alwin, Fleischer, Schäfferstraße 6.\""
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. \"Kohlmann, Alwin, Fleischer, Schäfferstraße 6.\"",
+      "note_de": "Ancestry, Deutschland und umliegende Gebiete, Adressbücher 1815-1974 (Sammlung 60778), aus der Deutschen Nationalbibliothek, Leipzig. Abonnementseite; Bild hier nicht wiedergegeben. \"Kohlmann, Alwin, Fleischer, Schäfferstraße 6.\""
     },
     {
       "id": "anc-bautzen-1935-kohlmann",
@@ -260,7 +321,8 @@
       "type": "directory",
       "date": "1935",
       "url": "https://www.ancestry.com/search/collections/60778/records/6043742",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. Alwin, Fleischer, Schäfferstraße 6, I.; Friedrich, Kaufmann, Jägerstraße 43, II.; Heinz, Prokurist, Kaiserstraße 12, III. (the index reads \"Heilig\"); Walter, Diplom-Ingenieur, Reg.-Gewerberat, Taucherstraße 13, I.; Willy, Kaufmann, Kantstraße 21, I."
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. Alwin, Fleischer, Schäfferstraße 6, I.; Friedrich, Kaufmann, Jägerstraße 43, II.; Heinz, Prokurist, Kaiserstraße 12, III. (the index reads \"Heilig\"); Walter, Diplom-Ingenieur, Reg.-Gewerberat, Taucherstraße 13, I.; Willy, Kaufmann, Kantstraße 21, I.",
+      "note_de": "Ancestry, Deutschland und umliegende Gebiete, Adressbücher 1815-1974 (Sammlung 60778), aus der Deutschen Nationalbibliothek, Leipzig. Abonnementseite; Bild hier nicht wiedergegeben. Alwin, Fleischer, Schäfferstraße 6, I.; Friedrich, Kaufmann, Jägerstraße 43, II.; Heinz, Prokurist, Kaiserstraße 12, III. (der Index liest \"Heilig\"); Walter, Diplom-Ingenieur, Reg.-Gewerberat, Taucherstraße 13, I.; Willy, Kaufmann, Kantstraße 21, I."
     },
     {
       "id": "anc-doebeln-1925",
@@ -268,7 +330,9 @@
       "type": "directory",
       "date": "1925",
       "url": "https://www.ancestry.com/search/collections/60778/records/23932961",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. Second copy of the SLUB entry: \"Woltmann Max, Steuerassist., Kleinbauchlitzer Straße 20\"."
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. Second copy of the SLUB entry: \"Woltmann Max, Steuerassist., Kleinbauchlitzer Straße 20\".",
+      "title_de": "Adreßbuch für die Kreisstadt Döbeln und Umgebung 1925, Seite 187 (Woltmann)",
+      "note_de": "Ancestry, Deutschland und umliegende Gebiete, Adressbücher 1815-1974 (Sammlung 60778), aus der Deutschen Nationalbibliothek, Leipzig. Abonnementseite; Bild hier nicht wiedergegeben. Zweites Exemplar des SLUB-Eintrags: \"Woltmann Max, Steuerassist., Kleinbauchlitzer Straße 20\"."
     },
     {
       "id": "anc-doebeln-1939",
@@ -276,7 +340,9 @@
       "type": "directory",
       "date": "1939",
       "url": "https://www.ancestry.com/search/collections/60778/records/41585419",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. Second copy of the SLUB entry: \"Woltmann Max, Steuersekretär, Grimmaische Str. 20\"."
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. Second copy of the SLUB entry: \"Woltmann Max, Steuersekretär, Grimmaische Str. 20\".",
+      "title_de": "Adressbuch Döbeln 1939, Seite 183 (Woltmann)",
+      "note_de": "Ancestry, Deutschland und umliegende Gebiete, Adressbücher 1815-1974 (Sammlung 60778), aus der Deutschen Nationalbibliothek, Leipzig. Abonnementseite; Bild hier nicht wiedergegeben. Zweites Exemplar des SLUB-Eintrags: \"Woltmann Max, Steuersekretär, Grimmaische Str. 20\"."
     },
     {
       "id": "findbuch-death-index-1972-kohlmann",
@@ -284,7 +350,10 @@
       "type": "civil-index",
       "date": "1972",
       "url": "https://www.archivverbund-bautzen.findbuch.net/",
-      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, Namensverzeichnis 61003-131 part 2, via Findbuch.net. CC BY 4.0. Entry: \"Kohlmann, Ernst Alwin\", died 27.2., register Nr. 185."
+      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, Namensverzeichnis 61003-131 part 2, via Findbuch.net. CC BY 4.0. Entry: \"Kohlmann, Ernst Alwin\", died 27.2., register Nr. 185.",
+      "file": "images/records/1972-bautzen-death-index-kohlmann-ernst-alwin.jpg",
+      "title_de": "Namensregister des Sterberegisters Bautzen 1972, Buchstabe K, Seite 30 (Kohlmann, Ernst Alwin)",
+      "note_de": "Archivverbund Bautzen, Bestand 61003 Sterberegister, Namensverzeichnis 61003-131 Teil 2, über Findbuch.net. CC BY 4.0. Eintrag: \"Kohlmann, Ernst Alwin\", gestorben 27.2., Register Nr. 185."
     },
     {
       "id": "findbuch-death-index-1963-kohlmann",
@@ -292,7 +361,9 @@
       "type": "civil-index",
       "date": "1963",
       "url": "https://www.archivverbund-bautzen.findbuch.net/",
-      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, Namensverzeichnis 61003-128 part 3, via Findbuch.net. CC BY 4.0. Entry: \"Kohlmann, Karl Martin\", died 24.1., register Nr. 75, remark \"Crostau\"."
+      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, Namensverzeichnis 61003-128 part 3, via Findbuch.net. CC BY 4.0. Entry: \"Kohlmann, Karl Martin\", died 24.1., register Nr. 75, remark \"Crostau\".",
+      "title_de": "Namensregister des Sterberegisters Bautzen 1963, Buchstabe K, Seite 33 (Kohlmann, Karl Martin)",
+      "note_de": "Archivverbund Bautzen, Bestand 61003 Sterberegister, Namensverzeichnis 61003-128 Teil 3, über Findbuch.net. CC BY 4.0. Eintrag: \"Kohlmann, Karl Martin\", gestorben 24.1., Register Nr. 75, Bemerkung \"Crostau\"."
     },
     {
       "id": "findbuch-death-indexes-1946-1972",
@@ -300,7 +371,9 @@
       "type": "civil-index",
       "date": "1946-1979",
       "url": "https://www.archivverbund-bautzen.findbuch.net/",
-      "note": "Archivverbund Bautzen, Bestand 61003, Namensverzeichnisse 61003-125 to -129 and -131 (parts 1 to 9, 1971 to 1979), via Findbuch.net. CC BY 4.0. Read page by page for Kohlmann, Eifler and Weickert."
+      "note": "Archivverbund Bautzen, Bestand 61003, Namensverzeichnisse 61003-125 to -129 and -131 (parts 1 to 9, 1971 to 1979), via Findbuch.net. CC BY 4.0. Read page by page for Kohlmann, Eifler and Weickert.",
+      "title_de": "Namensregister der Sterberegister Bautzen 1946 bis 1979, Buchstaben E, K und W",
+      "note_de": "Archivverbund Bautzen, Bestand 61003, Namensverzeichnisse 61003-125 bis -129 und -131 (Teile 1 bis 9, 1971 bis 1979), über Findbuch.net. CC BY 4.0. Seite für Seite gelesen nach Kohlmann, Eifler und Weickert."
     },
     {
       "id": "findbuch-death-register-1972-185",
@@ -308,7 +381,10 @@
       "type": "civil-register",
       "date": "1972",
       "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61003-St-BZ._~Register%20mit%20Sperrvermerk._~61003-102-R-5.pdf",
-      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, volume 102 (1972), page 186, via Findbuch.net. CC BY 4.0. Typed entry: residence Bautzen, Schäfferstr. 6; died 27 Feb 1972, 14:00, Bautzen; born 21 Sep 1883 in \"Kötschau\", Kr. Löbau (birth Standesamt Lawalde Nr. 71/1883); married to Marie Ida Kohlmann née Jurack (marriage Standesamt Malschwitz Nr. 9/1914). No parents or informant on this form."
+      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, volume 102 (1972), page 186, via Findbuch.net. CC BY 4.0. Typed entry: residence Bautzen, Schäfferstr. 6; died 27 Feb 1972, 14:00, Bautzen; born 21 Sep 1883 in \"Kötschau\", Kr. Löbau (birth Standesamt Lawalde Nr. 71/1883); married to Marie Ida Kohlmann née Jurack (marriage Standesamt Malschwitz Nr. 9/1914). No parents or informant on this form.",
+      "file": "images/records/1972-bautzen-death-register-185-ernst-alwin-kohlmann.jpg",
+      "title_de": "Sterberegister Bautzen 1972, Eintrag Nr. 185 (Ernst Alwin Kohlmann)",
+      "note_de": "Archivverbund Bautzen, Bestand 61003 Sterberegister, Band 102 (1972), Seite 186, über Findbuch.net. CC BY 4.0. Maschinenschriftlicher Eintrag: Wohnort Bautzen, Schäfferstr. 6; gestorben am 27. Februar 1972, 14:00, Bautzen; geboren am 21. September 1883 in \"Kötschau\", Kr. Löbau (Geburt Standesamt Lawalde Nr. 71/1883); verheiratet mit Marie Ida Kohlmann geb. Jurack (Heirat Standesamt Malschwitz Nr. 9/1914). Keine Eltern und kein Anzeigender auf diesem Formular."
     },
     {
       "id": "findbuch-death-register-1978-704",
@@ -316,7 +392,9 @@
       "type": "civil-register",
       "date": "1978",
       "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61003-St-BZ._~Register%20mit%20Sperrvermerk._~61003-108-R-5.pdf",
-      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, volume 108 (1978), page 707, via Findbuch.net. CC BY 4.0. Typed entry: residence Bautzen, Paulistr. 32; died 23 Sep 1978, Bautzen; born 2 Mar 1892 Oberrennersdorf, Kr. Löbau (birth Standesamt Niederrennersdorf Nr. 7/1892); married to Lina Ella Eifler née Ullrich (Niederrennersdorf Nr. 3/1919)."
+      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, volume 108 (1978), page 707, via Findbuch.net. CC BY 4.0. Typed entry: residence Bautzen, Paulistr. 32; died 23 Sep 1978, Bautzen; born 2 Mar 1892 Oberrennersdorf, Kr. Löbau (birth Standesamt Niederrennersdorf Nr. 7/1892); married to Lina Ella Eifler née Ullrich (Niederrennersdorf Nr. 3/1919).",
+      "title_de": "Sterberegister Bautzen 1978, Eintrag Nr. 704 (Max Oswald Eifler)",
+      "note_de": "Archivverbund Bautzen, Bestand 61003 Sterberegister, Band 108 (1978), Seite 707, über Findbuch.net. CC BY 4.0. Maschinenschriftlicher Eintrag: Wohnort Bautzen, Paulistr. 32; gestorben am 23. September 1978, Bautzen; geboren am 2. März 1892 Oberrennersdorf, Kr. Löbau (Geburt Standesamt Niederrennersdorf Nr. 7/1892); verheiratet mit Lina Ella Eifler geb. Ullrich (Niederrennersdorf Nr. 3/1919)."
     },
     {
       "id": "anc-bautzen-1929-firm",
@@ -324,7 +402,9 @@
       "type": "directory",
       "date": "1929",
       "url": "https://www.ancestry.com/search/collections/60778/records/30288992",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 30288992. Printed: \"Weikert & Eifler (Inh.: Alw. Eifler), Matratzen-Niederlage, A. d. Fleischbänken 7. [tel.] 2512. Fabrik: Industriehof Gnaschwitz.\" Image 46484_1082205958^005-00182, p.181."
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 30288992. Printed: \"Weikert & Eifler (Inh.: Alw. Eifler), Matratzen-Niederlage, A. d. Fleischbänken 7. [tel.] 2512. Fabrik: Industriehof Gnaschwitz.\" Image 46484_1082205958^005-00182, p.181.",
+      "title_de": "Adressbuch Bautzen 1929: Weikert & Eifler (Inh.: Alw. Eifler), Matratzen-Niederlage, An den Fleischbänken 7",
+      "note_de": "Ancestry, Deutschland und umliegende Gebiete, Adressbücher, 1815-1974 (Sammlung 60778), Datensatz 30288992. Gedruckt: \"Weikert & Eifler (Inh.: Alw. Eifler), Matratzen-Niederlage, A. d. Fleischbänken 7. [tel.] 2512. Fabrik: Industriehof Gnaschwitz.\" Bild 46484_1082205958^005-00182, S. 181."
     },
     {
       "id": "anc-bautzen-1932-firm",
@@ -332,7 +412,9 @@
       "type": "directory",
       "date": "1932",
       "url": "https://www.ancestry.com/search/collections/60778/records/30302933",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 30302933. Index: \"Weikert Eifler; A. D. Fleischbänken 7.; 2612 [OCR for telephone 2512]; Matratzen-Niederlage.\" Image ^006-00138."
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 30302933. Index: \"Weikert Eifler; A. D. Fleischbänken 7.; 2612 [OCR for telephone 2512]; Matratzen-Niederlage.\" Image ^006-00138.",
+      "title_de": "Adressbuch Bautzen 1932: Weikert & Eifler, Matratzen-Niederlage, An den Fleischbänken 7",
+      "note_de": "Ancestry, Deutschland und umliegende Gebiete, Adressbücher, 1815-1974 (Sammlung 60778), Datensatz 30302933. Index: \"Weikert Eifler; A. D. Fleischbänken 7.; 2612 [OCR for telephone 2512]; Matratzen-Niederlage.\" Bild ^006-00138."
     },
     {
       "id": "anc-bautzen-1928-eifler",
@@ -340,7 +422,9 @@
       "type": "directory",
       "date": "1928",
       "url": "https://www.ancestry.com/search/collections/60778/records/5296045",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 5296045. Printed: \"Eifler, Alwin, Kaufmann, Neusalzaer Straße 38, Hinterhaus\" with a ditto line \"Max, Hilfsbahnsteigschaffner, Paulistraße 32, III.\" below. Image ^004-00065."
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 5296045. Printed: \"Eifler, Alwin, Kaufmann, Neusalzaer Straße 38, Hinterhaus\" with a ditto line \"Max, Hilfsbahnsteigschaffner, Paulistraße 32, III.\" below. Image ^004-00065.",
+      "title_de": "Adressbuch Bautzen 1928: Eifler, Alwin, Kaufmann, Neusalzaer Straße 38, Hinterhaus",
+      "note_de": "Ancestry, Deutschland und umliegende Gebiete, Adressbücher, 1815-1974 (Sammlung 60778), Datensatz 5296045. Gedruckt: \"Eifler, Alwin, Kaufmann, Neusalzaer Straße 38, Hinterhaus\" mit einer Dito-Zeile \"Max, Hilfsbahnsteigschaffner, Paulistraße 32, III.\" darunter. Bild ^004-00065."
     },
     {
       "id": "anc-bautzen-1929-eifler",
@@ -348,7 +432,9 @@
       "type": "directory",
       "date": "1929",
       "url": "https://www.ancestry.com/search/collections/60778/records/30278350",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 30278350. Index: \"Alwin Eifler, Neusalzaer Straße 38, Kaufmann\". Image ^005-00076."
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 30278350. Index: \"Alwin Eifler, Neusalzaer Straße 38, Kaufmann\". Image ^005-00076.",
+      "title_de": "Adressbuch Bautzen 1929: Eifler, Alwin, Kaufmann, Neusalzaer Straße 38",
+      "note_de": "Ancestry, Deutschland und umliegende Gebiete, Adressbücher, 1815-1974 (Sammlung 60778), Datensatz 30278350. Index: \"Alwin Eifler, Neusalzaer Straße 38, Kaufmann\". Bild ^005-00076."
     },
     {
       "id": "anc-bautzen-weickert-1924",
@@ -356,7 +442,9 @@
       "type": "directory",
       "date": "1924",
       "url": "https://www.ancestry.com/search/collections/60778/records/7675874",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 7675874. Index reads \"Neusalzaevstr. 30\" (OCR); 1925 and 1928 print No. 20. Image 46484_1082205958^002-00162."
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 7675874. Index reads \"Neusalzaevstr. 30\" (OCR); 1925 and 1928 print No. 20. Image 46484_1082205958^002-00162.",
+      "title_de": "Adressbuch Bautzen 1924: Weickert, Bruno, Sattlermeister, Neusalzaer Str. 20",
+      "note_de": "Ancestry, Deutschland und umliegende Gebiete, Adressbücher, 1815-1974 (Sammlung 60778), Datensatz 7675874. Der Index liest \"Neusalzaevstr. 30\" (OCR); 1925 und 1928 drucken Nr. 20. Bild 46484_1082205958^002-00162."
     },
     {
       "id": "anc-bautzen-weickert-1925",
@@ -364,7 +452,9 @@
       "type": "directory",
       "date": "1925",
       "url": "https://www.ancestry.com/search/collections/60778/records/30275862",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 30275862. Printed: \"Weickert, Bruno, Sattlermstr., Neusalzaer Str. 20.\" then ditto lines \"Helene, geb. Maucksch, verw., Neugraben 1, II.\" and \"Johanne, geb. Albert, verw., Neusalzaer Str. 20.\" Image ^003-00202, p.146."
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 30275862. Printed: \"Weickert, Bruno, Sattlermstr., Neusalzaer Str. 20.\" then ditto lines \"Helene, geb. Maucksch, verw., Neugraben 1, II.\" and \"Johanne, geb. Albert, verw., Neusalzaer Str. 20.\" Image ^003-00202, p.146.",
+      "title_de": "Adressbuch Bautzen 1925: Weickert, Bruno, Sattlermstr., Neusalzaer Str. 20",
+      "note_de": "Ancestry, Deutschland und umliegende Gebiete, Adressbücher, 1815-1974 (Sammlung 60778), Datensatz 30275862. Gedruckt: \"Weickert, Bruno, Sattlermstr., Neusalzaer Str. 20.\" danach Dito-Zeilen \"Helene, geb. Maucksch, verw., Neugraben 1, II.\" und \"Johanne, geb. Albert, verw., Neusalzaer Str. 20.\" Bild ^003-00202, S. 146."
     },
     {
       "id": "anc-bautzen-weickert-1928",
@@ -372,7 +462,9 @@
       "type": "directory",
       "date": "1928",
       "url": "https://www.ancestry.com/search/collections/60778/records/5306397",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 5306397. Same three lines as 1925. Image ^004-00171, p.143."
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 5306397. Same three lines as 1925. Image ^004-00171, p.143.",
+      "title_de": "Adressbuch Bautzen 1928: Weickert, Bruno, Sattlermstr., Neusalzaer Str. 20",
+      "note_de": "Ancestry, Deutschland und umliegende Gebiete, Adressbücher, 1815-1974 (Sammlung 60778), Datensatz 5306397. Dieselben drei Zeilen wie 1925. Bild ^004-00171, S. 143."
     },
     {
       "id": "anc-bautzen-weickert-1905",
@@ -380,7 +472,9 @@
       "type": "directory",
       "date": "1905",
       "url": "https://www.ancestry.com/search/collections/60778/records/7655146",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 7655146. Printed: \"Weickert, K. Gottl., Schuhmacher, Neusalzaer-straße 20.\" Image 46484_1082205931^001-00135, p.105."
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 7655146. Printed: \"Weickert, K. Gottl., Schuhmacher, Neusalzaer-straße 20.\" Image 46484_1082205931^001-00135, p.105.",
+      "title_de": "Adressbuch Bautzen 1905: Weickert, K. Gottl., Schuhmacher, Neusalzaer-Straße 20",
+      "note_de": "Ancestry, Deutschland und umliegende Gebiete, Adressbücher, 1815-1974 (Sammlung 60778), Datensatz 7655146. Gedruckt: \"Weickert, K. Gottl., Schuhmacher, Neusalzaer-straße 20.\" Bild 46484_1082205931^001-00135, S. 105."
     },
     {
       "id": "anc-bautzen-weickert-1935",
@@ -388,7 +482,9 @@
       "type": "directory",
       "date": "1935",
       "url": "https://www.ancestry.com/search/collections/60778/records/6069885",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 6069885. Bruno no longer listed in 1932 or 1935."
+      "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 6069885. Bruno no longer listed in 1932 or 1935.",
+      "title_de": "Adressbuch Bautzen 1935: Weickert, Johanne, geb. Albert, verw., Neusalzaer Straße 20",
+      "note_de": "Ancestry, Deutschland und umliegende Gebiete, Adressbücher, 1815-1974 (Sammlung 60778), Datensatz 6069885. Bruno ist weder 1932 noch 1935 aufgeführt."
     },
     {
       "id": "findbuch-death-register-1973-55",
@@ -396,7 +492,9 @@
       "type": "civil-register",
       "date": "1973",
       "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61003-St-BZ._~Register%20mit%20Sperrvermerk._~61003-103-R-5.pdf",
-      "note": "Archivverbund Bautzen, Bestand 61003, volume 103 (1973), page 56, via Findbuch.net. CC BY 4.0. Of Bautzen, Am Stadtwall 1; died 20 Jan 1973; born 5 Feb 1887 Briesing, Kr. Bautzen (birth Malschwitz Nr. 8/1887); widowed; marriage Malschwitz Nr. 9/1914."
+      "note": "Archivverbund Bautzen, Bestand 61003, volume 103 (1973), page 56, via Findbuch.net. CC BY 4.0. Of Bautzen, Am Stadtwall 1; died 20 Jan 1973; born 5 Feb 1887 Briesing, Kr. Bautzen (birth Malschwitz Nr. 8/1887); widowed; marriage Malschwitz Nr. 9/1914.",
+      "title_de": "Sterberegister Bautzen 1973, Eintrag Nr. 55 (Marie Ida Kohlmann geb. Jurack)",
+      "note_de": "Archivverbund Bautzen, Bestand 61003, Band 103 (1973), Seite 56, über Findbuch.net. CC BY 4.0. Wohnhaft Bautzen, Am Stadtwall 1; gestorben am 20. Januar 1973; geboren am 5. Februar 1887 Briesing, Kr. Bautzen (Geburt Malschwitz Nr. 8/1887); verwitwet; Heirat Malschwitz Nr. 9/1914."
     },
     {
       "id": "findbuch-death-register-1980-40",
@@ -404,7 +502,10 @@
       "type": "civil-register",
       "date": "1980",
       "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61003-St-BZ._~Register%20mit%20Sperrvermerk._~61003-110-R-5.pdf",
-      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, volume 110 (1980), page 41, via Findbuch.net. CC BY 4.0. Typed: residence Bautzen, Mättigstr. 17; died 14 Jan 1980, 10:06, Bautzen; born 15 Sep 1897 in Kleindehsa, Kr. Löbau (no birth register number given); married to Ernst Hermann Kissal (marriage Standesamt Lawalde, Kr. Löbau, Nr. 4/1926)."
+      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, volume 110 (1980), page 41, via Findbuch.net. CC BY 4.0. Typed: residence Bautzen, Mättigstr. 17; died 14 Jan 1980, 10:06, Bautzen; born 15 Sep 1897 in Kleindehsa, Kr. Löbau (no birth register number given); married to Ernst Hermann Kissal (marriage Standesamt Lawalde, Kr. Löbau, Nr. 4/1926).",
+      "file": "images/records/1980-bautzen-death-register-40-ernestine-hedwig-kissal-geb-kohlmann.jpg",
+      "title_de": "Sterberegister Bautzen 1980, Eintrag Nr. 40 (Ernestine Hedwig Kissal geb. Kohlmann)",
+      "note_de": "Archivverbund Bautzen, Bestand 61003 Sterberegister, Band 110 (1980), Seite 41, über Findbuch.net. CC BY 4.0. Maschinenschriftlich: Wohnort Bautzen, Mättigstr. 17; gestorben am 14. Januar 1980, 10:06, Bautzen; geboren am 15. September 1897 in Kleindehsa, Kr. Löbau (keine Geburtsregisternummer angegeben); verheiratet mit Ernst Hermann Kissal (Heirat Standesamt Lawalde, Kr. Löbau, Nr. 4/1926)."
     },
     {
       "id": "findbuch-death-register-1980-942",
@@ -412,7 +513,9 @@
       "type": "civil-register",
       "date": "1980",
       "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61003-St-BZ._~Register%20mit%20Sperrvermerk._~61003-110-R-5.pdf",
-      "note": "Archivverbund Bautzen, Bestand 61003, volume 110 (1980), page 943. CC BY 4.0. Typed: residence Bautzen, Karl-Marx-Str. 12; died 29 Nov 1980, 21:15, Bautzen; born 23 Jul 1909 Bautzen (birth Bautzen Nr. 344/1909); married to Karl Heinz Kohlmann (marriage Bautzen Nr. 32/1935)."
+      "note": "Archivverbund Bautzen, Bestand 61003, volume 110 (1980), page 943. CC BY 4.0. Typed: residence Bautzen, Karl-Marx-Str. 12; died 29 Nov 1980, 21:15, Bautzen; born 23 Jul 1909 Bautzen (birth Bautzen Nr. 344/1909); married to Karl Heinz Kohlmann (marriage Bautzen Nr. 32/1935).",
+      "title_de": "Sterberegister Bautzen 1980, Eintrag Nr. 942 (Ilse Kohlmann geb. Mader)",
+      "note_de": "Archivverbund Bautzen, Bestand 61003, Band 110 (1980), Seite 943. CC BY 4.0. Maschinenschriftlich: Wohnort Bautzen, Karl-Marx-Str. 12; gestorben am 29. November 1980, 21:15, Bautzen; geboren am 23. Juli 1909 Bautzen (Geburt Bautzen Nr. 344/1909); verheiratet mit Karl Heinz Kohlmann (Heirat Bautzen Nr. 32/1935)."
     },
     {
       "id": "findbuch-death-register-1956-225",
@@ -420,7 +523,10 @@
       "type": "civil-register",
       "date": "1956",
       "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61003-St-BZ._~Register._~61003-86-R-4.pdf",
-      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, volume 86 (1956), page 226, via Findbuch.net. CC BY 4.0. Typed: der Sattlermeister Max Bruno Weickert, wohnhaft in Bautzen, Fischergasse Nr. 31; died 26 March 1956, 1.45, in Bautzen in his flat; born 2 December 1892 in Großschönau, Kreis Zittau; married to the pensioner Marie Martha née Kuschel, of Bautzen (she reported the death and signed); cause of death arteriosclerosis; marriage 7.9.1918, Standesamt Bautzen Nr. 135/1918."
+      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, volume 86 (1956), page 226, via Findbuch.net. CC BY 4.0. Typed: der Sattlermeister Max Bruno Weickert, wohnhaft in Bautzen, Fischergasse Nr. 31; died 26 March 1956, 1.45, in Bautzen in his flat; born 2 December 1892 in Großschönau, Kreis Zittau; married to the pensioner Marie Martha née Kuschel, of Bautzen (she reported the death and signed); cause of death arteriosclerosis; marriage 7.9.1918, Standesamt Bautzen Nr. 135/1918.",
+      "file": "images/records/1956-bautzen-death-register-225-max-bruno-weickert.jpg",
+      "title_de": "Sterberegister Bautzen 1956, Eintrag Nr. 225 (Max Bruno Weickert)",
+      "note_de": "Archivverbund Bautzen, Bestand 61003 Sterberegister, Band 86 (1956), Seite 226, über Findbuch.net. CC BY 4.0. Maschinenschriftlich: der Sattlermeister Max Bruno Weickert, wohnhaft in Bautzen, Fischergasse Nr. 31; gestorben am 26. März 1956, 1.45, in Bautzen in seiner Wohnung; geboren am 2. Dezember 1892 in Großschönau, Kreis Zittau; verheiratet mit der Rentnerin Marie Martha geb. Kuschel, aus Bautzen (sie zeigte den Tod an und unterschrieb); Todesursache Arteriosklerose; Heirat 7.9.1918, Standesamt Bautzen Nr. 135/1918."
     },
     {
       "id": "findbuch-marriage-index-1918",
@@ -428,7 +534,9 @@
       "type": "civil-register-index",
       "date": "1918",
       "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61002-E-BZ._~Namensverzeichnisse._~61002-48-R-4(3).pdf",
-      "note": "Archivverbund Bautzen, Bestand 61002 Eheregister, Namensverzeichnis volume 48 part 3 (1918), page 29, via Findbuch.net. CC BY 4.0. Handwritten: Weickert, Max Bruno, Sattler, z. Zt. Kanonier d. Res., Bautzen, z. Zt. im Felde, register Nr. 135. The women's index (vol 49 part 3, p15) lists the bride, Kuschel, Marie Martha, Schneiderin, under the same number."
+      "note": "Archivverbund Bautzen, Bestand 61002 Eheregister, Namensverzeichnis volume 48 part 3 (1918), page 29, via Findbuch.net. CC BY 4.0. Handwritten: Weickert, Max Bruno, Sattler, z. Zt. Kanonier d. Res., Bautzen, z. Zt. im Felde, register Nr. 135. The women's index (vol 49 part 3, p15) lists the bride, Kuschel, Marie Martha, Schneiderin, under the same number.",
+      "title_de": "Namensregister der Heiraten der Männer, Bautzen 1918, Buchstabe W (Weickert, Max Bruno, Nr. 135)",
+      "note_de": "Archivverbund Bautzen, Bestand 61002 Eheregister, Namensverzeichnis Band 48 Teil 3 (1918), Seite 29, über Findbuch.net. CC BY 4.0. Handschriftlich: Weickert, Max Bruno, Sattler, z. Zt. Kanonier d. Res., Bautzen, z. Zt. im Felde, Register Nr. 135. Das Namensregister der Frauen (Band 49 Teil 3, S. 15) führt die Braut auf, Kuschel, Marie Martha, Schneiderin, unter derselben Nummer."
     },
     {
       "id": "lawalde-chronik-kleindehsa",
@@ -436,7 +544,9 @@
       "type": "web page",
       "date": "2026-11-26",
       "url": "http://www.lawalde.de/seite/416255/chronik-kleindehsa.html",
-      "note": "Municipal chronicle of Kleindehsa, read 26 November 2026. Entries for 1787, 1885 and 1927 name the Kohlmann owners of the Kretscham (village inn). A secondary source; it does not say how the owners were related, except that Gottfried was the son of the village judge Johann Kohlmann of Kötschau."
+      "note": "Municipal chronicle of Kleindehsa, read 26 November 2026. Entries for 1787, 1885 and 1927 name the Kohlmann owners of the Kretscham (village inn). A secondary source; it does not say how the owners were related, except that Gottfried was the son of the village judge Johann Kohlmann of Kötschau.",
+      "title_de": "Gemeinde Lawalde: Chronik Kleindehsa (Dorfchronik, Webseite)",
+      "note_de": "Gemeindechronik von Kleindehsa, gelesen am 26. November 2026. Die Einträge für 1787, 1885 und 1927 nennen die Kohlmann als Besitzer des Kretscham (Dorfkrug). Eine Sekundärquelle; sie sagt nicht, wie die Besitzer miteinander verwandt waren, außer dass Gottfried der Sohn des Dorfrichters Johann Kohlmann aus Kötschau war."
     },
     {
       "id": "wikipedia-briesing",
@@ -444,21 +554,27 @@
       "type": "web page",
       "date": "2026-11-26",
       "url": "https://de.wikipedia.org/wiki/Briesing",
-      "note": "Cites Arnošt Muka's count of 1884/85: 183 inhabitants, 176 of them Sorbs."
+      "note": "Cites Arnošt Muka's count of 1884/85: 183 inhabitants, 176 of them Sorbs.",
+      "title_de": "Wikipedia (deutsch): Briesing",
+      "note_de": "Zitiert die Zählung von Arnošt Muka von 1884/85: 183 Einwohner, davon 176 Sorben."
     },
     {
       "id": "family-correction-2026-11-26",
       "title": "Family correction, 26 November 2026, given by the family",
       "type": "family testimony",
       "date": "2026-11-26",
-      "note": "Thomas Kohlmann's father is Herbert Kohlmann, called Herbert Coleman in English; his mother is Christa (Krista) née Eifler, daughter of Alwin and Gertrud Eifler. Earlier versions of the site gave Thomas's father the wrong first name, a mix-up with Christa's father Alwin Eifler."
+      "note": "Thomas Kohlmann's father is Herbert Kohlmann, called Herbert Coleman in English; his mother is Christa (Krista) née Eifler, daughter of Alwin and Gertrud Eifler. Earlier versions of the site gave Thomas's father the wrong first name, a mix-up with Christa's father Alwin Eifler.",
+      "title_de": "Familienkorrektur, 26. November 2026, von der Familie gegeben",
+      "note_de": "Der Vater von Thomas Kohlmann ist Herbert Kohlmann, auf Englisch Herbert Coleman genannt; seine Mutter ist Christa (Krista) geb. Eifler, Tochter von Alwin und Gertrud Eifler. Frühere Fassungen der Website gaben dem Vater von Thomas den falschen Vornamen, eine Verwechslung mit Christas Vater Alwin Eifler."
     },
     {
       "id": "family-testimony-2026-11-27",
       "title": "Family testimony, 27 November 2026, given by the family",
       "type": "family testimony",
       "date": "2026-11-27",
-      "note": "Felix Kohlmann is the son of Matthias Kohlmann, Thomas's brother."
+      "note": "Felix Kohlmann is the son of Matthias Kohlmann, Thomas's brother.",
+      "title_de": "Familienaussage, 27. November 2026, von der Familie gegeben",
+      "note_de": "Felix Kohlmann ist der Sohn von Matthias Kohlmann, dem Bruder von Thomas."
     },
     {
       "id": "anc-tree-kirchhoff",
@@ -466,7 +582,9 @@
       "type": "family tree (other researcher)",
       "date": "2026-11-27",
       "url": "https://www.ancestry.com/family-tree/person/tree/14740947/person/155155826/facts",
-      "note": "A family tree made by another Ancestry member, with no sources attached. Read 27 November 2026. A lead, not a record."
+      "note": "A family tree made by another Ancestry member, with no sources attached. Read 27 November 2026. A lead, not a record.",
+      "title_de": "Ancestry-Mitgliedsstammbaum \"Kirchhoff Family\": Maria Alwine Kohlmann (1868 bis 1900)",
+      "note_de": "Ein Stammbaum, erstellt von einem anderen Ancestry-Mitglied, ohne beigefügte Quellen. Gelesen am 27. November 2026. Ein Anhaltspunkt, keine Urkunde."
     },
     {
       "id": "anc-tree-augsten",
@@ -474,7 +592,9 @@
       "type": "family tree (other researcher)",
       "date": "2026-11-27",
       "url": "https://www.ancestry.com/family-tree/person/tree/77731004/person/102310353245/facts",
-      "note": "A family tree made by another Ancestry member, with no sources attached. Read 27 November 2026. A lead, not a record."
+      "note": "A family tree made by another Ancestry member, with no sources attached. Read 27 November 2026. A lead, not a record.",
+      "title_de": "Ancestry-Mitgliedsstammbaum \"Augsten-Familienstammbaum\": Johanne Sophie Helene Kohlmann",
+      "note_de": "Ein Stammbaum, erstellt von einem anderen Ancestry-Mitglied, ohne beigefügte Quellen. Gelesen am 27. November 2026. Ein Anhaltspunkt, keine Urkunde."
     }
   ]
 }

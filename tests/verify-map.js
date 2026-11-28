@@ -89,7 +89,10 @@ function serve() {
     await page.route('**/*', r => r.request().url().startsWith(base) ? r.continue() : r.abort());
     await page.goto(base + 'map.html');
     await page.waitForFunction(() => window.FM && FM.ready, null, { timeout: 30000 });
-    await page.waitForTimeout(1200);
+    await page.waitForTimeout(400);
+    const skip = page.locator('.fv-quiet');
+    if (await skip.count()) { await skip.first().click(); await page.waitForTimeout(300); }
+    await page.waitForTimeout(800);
 
     console.log('Map page');
     const st = await page.evaluate(() => {
@@ -155,12 +158,12 @@ function serve() {
         nosv: /No Street View/i.test(document.body.innerText),
         nosvEl: !!document.querySelector('.pn-nosv, .ec-nosv'),
         tn: document.querySelectorAll('#panel .pn-tn button').length,
-        langs: document.querySelectorAll('.lang-switch').length
+        langs: [...document.querySelectorAll('.lang-switch button')].map(b => b.textContent.trim())
     }));
     check(vp.inKey && vp.label === 'Relationships to' && vp.first === 'No one' && vp.n > 10, 'the map key offers Relationships to, starting at No one', JSON.stringify(vp));
     check(!vp.nosv && !vp.nosvEl, 'a place with no Street View says nothing about it');
     check(vp.tn === 2, 'Then and Today stay on the place panel', String(vp.tn));
-    check(vp.langs === 0, 'the site stays English only, with no language switcher');
+    check(vp.langs.join(',') === 'EN,DE', 'the navigation bar offers English and German', vp.langs.join(','));
     const letter = page.locator('#panelBody .pn-src a.sp-link', { hasText: 'advertising letterhead' });
     check(await letter.count() === 1, 'a source with a picture is a title link');
     await letter.hover();
@@ -211,9 +214,9 @@ function serve() {
         cards: document.querySelectorAll('.tl-card').length,
         conf: document.querySelectorAll('.tl-conf').length,
         herbert: /Herbert Kohlmann/.test(document.body.innerText),
-        langs: document.querySelectorAll('.lang-switch').length
+        langs: [...document.querySelectorAll('.lang-switch button')].map(b => b.textContent.trim()).join(',')
     }));
-    check(disc.cards > 0 && disc.conf === 0 && disc.herbert && disc.langs === 0, 'Discoveries lists the finds, hides confidence labels, and stays in English', JSON.stringify(disc));
+    check(disc.cards > 0 && disc.conf === 0 && disc.herbert && disc.langs === 'EN,DE', 'Discoveries lists the finds, hides confidence labels, and offers English and German', JSON.stringify(disc));
     if (SHOTS) { await page.goto(base + 'map.html'); await page.waitForFunction(() => window.FM && FM.ready); await page.waitForTimeout(1500); await page.screenshot({ path: path.join(SHOTS, 'map-1440.png') }); }
     check(!errors.length, 'no page errors', errors.slice(0, 3).join(' | '));
     await browser.close(); srv.close();

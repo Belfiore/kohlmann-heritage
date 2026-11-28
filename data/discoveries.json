@@ -15,8 +15,10 @@
       "headline": "A Kohlmann family owned the village inn at Kleindehsa near Löbau from 1787 to 1959, beside the hamlet of Kötzschau. No link to this family is proven yet.",
       "source": {
         "text": "Gemeinde Lawalde, Chronik Kleindehsa",
-        "url": "http://www.lawalde.de/seite/416255/chronik-kleindehsa.html"
-      }
+        "url": "http://www.lawalde.de/seite/416255/chronik-kleindehsa.html",
+        "text_de": "Gemeinde Lawalde, Chronik Kleindehsa"
+      },
+      "headline_de": "Eine Familie Kohlmann besaß den Dorfgasthof in Kleindehsa bei Löbau von 1787 bis 1959, neben dem Weiler Kötzschau. Eine Verbindung zu dieser Familie ist noch nicht nachgewiesen."
     },
     {
       "id": "rb-number-1943",
@@ -28,9 +30,14 @@
       "foundBy": "Stuart",
       "confidence": "probable",
       "headline": "The firm Weickert & Eifler had the wartime company number 0/0156/5156, stamped on its 1943 invoice. What it supplied is not yet known.",
-      "source": "Weickert & Eifler invoice, 9 April 1943, and a collectors' register of Reichs-Betriebs-Nummern",
+      "source": {
+        "text": "Weickert & Eifler invoice, 9 April 1943, and a collectors' register of Reichs-Betriebs-Nummern",
+        "text_de": "Rechnung von Weickert & Eifler, 9. April 1943, und ein Sammlerverzeichnis der Reichs-Betriebs-Nummern"
+      },
       "image": "images/records/1943-invoice-reichs-betriebs-nr-zoom.jpg",
-      "imageAlt": "The stamped company number on the Weickert and Eifler invoice of 9 April 1943."
+      "imageAlt": "The stamped company number on the Weickert and Eifler invoice of 9 April 1943.",
+      "headline_de": "Die Firma Weickert & Eifler hatte die Betriebsnummer der Kriegszeit 0/0156/5156, abgestempelt auf ihrer Rechnung von 1943. Was sie lieferte, ist noch nicht bekannt.",
+      "imageAlt_de": "Die abgestempelte Betriebsnummer auf der Rechnung von Weickert und Eifler vom 9. April 1943."
     },
     {
       "id": "eifler-siblings",
@@ -50,8 +57,10 @@
       "confidence": "family tradition",
       "headline": "The family chart names Alwin Eifler's brothers Max and Alfred and his sister Martha.",
       "source": {
-        "text": "2007 Eifler/Becker family chart (Ahnentafel), page 1"
-      }
+        "text": "2007 Eifler/Becker family chart (Ahnentafel), page 1",
+        "text_de": "Familientafel Eifler/Becker von 2007 (Ahnentafel), Seite 1"
+      },
+      "headline_de": "Die Familientafel nennt die Brüder von Alwin Eifler, Max und Alfred, sowie seine Schwester Martha."
     },
     {
       "id": "ernst-eifler-father",
@@ -63,9 +72,14 @@
       "foundBy": "Stuart",
       "confidence": "probable",
       "headline": "Ernst Eifler, a farmer at Sohland, was probably the father of Alwin, Max, Alfred and Martha Eifler. A birth entry would prove it.",
-      "source": "Marriage register, Standesamt Dresden V, 1926 Nr. 352, and the 2007 family chart",
+      "source": {
+        "text": "Marriage register, Standesamt Dresden V, 1926 Nr. 352, and the 2007 family chart",
+        "text_de": "Heiratsregister, Standesamt Dresden V, 1926 Nr. 352, und die Familientafel von 2007"
+      },
       "image": "images/records/1926-dresden-marriage-352-eifler-becker.jpg",
-      "imageAlt": "Alwin Eifler and Gertrud Becker's 1926 marriage entry, Dresden V Nr. 352."
+      "imageAlt": "Alwin Eifler and Gertrud Becker's 1926 marriage entry, Dresden V Nr. 352.",
+      "headline_de": "Ernst Eifler, Landwirt in Sohland, war wahrscheinlich der Vater von Alwin, Max, Alfred und Martha Eifler. Ein Geburtseintrag würde es belegen.",
+      "imageAlt_de": "Heiratseintrag von Alwin Eifler und Gertrud Becker von 1926, Dresden V Nr. 352."
     },
     {
       "id": "marie-becker",
@@ -81,8 +95,10 @@
       "confidence": "family tradition",
       "headline": "The family chart names Richard Becker's sister Marie, married name perhaps Wettlitz, at Rothermundtstraße 5 in Dresden.",
       "source": {
-        "text": "2007 Eifler/Becker family chart (Ahnentafel), page 1"
-      }
+        "text": "2007 Eifler/Becker family chart (Ahnentafel), page 1",
+        "text_de": "Familientafel Eifler/Becker von 2007 (Ahnentafel), Seite 1"
+      },
+      "headline_de": "Die Familientafel nennt Marie, die Schwester von Richard Becker, Ehename vielleicht Wettlitz, in der Rothermundtstraße 5 in Dresden."
     },
     {
       "id": "becker-second-sister",
@@ -98,8 +114,10 @@
       "confidence": "family tradition",
       "headline": "Richard Becker had a second sister. Her name is not on the page of the family chart the family holds.",
       "source": {
-        "text": "2007 Eifler/Becker family chart (Ahnentafel), page 1"
-      }
+        "text": "2007 Eifler/Becker family chart (Ahnentafel), page 1",
+        "text_de": "Familientafel Eifler/Becker von 2007 (Ahnentafel), Seite 1"
+      },
+      "headline_de": "Richard Becker hatte eine zweite Schwester. Ihr Name steht nicht auf der Seite der Familientafel, welche die Familie besitzt."
     },
     {
       "id": "herbert-kohlmann-correction",
@@ -116,7 +134,12 @@
       "confidence": "family tradition",
       "headline": "Christa Eifler's husband, married at Bautzen in 1952, was Herbert Kohlmann, called Herbert Coleman in English. The name Alvin belonged to Christa's father, Alwin Eifler.",
       "changeNote": "The site had given Christa's husband the first name Alvin.",
-      "source": "Family correction, 26 November 2026, given by the family"
+      "source": {
+        "text": "Family correction, 26 November 2026, given by the family",
+        "text_de": "Familienkorrektur, 26. November 2026, von der Familie mitgeteilt"
+      },
+      "headline_de": "Der Ehemann von Christa Eifler, die Heirat 1952 in Bautzen, war Herbert Kohlmann, auf Englisch Herbert Coleman genannt. Der Name Alvin gehörte dem Vater von Christa, Alwin Eifler.",
+      "changeNote_de": "Die Website hatte dem Ehemann von Christa den Vornamen Alvin gegeben."
     },
     {
       "id": "another-grandchild-2026-11-27",
@@ -128,7 +151,11 @@
       "foundBy": "Sebastian",
       "confidence": "family tradition",
       "headline": "The family named another grandchild of Herbert and Christa Kohlmann, a son of one of their two sons. He is on the tree.",
-      "source": "Family testimony, 27 November 2026, given by the family"
+      "source": {
+        "text": "Family testimony, 27 November 2026, given by the family",
+        "text_de": "Familienaussage, 27. November 2026, von der Familie mitgeteilt"
+      },
+      "headline_de": "Die Familie nannte ein weiteres Enkelkind von Herbert und Christa Kohlmann, einen Sohn eines ihrer beiden Söhne. Er steht im Stammbaum."
     },
     {
       "id": "alwin-death-zittau",
@@ -146,10 +173,13 @@
       "headline": "A 1969 note on Alwin Eifler's marriage entry shows that his death on 18 December 1968 was registered at Zittau, which is why Bautzen has no record of it.",
       "source": {
         "text": "Marriage register Dresden V, 1926 Nr. 352, margin note (Ancestry)",
-        "url": "https://www.ancestry.com/imageviewer/collections/9152/images/9152_6425_0532030-00708?pId=1523350944"
+        "url": "https://www.ancestry.com/imageviewer/collections/9152/images/9152_6425_0532030-00708?pId=1523350944",
+        "text_de": "Heiratsregister Dresden V, 1926 Nr. 352, Randvermerk (Ancestry)"
       },
       "image": "images/records/1926-dresden-marriage-352-margin-death-1968.jpg",
-      "imageAlt": "The 1969 margin note on Alwin and Gertrud Eifler's 1926 marriage entry, recording his death at Zittau."
+      "imageAlt": "The 1969 margin note on Alwin and Gertrud Eifler's 1926 marriage entry, recording his death at Zittau.",
+      "headline_de": "Ein Vermerk von 1969 auf dem Heiratseintrag von Alwin Eifler zeigt, dass sein Tod am 18. Dezember 1968 in Zittau beurkundet wurde. Deshalb liegt in Bautzen kein Eintrag darüber vor.",
+      "imageAlt_de": "Der Randvermerk von 1969 auf dem Heiratseintrag von Alwin und Gertrud Eifler von 1926, der seinen Tod in Zittau festhält."
     },
     {
       "id": "kleindehsa-member-trees",
@@ -174,7 +204,11 @@
       "foundBy": "Stuart",
       "confidence": "unverified",
       "headline": "Another researcher's tree names more Kohlmanns of Kleindehsa: Maria Alwine (1868 to 1900) and her parents Karl Friedrich Ernst Kohlmann and Christiane Kriegel. Her father may be the innkeeper Ernst Kohlmann. No link to this family is proven.",
-      "source": "Ancestry member tree \"Kirchhoff Family\""
+      "source": {
+        "text": "Ancestry member tree \"Kirchhoff Family\"",
+        "text_de": "Ancestry-Mitgliederstammbaum \"Kirchhoff Family\""
+      },
+      "headline_de": "Der Stammbaum eines weiteren Forschers nennt weitere Kohlmanns aus Kleindehsa: Maria Alwine (1868 bis 1900) und ihre Eltern Karl Friedrich Ernst Kohlmann und Christiane Kriegel. Ihr Vater könnte der Gastwirt Ernst Kohlmann sein. Eine Verbindung zu dieser Familie ist nicht nachgewiesen."
     },
     {
       "id": "kleindehsa-kutschke-tree",
@@ -191,7 +225,11 @@
       "foundBy": "Stuart",
       "confidence": "unverified",
       "headline": "A second researcher's tree has Johanne Sophie Helene Kohlmann of Kleindehsa, who married at Cunnewalde and named her son, born in 1857, Karl Friedrich Ernst. No link to this family is proven.",
-      "source": "Ancestry member tree \"Augsten-Familienstammbaum\""
+      "source": {
+        "text": "Ancestry member tree \"Augsten-Familienstammbaum\"",
+        "text_de": "Ancestry-Mitgliederstammbaum \"Augsten-Familienstammbaum\""
+      },
+      "headline_de": "Der Stammbaum eines zweiten Forschers enthält Johanne Sophie Helene Kohlmann aus Kleindehsa, die in Cunnewalde heiratete und ihren 1857 geborenen Sohn Karl Friedrich Ernst nannte. Eine Verbindung zu dieser Familie ist nicht nachgewiesen."
     },
     {
       "id": "marriage-1926-record",
@@ -212,8 +250,11 @@
       "headline": "The original entry for Alwin Eifler and Gertrud Becker's wedding in Dresden on 2 October 1926: he was a manufacturer of Wendischer Graben 3, Bautzen, born at Sohland an der Spree; she was 21, of Rothermundtstraße 5.",
       "source": {
         "text": "Marriage register Dresden V, 1926 Nr. 352 (Stadtarchiv Dresden, via Ancestry)",
-        "url": "https://www.ancestry.com/imageviewer/collections/9152/images/9152_6425_0532030-00708?pId=1523350944"
-      }
+        "url": "https://www.ancestry.com/imageviewer/collections/9152/images/9152_6425_0532030-00708?pId=1523350944",
+        "text_de": "Heiratsregister Dresden V, 1926 Nr. 352 (Stadtarchiv Dresden, über Ancestry)"
+      },
+      "headline_de": "Der ursprüngliche Eintrag zur Hochzeit von Alwin Eifler und Gertrud Becker in Dresden am 2. Oktober 1926: er war Fabrikant, wohnhaft Wendischer Graben 3, Bautzen, geboren in Sohland an der Spree; sie war 21 Jahre alt, wohnhaft Rothermundtstraße 5.",
+      "imageAlt_de": "Heiratseintrag von Alwin Eifler und Gertrud Becker von 1926, Dresden V Nr. 352."
     },
     {
       "id": "birth-1905-record",
@@ -235,8 +276,11 @@
       "headline": "Gertrud Becker's birth entry: born at home, Ziegelstraße 2 in Dresden, on 22 January 1905; her father, the merchant Richard Hermann Becker, reported it five days later and signed it.",
       "source": {
         "text": "Birth register Dresden I, 1905 Nr. 165 (Stadtarchiv Dresden, via Ancestry)",
-        "url": "https://www.ancestry.com/imageviewer/collections/5405/images/5405_6425_0122091-00169?pId=24143873"
-      }
+        "url": "https://www.ancestry.com/imageviewer/collections/5405/images/5405_6425_0122091-00169?pId=24143873",
+        "text_de": "Geburtsregister Dresden I, 1905 Nr. 165 (Stadtarchiv Dresden, über Ancestry)"
+      },
+      "headline_de": "Geburtseintrag von Gertrud Becker: zu Hause geboren, Ziegelstraße 2 in Dresden, am 22. Januar 1905; ihr Vater, der Kaufmann Richard Hermann Becker, zeigte die Geburt fünf Tage später an und unterschrieb.",
+      "imageAlt_de": "Geburtseintrag von Gertrud Elise Becker von 1905, Dresden I Nr. 165."
     }
   ]
 }

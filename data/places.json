@@ -43,7 +43,9 @@
           "recordCrops": [
             "1926-dresden-marriage-352-eifler-becker.jpg"
           ],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Ernst Alwin Eifler und Gertrud Elise Eifler: Heirat, 1926",
+          "note_de": "Standesamt Dresden V, 1926 Nr. 352."
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
@@ -60,7 +62,9 @@
       "historicName": "Dresden",
       "address": "Dresden",
       "coordinatePrecision": "town",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Nur die Stadt ist bekannt, daher markiert der Kreis Dresden statt einer Straße.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Stadtmitte, 26. November 2026."
     },
     {
       "id": "bautzen",
@@ -98,7 +102,9 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Elise Christa Kohlmann: Geburt, 1928",
+          "note_de": "Aus dem Familienstammbaum von 2007. Die standesamtliche Urkunde ist noch nicht eingesehen worden."
         },
         {
           "id": "pe-bautzen-married-kohlmann",
@@ -123,7 +129,9 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Herbert Kohlmann und Elise Christa Kohlmann: Heirat, 1952",
+          "note_de": "Aus dem Familienstammbaum von 2007. Die standesamtliche Urkunde ist noch nicht eingesehen worden."
         },
         {
           "id": "pe-bautzen-married-sigrid",
@@ -146,7 +154,9 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Gertrud Sigrid Eifler heiratet Herrn Michaelis (Vorname nicht bekannt), Bautzen, 20. August 1953",
+          "note_de": "Aus dem Familienstammbaum von 2007. Der Heiratseintrag ist nicht eingesehen worden."
         },
         {
           "id": "pe-bautzen-married-bruno",
@@ -171,7 +181,9 @@
           "recordCrops": [
             "1956-bautzen-death-register-225-max-bruno-weickert.jpg"
           ],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Bruno Weickert, Sattler und Kanonier der Reserve an der Front, heiratet Marie Martha Kuschel, Bautzen, 7. September 1918",
+          "note_de": "Standesamt Bautzen Nr. 135/1918."
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
@@ -188,7 +200,9 @@
       "historicName": "Bautzen",
       "address": "Bautzen",
       "coordinatePrecision": "town",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Für diese Ereignisse ist nur die Stadt bekannt, daher markiert der Kreis Bautzen statt einer Straße. Straßenadressen in Bautzen haben eigene kleinere Kreise.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Stadtmitte, 26. November 2026."
     },
     {
       "id": "sohland",
@@ -230,7 +244,9 @@
           "recordCrops": [
             "1926-dresden-marriage-352-eifler-becker.jpg"
           ],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Ernst Alwin Eifler: Geburt, 1892",
+          "note_de": "Der Heiratseintrag von 1926 gibt Sohland an der Spree an und verweist auf seinen Geburtseintrag in Sohland."
         },
         {
           "id": "pe-sohland-247",
@@ -255,7 +271,9 @@
             "weickert-eifler.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Ernst Eifler: Hof in Sohland Nr. 247, 1926",
+          "note_de": "Landwirt Ernst Eifler, 61, Trauzeuge bei Alwins Hochzeit. Wahrscheinlich Alwins Vater; noch nicht nachgewiesen."
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
@@ -272,7 +290,9 @@
       "blurbSourceIds": [],
       "address": "Sohland an der Spree",
       "coordinatePrecision": "town",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Die Ahnentafel schreibt nur Sohland. Die Website liest das als Sohland an der Spree. Der Kreis markiert das Dorf, nicht ein Haus.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Dorfmitte, 26. November 2026."
     },
     {
       "id": "starnberg",
@@ -309,7 +329,8 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Elise Christa Kohlmann: Tod, 2006"
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
@@ -326,7 +347,9 @@
       "historicName": "Starnberg",
       "address": "Starnberg",
       "coordinatePrecision": "town",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Nur die Stadt ist bekannt, daher markiert der Kreis Starnberg statt einer Straße.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Stadtmitte, 26. November 2026."
     },
     {
       "id": "wilthener-19",
@@ -370,7 +393,9 @@
           "recordCrops": [
             "1938-bautzen-p14-eifler-alwin.jpg"
           ],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Ernst Alwin Eifler: Büro von Weickert & Eifler, 1935",
+          "note_de": "Zuerst gesehen im Adressbuch von 1935. Auf der Rechnung von 1943 noch das Büro."
         },
         {
           "id": "pe-mms19-home-alwin",
@@ -398,7 +423,9 @@
             "1938-bautzen-house-owner-mms19-eifler.jpg",
             "1938-bautzen-p14-eifler-alwin.jpg"
           ],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Ernst Alwin Eifler: Wohnung und Haus, das er besaß, 1938",
+          "note_de": "1938 als Hauseigentümer verzeichnet, \"Fabrikant\". Die Familie wohnte 1954 und 1973 noch hier."
         },
         {
           "id": "pe-office-gertrud",
@@ -423,7 +450,9 @@
             "weickert-eifler.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Gertrud Elise Eifler: Büro von Weickert & Eifler, 1943",
+          "note_de": "Sie unterschrieb die Zahlungsquittung am 28. April 1943."
         },
         {
           "id": "pe-wilthener-died-clara",
@@ -450,7 +479,9 @@
           "recordCrops": [
             "1954-bautzen-death-881-clara-elise-becker.jpg"
           ],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Clara Elise Becker: Tod zu Hause, 1954",
+          "note_de": "Sterberegister Bautzen 1954 Nr. 881. Ihre Tochter Gertrud, von derselben Anschrift, zeigte den Tod an."
         },
         {
           "id": "pe-wilthener-home-gertrud",
@@ -475,7 +506,8 @@
             "weickert-eifler.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Gertrud Elise Eifler: Wohnung, 1954 bis 1973"
         },
         {
           "id": "pe-wilthener-died-gertrud",
@@ -502,7 +534,9 @@
           "recordCrops": [
             "1973-bautzen-death-1052-gertrud-elise-eifler.jpg"
           ],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Gertrud Elise Eifler: Tod, 1973",
+          "note_de": "Sterberegister Bautzen 1973 Nr. 1052. Gestorben am 11. Dezember 1973 um 3:00 Uhr, verwitwet."
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim building for Wilthener Straße 19, 26 November 2026. Drawn as a small circle, not a door.",
@@ -520,7 +554,9 @@
       "streetViewReason": "Not checked yet.",
       "blurbSourceIds": [],
       "coordinatePrecision": "street",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Das Haus der Eifler. Von etwa 1933 bis 1945 Martin-Mutschmann-Straße 19 genannt, und davor und danach Wilthener Straße 19. Alwin Eifler besaß es spätestens 1938. Die Firma hatte ihr Büro hier spätestens 1935. Clara Becker starb hier 1954 und Gertrud Eifler 1973, beide verzeichnet unter \"Wilthener Straße 19\". Der Kreis liegt um die heutige Nummer 19.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Gebäude der Wilthener Straße 19, 26. November 2026. Als kleiner Kreis gezeichnet, nicht als Tür."
     },
     {
       "id": "singwitz",
@@ -562,7 +598,9 @@
             "weickert-eifler.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Ernst Alwin Eifler: Fabrik in Singwitz, 1943",
+          "note_de": "1943 ist das Jahr der erhaltenen Rechnung. Der Briefkopf nennt das Fabrikgelände."
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
@@ -579,7 +617,9 @@
       "historicName": "Singwitz",
       "address": "Singwitz",
       "coordinatePrecision": "town",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Der Briefkopf setzt die Fabrik auf das Industriegelände Singwitz, südlich von Bautzen. Nur das Dorf ist bekannt, daher markiert der Kreis Singwitz. Das Industriegelände Singwitz war der Gebäudekomplex der ehemaligen Königlich Sächsischen Pulverfabrik, ab 1920 an Firmen vermietet, nachdem die Fabrik 1919 geschlossen worden war.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Dorfmitte, 26. November 2026."
     },
     {
       "id": "gnaschwitz",
@@ -622,7 +662,9 @@
             "1928-bautzen-weikert-eifler-matratzenfabrik-gnaschwitz.jpg",
             "1928-bautzen-handelsregister-885-weickert-eifler.jpg"
           ],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Ernst Alwin Eifler: Matratzenfabrik in Gnaschwitz, 1928",
+          "note_de": "Adressbuch 1928: \"Weikert & Eifler (Inhaber Alwin Eifler), Matratzenfabrik Gnaschwitz (Kontor und Verkaufsstelle)\"."
         },
         {
           "id": "pe-gnaschwitz-siding",
@@ -651,7 +693,9 @@
             "1928-bautzen-weikert-eifler-matratzenfabrik-gnaschwitz.jpg",
             "1928-bautzen-handelsregister-885-weickert-eifler.jpg"
           ],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Ernst Alwin Eifler: Gleisanschluss in Gnaschwitz, 1943",
+          "note_de": "1943 ist das Jahr der erhaltenen Rechnung. Der Briefkopf nennt den Gleisanschluss."
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
@@ -668,7 +712,9 @@
       "historicName": "Gnaschwitz",
       "address": "Gnaschwitz",
       "coordinatePrecision": "town",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Das Adressbuch von 1928 nennt die Firma \"Matratzenfabrik Gnaschwitz\". Der Briefkopf nennt einen privaten Gleisanschluss an der Werkbahn Gnaschwitz. Die Werkbahn von 1916 führte von Großdöbschütz durch Singwitz zur alten Pulverfabrik Gnaschwitz. Nur das Dorf ist bekannt, daher markiert der Kreis Gnaschwitz.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Dorfmitte, 26. November 2026."
     },
     {
       "id": "raun",
@@ -705,7 +751,8 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Clara Elise Just: Geburt, 1880"
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
@@ -722,7 +769,9 @@
       "historicName": "Raun (Vogtland)",
       "address": "Raun (Vogtland)",
       "coordinatePrecision": "town",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Clara Elise Just wurde hier geboren. Ihr Sterbeeintrag gibt \"Raun, Kreis Oelsnitz im Vogtland\" an, die Geburt eingetragen in Bad Elster, Nr. 132. Nur das Dorf ist bekannt.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Dorfmitte, 26. November 2026."
     },
     {
       "id": "dresden-ziegelstrasse-2",
@@ -762,7 +811,9 @@
           "recordCrops": [
             "1905-dresden-birth-165-gertrud-elise-becker.jpg"
           ],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Gertrud Elise Becker: Geburt, 1905",
+          "note_de": "Dresden I 1905 Nr. 165. Ihr Vater, Kaufmann, zeigte die Geburt an."
         },
         {
           "id": "pe-ziegel-home-richard",
@@ -785,7 +836,8 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Richard Hermann Becker: Wohnung, 1905"
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, today's Ziegelstraße, 26 November 2026. The pre-war street is not the same street, so the circle is wide.",
@@ -802,7 +854,9 @@
       "blurbSourceIds": [],
       "historicName": "Ziegelstraße 2, Dresden",
       "coordinatePrecision": "street",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Richard Beckers Wohnung, als Gertrud geboren wurde. Die alte Ziegelstraße in der Pirnaischen Vorstadt wurde 1945 zerstört; der Kreis liegt um die heutige Straße dieses Namens.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, die heutige Ziegelstraße, 26. November 2026. Die Vorkriegsstraße ist nicht dieselbe Straße, daher ist der Kreis weit."
     },
     {
       "id": "dresden-rothermundtstrasse-5",
@@ -844,7 +898,9 @@
           "recordCrops": [
             "1938-dresden-rothermundtstrasse5-becker.jpg"
           ],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Richard Hermann Becker: Wohnung und Geschäft, 1926 bis 1938",
+          "note_de": "\"Becker, R., Eisenwhdlg.\" im Erdgeschoss 1938."
         },
         {
           "id": "pe-rothermundt-home-gertrud",
@@ -867,7 +923,8 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Gertrud Elise Becker: Wohnung vor ihrer Heirat, 1926"
         },
         {
           "id": "pe-rothermundt-died-richard",
@@ -891,7 +948,9 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Richard Hermann Becker: Tod zu Hause, 1938",
+          "note_de": "Dresden V 1938 Nr. 52, 9. Januar 1938. Der Familienstammbaum nennt den 5. Januar."
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
@@ -908,7 +967,9 @@
       "historicName": "Rothermundtstraße 5, Dresden-Striesen",
       "address": "Rothermundtstraße 5, Dresden-Striesen",
       "coordinatePrecision": "street",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Die Wohnung der Beckers und die Eisenwarenhandlung. Gertrud wohnte hier vor ihrer Heirat. Richard Becker starb hier. Eine Familiennotiz besagt, dass auch seine Schwester Marie hier wohnte.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, die heutige Hausnummer, 26. November 2026. Als Kreis gezeichnet: Hausnummern können sich seither geändert haben."
     },
     {
       "id": "dresden-krematorium-tolkewitz",
@@ -946,7 +1007,9 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Richard Hermann Becker: Einäscherung, 1938",
+          "note_de": "Bescheinigung 60603. Wo die Urne beigesetzt wurde, ist nicht sicher."
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, crematorium building, 26 November 2026.",
@@ -963,7 +1026,9 @@
       "historicName": "Krematorium Dresden-Tolkewitz",
       "address": "Krematorium Dresden-Tolkewitz",
       "coordinatePrecision": "street",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Das Krematorium Dresden. Richard Becker wurde hier im Januar 1938 eingeäschert.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Krematoriumsgebäude, 26. November 2026."
     },
     {
       "id": "bautzen-wendischer-graben-3",
@@ -1001,7 +1066,9 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Ernst Alwin Eifler: Wohnung, 1926",
+          "note_de": "\"Fabrikant\", wohnhaft in Bautzen, Wendischer Graben 3."
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
@@ -1018,7 +1085,9 @@
       "historicName": "Wendischer Graben 3, Bautzen",
       "address": "Wendischer Graben 3, Bautzen",
       "coordinatePrecision": "street",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Alwin Eiflers Anschrift bei seiner Hochzeit 1926. Heute gehört die Nummer 3 zum Gelände der Semper-Kaserne, daher ist das alte Haus vielleicht nicht erhalten.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, die heutige Hausnummer, 26. November 2026. Als Kreis gezeichnet: Hausnummern können sich seither geändert haben."
     },
     {
       "id": "bautzen-loebauer-10",
@@ -1056,7 +1125,8 @@
             "weickert-eifler.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Sattler- und Polstergeschäft Weickert & Eifler, Löbauer Straße 10, 1921. Das Buch von 1921 nennt nur Bruno Weickert; der Eifler im Firmennamen ist wahrscheinlich Alwin."
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
@@ -1073,7 +1143,9 @@
       "historicName": "Löbauer Straße 10, Bautzen",
       "address": "Löbauer Straße 10, Bautzen",
       "coordinatePrecision": "street",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Die erste bekannte Anschrift der Firma: Bruno Weickerts Sattler- und Polstergeschäft, \"Fa.: Weickert & Eifler\", Telefon 512.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, die heutige Hausnummer, 26. November 2026. Als Kreis gezeichnet: Hausnummern können sich seither geändert haben."
     },
     {
       "id": "bautzen-neusalzaer-38",
@@ -1115,7 +1187,8 @@
             "weickert-eifler.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Ernst Alwin Eifler: Wohnung, 1928 bis 1932"
         },
         {
           "id": "pe-neusalzaer38-office",
@@ -1145,7 +1218,8 @@
           "recordCrops": [
             "1928-bautzen-handelsregister-885-weickert-eifler.jpg"
           ],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Ernst Alwin Eifler: Büro von Weickert & Eifler, 1928 bis 1932"
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
@@ -1162,7 +1236,9 @@
       "historicName": "Neusalzaer Straße 38 (Hinterhaus), Bautzen",
       "address": "Neusalzaer Straße 38 (Hinterhaus), Bautzen",
       "coordinatePrecision": "street",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Alwin Eiflers Wohnung sowie Büro und Geschäft der Firma (Kontor und Verkaufsstelle), im Hinterhaus. Der Ancestry-Index des Buches von 1932 liest Nr. 36, das Nachbarhaus; das SLUB-Exemplar liest Nr. 38. Ab 1929 war das Geschäft der Firma An den Fleischbänken 7; ihr Telefon 2512 war 1935 Alwin Eiflers eigene Nummer in der Martin-Mutschmann-Straße 19.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, die heutige Hausnummer, 26. November 2026. Als Kreis gezeichnet: Hausnummern können sich seither geändert haben."
     },
     {
       "id": "herzberg",
@@ -1200,7 +1276,9 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Richard Hermann Becker: Geburt, 1875",
+          "note_de": "Geboren am 5. Januar 1875. Der Familienstammbaum nennt den 9. Januar; der Sterbeeintrag gibt den 5. an."
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim town centre, 26 November 2026.",
@@ -1217,7 +1295,9 @@
       "historicName": "Herzberg (Elster)",
       "address": "Herzberg (Elster)",
       "coordinatePrecision": "town",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Richard Beckers Sterbeeintrag gibt \"Herzberg, Kreis Schweinitz\" an, das ist Herzberg an der Schwarzen Elster, damals in Preußisch-Sachsen, heute in Brandenburg. Nur die Stadt ist bekannt.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Stadtmitte, 26. November 2026."
     },
     {
       "id": "bautzen-schaefferstrasse-6",
@@ -1257,7 +1337,8 @@
           ],
           "confidence": "unverified",
           "familyStatement": false,
-          "summary": "Alwin Kohlmann, butcher, at Schäfferstraße 6 (address books 1925 to 1938). A lead for Herbert Kohlmann's family, not proven."
+          "summary": "Alwin Kohlmann, butcher, at Schäfferstraße 6 (address books 1925 to 1938). A lead for Herbert Kohlmann's family, not proven.",
+          "summary_de": "Alwin Kohlmann, Fleischer, in der Schäfferstraße 6 (Adressbücher 1925 bis 1938). Ein Anhaltspunkt für Herbert Kohlmanns Familie, nicht nachgewiesen."
         },
         {
           "id": "pe-schaeffer6-alwin-kohlmann-1972",
@@ -1280,7 +1361,8 @@
           ],
           "confidence": "confirmed",
           "familyStatement": false,
-          "summary": "Still his home when he died on 27 February 1972 (death register Nr. 185)."
+          "summary": "Still his home when he died on 27 February 1972 (death register Nr. 185).",
+          "summary_de": "Noch seine Wohnung, als er am 27. Februar 1972 starb (Sterberegister Nr. 185)."
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
@@ -1301,7 +1383,9 @@
       "historicName": "Schäfferstraße 6, Bautzen",
       "address": "Schäfferstraße 6, Bautzen",
       "coordinatePrecision": "street",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Nur ein Anhaltspunkt. Ernst Alwin Kohlmann, Fleischer, wohnte hier ab 1925 und war noch hier, als er 1972 starb. Er ist einer der Anhaltspunkte, die für Herbert Kohlmanns Familie geprüft werden. Nichts verbindet ihn mit der Familie, daher wird der Ort als ohne nachgewiesene Verbindung gezeigt. Der Kreis liegt um die heutige Nummer 6.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, die heutige Hausnummer, 26. November 2026. Als Kreis gezeichnet: Hausnummern können sich seither geändert haben."
     },
     {
       "id": "doebeln-grimmaische-20",
@@ -1360,7 +1444,8 @@
           ],
           "confidence": "unverified",
           "familyStatement": false,
-          "summary": "Max Woltmann, tax assistant, at Kleinbauchlitzer Straße 20 (address book 1925). A lead for Brigitte's family, not proven."
+          "summary": "Max Woltmann, tax assistant, at Kleinbauchlitzer Straße 20 (address book 1925). A lead for Brigitte's family, not proven.",
+          "summary_de": "Max Woltmann, Steuerassistent, in der Kleinbauchlitzer Straße 20 (Adressbuch 1925). Ein Anhaltspunkt für Brigittes Familie, nicht nachgewiesen."
         },
         {
           "id": "pe-doebeln-woltmann-1939",
@@ -1386,9 +1471,12 @@
           ],
           "confidence": "unverified",
           "familyStatement": false,
-          "summary": "Max Woltmann, tax secretary, at Grimmaische Straße 20, the same house under its new street name (address book 1939). A lead, not proven."
+          "summary": "Max Woltmann, tax secretary, at Grimmaische Straße 20, the same house under its new street name (address book 1939). A lead, not proven.",
+          "summary_de": "Max Woltmann, Steuersekretär, in der Grimmaischen Straße 20, dasselbe Haus unter dem neuen Straßennamen (Adressbuch 1939). Ein Anhaltspunkt, nicht nachgewiesen."
         }
-      ]
+      ],
+      "blurb_de": "Nur ein Anhaltspunkt. Max Woltmann, Steuerbeamter, wohnte hier 1925 und 1939. Die Straße hieß bis in die 1930er Jahre Kleinbauchlitzer Straße; das Adressbuch von 1939 setzt als Überschrift \"Grimmaische Straße, vorher Kleinbauchlitzer Straße\". Er ist möglicherweise Brigitte Woltmanns Vater oder Großvater. Nicht nachgewiesen, daher wird der Ort als ohne nachgewiesene Verbindung gezeigt.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, 26. November 2026, Abfrage \"Grimmaische Straße 20, Döbeln\" (einem Gebäude zugeordnet). Als Kreis gezeichnet: die Hausnummer kann sich seit 1939 geändert haben."
     },
     {
       "id": "bautzen-holzmarkt-27",
@@ -1444,9 +1532,12 @@
           ],
           "confidence": "unverified",
           "familyStatement": false,
-          "summary": "Alwin Kohlmann, journeyman butcher (1921) and butcher (1924), at Holzmarkt 27 (address books). A lead for Herbert Kohlmann's family, not proven."
+          "summary": "Alwin Kohlmann, journeyman butcher (1921) and butcher (1924), at Holzmarkt 27 (address books). A lead for Herbert Kohlmann's family, not proven.",
+          "summary_de": "Alwin Kohlmann, Fleischergeselle (1921) und Fleischer (1924), am Holzmarkt 27 (Adressbücher). Ein Anhaltspunkt für Herbert Kohlmanns Familie, nicht nachgewiesen."
         }
-      ]
+      ],
+      "blurb_de": "Nur ein Anhaltspunkt. Alwin Kohlmann wohnte hier 1921 als Fleischergeselle (Hinterhaus, erster Stock) und 1924 als Fleischer (Erdgeschoss), bevor er in die Schäfferstraße 6 zog. Er ist einer der Anhaltspunkte, die für Herbert Kohlmanns Familie geprüft werden. Nichts verbindet ihn mit der Familie, daher wird der Ort als ohne nachgewiesene Verbindung gezeigt.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, 26. November 2026, Abfrage \"Holzmarkt 27, Bautzen\" (einem Gebäude zugeordnet). Als Kreis gezeichnet: Hausnummern können sich seit 1924 geändert haben."
     },
     {
       "id": "koetzschau-lawalde",
@@ -1495,7 +1586,8 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Ernst Alwin Kohlmann: Geburt, 1883 (ein Anhaltspunkt für Herbert Kohlmanns Familie, nicht nachgewiesen)"
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, hamlet node \"Kötzschau, Kleindehsa, Lawalde\", 26 November 2026.",
@@ -1507,7 +1599,9 @@
       "historicMap": null,
       "streetView": null,
       "streetViewReason": "Not checked yet.",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Nur ein Anhaltspunkt. Ernst Alwin Kohlmann, der Bautzener Fleischer, wurde hier am 21. September 1883 geboren. Kötzschau ist ein Weiler von Kleindehsa im Kirchspiel Lawalde, bei Löbau; seine Geburt wurde in Lawalde eingetragen. Er ist einer der Anhaltspunkte, die für Herbert Kohlmanns Familie geprüft werden; nichts verbindet ihn mit der Familie. Ernestine Hedwig Kohlmann, wahrscheinlich seine Schwester, wurde 1897 in Kleindehsa, demselben Dorf, geboren. 1787 war der Dorfrichter hier ein Johann Kohlmann, dessen Sohn Gottfried den Gasthof in Kleindehsa kaufte; noch keine Urkunde verbindet ihn mit den Bautzener Kohlmanns.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Weilerknoten \"Kötzschau, Kleindehsa, Lawalde\", 26. November 2026."
     },
     {
       "id": "bautzen-fleischbaenken-7",
@@ -1554,7 +1648,8 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Ernst Alwin Eifler: Inhaber des Matratzengeschäfts von Weikert & Eifler hier, 1929 bis 1932"
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
@@ -1566,7 +1661,9 @@
       "historicMap": null,
       "streetView": null,
       "streetViewReason": "Not checked yet.",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Das Bautzener Geschäft (Matratzen-Niederlage, Matratzenausstellung und Laden) von Weikert & Eifler 1929 und 1932, Inhaber Alwin Eifler, Telefon 2512. Die Matratzen wurden in der Fabrik im Industriehof Gnaschwitz hergestellt.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, die heutige Hausnummer, 26. November 2026. Als Kreis gezeichnet: Hausnummern können sich seither geändert haben."
     },
     {
       "id": "radebeul",
@@ -1596,7 +1693,9 @@
       "historicName": "Radebeul",
       "address": "Radebeul",
       "coordinatePrecision": "town",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Thomas Kohlmann wurde hier 1956 geboren, in der DDR. Nur die Stadt ist bekannt, daher markiert der Kreis Radebeul statt einer Straße.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Stadtmitte, 26. November 2026."
     },
     {
       "id": "doebeln",
@@ -1626,7 +1725,9 @@
       "historicName": "Döbeln",
       "address": "Döbeln",
       "coordinatePrecision": "town",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Rita Kohlmann wurde hier 1956 geboren, in der DDR. Nur die Stadt ist bekannt, daher markiert der Kreis Döbeln statt einer Straße.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Stadtmitte, 26. November 2026."
     },
     {
       "id": "munich",
@@ -1656,7 +1757,9 @@
       "historicName": "Munich",
       "address": "Munich",
       "coordinatePrecision": "town",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Thomas und Rita heirateten hier 1980, nachdem beide die DDR verlassen hatten. Valeria und Elisa wurden hier geboren, und Valeria heiratete hier 2022 Sebastian. Nur die Stadt ist bekannt.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Stadtmitte, 26. November 2026."
     },
     {
       "id": "tampa",
@@ -1686,7 +1789,9 @@
       "historicName": "Tampa, Florida",
       "address": "Tampa, Florida",
       "coordinatePrecision": "town",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Das Zuhause von Valeria und Sebastian. Ihr Sohn Enzo wurde hier im Januar 2026 geboren. Nur die Stadt ist bekannt.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Stadtmitte, 26. November 2026."
     },
     {
       "id": "grossschoenau",
@@ -1716,7 +1821,9 @@
       "historicName": "Großschönau",
       "address": "Großschönau",
       "coordinatePrecision": "village",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Bruno Weickert, der Mitgründer von Weickert & Eifler, wurde hier am 2. Dezember 1892 geboren. Nur das Dorf ist bekannt.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Dorfmitte, 26. November 2026."
     },
     {
       "id": "bautzen-neusalzaer-34",
@@ -1746,7 +1853,9 @@
       "historicName": "Neusalzaer Straße 34, Bautzen",
       "address": "Neusalzaer Straße 34, Bautzen",
       "coordinatePrecision": "street",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Bruno Weickerts Wohnung 1921 (zweiter Stock).",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, die heutige Hausnummer, 26. November 2026. Als Kreis gezeichnet: Hausnummern können sich seither geändert haben."
     },
     {
       "id": "bautzen-neusalzaer-20",
@@ -1776,7 +1885,9 @@
       "historicName": "Neusalzaer Straße 20, Bautzen",
       "address": "Neusalzaer Straße 20, Bautzen",
       "coordinatePrecision": "street",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Das Haus der Familie Weickert: Karl Gottlieb Weickert, Schuhmacher, mindestens von 1905 bis 1921; Johanne Weickert geb. Albert, Witwe, 1924 bis 1935; Bruno Weickert, Sattlermeister, 1924 bis 1928. Karl und Johanne sind möglicherweise Brunos Eltern (nicht nachgewiesen).",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, die heutige Hausnummer, 26. November 2026. Als Kreis gezeichnet: Hausnummern können sich seither geändert haben."
     },
     {
       "id": "bautzen-fischergasse-31",
@@ -1806,7 +1917,9 @@
       "historicName": "Fischergasse 31, Bautzen",
       "address": "Fischergasse 31, Bautzen",
       "coordinatePrecision": "street",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Bruno Weickerts letzte Wohnung. Er starb hier am 26. März 1956.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, die heutige Hausnummer, 26. November 2026. Als Kreis gezeichnet: Hausnummern können sich seither geändert haben."
     },
     {
       "id": "kleindehsa",
@@ -1848,7 +1961,8 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Ernestine Hedwig Kohlmann: Geburt, 1897 (wahrscheinlich Alwin Kohlmanns Schwester, nicht nachgewiesen)"
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, village node \"Kleindehsa, Lawalde\", 26 November 2026.",
@@ -1860,7 +1974,9 @@
       "historicMap": null,
       "streetView": null,
       "streetViewReason": "Not checked yet.",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Nur ein Anhaltspunkt. Ein Dorf bei Löbau, heute Teil von Lawalde. Sein Dorfgasthof, der Kretscham, gehörte laut der Dorfchronik von 1787 bis 1959 einer Familie Kohlmann. Ernestine Hedwig Kohlmann, wahrscheinlich die Schwester von Alwin Kohlmann, dem Bautzener Fleischer, wurde hier 1897 geboren. Noch keine Urkunde verbindet diese Gastwirte mit der Familie. Der Kretscham brannte am 29. Januar 1997 ab und wurde abgerissen.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Dorfknoten \"Kleindehsa, Lawalde\", 26. November 2026."
     },
     {
       "id": "briesing",
@@ -1902,7 +2018,8 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Marie Ida Jurack: Geburt, 1887 (Ehefrau von Alwin Kohlmann, dem Fleischer, ein Anhaltspunkt)"
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, boundary \"Briesing, Niedergurig, Malschwitz\", 26 November 2026.",
@@ -1914,7 +2031,9 @@
       "historicMap": null,
       "streetView": null,
       "streetViewReason": "Not checked yet.",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Nur ein Anhaltspunkt. Ein kleines sorbisches Dorf nördlich von Bautzen, seit 1936 Teil von Niedergurig. Marie Ida Jurack, Ehefrau von Alwin Kohlmann, dem Fleischer, wurde hier am 5. Februar 1887 geboren. Als Arnošt Muka die Dörfer 1884 und 1885 zählte, waren 176 der 183 Einwohner von Briesing Sorben.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Grenze \"Briesing, Niedergurig, Malschwitz\", 26. November 2026."
     },
     {
       "id": "malschwitz",
@@ -1959,7 +2078,9 @@
           ],
           "recordCrops": [],
           "familyStatement": false,
-          "note": "Registered at Malschwitz, Nr. 9/1914. The exact day is not yet known."
+          "note": "Registered at Malschwitz, Nr. 9/1914. The exact day is not yet known.",
+          "summary_de": "Alwin Kohlmann und Marie Ida Jurack: Heirat, 1914 (ein Anhaltspunkt für Herbert Kohlmanns Familie)",
+          "note_de": "Eingetragen in Malschwitz, Nr. 9/1914. Der genaue Tag ist noch nicht bekannt."
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, boundary \"Malschwitz, Malschwitz - Malešecy\", 26 November 2026.",
@@ -1971,7 +2092,9 @@
       "historicMap": null,
       "streetView": null,
       "streetViewReason": "Not checked yet.",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Nur ein Anhaltspunkt. Alwin Kohlmann, der Fleischer, heiratete hier 1914 Marie Ida Jurack (Standesamt Malschwitz Nr. 9/1914). Auch ihre Geburt 1887 wurde hier eingetragen.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Grenze \"Malschwitz, Malschwitz - Malešecy\", 26. November 2026."
     },
     {
       "id": "bautzen-am-stadtwall-1",
@@ -2013,7 +2136,8 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Marie Ida Kohlmann geb. Jurack: Tod, 1973 (ein Anhaltspunkt)"
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, \"Am Stadtwall 1, Bautzen\", 26 November 2026.",
@@ -2025,7 +2149,9 @@
       "historicMap": null,
       "streetView": null,
       "streetViewReason": "Not checked yet.",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Nur ein Anhaltspunkt. Marie Ida Kohlmann geb. Jurack, Witwe von Alwin Kohlmann, dem Fleischer, wohnte hier, als sie am 20. Januar 1973 starb. Heute ist die Anschrift das Malteserstift St. Hedwig, ein Pflegeheim.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, \"Am Stadtwall 1, Bautzen\", 26. November 2026."
     },
     {
       "id": "bautzen-maettigstrasse-17",
@@ -2066,7 +2192,8 @@
             "research.html"
           ],
           "recordCrops": [],
-          "familyStatement": false
+          "familyStatement": false,
+          "summary_de": "Ernestine Hedwig Kissal geb. Kohlmann: Tod, 1980 (ein Anhaltspunkt)"
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, \"Mättigstraße 17, Bautzen\", 26 November 2026.",
@@ -2078,7 +2205,9 @@
       "historicMap": null,
       "streetView": null,
       "streetViewReason": "Not checked yet.",
-      "standsToday": "unknown"
+      "standsToday": "unknown",
+      "blurb_de": "Nur ein Anhaltspunkt. Ernestine Hedwig Kissal geb. Kohlmann lebte und starb hier; sie starb am 14. Januar 1980 in Bautzen.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, \"Mättigstraße 17, Bautzen\", 26. November 2026."
     },
     {
       "id": "zittau",
@@ -2137,9 +2266,13 @@
           "recordCrops": [
             "1926-dresden-marriage-352-margin-death-1968.jpg"
           ],
-          "familyStatement": true
+          "familyStatement": true,
+          "summary_de": "Ernst Alwin Eifler: Tod eingetragen in Zittau, 1968",
+          "note_de": "Ein Vermerk, am 6. November 1969 auf seinen Dresdner Heiratseintrag von 1926 gestempelt, besagt, dass er am 18. Dezember 1968 starb, Standesamt Zittau Nr. 1169/1968 (Nummer wie gelesen). Der Familienstammbaum nennt Bautzen und einen Autounfall; der Kreis markiert die Stadt, in der der Tod eingetragen wurde, nicht den Ort des Unfalls."
         }
-      ]
+      ],
+      "blurb_de": "Alwin Eiflers Tod am 18. Dezember 1968 wurde hier eingetragen, beim Standesamt Zittau, laut einem Vermerk auf seinem Heiratseintrag von 1926. Der Kreis markiert die Stadt, nicht den Ort, an dem er starb.",
+      "coordinateMethod_de": "OpenStreetMap Nominatim, Stadtmitte, 27. November 2026."
     }
   ]
 }
