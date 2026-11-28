@@ -28,7 +28,7 @@ const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/cs
 const EXPECTED = {
     'richard-becker': { parents: [], spouses: ['elise-just'], children: ['gertrud-becker'], side: 'left' },
     'elise-just': { parents: [], spouses: ['richard-becker'], children: ['gertrud-becker'], side: 'left' },
-    'ernst-alwin': { parents: ['ernst-eifler-sr'], spouses: ['gertrud-becker'], children: ['sigrid', 'christa'], side: 'left' },
+    'ernst-alwin': { parents: ['ernst-eifler-sr', 'johanna-kahden'], spouses: ['gertrud-becker'], children: ['sigrid', 'christa'], side: 'left' },
     'gertrud-becker': { parents: ['richard-becker', 'elise-just'], spouses: ['ernst-alwin'], children: ['sigrid', 'christa'], side: 'left' },
     'alvin': { parents: [], spouses: ['christa'], children: ['thomas', 'matthias', 'sabine'], side: 'left' },
     'christa': { parents: ['ernst-alwin', 'gertrud-becker'], spouses: ['alvin'], children: ['thomas', 'matthias', 'sabine'], side: 'left' },
@@ -48,29 +48,17 @@ const EXPECTED = {
     'enzo': { parents: ['valeria', 'sebastian'], spouses: [], children: [], side: 'right' },
     // Patch 0014. Ernst Eifler, the Sohland farmer, probably Alwin's father (dashed lines), with the brothers
     // and sister the 2007 family chart names for Alwin.
-    'ernst-eifler-sr': { parents: [], spouses: [], children: ['ernst-alwin', 'max-eifler', 'alfred-eifler', 'martha-eifler'], side: 'left' },
+    'ernst-eifler-sr': { parents: [], spouses: ['johanna-kahden'], children: ['ernst-alwin', 'max-eifler', 'alfred-eifler', 'martha-eifler'], side: 'left' },
     'max-eifler': { parents: ['ernst-eifler-sr'], spouses: [], children: [], side: 'left' },
     'alfred-eifler': { parents: ['ernst-eifler-sr'], spouses: [], children: [], side: 'left' },
-    'martha-eifler': { parents: ['ernst-eifler-sr'], spouses: [], children: [], side: 'left' },
+    'martha-eifler': { parents: ['ernst-eifler-sr', 'johanna-kahden'], spouses: [], children: [], side: 'left' },
+    // Patch 0019. The Sohland church book (1890, 1892) names Alwin's parents: Ernst Gustav Eifler and Johanna Christiane Kahden.
+    'johanna-kahden': { parents: [], spouses: ['ernst-eifler-sr'], children: ['martha-eifler', 'ernst-alwin'], side: 'left' },
     // Richard Becker's two sisters from the chart, drawn beside him (uncertainBeside).
     'marie-becker': { parents: [], spouses: [], children: [], side: 'left', lead: 'richard-becker' },
     'becker-sister-2': { parents: [], spouses: [], children: [], side: 'left', lead: 'richard-becker' },
     // Leads kept beside the person they may belong to (tree.suspectedRelatives), no proven link.
-    'alwin-kohlmann-butcher': { parents: [], spouses: ['marie-ida-jurack'], children: [], side: 'left', lead: 'alvin' },
-    'marie-ida-jurack': { parents: [], spouses: ['alwin-kohlmann-butcher'], children: [], side: 'left', lead: 'alwin-kohlmann-butcher' },
-    'ernestine-kissal': { parents: [], spouses: [], children: [], side: 'left', lead: 'alwin-kohlmann-butcher' },
     'max-woltmann': { parents: [], spouses: [], children: [], side: 'right', lead: 'rita-mother' },
-    // The Kohlmann innkeepers of Kleindehsa (village chronicle): a framed group (tree.regions), no proven link.
-    'kd-johann-kohlmann': { parents: [], spouses: [], children: ['kd-gottfried-kohlmann'], region: 'kleindehsa' },
-    'kd-gottfried-kohlmann': { parents: ['kd-johann-kohlmann'], spouses: [], children: [], region: 'kleindehsa' },
-    'kd-johann-traugott-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
-    'kd-ernst-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
-    'kd-reinhold-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
-    'kd-gustav-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
-    'kd-karl-friedrich-ernst-kohlmann': { parents: [], spouses: ['kd-christiane-kriegel'], children: ['kd-maria-alwine-kohlmann'], region: 'kleindehsa' },
-    'kd-christiane-kriegel': { parents: [], spouses: ['kd-karl-friedrich-ernst-kohlmann'], children: ['kd-maria-alwine-kohlmann'], region: 'kleindehsa' },
-    'kd-maria-alwine-kohlmann': { parents: ['kd-karl-friedrich-ernst-kohlmann', 'kd-christiane-kriegel'], spouses: [], children: [], region: 'kleindehsa' },
-    'kd-johanne-sophie-helene-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
 };
 
 function serve() {
@@ -210,7 +198,7 @@ const same = (a, b) => a.length === b.length && a.every(x => b.includes(x));
         else ok(w + 'px: no card text overflows');
         if (w === 1280) {
             if (report.geom.length) report.geom.forEach(g => fail('layout: ' + g));
-            else ok('every child is below their parents, couples share a row, the two families sit on their own sides, and the Kleindehsa frame holds only the innkeepers');
+            else ok('every child is below their parents, couples share a row, and the two families sit on their own sides');
             fs.writeFileSync('/tmp/canvas-positions.json', JSON.stringify(report.rows, null, 1));
         }
         if (SHOTS) {

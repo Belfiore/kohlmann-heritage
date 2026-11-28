@@ -231,38 +231,6 @@
       "note": "SLUB Dresden, public domain. Image 81 (page 57): the residents list runs Wolf, Wollburg, Wollner, Wolke, Wolter, Worm. No Woltmann."
     },
     {
-      "id": "anc-bautzen-1921-kohlmann",
-      "title": "Einwohnerbuch für Bautzen 1921, page 60 (Kohlmann)",
-      "type": "directory",
-      "date": "1921",
-      "url": "https://www.ancestry.com/search/collections/60778/records/18241430",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. \"Kohlmann, Alwin, Fleischergeselle, Holzmarkt 27, Hths. I.\""
-    },
-    {
-      "id": "anc-bautzen-1924-kohlmann",
-      "title": "Adressbuch Bautzen 1924 (Kohlmann)",
-      "type": "directory",
-      "date": "1924",
-      "url": "https://www.ancestry.com/search/collections/60778/records/7669002",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. \"Kohlmann, Alwin, Fleischer, Holzmarkt 27, Eg.\" (the index fields are scrambled; read from the image)."
-    },
-    {
-      "id": "anc-bautzen-1925-kohlmann",
-      "title": "Adressbuch Bautzen 1925 (Kohlmann)",
-      "type": "directory",
-      "date": "1925",
-      "url": "https://www.ancestry.com/search/collections/60778/records/30269020",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. \"Kohlmann, Alwin, Fleischer, Schäfferstraße 6.\""
-    },
-    {
-      "id": "anc-bautzen-1935-kohlmann",
-      "title": "Adressbuch Bautzen 1935 (Kohlmann)",
-      "type": "directory",
-      "date": "1935",
-      "url": "https://www.ancestry.com/search/collections/60778/records/6043742",
-      "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. Alwin, Fleischer, Schäfferstraße 6, I.; Friedrich, Kaufmann, Jägerstraße 43, II.; Heinz, Prokurist, Kaiserstraße 12, III. (the index reads \"Heilig\"); Walter, Diplom-Ingenieur, Reg.-Gewerberat, Taucherstraße 13, I.; Willy, Kaufmann, Kantstraße 21, I."
-    },
-    {
       "id": "anc-doebeln-1925",
       "title": "Adreßbuch für die Kreisstadt Döbeln und Umgebung 1925, page 187 (Woltmann)",
       "type": "directory",
@@ -279,36 +247,12 @@
       "note": "Ancestry, Germany and Surrounding Areas, Address Books 1815-1974 (collection 60778), from the Deutsche Nationalbibliothek, Leipzig. Subscription site; image not reproduced here. Second copy of the SLUB entry: \"Woltmann Max, Steuersekretär, Grimmaische Str. 20\"."
     },
     {
-      "id": "findbuch-death-index-1972-kohlmann",
-      "title": "Bautzen death register name index 1972, letter K, page 30 (Kohlmann, Ernst Alwin)",
-      "type": "civil-index",
-      "date": "1972",
-      "url": "https://www.archivverbund-bautzen.findbuch.net/",
-      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, Namensverzeichnis 61003-131 part 2, via Findbuch.net. CC BY 4.0. Entry: \"Kohlmann, Ernst Alwin\", died 27.2., register Nr. 185."
-    },
-    {
-      "id": "findbuch-death-index-1963-kohlmann",
-      "title": "Bautzen death register name index 1963, letter K, page 33 (Kohlmann, Karl Martin)",
-      "type": "civil-index",
-      "date": "1963",
-      "url": "https://www.archivverbund-bautzen.findbuch.net/",
-      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, Namensverzeichnis 61003-128 part 3, via Findbuch.net. CC BY 4.0. Entry: \"Kohlmann, Karl Martin\", died 24.1., register Nr. 75, remark \"Crostau\"."
-    },
-    {
       "id": "findbuch-death-indexes-1946-1972",
       "title": "Bautzen death register name indexes 1946 to 1979, letters E, K and W",
       "type": "civil-index",
       "date": "1946-1979",
       "url": "https://www.archivverbund-bautzen.findbuch.net/",
       "note": "Archivverbund Bautzen, Bestand 61003, Namensverzeichnisse 61003-125 to -129 and -131 (parts 1 to 9, 1971 to 1979), via Findbuch.net. CC BY 4.0. Read page by page for Kohlmann, Eifler and Weickert."
-    },
-    {
-      "id": "findbuch-death-register-1972-185",
-      "title": "Bautzen death register 1972, entry Nr. 185 (Ernst Alwin Kohlmann)",
-      "type": "civil-register",
-      "date": "1972",
-      "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61003-St-BZ._~Register%20mit%20Sperrvermerk._~61003-102-R-5.pdf",
-      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, volume 102 (1972), page 186, via Findbuch.net. CC BY 4.0. Typed entry: residence Bautzen, Schäfferstr. 6; died 27 Feb 1972, 14:00, Bautzen; born 21 Sep 1883 in \"Kötschau\", Kr. Löbau (birth Standesamt Lawalde Nr. 71/1883); married to Marie Ida Kohlmann née Jurack (marriage Standesamt Malschwitz Nr. 9/1914). No parents or informant on this form."
     },
     {
       "id": "findbuch-death-register-1978-704",
@@ -391,22 +335,6 @@
       "note": "Ancestry, Germany and Surrounding Areas, Address Books, 1815-1974 (collection 60778), record 6069885. Bruno no longer listed in 1932 or 1935."
     },
     {
-      "id": "findbuch-death-register-1973-55",
-      "title": "Bautzen death register 1973, entry Nr. 55 (Marie Ida Kohlmann née Jurack)",
-      "type": "civil-register",
-      "date": "1973",
-      "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61003-St-BZ._~Register%20mit%20Sperrvermerk._~61003-103-R-5.pdf",
-      "note": "Archivverbund Bautzen, Bestand 61003, volume 103 (1973), page 56, via Findbuch.net. CC BY 4.0. Of Bautzen, Am Stadtwall 1; died 20 Jan 1973; born 5 Feb 1887 Briesing, Kr. Bautzen (birth Malschwitz Nr. 8/1887); widowed; marriage Malschwitz Nr. 9/1914."
-    },
-    {
-      "id": "findbuch-death-register-1980-40",
-      "title": "Bautzen death register 1980, entry Nr. 40 (Ernestine Hedwig Kissal née Kohlmann)",
-      "type": "civil-register",
-      "date": "1980",
-      "url": "https://www.archivverbund-bautzen.findbuch.net/pics/Z.._AUGBild._~20.01.Urk%20und%20PStU._~02%20PStU._~61003-St-BZ._~Register%20mit%20Sperrvermerk._~61003-110-R-5.pdf",
-      "note": "Archivverbund Bautzen, Bestand 61003 Sterberegister, volume 110 (1980), page 41, via Findbuch.net. CC BY 4.0. Typed: residence Bautzen, Mättigstr. 17; died 14 Jan 1980, 10:06, Bautzen; born 15 Sep 1897 in Kleindehsa, Kr. Löbau (no birth register number given); married to Ernst Hermann Kissal (marriage Standesamt Lawalde, Kr. Löbau, Nr. 4/1926)."
-    },
-    {
       "id": "findbuch-death-register-1980-942",
       "title": "Bautzen death register 1980, entry Nr. 942 (Ilse Kohlmann née Mader)",
       "type": "civil-register",
@@ -431,22 +359,6 @@
       "note": "Archivverbund Bautzen, Bestand 61002 Eheregister, Namensverzeichnis volume 48 part 3 (1918), page 29, via Findbuch.net. CC BY 4.0. Handwritten: Weickert, Max Bruno, Sattler, z. Zt. Kanonier d. Res., Bautzen, z. Zt. im Felde, register Nr. 135. The women's index (vol 49 part 3, p15) lists the bride, Kuschel, Marie Martha, Schneiderin, under the same number."
     },
     {
-      "id": "lawalde-chronik-kleindehsa",
-      "title": "Gemeinde Lawalde: Chronik Kleindehsa (village chronicle, web page)",
-      "type": "web page",
-      "date": "2026-11-26",
-      "url": "http://www.lawalde.de/seite/416255/chronik-kleindehsa.html",
-      "note": "Municipal chronicle of Kleindehsa, read 26 November 2026. Entries for 1787, 1885 and 1927 name the Kohlmann owners of the Kretscham (village inn). A secondary source; it does not say how the owners were related, except that Gottfried was the son of the village judge Johann Kohlmann of Kötschau."
-    },
-    {
-      "id": "wikipedia-briesing",
-      "title": "Wikipedia (German): Briesing",
-      "type": "web page",
-      "date": "2026-11-26",
-      "url": "https://de.wikipedia.org/wiki/Briesing",
-      "note": "Cites Arnošt Muka's count of 1884/85: 183 inhabitants, 176 of them Sorbs."
-    },
-    {
       "id": "family-correction-2026-11-26",
       "title": "Family correction, 26 November 2026, given by the family",
       "type": "family testimony",
@@ -461,20 +373,82 @@
       "note": "Felix Kohlmann is the son of Matthias Kohlmann, Thomas's brother."
     },
     {
-      "id": "anc-tree-kirchhoff",
-      "title": "Ancestry member tree \"Kirchhoff Family\": Maria Alwine Kohlmann (1868 to 1900)",
-      "type": "family tree (other researcher)",
-      "date": "2026-11-27",
-      "url": "https://www.ancestry.com/family-tree/person/tree/14740947/person/155155826/facts",
-      "note": "A family tree made by another Ancestry member, with no sources attached. Read 27 November 2026. A lead, not a record."
+      "id": "slub-dresden-1903",
+      "title": "Adreßbuch für Dresden und seine Vororte 1903, residents",
+      "type": "directory",
+      "date": "1903",
+      "url": "https://digital.slub-dresden.de/id32253180Z/153",
+      "note": "SLUB Dresden, public domain. Part I, image 153: \"Becker, Richard Herm., Kfm., Inh. e. Kolonialw. u. Drogenhdlg., Ziegelstr. 2. pt.\""
     },
     {
-      "id": "anc-tree-augsten",
-      "title": "Ancestry member tree \"Augsten-Familienstammbaum\": Johanne Sophie Helene Kohlmann",
-      "type": "family tree (other researcher)",
-      "date": "2026-11-27",
-      "url": "https://www.ancestry.com/family-tree/person/tree/77731004/person/102310353245/facts",
-      "note": "A family tree made by another Ancestry member, with no sources attached. Read 27 November 2026. A lead, not a record."
+      "id": "slub-dresden-1905",
+      "title": "Adreßbuch für Dresden und seine Vororte 1905, residents",
+      "type": "directory",
+      "date": "1905",
+      "url": "https://digital.slub-dresden.de/id32253135Z/159",
+      "note": "SLUB Dresden, public domain. Part I, image 159, under Becker: \"Richard Herm., Kfm., Inh. e. Kolonialw. u. Drogenhdlg., Ziegelstr. 2. pt.\""
+    },
+    {
+      "id": "bn-1922-12-15-hr885",
+      "title": "Bautzener Nachrichten, 15 December 1922, p. 5: commercial register, Blatt 885",
+      "type": "newspaper",
+      "date": "1922-12-15",
+      "url": "https://digital.slub-dresden.de/id1887328319-19221215/5",
+      "note": "SLUB Dresden (Sachsen.digital). \"Auf Blatt 885 die Firma Stahldrahtmatratzenfabrik Weickert & Eifler in Bautzen ... Gesellschafter sind der Sattlermeister Bruno Weickert und der Kaufmann Alwin Eifler in Bautzen. Die Gesellschaft ist am 11. Oktbr. 1922 errichtet worden. (Geschäftsraum: An den Fleischbänken Nr. 7.)\" The same notice is in the Sächsische Staatszeitung of 16 December 1922 and the Deutscher Reichsanzeiger of 21 December 1922."
+    },
+    {
+      "id": "bn-1923-01-26-hr885",
+      "title": "Bautzener Nachrichten, 26 January 1923, p. 5: commercial register, Blatt 885",
+      "type": "newspaper",
+      "date": "1923-01-26",
+      "url": "https://digital.slub-dresden.de/id1887328319-19230126/5",
+      "note": "SLUB Dresden. \"Die offene Handelsgesellschaft ist aufgelöst. Der Sattlermeister Bruno Weickert ist ausgeschieden. Der Kaufmann Alwin Eifler in Bautzen führt das Handelsgeschäft unter der bisherigen Firma allein fort.\""
+    },
+    {
+      "id": "bn-1922-06-26-industriehof",
+      "title": "Bautzener Nachrichten, 26 June 1922, p. 3: opening of the Industriehof Gnaschwitz",
+      "type": "newspaper",
+      "date": "1922-06-26",
+      "url": "https://digital.slub-dresden.de/id1887328319-19220626/3",
+      "note": "SLUB Dresden. Report of the opening; the sample exhibition in the works canteen showed \"Stahldrahtmatratzen von Weickert u. Eifler\" among the firms based at the Industriehof."
+    },
+    {
+      "id": "bn-1920-04-23-saddlers",
+      "title": "Bautzener Nachrichten, 23 April 1920, p. 5: master saddler examinations",
+      "type": "newspaper",
+      "date": "1920-04-23",
+      "url": "https://digital.slub-dresden.de/id1887328319-19200423/5",
+      "note": "SLUB Dresden. \"Am 21. April legten ihre Meisterprüfung ... ab die Sattler Gerhard Lodny, Bruno Weickert, Gustav Kühn aus Bautzen, Friedrich Polack aus Kamenz und Kurt Hause aus Rammenau. Trotzdem alle fünf Prüflinge Feldzugsteilnehmer waren ...\""
+    },
+    {
+      "id": "ost-und-sued-1923",
+      "title": "\"Ost und Süd\" (weekly of the Münchner Neueste Nachrichten), advertisements, September to December 1923",
+      "type": "newspaper",
+      "date": "1923",
+      "url": "https://www.deutsche-digitale-bibliothek.de/newspaper",
+      "note": "Deutsches Zeitungsportal full text, issues of 8 September, 6 October, 20 October and 15 December 1923: \"Oberlausitzer Stahldraht-Matratzen-Fabrik Weickert & Eifler, Bautzen in Sachsen. Export nach allen Ländern! Auslandsvertreter gesucht.\" Read from the full text; the page image is still to be captured."
+    },
+    {
+      "id": "sohland-kb-1892",
+      "title": "Sohland an der Spree, church book 1892, p. 426, Nr. 154 (baptism of Ernst Alwin Eifler)",
+      "type": "church",
+      "date": "1892",
+      "note": "Extract sent by the Lutheran parish of Sohland/Spree to the family on 27 November 2026: born 7 October 1892 at 3.30 pm, Äußerst Mittelsohland Nr. 250; baptised 16 October; second child, first son. Father Ernst Gustav Eifler, Inwohner und Bäcker; mother Johanna Christiane née Kahden of Mittelsohland."
+    },
+    {
+      "id": "sohland-kb-1890",
+      "title": "Sohland an der Spree, church book 1890, p. 383, Nr. 18 (baptism of Martha Maria Eifler)",
+      "type": "church",
+      "date": "1890",
+      "note": "Same extract: born 10 February 1890 at 1.30 pm in the same house; baptised 23 February; first child; died 2 November 1932 (note in the margin)."
+    },
+    {
+      "id": "vl-woltmann-mittweida-1914",
+      "title": "Verlustliste Sachsen Nr. 25 (9 October 1914): Max Woltmann of Mittweida",
+      "type": "military",
+      "date": "1914",
+      "url": "https://des.genealogy.net/search/show/173237",
+      "note": "Scan 01063: \"Sergeant Max Woltmann aus Mittweida, Amtshauptmannschaft Rochlitz, verwundet\" (Infanterie-Regiment 139)."
     }
   ]
 }

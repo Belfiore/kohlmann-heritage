@@ -138,24 +138,6 @@
     "directLineLabel": "Valeria's direct line",
     "generations": [
       {
-        "generation": 0,
-        "label": "1787",
-        "title": "Kötzschau",
-        "range": "1787"
-      },
-      {
-        "generation": 1,
-        "label": "1809",
-        "title": "Kleindehsa",
-        "range": "1787 to 1809"
-      },
-      {
-        "generation": 2,
-        "label": "1860",
-        "title": "Kleindehsa",
-        "range": "1860 to 1888"
-      },
-      {
         "generation": 3,
         "label": "I",
         "title": "Becker and Just",
@@ -193,11 +175,6 @@
       }
     ],
     "rootOrder": [
-      "kd-johann-kohlmann",
-      "kd-johann-traugott-kohlmann",
-      "kd-ernst-kohlmann",
-      "kd-reinhold-kohlmann",
-      "kd-gustav-kohlmann",
       "ernst-eifler-sr",
       "richard-becker",
       "rita-father"
@@ -226,19 +203,9 @@
       "associates"
     ],
     "suspectedRelatives": {
-      "alwin-kohlmann-butcher": "alvin",
-      "max-woltmann": "rita-mother",
-      "marie-ida-jurack": "alwin-kohlmann-butcher",
-      "ernestine-kissal": "alwin-kohlmann-butcher"
+      "max-woltmann": "rita-mother"
     },
-    "regions": [
-      {
-        "id": "kleindehsa",
-        "label": "The Kohlmann innkeepers of Kleindehsa, 1787 to 1959",
-        "sub": "From the village chronicle. No proven link to this family"
-      }
-    ],
-    "regionKicker": "Kleindehsa innkeepers (link unproven)"
+    "regions": []
   },
   "widget": {
     "enabled": false
@@ -298,9 +265,7 @@
           "felix-kohlmann",
           "sabine"
         ],
-        "regions": [
-          "kleindehsa"
-        ]
+        "regions": []
       },
       {
         "id": "werner",

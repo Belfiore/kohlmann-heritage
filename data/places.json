@@ -202,7 +202,7 @@
       "inHomeRegion": true,
       "country": "Germany",
       "status": "published",
-      "blurb": "The Ahnentafel types only Sohland. The site reads that as Sohland an der Spree. The circle marks the village, not a house.",
+      "blurb": "Alwin Eifler's birthplace. He and his sister Martha were born in the house Äußerst Mittelsohland Nr. 250, where their father Ernst Gustav Eifler was a baker; in 1926 his father farmed at Nr. 247. The house numbers are old village numbers, so the circle marks the village, not a house.",
       "events": [
         {
           "id": "pe-sohland-born-alwin",
@@ -218,10 +218,11 @@
           "summary": "Ernst Alwin Eifler: birth, 1892",
           "confidence": "confirmed",
           "sourceIds": [
-            "ahnentafel-2007",
-            "anc-marriage-1926"
+            "sohland-kb-1892",
+            "anc-marriage-1926",
+            "ahnentafel-2007"
           ],
-          "note": "The 1926 marriage entry gives Sohland an der Spree and cites his Sohland birth entry.",
+          "note": "Church book 1892, p. 426, Nr. 154: born at Äußerst Mittelsohland Nr. 250, baptised 16 October.",
           "factRef": "ernst-alwin.birth",
           "pages": [
             "research.html",
@@ -248,7 +249,7 @@
           "sourceIds": [
             "anc-marriage-1926"
           ],
-          "note": "Landwirt Ernst Eifler, 61, witness at Alwin's wedding. Probably Alwin's father; not yet proven.",
+          "note": "Landwirt Ernst Eifler, 61, witness at Alwin's wedding; almost certainly his father Ernst Gustav Eifler.",
           "factRef": "ernst-eifler-sr.residences[0]",
           "pages": [
             "research.html",
@@ -256,6 +257,56 @@
           ],
           "recordCrops": [],
           "familyStatement": false
+        },
+        {
+          "datePrecision": "exact",
+          "approximate": false,
+          "factRef": "martha-eifler.birth",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false,
+          "id": "pe-sohland-born-martha",
+          "type": "born",
+          "personIds": [
+            "martha-eifler"
+          ],
+          "date": "1890-02-10",
+          "dateStart": "1890-02-10",
+          "dateEnd": "1890-02-10",
+          "summary": "Martha Maria Eifler: birth, 1890",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "sohland-kb-1890"
+          ]
+        },
+        {
+          "datePrecision": "year",
+          "approximate": false,
+          "factRef": "",
+          "pages": [
+            "research.html",
+            "weickert-eifler.html"
+          ],
+          "recordCrops": [],
+          "familyStatement": false,
+          "id": "pe-sohland-250-baker",
+          "type": "lived",
+          "personIds": [
+            "ernst-eifler-sr",
+            "johanna-kahden"
+          ],
+          "date": "1890 to 1892",
+          "dateStart": "1890-01-01",
+          "dateEnd": "1892-12-31",
+          "summary": "Ernst Gustav Eifler, baker, and Johanna Christiane Kahden: Äußerst Mittelsohland Nr. 250, 1890 to 1892",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "sohland-kb-1890",
+            "sohland-kb-1892"
+          ]
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
@@ -269,7 +320,11 @@
       "historicMap": null,
       "streetView": null,
       "streetViewReason": "Not checked yet.",
-      "blurbSourceIds": [],
+      "blurbSourceIds": [
+        "sohland-kb-1892",
+        "sohland-kb-1890",
+        "anc-marriage-1926"
+      ],
       "address": "Sohland an der Spree",
       "coordinatePrecision": "town",
       "standsToday": "unknown"
@@ -652,6 +707,33 @@
             "1928-bautzen-handelsregister-885-weickert-eifler.jpg"
           ],
           "familyStatement": false
+        },
+        {
+          "datePrecision": "year",
+          "approximate": false,
+          "factRef": "",
+          "pages": [
+            "weickert-eifler.html",
+            "research.html"
+          ],
+          "recordCrops": [
+            "1922-06-26-bautzener-nachrichten-ausstellung-weickert-eifler.jpg"
+          ],
+          "familyStatement": false,
+          "id": "pe-gnaschwitz-industriehof-1922",
+          "type": "worked",
+          "personIds": [
+            "ernst-alwin",
+            "bruno-weickert"
+          ],
+          "date": "1922",
+          "dateStart": "1922-06-24",
+          "dateEnd": "1922-06-26",
+          "summary": "Weickert & Eifler mattresses on show at the opening of the Industriehof Gnaschwitz, June 1922",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "bn-1922-06-26-industriehof"
+          ]
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim village centre, 26 November 2026.",
@@ -736,7 +818,7 @@
       "inHomeRegion": true,
       "country": "Germany",
       "status": "published",
-      "blurb": "Richard Becker's home when Gertrud was born. The old Ziegelstraße in the Pirnaische Vorstadt was destroyed in 1945; the circle is around today's street of that name.",
+      "blurb": "Richard Becker's shop and home: a grocery and drugstore on the ground floor in 1903 and 1905, and the house where Gertrud was born. The old Ziegelstraße in the Pirnaische Vorstadt was destroyed in 1945; the circle is around today's street of that name.",
       "events": [
         {
           "id": "pe-ziegel-born-gertrud",
@@ -770,21 +852,26 @@
           "personIds": [
             "richard-becker"
           ],
-          "date": "1905",
-          "dateStart": "1905-01-01",
+          "date": "1903",
+          "dateStart": "1903-01-01",
           "dateEnd": "1905-12-31",
           "datePrecision": "year",
           "approximate": false,
-          "summary": "Richard Hermann Becker: home, 1905",
+          "summary": "Richard Hermann Becker: grocery and drugstore, and home, 1903 to 1905",
           "confidence": "confirmed",
           "sourceIds": [
-            "anc-birth-1905"
+            "anc-birth-1905",
+            "slub-dresden-1903",
+            "slub-dresden-1905"
           ],
           "factRef": "richard-becker.residences[0]",
           "pages": [
             "research.html"
           ],
-          "recordCrops": [],
+          "recordCrops": [
+            "1903-dresden-adressbuch-becker-richard-hermann-ziegelstr2.jpg",
+            "1905-dresden-adressbuch-becker-richard-hermann-ziegelstr2.jpg"
+          ],
           "familyStatement": false
         }
       ],
@@ -799,7 +886,10 @@
       "historicMap": null,
       "streetView": null,
       "streetViewReason": "Not checked yet.",
-      "blurbSourceIds": [],
+      "blurbSourceIds": [
+        "slub-dresden-1903",
+        "slub-dresden-1905"
+      ],
       "historicName": "Ziegelstraße 2, Dresden",
       "coordinatePrecision": "street",
       "standsToday": "unknown"
@@ -1220,90 +1310,6 @@
       "standsToday": "unknown"
     },
     {
-      "id": "bautzen-schaefferstrasse-6",
-      "name": "Schäfferstraße 6, Bautzen",
-      "kind": "home",
-      "precision": "street",
-      "lat": 51.1850656,
-      "lng": 14.4364616,
-      "uncertaintyMetres": 150,
-      "drawAs": "halo",
-      "inHomeRegion": true,
-      "country": "Germany",
-      "status": "published",
-      "blurb": "Lead only. Ernst Alwin Kohlmann, butcher (Fleischer), lived here from 1925 and was still here when he died in 1972. He is one of the leads being checked for Herbert Kohlmann's family. Nothing links him to the family, so it is shown as no proven link. The circle is around today's number 6.",
-      "events": [
-        {
-          "id": "pe-schaeffer6-alwin-kohlmann",
-          "type": "lived",
-          "personIds": [
-            "alwin-kohlmann-butcher"
-          ],
-          "date": "1925 to 1938",
-          "dateStart": "1925-01-01",
-          "dateEnd": "1938-12-31",
-          "datePrecision": "year",
-          "approximate": false,
-          "factRef": "alwin-kohlmann-butcher.residences[0]",
-          "pages": [
-            "research.html"
-          ],
-          "recordCrops": [],
-          "sourceIds": [
-            "anc-bautzen-1925-kohlmann",
-            "slub-bautzen-1928",
-            "anc-bautzen-1935-kohlmann",
-            "slub-bautzen-1938"
-          ],
-          "confidence": "unverified",
-          "familyStatement": false,
-          "summary": "Alwin Kohlmann, butcher, at Schäfferstraße 6 (address books 1925 to 1938). A lead for Herbert Kohlmann's family, not proven."
-        },
-        {
-          "id": "pe-schaeffer6-alwin-kohlmann-1972",
-          "type": "lived",
-          "personIds": [
-            "alwin-kohlmann-butcher"
-          ],
-          "date": "1972",
-          "dateStart": "1972-01-01",
-          "dateEnd": "1972-02-27",
-          "datePrecision": "year",
-          "approximate": false,
-          "factRef": "alwin-kohlmann-butcher.residences[2]",
-          "pages": [
-            "research.html"
-          ],
-          "recordCrops": [],
-          "sourceIds": [
-            "findbuch-death-register-1972-185"
-          ],
-          "confidence": "confirmed",
-          "familyStatement": false,
-          "summary": "Still his home when he died on 27 February 1972 (death register Nr. 185)."
-        }
-      ],
-      "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
-      "coordinateSourceIds": [
-        "nominatim-2026-11-26"
-      ],
-      "noProvenLink": true,
-      "variants": [],
-      "images": [],
-      "historicMap": null,
-      "streetView": null,
-      "streetViewReason": "Not checked yet.",
-      "blurbSourceIds": [
-        "anc-bautzen-1925-kohlmann",
-        "slub-bautzen-1938",
-        "findbuch-death-register-1972-185"
-      ],
-      "historicName": "Schäfferstraße 6, Bautzen",
-      "address": "Schäfferstraße 6, Bautzen",
-      "coordinatePrecision": "street",
-      "standsToday": "unknown"
-    },
-    {
       "id": "doebeln-grimmaische-20",
       "name": "Grimmaische Straße 20, Döbeln",
       "historicName": "Kleinbauchlitzer Straße 20, Döbeln",
@@ -1391,125 +1397,6 @@
       ]
     },
     {
-      "id": "bautzen-holzmarkt-27",
-      "name": "Holzmarkt 27, Bautzen",
-      "historicName": "Holzmarkt 27, Bautzen",
-      "variants": [],
-      "kind": "home",
-      "address": "Holzmarkt 27, Bautzen",
-      "precision": "address",
-      "lat": 51.1815376,
-      "lng": 14.4344008,
-      "uncertaintyMetres": 100,
-      "drawAs": "halo",
-      "inHomeRegion": true,
-      "country": "Germany",
-      "coordinateMethod": "OpenStreetMap Nominatim, 26 November 2026, query \"Holzmarkt 27, Bautzen\" (matched a building). Drawn as a circle: house numbers may have changed since 1924.",
-      "coordinateSourceIds": [
-        "nominatim-2026-11-26"
-      ],
-      "coordinatePrecision": "street",
-      "status": "published",
-      "noProvenLink": true,
-      "blurb": "Lead only. Alwin Kohlmann lived here as a journeyman butcher in 1921 (rear building, first floor) and as a butcher in 1924 (ground floor), before moving to Schäfferstraße 6. He is one of the leads being checked for Herbert Kohlmann's family. Nothing links him to the family, so it is shown as no proven link.",
-      "blurbSourceIds": [
-        "anc-bautzen-1921-kohlmann",
-        "anc-bautzen-1924-kohlmann"
-      ],
-      "standsToday": "unknown",
-      "images": [],
-      "historicMap": null,
-      "streetView": null,
-      "streetViewReason": "Not checked yet.",
-      "events": [
-        {
-          "id": "pe-holzmarkt27-alwin-kohlmann",
-          "type": "lived",
-          "personIds": [
-            "alwin-kohlmann-butcher"
-          ],
-          "date": "1921 to 1924",
-          "dateStart": "1921-01-01",
-          "dateEnd": "1924-12-31",
-          "datePrecision": "year",
-          "approximate": false,
-          "factRef": "alwin-kohlmann-butcher.residences[1]",
-          "pages": [
-            "research.html"
-          ],
-          "recordCrops": [],
-          "sourceIds": [
-            "anc-bautzen-1921-kohlmann",
-            "anc-bautzen-1924-kohlmann"
-          ],
-          "confidence": "unverified",
-          "familyStatement": false,
-          "summary": "Alwin Kohlmann, journeyman butcher (1921) and butcher (1924), at Holzmarkt 27 (address books). A lead for Herbert Kohlmann's family, not proven."
-        }
-      ]
-    },
-    {
-      "id": "koetzschau-lawalde",
-      "name": "Kötzschau near Lawalde",
-      "historicName": "Kötschau (as typed in 1972), Kreis Löbau",
-      "variants": [
-        "Kötschau",
-        "Kötzschau"
-      ],
-      "kind": "village",
-      "address": "Kötzschau, Kleindehsa, Lawalde",
-      "precision": "village",
-      "lat": 51.1019206,
-      "lng": 14.5781683,
-      "uncertaintyMetres": 1000,
-      "drawAs": "area",
-      "inHomeRegion": true,
-      "country": "Germany",
-      "status": "published",
-      "noProvenLink": true,
-      "blurb": "Lead only. Ernst Alwin Kohlmann, the Bautzen butcher, was born here on 21 September 1883. Kötzschau is a hamlet of Kleindehsa in the parish of Lawalde, near Löbau; his birth was registered at Lawalde. He is one of the leads being checked for Herbert Kohlmann's family; nothing links him to the family. Ernestine Hedwig Kohlmann, probably his sister, was born in Kleindehsa, the same village, in 1897. In 1787 the village judge here was a Johann Kohlmann, whose son Gottfried bought the inn at Kleindehsa; no record yet links him to the Bautzen Kohlmanns.",
-      "blurbSourceIds": [
-        "findbuch-death-register-1972-185",
-        "findbuch-death-register-1980-40",
-        "lawalde-chronik-kleindehsa"
-      ],
-      "events": [
-        {
-          "id": "pe-koetzschau-born-alwin-kohlmann",
-          "type": "born",
-          "personIds": [
-            "alwin-kohlmann-butcher"
-          ],
-          "date": "1883-09-21",
-          "dateStart": "1883-09-21",
-          "dateEnd": "1883-09-21",
-          "datePrecision": "exact",
-          "approximate": false,
-          "summary": "Ernst Alwin Kohlmann: birth, 1883 (a lead for Herbert Kohlmann's family, not proven)",
-          "confidence": "confirmed",
-          "sourceIds": [
-            "findbuch-death-register-1972-185"
-          ],
-          "factRef": "alwin-kohlmann-butcher.birth",
-          "pages": [
-            "research.html"
-          ],
-          "recordCrops": [],
-          "familyStatement": false
-        }
-      ],
-      "coordinateMethod": "OpenStreetMap Nominatim, hamlet node \"Kötzschau, Kleindehsa, Lawalde\", 26 November 2026.",
-      "coordinateSourceIds": [
-        "nominatim-2026-11-26"
-      ],
-      "coordinatePrecision": "village",
-      "images": [],
-      "historicMap": null,
-      "streetView": null,
-      "streetViewReason": "Not checked yet.",
-      "standsToday": "unknown"
-    },
-    {
       "id": "bautzen-fleischbaenken-7",
       "name": "An den Fleischbänken 7, Bautzen",
       "historicName": "An den Fleischbänken 7, Bautzen",
@@ -1525,8 +1412,9 @@
       "country": "Germany",
       "status": "published",
       "noProvenLink": false,
-      "blurb": "The Bautzen shop (Matratzen-Niederlage, mattress showroom and store) of Weikert & Eifler in 1929 and 1932, owner Alwin Eifler, telephone 2512. The mattresses were made at the factory in the Industriehof Gnaschwitz.",
+      "blurb": "The registered premises of the Stahldrahtmatratzenfabrik Weickert & Eifler when the partnership was founded in October 1922, and the firm's mattress shop (Matratzen-Niederlage) in 1929 and 1932, owner Alwin Eifler, telephone 2512. The mattresses were made at the Industriehof Gnaschwitz.",
       "blurbSourceIds": [
+        "bn-1922-12-15-hr885",
         "anc-bautzen-1929-firm",
         "anc-bautzen-1932-firm"
       ],
@@ -1555,6 +1443,35 @@
           ],
           "recordCrops": [],
           "familyStatement": false
+        },
+        {
+          "datePrecision": "exact",
+          "approximate": false,
+          "factRef": "",
+          "pages": [
+            "weickert-eifler.html",
+            "research.html"
+          ],
+          "recordCrops": [
+            "1922-12-15-bautzener-nachrichten-hr885-weickert-eifler.jpg",
+            "1923-01-26-bautzener-nachrichten-hr885-weickert-ausgeschieden.jpg"
+          ],
+          "familyStatement": false,
+          "id": "pe-fleischbaenken7-firm-1922",
+          "type": "worked",
+          "personIds": [
+            "ernst-alwin",
+            "bruno-weickert"
+          ],
+          "date": "1922",
+          "dateStart": "1922-10-11",
+          "dateEnd": "1923-01-26",
+          "summary": "Weickert & Eifler registered here as a partnership of Bruno Weickert and Alwin Eifler, October 1922; Bruno left in January 1923",
+          "confidence": "confirmed",
+          "sourceIds": [
+            "bn-1922-12-15-hr885",
+            "bn-1923-01-26-hr885"
+          ]
         }
       ],
       "coordinateMethod": "OpenStreetMap Nominatim, today's house number, 26 November 2026. Drawn as a circle: house numbers may have changed since.",
@@ -1806,278 +1723,6 @@
       "historicName": "Fischergasse 31, Bautzen",
       "address": "Fischergasse 31, Bautzen",
       "coordinatePrecision": "street",
-      "standsToday": "unknown"
-    },
-    {
-      "id": "kleindehsa",
-      "name": "Kleindehsa",
-      "kind": "village",
-      "precision": "village",
-      "lat": 51.1049165,
-      "lng": 14.5924402,
-      "uncertaintyMetres": 1000,
-      "drawAs": "area",
-      "inHomeRegion": true,
-      "country": "Germany",
-      "status": "published",
-      "noProvenLink": true,
-      "blurb": "Lead only. A village near Löbau, now part of Lawalde. Its village inn, the Kretscham, belonged to a Kohlmann family from 1787 until 1959, according to the village chronicle. Ernestine Hedwig Kohlmann, probably the sister of Alwin Kohlmann the Bautzen butcher, was born here in 1897. No record yet links these innkeepers to the family. The Kretscham burned down on 29 January 1997 and was pulled down.",
-      "blurbSourceIds": [
-        "lawalde-chronik-kleindehsa",
-        "findbuch-death-register-1980-40"
-      ],
-      "events": [
-        {
-          "id": "pe-kleindehsa-born-ernestine",
-          "type": "born",
-          "personIds": [
-            "ernestine-kissal"
-          ],
-          "date": "1897-09-15",
-          "dateStart": "1897-09-15",
-          "dateEnd": "1897-09-15",
-          "datePrecision": "exact",
-          "approximate": false,
-          "summary": "Ernestine Hedwig Kohlmann: birth, 1897 (probably Alwin Kohlmann's sister, not proven)",
-          "confidence": "confirmed",
-          "sourceIds": [
-            "findbuch-death-register-1980-40"
-          ],
-          "factRef": "ernestine-kissal.birth",
-          "pages": [
-            "research.html"
-          ],
-          "recordCrops": [],
-          "familyStatement": false
-        }
-      ],
-      "coordinateMethod": "OpenStreetMap Nominatim, village node \"Kleindehsa, Lawalde\", 26 November 2026.",
-      "coordinateSourceIds": [
-        "nominatim-2026-11-26"
-      ],
-      "coordinatePrecision": "village",
-      "images": [],
-      "historicMap": null,
-      "streetView": null,
-      "streetViewReason": "Not checked yet.",
-      "standsToday": "unknown"
-    },
-    {
-      "id": "briesing",
-      "name": "Briesing",
-      "kind": "village",
-      "precision": "village",
-      "lat": 51.2361303,
-      "lng": 14.4862578,
-      "uncertaintyMetres": 1000,
-      "drawAs": "area",
-      "inHomeRegion": true,
-      "country": "Germany",
-      "status": "published",
-      "noProvenLink": true,
-      "blurb": "Lead only. A small Sorbian village north of Bautzen, part of Niedergurig since 1936. Marie Ida Jurack, wife of Alwin Kohlmann the butcher, was born here on 5 February 1887. When Arnošt Muka counted the villages in 1884 and 1885, 176 of Briesing's 183 people were Sorbs.",
-      "blurbSourceIds": [
-        "findbuch-death-register-1973-55",
-        "wikipedia-briesing"
-      ],
-      "events": [
-        {
-          "id": "pe-briesing-born-marie-ida",
-          "type": "born",
-          "personIds": [
-            "marie-ida-jurack"
-          ],
-          "date": "1887-02-05",
-          "dateStart": "1887-02-05",
-          "dateEnd": "1887-02-05",
-          "datePrecision": "exact",
-          "approximate": false,
-          "summary": "Marie Ida Jurack: birth, 1887 (wife of Alwin Kohlmann the butcher, a lead)",
-          "confidence": "confirmed",
-          "sourceIds": [
-            "findbuch-death-register-1973-55"
-          ],
-          "factRef": "marie-ida-jurack.birth",
-          "pages": [
-            "research.html"
-          ],
-          "recordCrops": [],
-          "familyStatement": false
-        }
-      ],
-      "coordinateMethod": "OpenStreetMap Nominatim, boundary \"Briesing, Niedergurig, Malschwitz\", 26 November 2026.",
-      "coordinateSourceIds": [
-        "nominatim-2026-11-26"
-      ],
-      "coordinatePrecision": "village",
-      "images": [],
-      "historicMap": null,
-      "streetView": null,
-      "streetViewReason": "Not checked yet.",
-      "standsToday": "unknown"
-    },
-    {
-      "id": "malschwitz",
-      "name": "Malschwitz",
-      "kind": "village",
-      "precision": "village",
-      "lat": 51.2379209,
-      "lng": 14.5197535,
-      "uncertaintyMetres": 1000,
-      "drawAs": "area",
-      "inHomeRegion": true,
-      "country": "Germany",
-      "status": "published",
-      "noProvenLink": true,
-      "blurb": "Lead only. Alwin Kohlmann the butcher married Marie Ida Jurack here in 1914 (Standesamt Malschwitz Nr. 9/1914). Her birth in 1887 was also registered here.",
-      "blurbSourceIds": [
-        "findbuch-death-register-1972-185",
-        "findbuch-death-register-1973-55"
-      ],
-      "events": [
-        {
-          "id": "pe-malschwitz-married-kohlmann-jurack",
-          "type": "married",
-          "personIds": [
-            "alwin-kohlmann-butcher",
-            "marie-ida-jurack"
-          ],
-          "date": "1914",
-          "dateStart": "1914-01-01",
-          "dateEnd": "1914-12-31",
-          "datePrecision": "year",
-          "approximate": false,
-          "summary": "Alwin Kohlmann and Marie Ida Jurack: marriage, 1914 (a lead for Herbert Kohlmann's family)",
-          "confidence": "confirmed",
-          "sourceIds": [
-            "findbuch-death-register-1972-185",
-            "findbuch-death-register-1973-55"
-          ],
-          "factRef": "alwin-kohlmann-butcher.spouses[0]",
-          "pages": [
-            "research.html"
-          ],
-          "recordCrops": [],
-          "familyStatement": false,
-          "note": "Registered at Malschwitz, Nr. 9/1914. The exact day is not yet known."
-        }
-      ],
-      "coordinateMethod": "OpenStreetMap Nominatim, boundary \"Malschwitz, Malschwitz - Malešecy\", 26 November 2026.",
-      "coordinateSourceIds": [
-        "nominatim-2026-11-26"
-      ],
-      "coordinatePrecision": "village",
-      "images": [],
-      "historicMap": null,
-      "streetView": null,
-      "streetViewReason": "Not checked yet.",
-      "standsToday": "unknown"
-    },
-    {
-      "id": "bautzen-am-stadtwall-1",
-      "name": "Am Stadtwall 1, Bautzen",
-      "kind": "home",
-      "precision": "address",
-      "lat": 51.1853991,
-      "lng": 14.4271678,
-      "uncertaintyMetres": 30,
-      "drawAs": "pin",
-      "inHomeRegion": true,
-      "country": "Germany",
-      "status": "published",
-      "noProvenLink": true,
-      "blurb": "Lead only. Marie Ida Kohlmann née Jurack, widow of Alwin Kohlmann the butcher, was living here when she died on 20 January 1973. Today the address is the Malteserstift St. Hedwig, a care home.",
-      "blurbSourceIds": [
-        "findbuch-death-register-1973-55",
-        "nominatim-2026-11-26"
-      ],
-      "events": [
-        {
-          "id": "pe-stadtwall-died-marie-ida",
-          "type": "died",
-          "personIds": [
-            "marie-ida-jurack"
-          ],
-          "date": "1973-01-20",
-          "dateStart": "1973-01-20",
-          "dateEnd": "1973-01-20",
-          "datePrecision": "exact",
-          "approximate": false,
-          "summary": "Marie Ida Kohlmann née Jurack: death, 1973 (a lead)",
-          "confidence": "confirmed",
-          "sourceIds": [
-            "findbuch-death-register-1973-55"
-          ],
-          "factRef": "marie-ida-jurack.death",
-          "pages": [
-            "research.html"
-          ],
-          "recordCrops": [],
-          "familyStatement": false
-        }
-      ],
-      "coordinateMethod": "OpenStreetMap Nominatim, \"Am Stadtwall 1, Bautzen\", 26 November 2026.",
-      "coordinateSourceIds": [
-        "nominatim-2026-11-26"
-      ],
-      "coordinatePrecision": "address",
-      "images": [],
-      "historicMap": null,
-      "streetView": null,
-      "streetViewReason": "Not checked yet.",
-      "standsToday": "unknown"
-    },
-    {
-      "id": "bautzen-maettigstrasse-17",
-      "name": "Mättigstraße 17, Bautzen",
-      "kind": "home",
-      "precision": "address",
-      "lat": 51.1788294,
-      "lng": 14.4388249,
-      "uncertaintyMetres": 30,
-      "drawAs": "pin",
-      "inHomeRegion": true,
-      "country": "Germany",
-      "status": "published",
-      "noProvenLink": true,
-      "blurb": "Lead only. Ernestine Hedwig Kissal née Kohlmann lived and died here; she died in Bautzen on 14 January 1980.",
-      "blurbSourceIds": [
-        "findbuch-death-register-1980-40"
-      ],
-      "events": [
-        {
-          "id": "pe-maettig-died-ernestine",
-          "type": "died",
-          "personIds": [
-            "ernestine-kissal"
-          ],
-          "date": "1980-01-14",
-          "dateStart": "1980-01-14",
-          "dateEnd": "1980-01-14",
-          "datePrecision": "exact",
-          "approximate": false,
-          "summary": "Ernestine Hedwig Kissal née Kohlmann: death, 1980 (a lead)",
-          "confidence": "confirmed",
-          "sourceIds": [
-            "findbuch-death-register-1980-40"
-          ],
-          "factRef": "ernestine-kissal.death",
-          "pages": [
-            "research.html"
-          ],
-          "recordCrops": [],
-          "familyStatement": false
-        }
-      ],
-      "coordinateMethod": "OpenStreetMap Nominatim, \"Mättigstraße 17, Bautzen\", 26 November 2026.",
-      "coordinateSourceIds": [
-        "nominatim-2026-11-26"
-      ],
-      "coordinatePrecision": "address",
-      "images": [],
-      "historicMap": null,
-      "streetView": null,
-      "streetViewReason": "Not checked yet.",
       "standsToday": "unknown"
     },
     {

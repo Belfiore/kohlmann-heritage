@@ -1,24 +1,6 @@
 {
   "discoveries": [
     {
-      "id": "kleindehsa-innkeepers",
-      "personIds": [
-        "kd-gottfried-kohlmann"
-      ],
-      "covers": [
-        "person:kd-gottfried-kohlmann"
-      ],
-      "found": "2026-11-26",
-      "findType": "record",
-      "foundBy": "Stuart",
-      "confidence": "probable",
-      "headline": "A Kohlmann family owned the village inn at Kleindehsa near Löbau from 1787 to 1959, beside the hamlet of Kötzschau. No link to this family is proven yet.",
-      "source": {
-        "text": "Gemeinde Lawalde, Chronik Kleindehsa",
-        "url": "http://www.lawalde.de/seite/416255/chronik-kleindehsa.html"
-      }
-    },
-    {
       "id": "rb-number-1943",
       "personIds": [
         "ernst-alwin"
@@ -56,14 +38,18 @@
     {
       "id": "ernst-eifler-father",
       "personIds": [
-        "ernst-eifler-sr"
+        "ernst-eifler-sr",
+        "johanna-kahden",
+        "ernst-alwin"
       ],
-      "found": "2026-11-26",
+      "found": "2026-11-27",
       "findType": "connection",
       "foundBy": "Stuart",
-      "confidence": "probable",
-      "headline": "Ernst Eifler, a farmer at Sohland, was probably the father of Alwin, Max, Alfred and Martha Eifler. A birth entry would prove it.",
-      "source": "Marriage register, Standesamt Dresden V, 1926 Nr. 352, and the 2007 family chart",
+      "confidence": "confirmed",
+      "headline": "The Sohland church book confirms that Ernst Gustav Eifler, a baker, was Alwin Eifler's father, and names Alwin's mother as Johanna Christiane née Kahden.",
+      "source": {
+        "text": "Kirchgemeinde Sohland/Spree, church books 1890 Nr. 18 and 1892 Nr. 154 (extract sent to the family, 27 November 2026)"
+      },
       "image": "images/records/1926-dresden-marriage-352-eifler-becker.jpg",
       "imageAlt": "Alwin Eifler and Gertrud Becker's 1926 marriage entry, Dresden V Nr. 352."
     },
@@ -152,48 +138,6 @@
       "imageAlt": "The 1969 margin note on Alwin and Gertrud Eifler's 1926 marriage entry, recording his death at Zittau."
     },
     {
-      "id": "kleindehsa-member-trees",
-      "personIds": [
-        "kd-maria-alwine-kohlmann",
-        "kd-karl-friedrich-ernst-kohlmann",
-        "kd-christiane-kriegel"
-      ],
-      "covers": [
-        "person:kd-maria-alwine-kohlmann",
-        "person:kd-karl-friedrich-ernst-kohlmann",
-        "person:kd-christiane-kriegel",
-        "source:anc-tree-kirchhoff",
-        "birth:kd-maria-alwine-kohlmann",
-        "death:kd-maria-alwine-kohlmann",
-        "birth:kd-christiane-kriegel",
-        "spouse:kd-karl-friedrich-ernst-kohlmann:kd-christiane-kriegel",
-        "spouse:kd-christiane-kriegel:kd-karl-friedrich-ernst-kohlmann"
-      ],
-      "found": "2026-11-27",
-      "findType": "person",
-      "foundBy": "Stuart",
-      "confidence": "unverified",
-      "headline": "Another researcher's tree names more Kohlmanns of Kleindehsa: Maria Alwine (1868 to 1900) and her parents Karl Friedrich Ernst Kohlmann and Christiane Kriegel. Her father may be the innkeeper Ernst Kohlmann. No link to this family is proven.",
-      "source": "Ancestry member tree \"Kirchhoff Family\""
-    },
-    {
-      "id": "kleindehsa-kutschke-tree",
-      "personIds": [
-        "kd-johanne-sophie-helene-kohlmann"
-      ],
-      "covers": [
-        "person:kd-johanne-sophie-helene-kohlmann",
-        "birth:kd-johanne-sophie-helene-kohlmann",
-        "source:anc-tree-augsten"
-      ],
-      "found": "2026-11-27",
-      "findType": "person",
-      "foundBy": "Stuart",
-      "confidence": "unverified",
-      "headline": "A second researcher's tree has Johanne Sophie Helene Kohlmann of Kleindehsa, who married at Cunnewalde and named her son, born in 1857, Karl Friedrich Ernst. No link to this family is proven.",
-      "source": "Ancestry member tree \"Augsten-Familienstammbaum\""
-    },
-    {
       "id": "marriage-1926-record",
       "personIds": [
         "ernst-alwin",
@@ -236,6 +180,153 @@
       "source": {
         "text": "Birth register Dresden I, 1905 Nr. 165 (Stadtarchiv Dresden, via Ancestry)",
         "url": "https://www.ancestry.com/imageviewer/collections/5405/images/5405_6425_0122091-00169?pId=24143873"
+      }
+    },
+    {
+      "id": "becker-shop-1903",
+      "personIds": [
+        "richard-becker"
+      ],
+      "covers": [
+        "document:richard-becker:75c94aa03b",
+        "occupation:richard-becker:kaufmann-owner-of-a-grocery-and-drugstore-kolonialwaren-und-drogenhandlung:",
+        "residence:richard-becker:dresden-ziegelstrasse-2:1903-to-1905",
+        "residence:richard-becker:dresden-ziegelstrasse-2:1905"
+      ],
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "confidence": "confirmed",
+      "image": "images/records/1903-dresden-adressbuch-becker-richard-hermann-ziegelstr2.jpg",
+      "imageAlt": "Richard Becker's entry in the 1903 Dresden address book.",
+      "headline": "Richard Becker ran his own grocery and drugstore on the ground floor of Ziegelstraße 2 in Dresden by 1903, the house where his daughter Gertrud was born two years later.",
+      "source": {
+        "text": "Adreßbuch für Dresden und seine Vororte 1903 and 1905 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id32253180Z/153"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "eifler-baptisms-sohland",
+      "personIds": [
+        "ernst-alwin",
+        "ernst-eifler-sr",
+        "johanna-kahden",
+        "martha-eifler"
+      ],
+      "covers": [
+        "person:johanna-kahden",
+        "birth:martha-eifler",
+        "death:martha-eifler"
+      ],
+      "confidence": "confirmed",
+      "headline": "The Sohland church book names Alwin Eifler's parents: Ernst Gustav Eifler, a baker, and Johanna Christiane née Kahden. His sister Martha was born in the same house in 1890 and died in 1932.",
+      "source": {
+        "text": "Kirchgemeinde Sohland/Spree, church books 1890 Nr. 18 and 1892 Nr. 154 (extract sent to the family, 27 November 2026)"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "weickert-eifler-register-1922",
+      "personIds": [
+        "ernst-alwin",
+        "bruno-weickert"
+      ],
+      "confidence": "confirmed",
+      "image": "images/records/1922-12-15-bautzener-nachrichten-hr885-weickert-eifler.jpg",
+      "imageAlt": "The commercial register notice of December 1922 for Weickert & Eifler.",
+      "headline": "Weickert & Eifler was founded as a partnership on 11 October 1922 by the master saddler Bruno Weickert and the merchant Alwin Eifler, at An den Fleischbänken 7 in Bautzen.",
+      "source": {
+        "text": "Bautzener Nachrichten, 15 December 1922, p. 5 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id1887328319-19221215/5"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "weickert-leaves-1923",
+      "personIds": [
+        "ernst-alwin",
+        "bruno-weickert"
+      ],
+      "confidence": "confirmed",
+      "image": "images/records/1923-01-26-bautzener-nachrichten-hr885-weickert-ausgeschieden.jpg",
+      "imageAlt": "The commercial register notice of January 1923.",
+      "headline": "Only three months later, in January 1923, Bruno Weickert left the firm, and Alwin Eifler carried on alone under the old name.",
+      "source": {
+        "text": "Bautzener Nachrichten, 26 January 1923, p. 5 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id1887328319-19230126/5"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "industriehof-1922",
+      "personIds": [
+        "ernst-alwin"
+      ],
+      "confidence": "confirmed",
+      "image": "images/records/1922-06-26-bautzener-nachrichten-ausstellung-weickert-eifler.jpg",
+      "imageAlt": "Newspaper report listing Weickert und Eifler's steel-wire mattresses at the Industriehof exhibition.",
+      "headline": "In June 1922 Weickert & Eifler's steel-wire mattresses were on show at the opening of the Industriehof Gnaschwitz, a munitions works being turned over to peacetime trades.",
+      "source": {
+        "text": "Bautzener Nachrichten, 26 June 1922, p. 3 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id1887328319-19220626/3"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "export-ads-1923",
+      "personIds": [
+        "ernst-alwin"
+      ],
+      "confidence": "confirmed",
+      "headline": "In the hyperinflation autumn of 1923 the firm advertised in a Munich export weekly: \"Export to all countries! Agents abroad wanted.\"",
+      "source": {
+        "text": "\"Ost und Süd\", 8 September to 15 December 1923 (Deutsches Zeitungsportal)",
+        "url": "https://www.deutsche-digitale-bibliothek.de/newspaper"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "weickert-master-1920",
+      "personIds": [
+        "bruno-weickert"
+      ],
+      "confidence": "confirmed",
+      "image": "images/records/1920-04-23-bautzener-nachrichten-meisterpruefung-bruno-weickert.jpg",
+      "imageAlt": "News item on the master saddlers' examination of April 1920.",
+      "headline": "Bruno Weickert passed his master saddler's examination on 21 April 1920, back from the war like all five candidates.",
+      "source": {
+        "text": "Bautzener Nachrichten, 23 April 1920, p. 5 (SLUB Dresden)",
+        "url": "https://digital.slub-dresden.de/id1887328319-19200423/5"
+      }
+    },
+    {
+      "found": "2026-11-27",
+      "findType": "record",
+      "foundBy": "Stuart",
+      "id": "woltmann-ww1",
+      "personIds": [
+        "max-woltmann"
+      ],
+      "confidence": "unverified",
+      "image": "images/records/vl-01063-woltmann-max-mittweida-verwundet.jpg",
+      "imageAlt": "Casualty list line for Sergeant Max Woltmann of Mittweida.",
+      "headline": "A Sergeant Max Woltmann of Mittweida, near Döbeln, was wounded in 1914. He may be the Döbeln tax official, but that is not proven.",
+      "source": {
+        "text": "Verlustliste Sachsen Nr. 25, 9 October 1914 (des.genealogy.net)",
+        "url": "https://des.genealogy.net/search/show/173237"
       }
     }
   ]
