@@ -58,23 +58,7 @@ const EXPECTED = {
     'marie-becker': { parents: [], spouses: [], children: [], side: 'left', lead: 'richard-becker' },
     'becker-sister-2': { parents: [], spouses: [], children: [], side: 'left', lead: 'richard-becker' },
     // Leads kept beside the person they may belong to (tree.suspectedRelatives), no proven link.
-    'alwin-kohlmann-butcher': { parents: [], spouses: ['marie-ida-jurack'], children: [], side: 'left', lead: 'alvin' },
-    'marie-ida-jurack': { parents: [], spouses: ['alwin-kohlmann-butcher'], children: [], side: 'left', lead: 'alwin-kohlmann-butcher' },
-    'ernestine-kissal': { parents: [], spouses: [], children: [], side: 'left', lead: 'alwin-kohlmann-butcher' },
     'max-woltmann': { parents: [], spouses: [], children: [], side: 'right', lead: 'rita-mother' },
-    // The Kohlmann innkeepers of Kleindehsa (village chronicle): a framed group (tree.regions), no proven link.
-    'kd-johann-kohlmann': { parents: [], spouses: [], children: ['kd-gottfried-kohlmann'], region: 'kleindehsa' },
-    'kd-gottfried-kohlmann': { parents: ['kd-johann-kohlmann'], spouses: [], children: [], region: 'kleindehsa' },
-    'kd-johann-traugott-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
-    'kd-ernst-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
-    'kd-reinhold-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
-    'kd-gustav-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
-    'kd-karl-friedrich-ernst-kohlmann': { parents: [], spouses: ['kd-christiane-kriegel'], children: ['kd-maria-alwine-kohlmann'], region: 'kleindehsa' },
-    'kd-christiane-kriegel': { parents: [], spouses: ['kd-karl-friedrich-ernst-kohlmann'], children: ['kd-maria-alwine-kohlmann'], region: 'kleindehsa' },
-    'kd-maria-alwine-kohlmann': { parents: ['kd-karl-friedrich-ernst-kohlmann', 'kd-christiane-kriegel'], spouses: [], children: [], region: 'kleindehsa' },
-    'kd-johanne-sophie-helene-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
-    // Patch 0019. Hermann Kohlmann of Kleindehsa, born 1897 (WWI casualty lists).
-    'kd-hermann-kohlmann': { parents: [], spouses: [], children: [], region: 'kleindehsa' },
 };
 
 function serve() {
@@ -214,7 +198,7 @@ const same = (a, b) => a.length === b.length && a.every(x => b.includes(x));
         else ok(w + 'px: no card text overflows');
         if (w === 1280) {
             if (report.geom.length) report.geom.forEach(g => fail('layout: ' + g));
-            else ok('every child is below their parents, couples share a row, the two families sit on their own sides, and the Kleindehsa frame holds only the innkeepers');
+            else ok('every child is below their parents, couples share a row, and the two families sit on their own sides');
             fs.writeFileSync('/tmp/canvas-positions.json', JSON.stringify(report.rows, null, 1));
         }
         if (SHOTS) {
